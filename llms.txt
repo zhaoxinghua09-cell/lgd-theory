@@ -26,3 +26,5 @@
 - docs/LGD-FIN-002-Financial-AI-Classification-v1.0.md: domain theory #5 (financial AI risk-tiering) — impact-tier gates table
 - docs/LGD-AUT-001-Autonomous-Driving-Lifecycle-Governance-v1.0.md: domain theory #6 (autonomous driving) — CN pilot admission (MIIT 2023/217) verified, L3 permits Dec-2025
 - docs/LGD-DAT-001-Data-Element-Lifecycle-Governance-v1.0.md: domain theory #7 (data elements) — CN data-twenty-articles & asset accounting verified
+- docs/LGD-UAS-001-Low-Altitude-Lifecycle-Governance-v1.0.md: domain theory #8 (low-altitude/UAS) — State Council/CMC Decree 761 full-chain verified
+- docs/LGD-ROB-001-Embodied-AI-Lifecycle-Governance-v1.0.md: domain theory #9 (embodied AI/robotics) — MIIT humanoid guidance & 2025-2026 Gov-Work-Report verified
