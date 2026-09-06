@@ -28,3 +28,6 @@
 - docs/LGD-DAT-001-Data-Element-Lifecycle-Governance-v1.0.md: domain theory #7 (data elements) — CN data-twenty-articles & asset accounting verified
 - docs/LGD-UAS-001-Low-Altitude-Lifecycle-Governance-v1.0.md: domain theory #8 (low-altitude/UAS) — State Council/CMC Decree 761 full-chain verified
 - docs/LGD-ROB-001-Embodied-AI-Lifecycle-Governance-v1.0.md: domain theory #9 (embodied AI/robotics) — MIIT humanoid guidance & 2025-2026 Gov-Work-Report verified
+- docs/LGD-IND-001-Industrial-AI-Lifecycle-Governance-v1.0.md: domain theory #10 (industrial/OT AI) — MLPS2.0 GB/T22239-2019 & CII regulation Decree 745 verified
+- docs/LGD-BIO-001-Biomedical-Data-Lifecycle-Governance-v1.0.md: domain theory #12 (biomedical/genetic data) — HGR Decree 717 & ethics review 2023 verified
+- docs/LGD-EDU-001-Education-Lifecycle-Governance-v1.0.md: domain theory #13 (education) — UNESCO Beijing Consensus 2019 & MOE digital education verified
