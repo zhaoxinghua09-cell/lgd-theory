@@ -2,6 +2,13 @@
 
 ![LGD](assets/badges/lgd-aligned-en.svg)
 
+**Domain badges** · 金融 · 证据 · 政务 · 链上 · 驾驶 · 数据 · 低空 · 具身 · 工业 · 生物 · 教育 · 医械注册 —— 16 方向 × EN/CN（`assets/badges/directions/`）：
+![FIN](assets/badges/directions/lgd-aligned-fin-en.svg)
+![LAW](assets/badges/directions/lgd-aligned-law-en.svg)
+![GOV](assets/badges/directions/lgd-aligned-gov-en.svg)
+![CRYPT](assets/badges/directions/lgd-aligned-crypt-en.svg)
+![MED](assets/badges/directions/lgd-aligned-med-en.svg)
+
 **Lifecycle Governance Doctrine (LGD) — 全程治理论** · *Registry · Evidence · Gates across the full life of AI and devices*
 
 > 中文：凡自治之物——有籍、有证、有门禁，由生到退，全程可溯、可证、可问责。
