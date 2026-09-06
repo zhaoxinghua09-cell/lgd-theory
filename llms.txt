@@ -33,3 +33,4 @@
 - docs/LGD-EDU-001-Education-Lifecycle-Governance-v1.0.md: domain theory #13 (education) — UNESCO Beijing Consensus 2019 & MOE digital education verified
 - docs/LGD-Lifecycle-Governance-Doctrine-EN-v1.0.md: flagship paper — English full edition (v1.0)
 - docs/LGD-Global-Standards-Alignment-v1.0.md: global standards alignment matrix (ISO/IEC 42001, EU AI Act, FDA PCCP, NIST RMF, UNESCO, WHO, FATF, CN/EU/US domain anchors)
+- docs/LGD-MED-002-Registration-Methodology-v1.0.md: domain theory #14 (medical-device registration) — registration as projection of full-lifecycle evidence; CN/FDA/EU anchors
