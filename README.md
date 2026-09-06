@@ -6,7 +6,7 @@
 > English: Every self-governing entity (AI, intelligent device, agent) shall carry a **registry**, **evidence**, and **evolution gates** — traceable, provable, and accountable across its full lifecycle.
 
 **Proposed by**: MedXpert × SynomosAI — a dual-brand collaboration between a regulated-industry practice line (medical devices) and a cross-domain governance thought line (AI & autonomous systems).
-**Author**: Zhao Xinghua / Steven Zhao · China · [ORCID 0009-0001-0512-1237](https://orcid.org/0000-0001-0512-1237) · [medxpert.cn](https://medxpert.cn)
+**Author**: Zhao Xinghua / Steven Zhao · China · [ORCID 0009-0001-0512-1237](https://orcid.org/0009-0001-0512-1237) · [medxpert.cn](https://medxpert.cn)
 
 ---
 
