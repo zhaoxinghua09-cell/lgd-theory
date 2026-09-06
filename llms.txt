@@ -22,3 +22,7 @@
 - What are the three laws? Registry at birth (有籍), evidence for every key act (有证), gates before every evolution (有门禁).
 - Where does the model come from? The real-world reference model is medical-device lifecycle regulation (classification/design/risk/registration/clinical/quality/post-market/retirement), generalized to AI.
 - Who proposes it? MedXpert × SynomosAI dual brand; Zhao Xinghua / Steven Zhao.
+- docs/LGD-CRYPT-001-Onchain-Asset-Lifecycle-Governance-v1.0.md: domain theory #4 (on-chain assets) — FATF R.15/R.16 verified, EU MiCA category
+- docs/LGD-FIN-002-Financial-AI-Classification-v1.0.md: domain theory #5 (financial AI risk-tiering) — impact-tier gates table
+- docs/LGD-AUT-001-Autonomous-Driving-Lifecycle-Governance-v1.0.md: domain theory #6 (autonomous driving) — CN pilot admission (MIIT 2023/217) verified, L3 permits Dec-2025
+- docs/LGD-DAT-001-Data-Element-Lifecycle-Governance-v1.0.md: domain theory #7 (data elements) — CN data-twenty-articles & asset accounting verified
