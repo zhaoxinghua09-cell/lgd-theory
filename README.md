@@ -2,12 +2,18 @@
 
 ![LGD](assets/badges/lgd-aligned-en.svg)
 
-**Domain badges** · 金融 · 证据 · 政务 · 链上 · 驾驶 · 数据 · 低空 · 具身 · 工业 · 生物 · 教育 · 医械注册 —— 16 方向 × EN/CN（`assets/badges/directions/`）：
+**Domain badges** · 金融 · 证据 · 政务 · 链上 · 驾驶 · 数据 · 低空 · 具身 · 工业 · 生物 · 教育 · 医械注册 —— 16 方向 × EN/CN（`assets/badges/directions/`，v8 象牙色调）：
 ![FIN](assets/badges/directions/lgd-aligned-fin-en.svg)
 ![LAW](assets/badges/directions/lgd-aligned-law-en.svg)
 ![GOV](assets/badges/directions/lgd-aligned-gov-en.svg)
 ![CRYPT](assets/badges/directions/lgd-aligned-crypt-en.svg)
 ![MED](assets/badges/directions/lgd-aligned-med-en.svg)
+
+**The three laws**（`assets/badges/laws/`）· **LGD-powered**（`assets/badges/powered/`）：
+![REGISTERED](assets/badges/laws/lgd-registered-en.svg)
+![EVIDENCED](assets/badges/laws/lgd-evidenced-en.svg)
+![GATED](assets/badges/laws/lgd-gated-en.svg)
+![Powered](assets/badges/powered/lgd-powered-en.svg)
 
 **Lifecycle Governance Doctrine (LGD) — 全程治理论** · *Registry · Evidence · Gates across the full life of AI and devices*
 
