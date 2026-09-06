@@ -1,5 +1,7 @@
 # lgd-theory
 
+![LGD](assets/badges/lgd-aligned-en.svg)
+
 **Lifecycle Governance Doctrine (LGD) — 全程治理论** · *Registry · Evidence · Gates across the full life of AI and devices*
 
 > 中文：凡自治之物——有籍、有证、有门禁，由生到退，全程可溯、可证、可问责。
