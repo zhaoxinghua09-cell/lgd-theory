@@ -46,7 +46,7 @@ lgd-theory/
 
 ## Suggested citation
 
-> Zhao, X. (2026). *Lifecycle Governance Doctrine (LGD): Registry, Evidence, and Gates Across the Full Life of AI and Devices.* MedXpert × SynomosAI. ORCID 0009-0001-0512-1237. v1.0. **DOI:** https://doi.org/10.5281/zenodo.22456648
+> Zhao, X. (2026). *Lifecycle Governance Doctrine (LGD): Registry, Evidence, and Gates Across the Full Life of AI and Devices.* MedXpert × SynomosAI. ORCID 0009-0001-0512-1237. v1.1.0. **DOI:** https://doi.org/10.5281/zenodo.22456647
 
 ## Honest boundaries
 
