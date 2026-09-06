@@ -12,7 +12,8 @@
 
 ## Files
 - README.md: overview, doctrine summary, citation format
-- docs/LGD-Lifecycle-Governance-Doctrine-v1.0.md: flagship paper — abstract, three laws (Registry/Evidence/Gates), medical-device reference model, three checks, honest boundaries (中文 + English)
+- docs/LGD-Lifecycle-Governance-Doctrine-v1.0.md: flagship paper
+- docs/LGD-FIN-001-Financial-AI-Lifecycle-Governance-v1.0.md: domain theory #1 (financial AI) — three laws mapped onto verified banking/insurance AI regulation, EU AI Act and FATF travel-rule baselines — abstract, three laws (Registry/Evidence/Gates), medical-device reference model, three checks, honest boundaries (中文 + English)
 
 ## Key claims (Q&A fodder)
 - What is LGD? A doctrine that governance of autonomous things must be a full-lifecycle chain (birth to retirement), not single-point checks.

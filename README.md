@@ -42,7 +42,7 @@ lgd-theory/
 ## Publications
 
 - **Flagship paper (v1.0, 2026-09)**: `docs/LGD-Lifecycle-Governance-Doctrine-v1.0.md` — full statement: abstract, three laws, medical-device reference model, "three checks" for putting any entity under LGD, honest boundaries.
-- **Domain series (planned)**: Financial AI (TH-FIN-001) · Electronic evidence chains (LAW) · Digital government trust (GOV) · On-chain asset governance (CRYPT) · Autonomous driving · Data-element lifecycle. Each domain = one station paper mapping its own real-world regulatory model onto the three laws.
+- **Domain series (planned)**: Financial AI (TH-FIN-001) · Electronic evidence chains (LAW) · Digital government trust (GOV) · On-chain asset governance (CRYPT) · Autonomous driving · Data-element lifecycle. Each domain = one theory paper mapping its own real-world regulatory model onto the three laws.
 
 ## Suggested citation
 
