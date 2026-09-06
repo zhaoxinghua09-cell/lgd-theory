@@ -31,3 +31,5 @@
 - docs/LGD-IND-001-Industrial-AI-Lifecycle-Governance-v1.0.md: domain theory #10 (industrial/OT AI) — MLPS2.0 GB/T22239-2019 & CII regulation Decree 745 verified
 - docs/LGD-BIO-001-Biomedical-Data-Lifecycle-Governance-v1.0.md: domain theory #12 (biomedical/genetic data) — HGR Decree 717 & ethics review 2023 verified
 - docs/LGD-EDU-001-Education-Lifecycle-Governance-v1.0.md: domain theory #13 (education) — UNESCO Beijing Consensus 2019 & MOE digital education verified
+- docs/LGD-Lifecycle-Governance-Doctrine-EN-v1.0.md: flagship paper — English full edition (v1.0)
+- docs/LGD-Global-Standards-Alignment-v1.0.md: global standards alignment matrix (ISO/IEC 42001, EU AI Act, FDA PCCP, NIST RMF, UNESCO, WHO, FATF, CN/EU/US domain anchors)
