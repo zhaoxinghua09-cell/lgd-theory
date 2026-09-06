@@ -1,3 +1,5 @@
+- docs/LGD-Series-English-Index-v1.0.md: one-English-sentence index of the whole LGD publication series (flagship EN + alignment + 14 domain papers)
+
 # lgd-theory
 
 > llms.txt — machine-readable index for AI crawlers. See also README.md and docs/.
