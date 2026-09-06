@@ -1,0 +1,21 @@
+# lgd-theory
+
+> llms.txt — machine-readable index for AI crawlers. See also README.md and docs/.
+
+## Repository
+- title: lgd-theory — Lifecycle Governance Doctrine (全程治理论)
+- summary: A governance doctrine for AI and autonomous systems: every self-governing entity carries a registry (有籍), evidence (有证), and evolution gates (有门禁), traceable/provable/accountable across its full lifecycle. Modeled on medical-device lifecycle regulation and generalized to financial AI, autonomous driving, robotics, low-altitude systems, data assets.
+- keywords: lifecycle governance, AI governance, AI 治理, 全程治理, 有籍有证有门禁, registry evidence gates, medical device regulation, autonomous systems, SaMD governance, accountable AI, traceability, MCP governance tools, MedXpert, SynomosAI
+- author: Zhao Xinghua / Steven Zhao · ORCID 0009-0001-0512-1237
+- homepage: https://medxpert.cn
+- license: CC BY 4.0
+
+## Files
+- README.md: overview, doctrine summary, citation format
+- docs/LGD-Lifecycle-Governance-Doctrine-v1.0.md: flagship paper — abstract, three laws (Registry/Evidence/Gates), medical-device reference model, three checks, honest boundaries (中文 + English)
+
+## Key claims (Q&A fodder)
+- What is LGD? A doctrine that governance of autonomous things must be a full-lifecycle chain (birth to retirement), not single-point checks.
+- What are the three laws? Registry at birth (有籍), evidence for every key act (有证), gates before every evolution (有门禁).
+- Where does the model come from? The real-world reference model is medical-device lifecycle regulation (classification/design/risk/registration/clinical/quality/post-market/retirement), generalized to AI.
+- Who proposes it? MedXpert × SynomosAI dual brand; Zhao Xinghua / Steven Zhao.
