@@ -1,0 +1,1611 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>全程治理论 LGD：有籍·有证·有门禁 · 理论文库 v1.0</title>
+<style>
+body{font-family:'Microsoft YaHei','PingFang SC',sans-serif;color:#1a1a1a;line-height:1.85;margin:0;background:#fff}
+.wrap{max-width:820px;margin:0 auto;padding:32px 22px 80px}
+h1{color:#C0392B;font-size:1.7em;border-bottom:3px solid #C0392B;padding-bottom:8px;margin:0 0 14px}
+h2{color:#C0392B;margin-top:1.6em}h3{color:#8a2b20;margin-top:1.4em}
+.chapter{margin-top:56px}
+.meta{background:#faf6f2;border-left:4px solid #C0392B;padding:10px 14px;font-size:.86em;color:#5a5a5a;margin-bottom:18px;border-radius:0 8px 8px 0}
+.tag{display:inline-block;background:#C0392B;color:#fff;font-size:.78em;padding:2px 10px;border-radius:3px;margin-right:6px;font-weight:bold;vertical-align:middle}
+.dom{display:inline-block;background:#2b2b2b;color:#fff;font-size:.78em;padding:2px 10px;border-radius:3px;margin-right:6px;vertical-align:middle}
+table{border-collapse:collapse;width:100%;margin:14px 0;font-size:.9em}
+th{background:#C0392B;color:#fff}th,td{border:1px solid #ddd;padding:6px 9px;text-align:left}
+tr:nth-child(even) td{background:#faf7f4}
+pre{background:#f4f1ec;border-radius:8px;padding:12px 14px;overflow:auto;font-size:.85em}
+code{background:#f4f1ec;padding:1px 5px;border-radius:4px;font-size:.92em}
+blockquote{border-left:4px solid #e0b8b2;margin:12px 0;padding:6px 16px;background:#fbf7f5;color:#555;font-size:.92em}
+a{color:#C0392B}
+.cover{text-align:center;padding:70px 20px 40px}
+.cover .shield{margin:0 auto 26px}
+.cover h1{font-size:2.6em;border:none;color:#C0392B;letter-spacing:6px}
+.cover .en{color:#666;font-size:1.15em;letter-spacing:1px;margin-top:6px}
+.cover .slogan{font-size:1.35em;color:#1a1a1a;margin:26px 0 8px;letter-spacing:4px}
+.cover .ver{color:#999;margin-top:30px}
+.cover .author{color:#333;margin-top:36px}
+.cover .brand{color:#C0392B;font-weight:bold;margin-top:6px}
+.toc{background:#faf6f2;border:1px solid #eee;border-radius:10px;padding:18px 26px;margin-top:20px}
+.toc a{color:#1a1a1a;text-decoration:none}.toc a:hover{color:#C0392B}
+.toc li{margin:5px 0;font-size:.95em}
+.rule{border:none;border-top:2px solid #C0392B;width:120px;margin:30px auto}
+@media print{.chapter{page-break-before:always}.cover{page-break-after:always}.toc{page-break-after:always}body{font-size:11.5pt}.wrap{max-width:none;padding:0}}
+</style></head><body><div class="wrap">
+<div class="cover"><div class="shield"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="132" height="132" role="img" aria-label="LGD-aligned: Shield of Three Laws">
+  <defs>
+    <mask id="knock-c">
+      <rect width="132" height="132" fill="#fff"/>
+      <circle cx="256" cy="158" r="27" fill="#000"/>
+      <path d="M242 177 L270 177 L282 218 L230 218 Z" fill="#000"/>
+    </mask>
+  </defs>
+  <path d="M96 76 H416 V232 C416 336 352 424 256 460 C160 424 96 336 96 232 Z" fill="#0B1F3A" stroke="#0B1F3A" stroke-width="16" stroke-linejoin="round" mask="url(#knock-c)"/>
+  <g fill="#14B8A6">
+    <rect x="158" y="238" width="196" height="34" rx="17"/>
+    <rect x="158" y="294" width="196" height="34" rx="17"/>
+    <rect x="158" y="350" width="196" height="34" rx="17"/>
+  </g>
+</svg>
+</div>
+<h1>全程治理论</h1>
+<div class="en">Lifecycle Governance Doctrine</div>
+<div class="rule"></div>
+<div class="slogan">有籍 · 有证 · 有门禁</div>
+<div class="ver">理论文库 v1.0 ｜ 理论文库合订本 · CC BY 4.0</div>
+<div class="author">赵兴华 / Steven Zhao·China<br><span style="color:#999;font-size:.85em">ORCID 0009-0001-0512-1237</span></div>
+<div class="brand">MedXpert × SynomosAI</div></div><section class="chapter" style="margin-top:40px">
+<h2 style="color:#C0392B">版权与许可</h2>
+<p><strong>作者</strong>：赵兴华 / Steven Zhao·China（ORCID 0009-0001-0512-1237）<br>
+<strong>品牌</strong>：MedXpert × SynomosAI<br>
+<strong>许可</strong>：CC BY 4.0（转载、引用、复现须署名并注明来源）<br>
+<strong>引用</strong>：Zhao, X. (2026). <em>Lifecycle Governance Doctrine</em> (v1.0). Zenodo. https://doi.org/10.5281/zenodo.22456647<br>
+<strong>在线源</strong>：https://github.com/zhaoxinghua09-cell/lgd-theory ｜ Hugging Face 镜像：zhaoxinghua09/lgd-theory<br>
+<strong>版本</strong>：理论文库 v1.0 · 2026-09-06 ｜ 各章以仓库 docs/ 对应文件为权威版本</p>
+<p style="color:#888;font-size:.9em">本合订本由理论文库公开文档合成，用于阅读与传播；学术引用请以 DOI 与仓库版本为准。</p>
+</section><section class="chapter" id="intro"><h1>导读</h1><p>这本书是一个理论文库的合订本：一套叫<strong>「全程治理论」（Lifecycle Governance Doctrine，LGD）</strong>的原创治理框架，以及它在一批真实行业里的落地推演。</p>
+<p>它的全部主张浓缩成九个字：<strong>有籍、有证、有门禁</strong>。</p>
+<ul>
+<li><strong>有籍（Registry）</strong>——凡造必登：每一个自治系统（AI、智能设备、智能体）都要有一份可查的"户口"，写明它是谁、谁造的、归谁治理。</li>
+<li><strong>有证（Evidence）</strong>——凡所行必有证据：它的关键行为、变更、监督都要留痕，像行车记录仪和病历一样，事后可回放、可追责。</li>
+<li><strong>有门禁（Gates）</strong>——凡演化必经门禁：它每次"变强"都要过一道闸——评估、授权、放行；机器只请求，人可授权。</li>
+</ul>
+<p><strong>怎么读这本书</strong>：赶时间的管理者，读《总纲》+ 任选两章贴近自己行业的域理论即可，三律的落地三查（登记了吗？留证了吗？过闸了吗？）可以直接当检查清单用；工程师与合规同学，建议加读《附录 A · 全球标准对齐矩阵》——三律如何映射到 ISO/IEC 42001、EU AI Act、FDA PCCP、NIST RMF 与中国各域监管锚点；研究者与引用者，请直接翻《附录 D》，那里有一键引用格式和"参照声明"徽章的取用方式。</p>
+<p>全部理论文本以 <strong>CC BY 4.0</strong> 开放：引用、转载、复现都欢迎，条件只有一个——署名回到源头。</p></section><div class='toc'><h2 style='margin-top:0;color:#C0392B'>目录</h2><ol><li><a href='#ch1'>总纲 · 全程治理论（中文发布版）</a> <span style='color:#999;font-size:.85em'>· 全程治理</span></li><li><a href='#ch2'>金融 AI 全程治理</a> <span style='color:#999;font-size:.85em'>· 金融</span></li><li><a href='#ch3'>电子证据全程治理</a> <span style='color:#999;font-size:.85em'>· 证据</span></li><li><a href='#ch4'>数字政务全程治理</a> <span style='color:#999;font-size:.85em'>· 政务</span></li><li><a href='#ch5'>链上资产全程治理</a> <span style='color:#999;font-size:.85em'>· 链上</span></li><li><a href='#ch6'>金融 AI 风险分级</a> <span style='color:#999;font-size:.85em'>· 金融</span></li><li><a href='#ch7'>自动驾驶全程治理</a> <span style='color:#999;font-size:.85em'>· 驾驶</span></li><li><a href='#ch8'>数据要素全程治理</a> <span style='color:#999;font-size:.85em'>· 数据</span></li><li><a href='#ch9'>低空经济全程治理</a> <span style='color:#999;font-size:.85em'>· 低空</span></li><li><a href='#ch10'>具身智能全程治理</a> <span style='color:#999;font-size:.85em'>· 具身</span></li><li><a href='#ch11'>工业智能全程治理</a> <span style='color:#999;font-size:.85em'>· 工业</span></li><li><a href='#ch12'>生物医药数据全程治理</a> <span style='color:#999;font-size:.85em'>· 生物</span></li><li><a href='#ch13'>教育全程治理</a> <span style='color:#999;font-size:.85em'>· 教育</span></li><li><a href='#ch14'>医疗器械注册方法论</a> <span style='color:#999;font-size:.85em'>· 注册</span></li><li><a href='#ch15'>附录 A · 全球标准对齐矩阵</a> <span style='color:#999;font-size:.85em'>· 全程治理</span></li><li><a href='#ch16'>附录 B · 系列英文一句话索引</a> <span style='color:#999;font-size:.85em'>· 全程治理</span></li><li><a href='#ch17'>附录 C · Lifecycle Governance Doctrine (English)</a> <span style='color:#999;font-size:.85em'>· 全程治理</span></li><li><a href='#ch18'>附录 D · 引用方式与 LGD 参照徽章</a> <span style='color:#999;font-size:.85em'>· 全程治理</span></li></ol></div><section class="chapter" id="ch1">
+<div class="meta"><span class="tag">LGD</span><span class="dom">全程治理</span>
+第 01 章 ｜ TID TH-META-006 ｜ 源文档 docs/LGD-Lifecycle-Governance-Doctrine-v1.0.md ｜ DOI 10.5281/zenodo.22456647</div>
+<h1>全程治理论 Lifecycle Governance Doctrine (LGD) · 理论发布版</h1>
+<blockquote>
+<p><strong>提出 / 品牌</strong>：MedXpert × SynomosAI（受监管实业实证侧 × 跨域治理思想侧）
+<strong>作者署名</strong>：Zhao Xinghua / Steven Zhao·China（ORCID 0009-0001-0512-1237 ｜ GitHub: Medxpert-org ｜ https://medxpert.cn）
+<strong>版本</strong>：v1.0 · 2026-09-06 ｜ <strong>许可</strong>：CC BY 4.0（转载需署名本页）
+<strong>一句话主张</strong>：凡自治之物——有籍（Registry）、有证（Evidence）、有门禁（Gates），由生到退，全程可溯、可证、可问责。
+<strong>One-liner</strong>：Every self-governing entity (AI, intelligent device, agent) shall carry a registry, evidence, and evolution gates — traceable, provable, and accountable across its full lifecycle.</p>
+</blockquote>
+<hr />
+<h2>摘要（Abstract）</h2>
+<p>受监管的世界早已拥有"全程治理"的成熟样板，其中最具代表性的是<strong>医疗器械全生命周期监管</strong>：从分类、设计开发、风险管理、注册、临床评价、生产质量、上市后监督到退役处置，每个环节都有监管要求、证据要求与放行门禁。</p>
+<p>相比之下，AI 与智能体世界的治理努力大多停留在<strong>单点治理</strong>：有的解决"它是谁"（身份/护照/登记），有的解决"凭什么"（证据链/审计/可解释），有的解决"谁允许它变强"（变更门禁/对齐评估）。<strong>几乎没有人把这些单点收敛为一条贯穿生命周期的主线。</strong></p>
+<p>全程治理论（LGD）主张：治理不是一次注册，也不是一纸政策，而是一条<strong>从出生到退役不可断裂的链条</strong>。凡自治之物，都应沿这条链被治理——这是本文提出的原创理论维度，也是市面多数"AI 治理框架"尚未占据的位置。</p>
+<hr />
+<h2>1. 主张与三律（核心定义）</h2>
+<blockquote>
+<p><strong>LGD-I 有籍（Registry）</strong>：凡自治之物，出生即登户籍。身份、创造者、治理归属与档案登记于统一户籍层；<strong>凡造必登</strong>，登记不因规模小或用途私而豁免。</p>
+<p><strong>LGD-II 有证（Evidence）</strong>：凡所行必有证据。关键决策留证据工件——决策日志、风险登记、模型/产品档案、变更记录、人类监督证明、事件台账；业务侧结论须带"依据—来源—签字"的可溯源链条。</p>
+<p><strong>LGD-III 有门禁（Gate）</strong>：凡演化必经门禁。能力升级、改版、扩权、行为变更，须过触发评估—评分放行—事后复盘；<strong>签发权与高利害决定权属人</strong>，机器只请求，人可授权。</p>
+</blockquote>
+<p><strong>推论</strong>
+1. <strong>同构母版</strong>：医疗器械全生命周期监管范式，是"AI / 自治系统全程治理"最接近的真实参照母版（见 §2）。
+2. <strong>环节即执行器</strong>：生命周期上每个环节对应一个可执行检查器或证据生成器；工具不是散件，而是这条链上的齿轮。
+3. <strong>跨域复用</strong>：同一主干可实例化到不同受监管领域（金融、自动驾驶、机器人、数据要素……），每域取其自身母版完成映射。</p>
+<hr />
+<h2>2. 母版：医疗器械全生命周期（RRM 真实参照）</h2>
+<p>以下为<strong>公开监管体系</strong>的结构性对齐，仅作方法参照，不构成对任何实体的认证或法律意见。</p>
+<table>
+<thead>
+<tr>
+<th>生命周期环节</th>
+<th>公开母版依据（示例）</th>
+<th>LGD 平移点</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>分类</td>
+<td>中国《医疗器械监督管理条例》及分类目录 / EU MDR 分类规则 / US FDA 产品分类</td>
+<td>自治系统先回答"我属于哪一类风险"</td>
+</tr>
+<tr>
+<td>设计开发</td>
+<td>ISO 13485 设计与开发控制 / FDA 设计控制（21 CFR 820.30）</td>
+<td>全程留痕，变更受控</td>
+</tr>
+<tr>
+<td>风险管理</td>
+<td>ISO 14971</td>
+<td>风险登记随生命演进持续更新</td>
+</tr>
+<tr>
+<td>注册准入</td>
+<td>NMPA / FDA / EU 注册路径</td>
+<td>准入 = 首次放行门禁</td>
+</tr>
+<tr>
+<td>临床/性能评价</td>
+<td>MEDDEV / FDA 临床证据考量</td>
+<td>主张须有证据支撑</td>
+</tr>
+<tr>
+<td>生产与质量</td>
+<td>GMP / ISO 13485 体系</td>
+<td>过程可审计</td>
+</tr>
+<tr>
+<td>上市后监督</td>
+<td>PMS / 警戒 / PSUR</td>
+<td>事件台账、主动发现、及时处置</td>
+</tr>
+<tr>
+<td>退役处置</td>
+<td>设备退役/数据销毁/UDI 注销</td>
+<td>销号 = 终上门禁，链条闭合</td>
+</tr>
+</tbody>
+</table>
+<p><strong>母版缺口映射</strong>：AI 世界缺少的不是"某个环节的规矩"，而是<strong>把上述环节串成一条时间轴的完整叙事与工具链</strong>——这正是 LGD 要补的空白。</p>
+<hr />
+<h2>3. 落地三查（把一个自治之物置于 LGD 之下）</h2>
+<p>对任何 AI 智能体、含软件的产品或数字员工，只需三问：</p>
+<ul>
+<li>[ ] <strong>有籍吗</strong>：能否回答"它是谁、谁造的、归谁治理"？ 不能 → 未登记，先立户籍。</li>
+<li>[ ] <strong>有证吗</strong>：关键决策能否拿出证据工件（日志/档案/监督证明）？ 不能 → 未留痕，先补证据链。</li>
+<li>[ ] <strong>有门禁吗</strong>：它变强（升级/改版/扩权）时是否经过评估与放行？ 没有 → 未受控，禁止放行。</li>
+</ul>
+<p>三问全过，才算"过一个生命周期节点"；任何一问不过，链条在此断裂，须显式标注缺口，不得假装闭环。</p>
+<hr />
+<h2>4. 配套实现（理论已落到可执行）</h2>
+<ul>
+<li><strong>执行器家族</strong>：围绕生命周期各环节提供可执行检查器与证据生成器（如注册路径测算、分类判定、变更门禁评估、临床证据管理、上市后监督规划、退役处置检查等），产品形态为可调用的合规工具接口，详见 MedXpert 理论驱动工具集。</li>
+<li><strong>应用端（理论看得见）</strong>：合规自检台、AI 器械合规自检台、参照校验台、身份锚定生成器、算法护照生成器、AI 造 AI 合规自检器、连续性交接单、论证教练器等，供一线使用者把"三律三查"当日常动作执行。</li>
+<li><strong>协议层</strong>：算法护照等结构化 schema，承载"有籍—有证—有门禁"的机器可读表达。</li>
+<li>说明：以上实现随版本演进；任何尚未挂靠工具的环节，均显式标注"暂无执行器"，不冒充全覆盖。</li>
+</ul>
+<hr />
+<h2>5. 引用与传播</h2>
+<p><strong>建议引用格式</strong></p>
+<blockquote>
+<p>Zhao, X. (2026). <em>Lifecycle Governance Doctrine (LGD): Registry, Evidence, and Gates Across the Full Life of AI and Devices.</em> MedXpert × SynomosAI. ORCID 0009-0001-0512-1237. v1.0.</p>
+</blockquote>
+<p><strong>传播定位</strong>
+1. 作为《理论驱动工具集》的理论总纲：把一批"合规小工具"升格为"一个理论的各环节执行器"。
+2. 科普短文《凡自治之物：有籍、有证、有门禁》用于大众传播。
+3. 长期目标：以"全程"维度参与 AI 治理标准的讨论与演进（如 ISO/IEC 42001 后续修订、W3C 身份相关标准），主张"生命周期连续性"应成为治理基线之一。</p>
+<hr />
+<h2>6. 诚实边界（必读）</h2>
+<ul>
+<li><strong>民间框架，非法律/监管意见</strong>：LGD 不预设法律效力；器械监管的引用仅作结构对齐，不宣称"等同认证"或"合规担保"。</li>
+<li><strong>LGD 是收口层，不替代既有理论</strong>：身份（UBIC）、证据（XCGS）、门禁（A³）、真实参照（RRM）、抗编造（AFG）等各自主张独立成立；LGD 只提供把它们咬合成生命周期主线的组织叙事。</li>
+<li><strong>"全程"是理想态</strong>：实际落地按环节逐步挂靠，未覆盖环节须显式标注，不冒充全覆盖。</li>
+<li><strong>前沿盲区</strong>：对真实世界尚无参照的自治形态（如完全自主无人回路的系统），LGD 仅要求登记与标注，不预设治理深度。</li>
+<li><strong>使用边界</strong>：各域实例化文档另立；本文不针对具体政治立场、投资建议或炒作叙事提供支持。</li>
+</ul>
+<hr />
+<h2>7. 版本与后续</h2>
+<ul>
+<li>v1.0（2026-09-06）：理论发布版。</li>
+<li>后续：医疗器械线深化（注册方法论、AFG 实证叙事）→ 域理论系列（金融 / 法律 / 政府治理 / 加密数字资产 / 自动驾驶 / 数据要素……每域一理论，母版映射独立成文）。</li>
+</ul>
+<hr />
+<p>© MedXpert × SynomosAI · CC BY 4.0 · 转载需署名本页
+<em>本件为理论发布物，非认证证书、非法律意见、非监管申报材料。</em></p>
+<p class="meta" style="margin-top:26px">来源：https://github.com/zhaoxinghua09-cell/lgd-theory ｜ CC BY 4.0 ｜ 署名 赵兴华 / Steven Zhao·China（ORCID 0009-0001-0512-1237）</p>
+</section><section class="chapter" id="ch2">
+<div class="meta"><span class="tag">LGD</span><span class="dom">金融</span>
+第 02 章 ｜ TID TH-FIN-001 ｜ 源文档 docs/LGD-FIN-001-Financial-AI-Lifecycle-Governance-v1.0.md ｜ DOI 10.5281/zenodo.22456647</div>
+<h1>金融 AI 全程治理 · LGD 域理论系列 #1（TH-FIN-001 · v1.0）</h1>
+<blockquote>
+<p>提出/品牌：SynomosAI（治理侧）× MedXpert（实证侧——医械域已验证 LGD 三律可落地）
+作者署名：赵兴华 / Steven Zhao·China（ORCID 0009-0001-0512-1237 ｜ GitHub: zhaoxinghua09-cell/lgd-theory ｜ https://medxpert.cn）
+版本：v1.0（2026-09-06）｜ 状态：🟢 可发布（引用已联网复核，见 §3 复核声明）
+TID：TH-FIN-001 ｜ 上游锚定：TH-META-006(LGD), TH-META-001(RRM), TH-AIG-002(XCGS), TH-AIG-003(A³)
+一句话：凡金融自治之物——算法/模型/机器人投顾——有籍（清单与登记）·有证（变更与运行留痕）·有门禁（高风险准入与人工放行），由立项到退出一程可溯可证可问责。</p>
+</blockquote>
+<hr />
+<h2>0. 问题：金融 AI 为何缺"全程"这一维</h2>
+<p>金融机构正把 AI 放进信贷审批、承保理赔、风险评估、投顾、反洗钱等核心环节，且已进入"模型支撑前台决策"阶段。全球监管动作正从零散走向系统化，但主流框架仍习惯按"准入 / 运行 / 处置"分段立规。<strong>分段立规的代价</strong>：同一模型的初始风险声明、变更记录、人工监督证据与退场处置散落在不同文件与部门，出险时难以沿一条时间轴重建完整证据。</p>
+<p>这与医械域改革前的状态同构。LGD 主张把治理显式组织为一条<strong>从立项到退役的生命周期主线</strong>——金融监管文件里的单点要求，应能被串成可执行、可审计、可问责的闭环。</p>
+<h2>1. 定义与三律映射（金融域具体化）</h2>
+<blockquote>
+<p><strong>LGD-I 有籍（Registry）</strong>：凡用于金融决策的算法/模型/智能体，立项即登记入机构"应用清单"——用途、风险分类、数据范围、治理责任人与部门。登记随模型族持续更新，不因"内部自研/外部引入"豁免；外部引入的生成式模型须走备案与准入评估。</p>
+<p><strong>LGD-II 有证（Evidence）</strong>：每个关键生命周期事件留证据——模型开发/变更管理记录与训练过程记录、数据质量与来源记录、人工复核与监督记录、日志留存、压力测试与对抗/敏感性与稳定性测评结果（可重放）。</p>
+<p><strong>LGD-III 有门禁（Gate）</strong>：高风险场景（信贷审批、承保理赔、资产评估、资金交易、直接影响金融合约的生成式应用等）须经机构风险管理委员会批准并报监管；关键环节强制人工监督与干预；明确紧急停用与模型退出条件；高利害最终决策权属人与机构，模型只请求。</p>
+</blockquote>
+<p><strong>推论（跨域同构）</strong>：金融 AI 的"高风险准入" ≅ 医械"注册放行"，"人工监督与干预" ≅ 医械"临床监督"，"评估退出" ≅ 医械"退市处置"。同一 LGD 主干可直接平移。</p>
+<h2>2. 母版（RRM 真实参照 · 2026-09-06 已复核）</h2>
+<table>
+<thead>
+<tr>
+<th>生命周期环节</th>
+<th>金融母版参照（已核实来源）</th>
+<th>LGD 平移点</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>治理架构/登记</td>
+<td>中国 金发〔2026〕8号：董(理)事会指定专门委员会负责、应用清单与分类分级、全生命周期管理体系</td>
+<td>有籍：顶层归责 + 应用登记</td>
+</tr>
+<tr>
+<td>高风险准入</td>
+<td>金发〔2026〕8号：资金交易/资产评估/信贷审批/承保理赔/风险管理等高风险场景须风委会批准并报监管；EU AI Act Annex III 5(b) 信贷与信用评估、5(c) 寿险健康险定价=高风险（义务 Art.9–15、部署者 Art.26、FRIA Art.27）</td>
+<td>有门禁：上线准入 + 分级管控</td>
+</tr>
+<tr>
+<td>验证与证据</td>
+<td>金发〔2026〕8号：开发/变更管理记录、日志留存≥业务存续期、测评（对抗样本/压力测试/敏感性）；EU AI Act 技术文档与日志</td>
+<td>有证：验证报告与日志可重放</td>
+</tr>
+<tr>
+<td>人工兜底</td>
+<td>金发〔2026〕8号：高风险关键环节强制人工监督与干预、人工复核节点、可解释性不足仅作辅助；EU AI Act 人类监督 Art.14</td>
+<td>有门禁：人机权责 + 人工放行</td>
+</tr>
+<tr>
+<td>支付透明（反洗钱）</td>
+<td>FATF R.16（旅行规则，2025-06 修订；实施指引 2026-06 咨询；2030 实施目标；R.16/R.15 立法覆盖 83% 于 2026-07 第7次目标更新）；虚拟资产端走 R.15</td>
+<td>有证：信息伴随支付、全程可溯</td>
+</tr>
+<tr>
+<td>退出生效</td>
+<td>金发〔2026〕8号：明确紧急停用及模型退出条件、备用系统/人工替代流程</td>
+<td>终上门禁：停用/退出闭合</td>
+</tr>
+</tbody>
+</table>
+<h2>3. 证据来源与复核声明</h2>
+<p>本版关键引用经 <strong>2026-09-06 联网复核</strong>，来源如下（均公开官方/权威）：</p>
+<ul>
+<li>中国 国家金融监督管理总局《关于银行业保险业人工智能安全开发应用的指导意见》（金发〔2026〕8号，2026-06-18）</li>
+<li>中国人民银行 等四部门《关于"人工智能+金融"的实施意见》（银发〔2026〕101号，地方文件转述，发布前仍以原文为准）</li>
+<li>EU AI Act：Regulation (EU) 2024/1689（EUR-Lex CELEX:32024R1689；Annex III point 5）</li>
+<li>FATF Recommendations 15/16 及 2026-07 第七次虚拟资产目标更新（fatf-gafi.org）</li>
+<li>ISO/IEC 42001（AI 管理体系，跨域底座参考）</li>
+</ul>
+<blockquote>
+<p>复核纪律：引用以官方原文与最新生效版本为准；本件为理论发布物，如监管文件后续修订，引用行随版本更新。</p>
+</blockquote>
+<h2>4. 边界（必读）</h2>
+<ul>
+<li>本文为<strong>民间理论发布物</strong>，非法律/监管意见，非投资建议，非合规担保。</li>
+<li>只谈"治理与合规方法"，不评论具体机构，不涉炒作叙事。</li>
+<li>金融域现状诚实声明：<strong>本理论主张已立、母版已核实；执行工具尚未建设</strong>。按方法论，工具随理论之后落地（fin-reg-calc / aml-sentinel / fin-ai-classifier 为候选方向，尚未立项）。</li>
+</ul>
+<h2>5. 路线（先立论、后落地）</h2>
+<ol>
+<li>本件 v1.0（引用已复核）→ 进入 GitHub lgd-theory docs/ 系列（随仓库 v1.1.0 发布并获 Zenodo DOI 新版）。</li>
+<li>工具（理论发布后）：金融牌照/许可地图（镜像 reg-calc）、高风险场景准入哨兵（镜像 pccp-planner）、金融 AI 分级器（镜像 samd-classifier）、人工监督清单（镜像 ai-transparency）。</li>
+<li>复盘指标：被 AI 问答检索命中 / 被第三方引用 / 工具被调用。</li>
+</ol>
+<hr />
+<p>© SynomosAI × MedXpert · LGD 域实例化系列 #1 · CC BY 4.0（引用监管文件属各发布机构）</p>
+<p class="meta" style="margin-top:26px">来源：https://github.com/zhaoxinghua09-cell/lgd-theory ｜ CC BY 4.0 ｜ 署名 赵兴华 / Steven Zhao·China（ORCID 0009-0001-0512-1237）</p>
+</section><section class="chapter" id="ch3">
+<div class="meta"><span class="tag">LGD</span><span class="dom">证据</span>
+第 03 章 ｜ TID TH-LAW-001 ｜ 源文档 docs/LGD-LAW-001-Electronic-Evidence-Lifecycle-Governance-v1.0.md ｜ DOI 10.5281/zenodo.22456647</div>
+<h1>电子证据全程治理 · LGD 域理论系列 #2（TH-LAW-001 · v1.0）</h1>
+<blockquote>
+<p>提出/品牌：SynomosAI（治理侧）× MedXpert（实证侧）
+作者署名：赵兴华 / Steven Zhao·China（ORCID 0009-0001-0512-1237 ｜ GitHub: zhaoxinghua09-cell/lgd-theory ｜ https://medxpert.cn）
+版本：v1.0（2026-09-06）｜ 状态：🟢 可发布（引用已联网复核；US FRE 正式文本以 uscourts.gov 为准）
+TID：TH-LAW-001 ｜ 上游：TH-META-006(LGD), TH-META-001(RRM), TH-AIG-002(XCGS), TH-MED-001(AFG)
+一句话：凡法律意义上的数字证据——生成、固化、存管、调取、举证、采信、处置——有籍（身份与保管链登记）·有证（哈希/时间戳/存证链路）·有门禁（真实性与可采性门槛），全程可溯可证可采信。</p>
+</blockquote>
+<hr />
+<h2>0. 问题：电子证据缺"全程"这一维</h2>
+<p>当 AI 生成内容、聊天记录、链上数据、日志越来越多地成为争议事实的载体，证据治理却仍是<strong>分段作业</strong>：取证工具管"怎么取"，时间戳管"何时固化"，存证平台管"存哪"，法院管"采不采"。每一段各自成立，但<strong>从生成那一刻到法庭采信之间，缺少一条可复核的保管链（chain of custody）与生命周期主线</strong>。一个证据的真实性判断（是否原始、是否被篡改、是否由中立主体保存）理应能被沿链路机械地重建，而不是靠当事人在法庭上零散举证。</p>
+<h2>1. 定义与三律映射（法律域具体化）</h2>
+<blockquote>
+<p><strong>LGD-I 有籍（Registry）</strong>：数字证据自生成起即登记身份与来源——载体、格式、元数据、持有链上的每一环主体与时间（证据"户籍"=哈希指纹 + 保管链记录）。</p>
+<p><strong>LGD-II 有证（Evidence）</strong>：每个关键节点留下可验证的固化证据——内容哈希、可信时间戳、存证平台/中立第三方存储、公证或电子签名记录；证据链完整性可被独立重放校验。</p>
+<p><strong>LGD-III 有门禁（Gate）</strong>：证据进入程序前须过"可采性门槛"——真实性判断、合法取证审查、非法证据排除、质证；AI 产证另须标注生成方式与溯源，未经标注不得径行采信。</p>
+</blockquote>
+<h2>2. 母版（RRM 真实参照）</h2>
+<table>
+<thead>
+<tr>
+<th>生命周期环节</th>
+<th>法律母版参照</th>
+<th>LGD 平移点</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>生成与登记</td>
+<td>电子数据"原件"规则与类型界定（最高法《民事证据规定》第14/15条）</td>
+<td>有籍：来源+载体登记</td>
+</tr>
+<tr>
+<td>固化</td>
+<td>电子签名、可信时间戳、哈希值校验、区块链等技术手段固定（《互联网法院规定》第11条第2款）；RFC 3161 / GB/T 20520 时间戳</td>
+<td>有证：固化即留痕</td>
+</tr>
+<tr>
+<td>存管</td>
+<td>中立第三方电子数据平台保存/确认（《民事证据规定》第94条；互联网法院司法区块链接入）</td>
+<td>有证：中立存管可复核</td>
+</tr>
+<tr>
+<td>调取/举证</td>
+<td>举证质证、法院在线提取与核实</td>
+<td>有证：全程可导出重放</td>
+</tr>
+<tr>
+<td>采信门槛</td>
+<td>真实性判断五要素（《民事证据规定》第93条）；公证/鉴定/内容完整证明</td>
+<td>有门禁：可采信评估</td>
+</tr>
+<tr>
+<td>处置与归档</td>
+<td>证据保存期限、案件归档与销毁</td>
+<td>终上门禁：处置闭合</td>
+</tr>
+</tbody>
+</table>
+<h2>3. 证据来源与复核声明</h2>
+<ul>
+<li><strong>已核实（2026-09-06 联网）</strong>：① 《最高人民法院关于互联网法院审理案件若干问题的规定》第十一条第二款（电子签名/可信时间戳/哈希值校验/区块链/存证平台认证证明真实性→互联网法院应当确认）；② 《最高人民法院关于民事诉讼证据的若干规定》（2019 修正）第 14、15、93、94 条；③ 中立第三方存证平台与互联网法院司法区块链接入实践；④ <strong>EU eIDAS</strong>：Regulation (EU) No 910/2014（电子身份与信任服务，2016-07-01 起适用；合格电子签名/印章/时间戳/送达具法律效力），官方：欧盟委员会 digital-strategy 政策页；⑤ <strong>EU 电子证据立法</strong>：Regulation (EU) 2023/1543（跨境调取/保全电子证据令，2026-08-18 起适用，EUR-Lex CELEX:32023R1543）。</li>
+<li><strong>已存在、正式文本发布前以官方为准</strong>：US Federal Rules of Evidence 902(13)/(14)（自证真实记录/区块链记录，2017 年修订，uscourts.gov）。</li>
+</ul>
+<blockquote>
+<p>复核纪律：引用以官方原文与最新生效版本为准；本件为理论发布物，监管文件后续修订时随版本更新。</p>
+</blockquote>
+<h2>4. 边界（必读）</h2>
+<ul>
+<li>民间理论发布物；非法律意见、非鉴定报告、非合规担保。</li>
+<li>只谈"证据治理方法"，不评论个案、不涉具体争议立场。</li>
+<li>诚实声明：本域理论已立、母版部分核实；执行工具尚未建设（evidence-chain-check / contract-redline 为候选方向，后置）。</li>
+</ul>
+<h2>5. 路线（先立论、后落地）</h2>
+<ol>
+<li>本件 v1.0（引用已复核）→ 随网络恢复入 GitHub lgd-theory docs/ 系列（随仓库 release 获 Zenodo DOI 新版）。</li>
+<li>工具（理论发布后）：证据链完整性体检（哈希/时间戳/存证方/保管链可重放）、AI 产证溯源标注检查。</li>
+<li>复盘：被检索命中 / 被引用 / 工具被调用。</li>
+</ol>
+<hr />
+<p>© SynomosAI × MedXpert · LGD 域理论系列 #2 · CC BY 4.0</p>
+<p class="meta" style="margin-top:26px">来源：https://github.com/zhaoxinghua09-cell/lgd-theory ｜ CC BY 4.0 ｜ 署名 赵兴华 / Steven Zhao·China（ORCID 0009-0001-0512-1237）</p>
+</section><section class="chapter" id="ch4">
+<div class="meta"><span class="tag">LGD</span><span class="dom">政务</span>
+第 04 章 ｜ TID TH-GOV-001 ｜ 源文档 docs/LGD-GOV-001-Digital-Government-Lifecycle-Governance-v1.0.md ｜ DOI 10.5281/zenodo.22456647</div>
+<h1>数字政务全程治理 · LGD 域理论系列 #3（TH-GOV-001 · v1.0）</h1>
+<blockquote>
+<p>提出/品牌：SynomosAI（治理侧）× MedXpert（实证侧）
+作者署名：赵兴华 / Steven Zhao·China（ORCID 0009-0001-0512-1237 ｜ GitHub: zhaoxinghua09-cell/lgd-theory ｜ https://medxpert.cn）
+版本：v1.0（2026-09-06）｜ 状态：🟢 可发布（中国侧重核；EU 侧沿用 AI Act 已核条目）
+TID：TH-GOV-001 ｜ 上游：TH-META-006(LGD), TH-META-001(RRM), TH-AIG-002(XCGS)
+一句话：凡政务数据、算法与数字化决策——有籍（目录与登记）·有证（留痕与审计可溯）·有门禁（公开、参与、评估与问责），由决策到执行全程可溯可责。</p>
+</blockquote>
+<hr />
+<h2>0. 问题：数字政务治理的"全程"缺口</h2>
+<p>数字政务正在把决策、执行与公共服务搬上算法与数据平台。主流制度安排同样是<strong>分段施治</strong>：信息公开管"事后公开"，重大决策程序管"事前参与"，审计管"结果核查"，算法备案管"上线登记"。<strong>分段之间缺少一条主线</strong>——一项数字化决策从立项、数据使用、算法介入、执行到结果公开与问责，是否能在任何时点被机械地重建？"全程可溯"正是数字政务可信度的地基，也是 LGD 在公共治理域的立论处。</p>
+<h2>1. 定义与三律映射（政务域具体化）</h2>
+<blockquote>
+<p><strong>LGD-I 有籍（Registry）</strong>：政务权力与算法有序可查——决策事项目录与标准、政府信息公开目录、政务数据资源目录、政务算法/模型登记；凡造（建系统/上算法）必登。</p>
+<p><strong>LGD-II 有证（Evidence）</strong>：决策与执行过程留痕可审——决策草案与论证、公众意见与采纳说明、会议与签批记录、运行日志与审计线索；数据使用可溯源。</p>
+<p><strong>LGD-III 有门禁（Gate）</strong>：重大数字化决策过"公开—参与—评估"门——公开征求意见（一般不少于 30 日）、听证与专家论证、风险评估与合法性审查；结果公开与执行问责闭环；涉及基本公共服务的算法使用按高风险对待。</p>
+</blockquote>
+<h2>2. 母版（RRM 真实参照 · 已核）</h2>
+<table>
+<thead>
+<tr>
+<th>生命周期环节</th>
+<th>母版参照</th>
+<th>LGD 平移点</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>目录与登记</td>
+<td>《政府信息公开条例》（国务院令第711号）第12/20条；《重大行政决策程序暂行条例》（国务院令第713号）第3条决策事项目录；政务数据目录</td>
+<td>有籍：目录+登记</td>
+</tr>
+<tr>
+<td>决策参与</td>
+<td>713号令第15条（公开征求意见一般≥30日）、第16条听证</td>
+<td>有门禁：参与门</td>
+</tr>
+<tr>
+<td>留痕审计</td>
+<td>决策草案/意见采纳说明（713号令第32条）；《法治政府建设实施纲要(2021—2025)》年度目录公开；审计与大数据审计实践</td>
+<td>有证：可审</td>
+</tr>
+<tr>
+<td>结果公开</td>
+<td>条例第20条主动公开；决策与解读同步公开（国办发〔2016〕19号、中办发〔2016〕8号）</td>
+<td>有证+有门禁：结果公开闭环</td>
+</tr>
+<tr>
+<td>算法与公共服务</td>
+<td>算法备案制度（互联网信息服务领域）；EU AI Act Annex III 5(a) 基本公共服务/公共福利资格判定为高风险</td>
+<td>有门禁：高风险准入</td>
+</tr>
+</tbody>
+</table>
+<h2>3. 证据来源与复核声明</h2>
+<ul>
+<li><strong>已核实（2026-09-06 联网）</strong>：《政府信息公开条例》（国务院令第711号）、《重大行政决策程序暂行条例》（国务院令第713号）第3/15/16/32条、《法治政府建设实施纲要(2021—2025年)》重大行政决策年度目录公开制度、国办发〔2016〕19号 与 中办发〔2016〕8号 政务公开相关文件（来源均为 gov.cn 政务公开目录体系公开引用）。</li>
+<li><strong>沿用已核条目</strong>：EU AI Act（Regulation (EU) 2024/1689）Annex III point 5(a)（基本公共服务/公共福利）。</li>
+</ul>
+<blockquote>
+<p>边界声明：本文只讨论"治理与程序方法"，以公开制度文本为对象；不评论任何具体政策、机构或个案立场。引用以官方原文与最新版本为准。</p>
+</blockquote>
+<h2>4. 边界（必读）</h2>
+<ul>
+<li>民间理论发布物；非法律意见、非审计报告、非合规担保。</li>
+<li>只谈治理方法，不涉政治立场、政策评论或个案评价。</li>
+<li>诚实声明：本域理论已立、中国侧重核；执行工具尚未建设（gov-disclosure-check / digital-audit-trace / 决策程序清单 为候选方向，后置）。</li>
+</ul>
+<h2>5. 路线（先立论、后落地）</h2>
+<ol>
+<li>本件 v1.0（引用已核）→ 随网络恢复入 GitHub lgd-theory docs/ 系列。</li>
+<li>工具（理论发布后）：信息公开义务与时限检查、政务数据操作审计留痕体检、重大决策程序合规清单。</li>
+<li>复盘：被检索命中 / 被引用 / 工具被调用。</li>
+</ol>
+<hr />
+<p>© SynomosAI × MedXpert · LGD 域理论系列 #3 · CC BY 4.0</p>
+<p class="meta" style="margin-top:26px">来源：https://github.com/zhaoxinghua09-cell/lgd-theory ｜ CC BY 4.0 ｜ 署名 赵兴华 / Steven Zhao·China（ORCID 0009-0001-0512-1237）</p>
+</section><section class="chapter" id="ch5">
+<div class="meta"><span class="tag">LGD</span><span class="dom">链上</span>
+第 05 章 ｜ TID TH-CRYPT-001 ｜ 源文档 docs/LGD-CRYPT-001-Onchain-Asset-Lifecycle-Governance-v1.0.md ｜ DOI 10.5281/zenodo.22456647</div>
+<h1>链上资产全程治理 · LGD 域理论系列 #4（TH-CRYPT-001 · v1.0）</h1>
+<blockquote>
+<p>提出/品牌：SynomosAI（治理侧）× MedXpert（实证侧）
+作者署名：赵兴华 / Steven Zhao·China（ORCID 0009-0001-0512-1237 ｜ GitHub: zhaoxinghua09-cell/lgd-theory ｜ https://medxpert.cn）
+版本：v1.0（2026-09-06）｜ 状态：🟢 可发布（FATF 系列已核；MiCA 以 EUR-Lex 原文为准）
+TID：TH-CRYPT-001 ｜ 上游：TH-META-006(LGD), TH-META-001(RRM), TH-AIG-001(UBIC), TH-FIN-001
+一句话：凡链上资产与虚拟资产服务——有籍（链上身份与资产登记）·有证（可溯账本与旅行规则信息伴随）·有门禁（准入、上币、交易与处置门禁），由发行到冻结/销毁全程可溯可执行。</p>
+</blockquote>
+<hr />
+<h2>0. 问题：链上世界的"全程治理"缺位</h2>
+<p>虚拟资产从发行、托管、交易到冻结与销毁，天然带有一本"可溯账本"，但治理仍碎片化：KYC 管"客户是谁"，旅行规则管"交易信息伴随"，上币审查管"准入"，稳定币与 DeFi 的"抗冻结/无控制点"设计又把执法可执行性推向真空。<strong>缺的是一条让"身份—证据—门禁"沿资产生命周期咬合的主线</strong>，以及一套让链上治理与执法可执行的接口（可冻结、可冻结前的登记）。</p>
+<h2>1. 定义与三律映射</h2>
+<blockquote>
+<p><strong>LGD-I 有籍（Registry）</strong>：链上身份、服务商与资产登记——VASP 持牌/注册（含离岸与嵌套识别）、钱包与托管关系、资产/合约用途登记（含稳定币发行主体）；"抗冻结/无控制点"设计本身须显式登记并标注。</p>
+<p><strong>LGD-II 有证（Evidence）</strong>：交易信息伴随支付（旅行规则），身份与交易信息按 IVMS-101 类数据模型传递；链上溯源账本 + 链下 KYC 记录互证，可向执法提供。</p>
+<p><strong>LGD-III 有门禁（Gate）</strong>：上币/上线准入、大额与跨境交易门禁、执法冻结/扣押接口（可冻结稳定币应有可执行冻结函数）、DeFi 控制权识别后适用登记；销毁与退市为终上门禁。</p>
+</blockquote>
+<h2>2. 母版（RRM 真实参照 · 已核）</h2>
+<table>
+<thead>
+<tr>
+<th>环节</th>
+<th>母版参照</th>
+<th>LGD 平移</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>登记/持牌</td>
+<td>FATF R.15（VA/VASP 纳入 AML/CFT，发牌或注册，2019 起扩展）</td>
+<td>有籍</td>
+</tr>
+<tr>
+<td>信息伴随</td>
+<td>FATF R.16 旅行规则（虚拟资产端经 R.15 适用；≥1000 美元/欧元信息要求；2025-06 修订、实施指引 2026-06 咨询、2030 落地）</td>
+<td>有证</td>
+</tr>
+<tr>
+<td>覆盖进展</td>
+<td>FATF 第 7 次目标更新（2026-07-16）：旅行规则立法覆盖 83%；DeFi 专项报告（2026-07-21）：控制权识别为适用关键</td>
+<td>有证+有门禁</td>
+</tr>
+<tr>
+<td>稳定币/风险</td>
+<td>FATF 点名"抗冻结"稳定币与 oVASP 嵌套账户滥用 → 需要可执行冻结接口</td>
+<td>有门禁（执法可执行）</td>
+</tr>
+<tr>
+<td>区域立法</td>
+<td>EU MiCA（Regulation (EU) 2023/1114，稳定币与加密资产服务分阶段适用，以 EUR-Lex 原文为准）；数字人民币"小额匿名、大额依法可溯"分层设计（公开白皮书）</td>
+<td>有籍+有证 的央行参照</td>
+</tr>
+</tbody>
+</table>
+<h2>3. 边界</h2>
+<ul>
+<li>民间理论发布物；非法律意见、非投资建议、非合规担保。不涉炒作叙事。</li>
+<li>只谈治理与合规方法；境内监管口径以主管机关规定为准（本文不评论任何辖区具体政策立场）。</li>
+<li>诚实声明：本域理论已立、FATF 侧核实；执行工具尚未建设（travel-rule-check / onchain-passport 候选，后置）。</li>
+</ul>
+<h2>4. 路线（先立论、后落地）</h2>
+<ol>
+<li>本件 v1.0 → 入 GitHub lgd-theory docs/ 系列。</li>
+<li>工具（后置）：旅行规则信息完整性体检、链上资产"护照"式登记 JSON、冻结可执行性自检。</li>
+<li>复盘：检索命中 / 引用 / 工具调用。</li>
+</ol>
+<hr />
+<p>© SynomosAI × MedXpert · LGD 域理论系列 #4 · CC BY 4.0</p>
+<p class="meta" style="margin-top:26px">来源：https://github.com/zhaoxinghua09-cell/lgd-theory ｜ CC BY 4.0 ｜ 署名 赵兴华 / Steven Zhao·China（ORCID 0009-0001-0512-1237）</p>
+</section><section class="chapter" id="ch6">
+<div class="meta"><span class="tag">LGD</span><span class="dom">金融</span>
+第 06 章 ｜ TID TH-FIN-002 ｜ 源文档 docs/LGD-FIN-002-Financial-AI-Classification-v1.0.md ｜ DOI 10.5281/zenodo.22456647</div>
+<h1>金融 AI 分级治理 · LGD 域理论系列 #5（TH-FIN-002 · v1.0）</h1>
+<blockquote>
+<p>提出/品牌：SynomosAI（治理侧）× MedXpert（实证侧——分级思维母版=SaMD 风险分类）
+作者署名：赵兴华 / Steven Zhao·China（ORCID 0009-0001-0512-1237 ｜ GitHub: zhaoxinghua09-cell/lgd-theory ｜ https://medxpert.cn）
+版本：v1.0（2026-09-06）｜ 状态：🟢 可发布（引用沿用 TH-FIN-001 已核来源；SaMD 分级为公开概念）
+TID：TH-FIN-002 ｜ 上游：TH-META-006(LGD), TH-FIN-001, TH-MED-001(AFG)
+一句话：金融 AI 分级不是目的，而是"治理强度的配给表"——按用途风险分级，配给对应深度的登记、证据与人工门禁。</p>
+</blockquote>
+<hr />
+<h2>0. 问题：一刀切治理既过严又过松</h2>
+<p>"金融 AI 都要管"和"金融 AI 都不用管"同样有害。监管正走向<strong>按风险分级</strong>（高风险准入、一般登记、低风险透明义务），但机构执行时缺一张把"用途风险等级 → 治理强度"对应起来的、可机械化打分的分类卡片——这正是医疗器械 SaMD 风险分类（按对患者影响分级配置控制强度）可以平移的成熟思维。</p>
+<h2>1. 分级轴（三条，综合判定）</h2>
+<ol>
+<li><strong>决策影响</strong>：辅助参考 / 建议并留人复核 / 自动决策（直接影响客户权益或金融合约）；</li>
+<li><strong>场景风险</strong>：公开已列高风险场景（信贷审批、承保理赔、资产评估、资金交易、风险管理等——呼应 TH-FIN-001 引用的金发〔2026〕8号；EU AI Act Annex III 5(b)/(c)）；</li>
+<li><strong>自主程度与故障后果</strong>：固定规则 / 模型学习 / 自主智能体（故障影响面）。</li>
+</ol>
+<p><strong>建议档位（示意）</strong>：L1 内部辅助（登记+日志）→ L2 对客建议（+可解释与披露）→ L3 关键决策自动（+高风险准入、人工监督节点、压力测试、变更门禁）→ L4 自主智能体（+扩权评估与事件上报）。</p>
+<h2>2. 分级 × LGD 三律（强度随档递增）</h2>
+<table>
+<thead>
+<tr>
+<th>档位</th>
+<th>有籍（登记）</th>
+<th>有证（证据）</th>
+<th>有门禁（放行）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>L1</td>
+<td>应用清单</td>
+<td>运行日志</td>
+<td>—</td>
+</tr>
+<tr>
+<td>L2</td>
+<td>+用途与数据范围</td>
+<td>+披露与可解释记录</td>
+<td>上线评估</td>
+</tr>
+<tr>
+<td>L3</td>
+<td>+风险分类与责任人</td>
+<td>+验证/压力测试/人工复核记录</td>
+<td>风委会准入+变更重评+人工干预</td>
+</tr>
+<tr>
+<td>L4</td>
+<td>+自主边界与备案</td>
+<td>+事件台账+审计可重放</td>
+<td>扩权门禁+紧急停用条件</td>
+</tr>
+</tbody>
+</table>
+<h2>3. 母版参照（已核/公开概念）</h2>
+<ul>
+<li>中国 金发〔2026〕8号 高风险场景清单与分级分类管理（已核，见 TH-FIN-001 §3）。</li>
+<li>EU AI Act（2024/1689）风险金字塔与 Annex III 金融条目（已核）。</li>
+<li>SaMD 风险分类思维（FDA/IMDRF 公开方法：依据意图用途的影响与信息对临床决策的作用分级）——作为"影响面→控制强度"的元方法参照。</li>
+<li>传统金融适当性义务：分级是"把适当性搬到算法层"。</li>
+</ul>
+<h2>4. 边界与路线</h2>
+<ul>
+<li>民间理论发布物；非监管分类工具（文中档位为示意，落地以监管定义为准）。</li>
+<li>工具（后置）：fin-ai-classifier（分级打分卡，镜像 samd-classifier）。</li>
+<li>本件随 TH-FIN-001 构成金融域两篇：母版映射 + 分级执行法。</li>
+</ul>
+<hr />
+<p>© SynomosAI × MedXpert · LGD 域理论系列 #5 · CC BY 4.0</p>
+<p class="meta" style="margin-top:26px">来源：https://github.com/zhaoxinghua09-cell/lgd-theory ｜ CC BY 4.0 ｜ 署名 赵兴华 / Steven Zhao·China（ORCID 0009-0001-0512-1237）</p>
+</section><section class="chapter" id="ch7">
+<div class="meta"><span class="tag">LGD</span><span class="dom">驾驶</span>
+第 07 章 ｜ TID TH-AUT-001 ｜ 源文档 docs/LGD-AUT-001-Autonomous-Driving-Lifecycle-Governance-v1.0.md ｜ DOI 10.5281/zenodo.22456647</div>
+<h1>自动驾驶全程治理 · LGD 域理论系列 #6（TH-AUT-001 · v1.0）</h1>
+<blockquote>
+<p>提出/品牌：SynomosAI（治理侧）× MedXpert（实证侧）
+作者署名：赵兴华 / Steven Zhao·China（ORCID 0009-0001-0512-1237 ｜ GitHub: zhaoxinghua09-cell/lgd-theory ｜ https://medxpert.cn）
+版本：v1.0（2026-09-06）｜ 状态：🟢 可发布（中国侧已核；UNECE/欧盟条目以官方原文为准）
+TID：TH-AUT-001 ｜ 上游：TH-META-006(LGD), TH-META-001(RRM)
+一句话：凡自动驾驶系统——有籍（车辆与算法/软件登记）·有证（测试与运行数据可溯）·有门禁（准入许可、试点放行、OTA 变更与召回门禁），由设计到退役全程可责。</p>
+</blockquote>
+<hr />
+<h2>0. 问题：自动驾驶治理的"全程"主线</h2>
+<p>L3 已拿到准入许可、L4 进入试点——监管已覆盖"准入测试""上路通行""应急处置"，技术侧有网络安全与软件更新规则。<strong>但同一台车的"设计→测试→量产准入→上路→OTA 变更→事故→退役"仍分散在不同文件与部门</strong>；一次 OTA 是"变更"还是"召回"、数据证据链是否跨厂商可用，缺少被统一组织的生命周期视图。这是 LGD"全程"维度在最高密度自治物上的落点。</p>
+<h2>1. 定义与三律映射</h2>
+<blockquote>
+<p><strong>LGD-I 有籍</strong>：车型、生产企业与使用主体登记（准入联合体）；自动驾驶系统/软件版本与 OTA 记录登记（车辆"数字户籍"）。</p>
+<p><strong>LGD-II 有证</strong>：准入测试与安全监测数据、运行与接管数据、事故/事件报告、软件与网络安全记录——跨环节可重放（证据链）。</p>
+<p><strong>LGD-III 有门禁</strong>：量产准入许可 → 限定区域上路放行 → OTA 变更评估与召回门禁 → 事故后停用/退役；L3 人机接管边界为常设门禁。</p>
+</blockquote>
+<h2>2. 母版（RRM 真实参照 · 已核）</h2>
+<table>
+<thead>
+<tr>
+<th>环节</th>
+<th>母版参照</th>
+<th>LGD 平移</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>准入</td>
+<td>中国四部门《智能网联汽车准入和上路通行试点工作通知》（工信部联通装〔2023〕217号，2023-11-17）——申报/准入测试/上路通行/应急处置/评估调整五阶段</td>
+<td>有门禁（五阶段≈门禁序列）</td>
+</tr>
+<tr>
+<td>量产实证</td>
+<td>2024-06 首批 9 试点联合体；<strong>2025-12-15 首批 L3 车型准入许可</strong>（长安 SC7000AAARBEV / 北汽极狐 BJ7001A61NBEV，北京/重庆限定区域）</td>
+<td>有籍+有证 实证在发生</td>
+</tr>
+<tr>
+<td>网络安全/软件</td>
+<td>UNECE WP.29 法规 R155（网络安全 CSMS）/R156（软件更新 SUMS），2021 起生效（以官方原文为准）</td>
+<td>有门禁（OTA=变更门禁）</td>
+</tr>
+<tr>
+<td>事故/召回</td>
+<td>机动车事故报告与召回制度（既有体系向自动驾驶扩展）</td>
+<td>有证+终上门禁</td>
+</tr>
+</tbody>
+</table>
+<h2>3. 边界与路线</h2>
+<ul>
+<li>民间理论发布物；非监管意见、非安全评估报告；涉及公共道路安全，落地以监管为准。</li>
+<li>工具（后置）：准入阶段清单（镜像 reg-path）、OTA 变更评估哨兵（镜像 ai-dsf-change/pccp-planner）、证据链体检（与 LAW-001 共用）。</li>
+<li>诚实声明：本域理论已立、中国侧重核；执行工具尚未建设。</li>
+</ul>
+<hr />
+<p>© SynomosAI × MedXpert · LGD 域理论系列 #6 · CC BY 4.0</p>
+<p class="meta" style="margin-top:26px">来源：https://github.com/zhaoxinghua09-cell/lgd-theory ｜ CC BY 4.0 ｜ 署名 赵兴华 / Steven Zhao·China（ORCID 0009-0001-0512-1237）</p>
+</section><section class="chapter" id="ch8">
+<div class="meta"><span class="tag">LGD</span><span class="dom">数据</span>
+第 08 章 ｜ TID TH-DAT-001 ｜ 源文档 docs/LGD-DAT-001-Data-Element-Lifecycle-Governance-v1.0.md ｜ DOI 10.5281/zenodo.22456647</div>
+<h1>数据要素全程治理 · LGD 域理论系列 #7（TH-DAT-001 · v1.0）</h1>
+<blockquote>
+<p>提出/品牌：SynomosAI（治理侧）× MedXpert（实证侧）
+作者署名：赵兴华 / Steven Zhao·China（ORCID 0009-0001-0512-1237 ｜ GitHub: zhaoxinghua09-cell/lgd-theory ｜ https://medxpert.cn）
+版本：v1.0（2026-09-06）｜ 状态：🟢 可发布（政策依据已核，均中办/国办/财政部等公开文件）
+TID：TH-DAT-001 ｜ 上游：TH-META-006(LGD), TH-META-001(RRM), TH-AIG-001(UBIC 有籍面), TH-LAW-001(证据链)
+一句话：凡数据资源与数据资产——有籍（产权登记与目录）·有证（来源/质量/合规可溯）·有门禁（跨境、交易与处置门禁），由产生到退场全程可管可溯可计。</p>
+</blockquote>
+<hr />
+<h2>0. 问题：数据资产的"一生"缺统一管理叙事</h2>
+<p>数据已从资源走向资产（入表），制度供给覆盖确权、登记、评估、入表、交易、公共数据开放、跨境流动——<strong>每一环都有政策，但缺一条把数据从"产生→登记→加工→流通→入表→跨境→退场"串起来的管理主线</strong>。"不安全不核算"与"先登记后入表"正在成型，正是"全程治理"在数据要素域被呼唤的信号。</p>
+<h2>1. 定义与三律映射</h2>
+<blockquote>
+<p><strong>LGD-I 有籍（Registry）</strong>：数据资源/资产登记——产权登记（持有权/使用权/经营权三权分置）、数据目录、台账；公共数据授权运营登记。</p>
+<p><strong>LGD-II 有证（Evidence）</strong>：来源可溯（采集/清洗/标注记录）、质量与合规证据（分级分类、脱敏、安全评估记录）、计量与披露证据（入表凭据、审计线索）。</p>
+<p><strong>LGD-III 有门禁（Gate）</strong>：流通/交易准入（数据交易所规范）、<strong>跨境流动门禁（出境安全评估/标准合同等制度）</strong>、敏感/公共数据用途门禁、销毁与退场门禁。</p>
+</blockquote>
+<h2>2. 母版（RRM 真实参照 · 已核）</h2>
+<table>
+<thead>
+<tr>
+<th>环节</th>
+<th>政策母版（均已核）</th>
+<th>LGD 平移</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>基础制度</td>
+<td>《关于构建数据基础制度更好发挥数据要素作用的意见》（数据二十条，2022-12 中办/国办）：三权分置</td>
+<td>有籍 顶层</td>
+</tr>
+<tr>
+<td>产权登记</td>
+<td>《数据产权登记工作指引（试行·公开征求意见稿）》（国家数据局，2026-04）；全国一体化登记方向</td>
+<td>有籍 落地</td>
+</tr>
+<tr>
+<td>入表计量</td>
+<td>《企业数据资源相关会计处理暂行规定》（财会〔2023〕11号，2024-01-01 施行：入无形资产/存货）；《数据资产评估指导意见》（2023-09）</td>
+<td>有证+计量</td>
+</tr>
+<tr>
+<td>资产管理</td>
+<td>《关于加强数据资产管理的指导意见》（财政部 2023-12）；《数据资产全过程管理试点方案》（财政部 2024-12，试点 2025-01-01—2026-12-31）</td>
+<td>全程管理官方化</td>
+</tr>
+<tr>
+<td>流通×</td>
+<td>《"数据要素×"三年行动计划（2024—2026）》（国家数据局等，2023-12-31）；《关于加快公共数据资源开发利用的意见》（中办/国办 2024-09）</td>
+<td>有门禁+开放</td>
+</tr>
+<tr>
+<td>跨境</td>
+<td>数据出境安全评估等制度（国家网信办 2022 公布施行；配套 2024 促进和规范数据跨境流动规定，以官方原文为准）</td>
+<td>有门禁 跨境</td>
+</tr>
+</tbody>
+</table>
+<h2>3. 边界与路线</h2>
+<ul>
+<li>民间理论发布物；非会计/法律/合规意见；文中政策以官方原文与最新版本为准。</li>
+<li>工具（后置）：数据资产登记与入表前置清单（镜像 design-control）、跨境场景门禁检查（镜像 intended-use-check）、数据目录体检。</li>
+<li>关联：本件"有籍"复用 UBIC 注册思维，"有证"复用 LAW-001 证据链。</li>
+</ul>
+<hr />
+<p>© SynomosAI × MedXpert · LGD 域理论系列 #7 · CC BY 4.0</p>
+<p class="meta" style="margin-top:26px">来源：https://github.com/zhaoxinghua09-cell/lgd-theory ｜ CC BY 4.0 ｜ 署名 赵兴华 / Steven Zhao·China（ORCID 0009-0001-0512-1237）</p>
+</section><section class="chapter" id="ch9">
+<div class="meta"><span class="tag">LGD</span><span class="dom">低空</span>
+第 09 章 ｜ TID TH-UAS-001 ｜ 源文档 docs/LGD-UAS-001-Low-Altitude-Lifecycle-Governance-v1.0.md ｜ DOI 10.5281/zenodo.22456647</div>
+<h1>低空经济全程治理 · LGD 域理论系列 #8（TH-UAS-001 · v1.0）</h1>
+<blockquote>
+<p>提出/品牌：SynomosAI（治理侧）× MedXpert（实证侧）
+作者署名：赵兴华 / Steven Zhao·China（ORCID 0009-0001-0512-1237 ｜ GitHub: zhaoxinghua09-cell/lgd-theory ｜ https://medxpert.cn）
+版本：v1.0（2026-09-06）｜ 状态：🟢 可发布（条例全文已核）
+TID：TH-UAS-001 ｜ 上游：TH-META-006(LGD), TH-META-001(RRM), TH-AUT-001
+一句话：凡无人驾驶航空器——有籍（识别码+实名登记）·有证（一体化监管平台识别报送与运行可溯）·有门禁（分类适航/执照/空域与飞行申请门禁），由出厂到退役全程可溯可责。</p>
+</blockquote>
+<hr />
+<h2>0. 问题：低空经济的治理地基刚打下，缺"全程"组织层</h2>
+<p>2024-01-01 施行的首部无人机专门行政法规已把"设计、生产、维修、组装到飞行活动"<strong>全链条</strong>纳入规范，分类管理、实名登记、运营合格证、空域申请等单点制度齐备。<strong>缺的是把法规中的单点要求组织成一条可执行的资产生命周期主线</strong>——一台无人机从出厂识别码、实名登记、适航/运营资质、每次飞行申请与识别报送，到改装、召回、退役，能否被机械地重建与审计？这正是 LGD"全程"在低空域的落点，也是 eVTOL 载人化（EH216-S 专用条件、峰飞 V2000CG 取证）临近时最稀缺的治理能力。</p>
+<h2>1. 定义与三律映射</h2>
+<blockquote>
+<p><strong>LGD-I 有籍</strong>：产品唯一识别码（生产者设置）+ 所有者实名登记 + 国籍登记（境外飞行）+ 一体化监管平台信息（分类类别即风险档）。</p>
+<p><strong>LGD-II 有证</strong>：识别信息报送（一体化综合监管服务平台）+ 广播式自动发送识别 + 飞行申请与批准留痕 + 应急处置与事故记录。</p>
+<p><strong>LGD-III 有门禁</strong>：分类门禁（微轻小中大五类差异化要求）→ 适航许可（中/大型）与运营合格证 → 管制空域飞行申请/批准 → 重大设计更改重审适航 → 缺陷召回 → 退役/注销。</p>
+</blockquote>
+<h2>2. 母版（RRM 真实参照 · 条例原文已核）</h2>
+<table>
+<thead>
+<tr>
+<th>环节</th>
+<th>母版参照</th>
+<th>LGD 平移</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>全链条</td>
+<td>《无人驾驶航空器飞行管理暂行条例》（国务院、中央军委令第761号，2023-05-31 公布，2024-01-01 施行；6章63条）——设计/生产/维修/组装到飞行全生命周期规范</td>
+<td>全程主线 官方化</td>
+</tr>
+<tr>
+<td>分类</td>
+<td>按性能分为微型/轻型/小型/中型/大型五类，管理强度随类别递增（第2、62条）</td>
+<td>分档门禁</td>
+</tr>
+<tr>
+<td>登记</td>
+<td>唯一产品识别码（第9条）、实名登记（第10条）</td>
+<td>有籍</td>
+</tr>
+<tr>
+<td>资质</td>
+<td>中/大型适航许可（第8条）、运营合格证（第11条）、操控员执照（小中大，第16条）、强制保险（第12条）</td>
+<td>有证+有门禁</td>
+</tr>
+<tr>
+<td>空域/飞行</td>
+<td>管制空域 vs 适飞空域；飞行活动申请与批准（第19、26-31条）</td>
+<td>每次飞行的门禁</td>
+</tr>
+<tr>
+<td>运行监管</td>
+<td>一体化综合监管服务平台动态监管（第23条）；识别信息报送（第24条）</td>
+<td>有证 实时</td>
+</tr>
+<tr>
+<td>变更/退场</td>
+<td>重大设计更改重审适航、召回（第13-14条）；配套 CCAR-92、AP-21-AA-2022-71；EH216-S 专用条件（2022-02）、峰飞 V2000CG 型号合格证（2024-03）</td>
+<td>变更与终上门禁</td>
+</tr>
+</tbody>
+</table>
+<h2>3. 边界与路线</h2>
+<ul>
+<li>民间理论发布物；非民航监管意见；涉及空防/安全事项以条例与主管部门规定为准。</li>
+<li>工具（后置）：低空器分类与义务清单（镜像 device-classifier）、飞行资质时限日历（镜像 vigil-timer/pms-planner）、变更重审门禁检查（镜像 ai-dsf-change）。</li>
+<li>诚实声明：本域理论已立、条例侧核实；执行工具尚未建设。</li>
+</ul>
+<hr />
+<p>© SynomosAI × MedXpert · LGD 域理论系列 #8 · CC BY 4.0</p>
+<p class="meta" style="margin-top:26px">来源：https://github.com/zhaoxinghua09-cell/lgd-theory ｜ CC BY 4.0 ｜ 署名 赵兴华 / Steven Zhao·China（ORCID 0009-0001-0512-1237）</p>
+</section><section class="chapter" id="ch10">
+<div class="meta"><span class="tag">LGD</span><span class="dom">具身</span>
+第 10 章 ｜ TID TH-ROB-001 ｜ 源文档 docs/LGD-ROB-001-Embodied-AI-Lifecycle-Governance-v1.0.md ｜ DOI 10.5281/zenodo.22456647</div>
+<h1>具身智能全程治理 · LGD 域理论系列 #9（TH-ROB-001 · v1.0）</h1>
+<blockquote>
+<p>提出/品牌：SynomosAI（治理侧）× MedXpert（实证侧）
+作者署名：赵兴华 / Steven Zhao·China（ORCID 0009-0001-0512-1237 ｜ GitHub: zhaoxinghua09-cell/lgd-theory ｜ https://medxpert.cn）
+版本：v1.0（2026-09-06）｜ 状态：🟢 可发布（中国政策已核；安全标准为公开标准号）
+TID：TH-ROB-001 ｜ 上游：TH-META-006(LGD), TH-META-001(RRM), TH-AIG-006(记忆锚点=身份), TH-MED-001
+一句话：凡具身智能体（人形/服务/工业机器人）——有籍（本体与模型登记）·有证（感知-决策-执行留痕）·有门禁（出厂安全、能力升级与部署场景门禁），由设计到退役全程可责。</p>
+</blockquote>
+<hr />
+<h2>0. 问题：具身智能即将量产，治理仍在"安全标准"单点</h2>
+<p>具身智能已两度写入政府工作报告、人形机器人进入批量生产元年，但治理供给仍是<strong>单点</strong>：工业侧讲功能安全（ISO 10218 等），消费/服务侧安全规范在成形中，AI 侧讲模型治理。<strong>一台会走会操作的人形机器人 = 自治之物 × 物理后果</strong>：它的感知、决策、行动数据、能力升级（换"大脑"）、部署场景（家庭 vs 产线）都需要沿生命周期被登记、留痕、设门禁——缺的正是把"机器人安全 + 模型治理 + 责任分配"咬合成全程主线的理论组织层。标准未定 = 占位窗口期。</p>
+<h2>1. 定义与三律映射</h2>
+<blockquote>
+<p><strong>LGD-I 有籍</strong>：机器人本体登记（制造商、型号、序列号、安全等级）+ 智能模型/版本登记（部署场景与权限）；"机器人的身份 + 它的模型身份"双登记。</p>
+<p><strong>LGD-II 有证</strong>：感知-决策-执行日志（动作记录可回放）、训练与更新记录、人工监督/紧急停止触发记录、事故与伤害事件台账。</p>
+<p><strong>LGD-III 有门禁</strong>：出厂安全与分级评测 → 场景部署准入（特种/制造/家庭服务分级）→ 能力升级（换模型/固件 OTA）重评 → 人机边界（急停、价值对齐）→ 退役处置。</p>
+</blockquote>
+<h2>2. 母版（RRM 真实参照 · 已核）</h2>
+<table>
+<thead>
+<tr>
+<th>环节</th>
+<th>母版参照</th>
+<th>LGD 平移</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>产业顶层</td>
+<td>《人形机器人创新发展指导意见》（工信部，2023-11）：2025 创新体系+批量生产，2027 安全可靠产业链供应链</td>
+<td>发展目标即治理窗口</td>
+</tr>
+<tr>
+<td>战略定位</td>
+<td>2025/2026 政府工作报告两度列入（"具身智能"）；《关于深入实施"人工智能+"行动的意见》（国务院，2025-08，2027 普及率 70%）</td>
+<td>治理优先级确认</td>
+</tr>
+<tr>
+<td>分级/安全标准</td>
+<td>《新产业标准化领航工程实施方案(2023—2035)》（国家标准化委等：人形机器人分级分类、性能评测与安全标准预研）；机器人安全国际标准 ISO 10218 系列 / 协作机器人 ISO/TS 15066（公开标准号）</td>
+<td>分档门禁 待标准定型</td>
+</tr>
+<tr>
+<td>应用侧</td>
+<td>《"机器人+"应用行动实施方案》（工信部等十七部门）；《关于推动未来产业创新发展的实施意见》（2024，人形机器人=标志性产品）</td>
+<td>场景部署门禁</td>
+</tr>
+<tr>
+<td>人机互信</td>
+<td>《北京具身智能科技创新与产业培育行动计划(2025—2027)》（2025-02：人机安全与深度互信机制、价值对齐、自主任务边界）</td>
+<td>有门禁：人机边界</td>
+</tr>
+</tbody>
+</table>
+<h2>3. 边界与路线</h2>
+<ul>
+<li>民间理论发布物；非产品安全认证、非监管意见；机器人安全以强制标准与主管部门规定为准。</li>
+<li>本域为"概念可占 + 标准未定"——站位价值在<strong>提前给出治理结构</strong>，为后续标准演进提供可对话框架。</li>
+<li>工具（后置）：机器人本体+模型双登记清单（镜像 design-control/算法护照）、能力升级门禁（镜像 ai-dsf-change/pccp-planner）、场景部署分级卡。</li>
+<li>诚实声明：理论已立、中国政策侧核实；安全标准条目以正式发布版本复核。</li>
+</ul>
+<hr />
+<p>© SynomosAI × MedXpert · LGD 域理论系列 #9 · CC BY 4.0</p>
+<p class="meta" style="margin-top:26px">来源：https://github.com/zhaoxinghua09-cell/lgd-theory ｜ CC BY 4.0 ｜ 署名 赵兴华 / Steven Zhao·China（ORCID 0009-0001-0512-1237）</p>
+</section><section class="chapter" id="ch11">
+<div class="meta"><span class="tag">LGD</span><span class="dom">工业</span>
+第 11 章 ｜ TID TH-IND-001 ｜ 源文档 docs/LGD-IND-001-Industrial-AI-Lifecycle-Governance-v1.0.md ｜ DOI 10.5281/zenodo.22456647</div>
+<h1>工业智能全程治理 · LGD 域理论系列 #10（TH-IND-001 · v1.0）</h1>
+<blockquote>
+<p>提出/品牌：SynomosAI（治理侧）× MedXpert（实证侧）
+作者署名：赵兴华 / Steven Zhao·China（ORCID 0009-0001-0512-1237 ｜ GitHub: zhaoxinghua09-cell/lgd-theory ｜ https://medxpert.cn）
+版本：v1.0（2026-09-06）｜ 状态：🟢 可发布（引用已核）
+TID：TH-IND-001 ｜ 上游：TH-META-006(LGD), TH-META-001(RRM), TH-ROB-001
+一句话：凡进入产线的自治系统（智能装备/工业AI/OT 系统）——有籍（资产与模型登记）·有证（工控日志与变更可溯）·有门禁（网络安全与功能安全放行门禁），由上线到退役全程可控可责。</p>
+</blockquote>
+<hr />
+<h2>0. 问题</h2>
+<p>智能制造把 AI 送进关键工艺，治理语言却分三套：网络安全（等保/关基）、功能安全（机器本体）、数据管理。同一套产线 AI 的联网放行、变更升级、故障追责散在三张报表里——缺一条把"资产—软件—网络—工艺变更"串成产线生命周期的统一主线。</p>
+<h2>1. 三律映射（简）</h2>
+<ul>
+<li><strong>有籍</strong>：工控/工业资产清单与定级备案 + 产线 AI/OT 应用与模型登记（资产→软件→数据依赖图）。</li>
+<li><strong>有证</strong>：操作与变更日志、安全检测与风险评估记录、产线数据溯源（可重放、可审计）。</li>
+<li><strong>有门禁</strong>：上线与联网放行门禁（等保测评、安全评估）→ 变更（含 OTA/版本升级）重评门禁 → 应急处置与退役处置。</li>
+</ul>
+<h2>2. 母版（RRM 真实参照 · 已核）</h2>
+<table>
+<thead>
+<tr>
+<th>环节</th>
+<th>母版参照</th>
+<th>LGD 平移</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>定级/登记</td>
+<td>网络安全等级保护 2.0（GB/T 22239-2019 等，2019-12-01 实施；保护对象含<strong>工业控制系统</strong>）</td>
+<td>有籍：定级+备案</td>
+</tr>
+<tr>
+<td>重点保护</td>
+<td>《关键信息基础设施安全保护条例》（国务院令第745号，2021-09-01 施行）：认定规则、三同步、年度检测评估、数据境内存储</td>
+<td>有籍+有证</td>
+</tr>
+<tr>
+<td>联网与安全</td>
+<td>工业控制系统信息安全防护公开要求（工信部）；IEC 62443 工控安全标准族（类别级）；功能安全 IEC 61508 / ISO 13849（类别级）</td>
+<td>有门禁</td>
+</tr>
+<tr>
+<td>退出</td>
+<td>应急处置预案、系统下线与数据处置要求</td>
+<td>终上门禁</td>
+</tr>
+</tbody>
+</table>
+<h2>3. 边界与路线</h2>
+<ul>
+<li>民间理论发布物；非工控安全评估/认证意见。</li>
+<li>本域增量中等，价值在把"网络安全+功能安全"整合为产线 AI 的全程视图；工具（后置）：OT 资产与变更登记清单、联网放行门禁检查。</li>
+</ul>
+<hr />
+<p>© SynomosAI × MedXpert · LGD 域理论系列 #10 · CC BY 4.0</p>
+<p class="meta" style="margin-top:26px">来源：https://github.com/zhaoxinghua09-cell/lgd-theory ｜ CC BY 4.0 ｜ 署名 赵兴华 / Steven Zhao·China（ORCID 0009-0001-0512-1237）</p>
+</section><section class="chapter" id="ch12">
+<div class="meta"><span class="tag">LGD</span><span class="dom">生物</span>
+第 12 章 ｜ TID TH-BIO-001 ｜ 源文档 docs/LGD-BIO-001-Biomedical-Data-Lifecycle-Governance-v1.0.md ｜ DOI 10.5281/zenodo.22456647</div>
+<h1>生物与基因数据全程治理 · LGD 域理论系列 #12（TH-BIO-001 · v1.0）</h1>
+<blockquote>
+<p>提出/品牌：SynomosAI（治理侧）× MedXpert（实证侧）
+作者署名：赵兴华 / Steven Zhao·China（ORCID 0009-0001-0512-1237 ｜ GitHub: zhaoxinghua09-cell/lgd-theory ｜ https://medxpert.cn）
+版本：v1.0（2026-09-06）｜ 状态：🟢 可发布（引用已核；敏感域，措辞审慎）
+TID：TH-BIO-001 ｜ 上游：TH-META-006(LGD), TH-META-001(RRM), TH-DAT-001, TH-MED-001
+一句话：凡人类遗传资源与生物数据——有籍（申报登记与样本档案）·有证（来源/伦理/知情同意可溯）·有门禁（伦理审查、对外提供与跨境、科技活动复核门禁），由采集到处置全程合规可责。</p>
+</blockquote>
+<hr />
+<h2>0. 问题</h2>
+<p>生命科学与 AI 交叉把基因数据变成高价值研究资源，也把它变成最敏感的数据类型。中国已有"采集—保藏—利用—对外提供"专门监管链 + 伦理审查 + 科技伦理复核清单；缺的是把样本/数据沿科研生命周期组织成一条可审计主线——尤其当数据被 AI 模型复用、跨境或匿名化失效时，证据要能重建。</p>
+<h2>1. 三律映射（简）</h2>
+<ul>
+<li><strong>有籍</strong>：重要遗传家系与特定地区资源<strong>申报登记</strong>（条例第五条）；采集/保藏单位与样本档案、数据目录（批次/来源/授权）。</li>
+<li><strong>有证</strong>：伦理审查记录与<strong>事先知情同意</strong>（第九条）、采集利用留痕、数据安全与去标识记录（可溯）。</li>
+<li><strong>有门禁</strong>：科研立项前伦理审查 → 对外提供/跨境前置审批（外国组织不得境内采集保藏、不得向境外提供，第七条）→ 科技伦理<strong>复核清单</strong>事项（含高度自主自动化决策系统研发）→ 数据销毁/退场。</li>
+</ul>
+<h2>2. 母版（RRM 真实参照 · 已核）</h2>
+<table>
+<thead>
+<tr>
+<th>环节</th>
+<th>母版参照</th>
+<th>LGD 平移</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>登记</td>
+<td>《人类遗传资源管理条例》（国务院令第717号，2019 施行，2024-03 修订）第五条申报登记、第七条主体限制、第九条伦理+知情同意</td>
+<td>有籍</td>
+</tr>
+<tr>
+<td>细则</td>
+<td>《人类遗传资源管理条例实施细则》（科技部令第21号，2023-07-01 施行）</td>
+<td>有籍+有证 落地</td>
+</tr>
+<tr>
+<td>伦理门</td>
+<td>《生物安全法》（2021-04-15 施行，第六章）；《科技伦理审查办法（试行）》（2023-12-01 施行，附复核清单 7 项）</td>
+<td>有门禁（复核清单=动态门禁）</td>
+</tr>
+<tr>
+<td>数据</td>
+<td>数据安全法/个人信息保护法（敏感生物特征条目，类别级）</td>
+<td>有证+跨境门禁</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>特别呼应：复核清单第 7 项"面向存在安全、人身健康风险等场景的具有高度自主能力的自动化决策系统的研发"——LGD 治理对象被监管前置点名，本域理论因此与 AI 治理主线直接接轨。</p>
+</blockquote>
+<h2>3. 边界与路线</h2>
+<ul>
+<li>⚠️ 敏感域：本文只谈"合规与治理方法"，不涉个案/技术路线评论；引用以官方原文为准。</li>
+<li>工具（后置）：样本/数据登记清单（复用 DAT 目录体检）、伦理审查与知情同意留痕检查、复核清单自动比对。</li>
+</ul>
+<hr />
+<p>© SynomosAI × MedXpert · LGD 域理论系列 #12 · CC BY 4.0</p>
+<p class="meta" style="margin-top:26px">来源：https://github.com/zhaoxinghua09-cell/lgd-theory ｜ CC BY 4.0 ｜ 署名 赵兴华 / Steven Zhao·China（ORCID 0009-0001-0512-1237）</p>
+</section><section class="chapter" id="ch13">
+<div class="meta"><span class="tag">LGD</span><span class="dom">教育</span>
+第 13 章 ｜ TID TH-EDU-001 ｜ 源文档 docs/LGD-EDU-001-Education-Lifecycle-Governance-v1.0.md ｜ DOI 10.5281/zenodo.22456647</div>
+<h1>教育全程治理 · LGD 域理论系列 #13（TH-EDU-001 · v1.0）</h1>
+<blockquote>
+<p>提出/品牌：SynomosAI（治理侧）× MedXpert（实证侧）
+作者署名：赵兴华 / Steven Zhao·China（ORCID 0009-0001-0512-1237 ｜ GitHub: zhaoxinghua09-cell/lgd-theory ｜ https://medxpert.cn）
+版本：v1.0（2026-09-06）｜ 状态：🟢 可发布（引用已核）
+TID：TH-EDU-001 ｜ 上游：TH-META-006(LGD), TH-AIG-006(记忆锚点=身份), TH-DAT-001
+一句话：凡 AI 进教育——有籍（学习者身份与 AI 应用登记）·有证（学习行为与评测可溯）·有门禁（AI 使用边界、测评公平、认证签发门禁），由入学到终身认证全程可信。</p>
+</blockquote>
+<hr />
+<h2>0. 问题</h2>
+<p>AI 教育应用（个性化学习、智能批改、AI 助教、过程性评价）正在采集大量学习行为数据。教育传统语言是学籍与证书；AI 引入后，"学习证据是否可信、AI 评价是否公平、证书是否可携带"成为新问题——学习者需要一条从学习到认证的数字证据链（与"记忆可携带"同源）。</p>
+<h2>1. 三律映射（简）</h2>
+<ul>
+<li><strong>有籍</strong>：学习者数字身份/学习账户登记 + AI 教育应用与模型登记（用途、数据范围、学段）。</li>
+<li><strong>有证</strong>：学习行为与评测过程记录（可重放、可防代答/作弊验证）、AI 参与标注、评分依据留存。</li>
+<li><strong>有门禁</strong>：AI 工具进课堂/考试准入 → 评测结果用于升学/认证前的公平性评估 → 证书签发 → 数据退场。</li>
+</ul>
+<h2>2. 母版（RRM 真实参照 · 已核）</h2>
+<table>
+<thead>
+<tr>
+<th>环节</th>
+<th>母版参照</th>
+<th>LGD 平移</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>国际纲领</td>
+<td>UNESCO《北京共识——人工智能与教育》（2019-05，44 条建议/11 领域，UNESCO 首份 AI+教育纲领文件，2019-08 六语发布）</td>
+<td>治理共识基线</td>
+</tr>
+<tr>
+<td>身份与成果</td>
+<td>学籍/学历学位认证与<strong>学分银行</strong>/区域学分互认制度（教育部公开体系）</td>
+<td>有籍：学习账户可携带</td>
+</tr>
+<tr>
+<td>数字化</td>
+<td>国家教育数字化战略行动与国家智慧教育公共服务平台（教育部，"十四五"以来；含学籍/证书验真等政务服务）</td>
+<td>有证：平台留痕</td>
+</tr>
+<tr>
+<td>高风险边界</td>
+<td>EU AI Act Annex III point 3：教育（入学/录取评估、学习成果评价、监考）为高风险</td>
+<td>有门禁：AI 评价准入</td>
+</tr>
+</tbody>
+</table>
+<h2>3. 边界与路线</h2>
+<ul>
+<li>民间理论发布物；非教育政策意见；涉未成年人场景从严。</li>
+<li>与 AIG（记忆护照、学分互认储备 TH-AIG-007）联动强 → 后续并入"数字身份×教育"专题共建。</li>
+<li>工具（后置）：AI 教育应用登记卡、评测过程证据体检、证书发放门禁清单。</li>
+</ul>
+<hr />
+<p>© SynomosAI × MedXpert · LGD 域理论系列 #13 · CC BY 4.0</p>
+<p class="meta" style="margin-top:26px">来源：https://github.com/zhaoxinghua09-cell/lgd-theory ｜ CC BY 4.0 ｜ 署名 赵兴华 / Steven Zhao·China（ORCID 0009-0001-0512-1237）</p>
+</section><section class="chapter" id="ch14">
+<div class="meta"><span class="tag">LGD</span><span class="dom">注册</span>
+第 14 章 ｜ TID TH-MED-002 ｜ 源文档 docs/LGD-MED-002-Registration-Methodology-v1.0.md ｜ DOI 10.5281/zenodo.22456647</div>
+<h1>医疗器械注册全程方法论 · LGD 域理论系列 #14（TH-MED-002 · v1.0）</h1>
+<blockquote>
+<p>提出/品牌：MedXpert（实证侧）× SynomosAI（治理侧）
+作者署名：赵兴华 / Steven Zhao·China（ORCID 0009-0001-0512-1237 ｜ GitHub: zhaoxinghua09-cell/lgd-theory ｜ https://medxpert.cn）
+版本：v1.0（2026-09-06）｜ 状态：🟢 可发布（法规条目为稳定公开名称，复核声明见 §4）
+TID：TH-MED-002 ｜ 上游：TH-META-006(LGD 母版), TH-MED-001(AFG), TH-AIG-002(XCGS)
+一句话：注册不是产品旅程的终点，而是<strong>把全程证据投影成一份可监管的"文档化承诺"</strong>——有籍（预期用途与产品定义）、有证（风险/性能/临床/质量证据卷宗）、有门禁（变更控制与上市后延续门禁），注册证只是这条链在准入时点的快照。</p>
+</blockquote>
+<hr />
+<h2>0. 问题：注册常被误当作"终点"</h2>
+<p>行业习惯把注册证当成项目终点，于是出现两种失真：① <strong>"为注册而注册"</strong>——卷宗里的证据是临时凑的，上市后并不持续成立（设计已改、工艺已换、临床随访未做）；② <strong>"注册后失管"</strong>——变更不评估、上市后监督靠抽检，直到飞行检查或不良事件才暴露链条断裂。LGD 给出的视角是：注册文件应当只是<strong>全程证据链在准入时点的投影</strong>；投影失真 = 风险，不整改 = 终将出险。</p>
+<h2>1. 主张：注册 = 全程的"文档化承诺"</h2>
+<blockquote>
+<p>注册申请人向监管作出的，不是"这个样品合格"，而是<strong>承诺在产品生命周期内持续满足已声明的要求</strong>；注册资料即该承诺的编码。因此方法论核心是<strong>让卷宗可追溯到证据，让变更可追溯到承诺</strong>——这正是 LGD 有籍/有证/有门禁在医械域的具体形态。</p>
+</blockquote>
+<h2>2. 四要素 × 三律（注册卷宗组织法）</h2>
+<table>
+<thead>
+<tr>
+<th>要素</th>
+<th>内容</th>
+<th>LGD 律</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>1 身份</strong></td>
+<td>产品定义、预期用途/适应证、分类与注册单元、型号覆盖</td>
+<td>有籍</td>
+</tr>
+<tr>
+<td><strong>2 证据</strong></td>
+<td>风险管理文件（ISO 14971）、设计开发与验证确认（ISO 13485 / 21 CFR 820.30）、性能与安规检验、临床/性能评价、灭菌与包装、软件（含 SaMD 循证）</td>
+<td>有证</td>
+</tr>
+<tr>
+<td><strong>3 门禁</strong></td>
+<td>体系核查/质量体系、注册检验、审评发补闭环、变更控制（注册变更/说明书变更）、延续注册</td>
+<td>有门禁</td>
+</tr>
+<tr>
+<td><strong>4 延续</strong></td>
+<td>上市后监督（PMS/警戒/召回）、飞行检查应对、退役与注销</td>
+<td>延续门禁（链条闭合）</td>
+</tr>
+</tbody>
+</table>
+<p><strong>判据（自检）</strong>：卷宗里任何一句"符合/满足"，都必须能在原始证据中查到出处与责任人；找不到出处的声明，就是链条断点（AFG 反编造纪律在此落为工程要求）。</p>
+<h2>3. 母版对照（公开法规，稳定条目）</h2>
+<table>
+<thead>
+<tr>
+<th>环节</th>
+<th>母版（示例）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>注册/备案</td>
+<td>CN《医疗器械注册与备案管理办法》（国家市场监督管理总局令第47号，2021）；FDA 510(k)/PMA/De Novo；EU MDR 2017/745</td>
+</tr>
+<tr>
+<td>质量/设计</td>
+<td>ISO 13485；FDA 21 CFR 820.30 设计控制；CN《医疗器械生产质量管理规范》</td>
+</tr>
+<tr>
+<td>风险</td>
+<td>ISO 14971:2019（等同 GB/T 42062）</td>
+</tr>
+<tr>
+<td>临床</td>
+<td>MDR 临床评价/CN 临床试验质量管理规范（GCP 2020）等</td>
+</tr>
+<tr>
+<td>软件/SaMD</td>
+<td>FDA SaMD/TPLC/PCCP 框架；EU AI Act Annex III(医疗) 与 MDR 衔接</td>
+</tr>
+<tr>
+<td>上市后</td>
+<td>PMS/警戒系统/UDI（上市后环节对应"全程"末端）</td>
+</tr>
+</tbody>
+</table>
+<h2>4. 复核与边界</h2>
+<ul>
+<li>复核声明：上文法规与标准均为公开稳定名称；具体条款版本以监管官网原文为准，随变更更新（发布总账追踪）。</li>
+<li>边界：民间方法论，非注册代理/法律意见；不构成对任何具体申报的承诺。</li>
+<li>实证：本方法论由 MedXpert 工具矩阵落地——reg-path/reg-calc/device-classifier/risk-14971/design-control/clin-evidence/eu-ai-act-check/pccp-planner/pms-planner/change-renewal/device-retire 等（对应 LGD 域论文之"环节=执行器"）。</li>
+</ul>
+<h2>5. 路线</h2>
+<ol>
+<li>本件 v1.0 → GitHub lgd-theory docs/（随下个 release 收 Zenodo 新版）。</li>
+<li>医疗线后续：与 AFG（反编造实证叙事）、SaMD 分级等站位件合并成"医械治理四件套"，作为官网 MED/AIB 白皮书区与公众号医疗线内容源。</li>
+</ol>
+<hr />
+<p>© MedXpert × SynomosAI · LGD 域理论系列 #14 · CC BY 4.0</p>
+<p class="meta" style="margin-top:26px">来源：https://github.com/zhaoxinghua09-cell/lgd-theory ｜ CC BY 4.0 ｜ 署名 赵兴华 / Steven Zhao·China（ORCID 0009-0001-0512-1237）</p>
+</section><section class="chapter" id="ch15">
+<div class="meta"><span class="tag">LGD</span><span class="dom">全程治理</span>
+附录 ｜ TID TH-META-006-A ｜ 源文档 docs/LGD-Global-Standards-Alignment-v1.0.md ｜ DOI 10.5281/zenodo.22456647</div>
+<h1>LGD Global Standards Alignment Matrix · v1.0 · 2026-09-06</h1>
+<blockquote>
+<p>Purpose: anchor LGD on the existing network of global standards and regimes so the doctrine is verifiable, interoperable, and internationally credible. Alignment levels: <strong>R</strong> = explicit/structural mapping (the framework itself speaks the same language); <strong>I</strong> = informative mapping (relevant, to be deepened); <strong>P</strong> = planned engagement.
+Reviewer note: standard numbers are public and stable; revision/version dates were spot-checked at 2026-09-06 and must be re-checked against official issuers before formal academic reuse.</p>
+</blockquote>
+<h2>A. Registry (LGD-I 有籍) — "who it is, who created it, who governs it"</h2>
+<table>
+<thead>
+<tr>
+<th>Standard / regime</th>
+<th>Issuer</th>
+<th>Alignment</th>
+<th>What it gives LGD</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ISO/IEC 42001:2023 AI management system (clause: AI system inventory &amp; governance)</td>
+<td>ISO/IEC</td>
+<td>R</td>
+<td>Management-level registry anchor</td>
+</tr>
+<tr>
+<td>Algorithm registration/filing regimes (CN CAC algorithm filing; EU AI Act Art. 49 high-risk registration in EU database)</td>
+<td>National/EU</td>
+<td>R</td>
+<td>Deployment registration exists in law — LGD supplies lifecycle continuity</td>
+</tr>
+<tr>
+<td>EU AI Act Annex III (high-risk categories)</td>
+<td>EU (Regulation 2024/1689)</td>
+<td>R</td>
+<td>Risk-tier → registry depth linkage</td>
+</tr>
+<tr>
+<td>W3C DID / Verifiable Credentials</td>
+<td>W3C</td>
+<td>I</td>
+<td>Machine-readable identity layer</td>
+</tr>
+<tr>
+<td>FATF R.15 (VASP licensing/registration)</td>
+<td>FATF</td>
+<td>R</td>
+<td>Entity registration for virtual-asset service providers</td>
+</tr>
+</tbody>
+</table>
+<h2>B. Evidence (LGD-II 有证) — "every consequential act leaves replayable evidence"</h2>
+<table>
+<thead>
+<tr>
+<th>Standard / regime</th>
+<th>Issuer</th>
+<th>Alignment</th>
+<th>What it gives LGD</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ISO 13485 (design/change records), ISO 14971 (risk file)</td>
+<td>ISO</td>
+<td>R</td>
+<td>The original evidence-file paradigm</td>
+</tr>
+<tr>
+<td>EU MDR 2017/745 &amp; IVDR 2017/746 technical documentation</td>
+<td>EU</td>
+<td>R</td>
+<td>Conformity evidence structure</td>
+</tr>
+<tr>
+<td>FDA SaMD / TPLC framework, PCCP (predetermined change control plan)</td>
+<td>US FDA</td>
+<td>R</td>
+<td>Change-accompanied-by-evidence in regulation</td>
+</tr>
+<tr>
+<td>EU AI Act Art. 9-15 (risk mgmt, data governance, technical documentation, logging Art. 12, human oversight Art. 14)</td>
+<td>EU</td>
+<td>R</td>
+<td>AI-side evidence duties now in law</td>
+</tr>
+<tr>
+<td>NIST AI Risk Management Framework 1.0 + Generative AI Profile (Govern/Map/Measure/Manage)</td>
+<td>NIST (US)</td>
+<td>R</td>
+<td>Voluntary but canonical evidence disciplines</td>
+</tr>
+<tr>
+<td>eIDAS (EU 910/2014) / e-Evidence Reg. (EU) 2023/1543</td>
+<td>EU</td>
+<td>R</td>
+<td>Timestamp/signature/evidentiary chain standards</td>
+</tr>
+<tr>
+<td>Electronic-evidence rules (CN SPC internet-court rules Art. 11(2); evidence rules Art. 93-94)</td>
+<td>CN SPC</td>
+<td>R</td>
+<td>Hash/timestamp/blockchain/third-party custody recognized</td>
+</tr>
+</tbody>
+</table>
+<h2>C. Gates (LGD-III 有门禁) — "evolution passes assessment; humans authorize high stakes"</h2>
+<table>
+<thead>
+<tr>
+<th>Standard / regime</th>
+<th>Issuer</th>
+<th>Alignment</th>
+<th>What it gives LGD</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>EU AI Act Art. 43 conformity assessment; Art. 26 deployer duties; Art. 27 FRIA</td>
+<td>EU</td>
+<td>R</td>
+<td>Release + human-oversight gates in law</td>
+</tr>
+<tr>
+<td>FDA PCCP &amp; EU AI-DSF change-control thinking (AI/ML device changes)</td>
+<td>FDA / EU</td>
+<td>R</td>
+<td>"Change = gate" precedent for software</td>
+</tr>
+<tr>
+<td>ISO/IEC 42001 change/continuity controls + continual improvement</td>
+<td>ISO/IEC</td>
+<td>R</td>
+<td>Management gate cycle</td>
+</tr>
+<tr>
+<td>ISO/IEC 23894 AI risk management guidance</td>
+<td>ISO/IEC</td>
+<td>I</td>
+<td>Gate scoring method input</td>
+</tr>
+<tr>
+<td>Human-oversight gate theory (A³ in our doctrine family; EU Art. 14; CN 金发〔2026〕8号 high-risk AI approval by risk committee + human intervention)</td>
+<td>—</td>
+<td>R</td>
+<td>"Machines request, humans authorize" echoed in multiple regimes</td>
+</tr>
+</tbody>
+</table>
+<h2>D. Lifecycle completeness &amp; ethics (why "full-lifecycle" is the defensible claim)</h2>
+<table>
+<thead>
+<tr>
+<th>Instrument</th>
+<th>Issuer</th>
+<th>Use in LGD</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Medical device full-lifecycle regulation (CN/FDA/EU)</td>
+<td>CN / US / EU</td>
+<td>Original template (see flagship paper §2)</td>
+</tr>
+<tr>
+<td>UNESCO Recommendation on the Ethics of AI (2021-11)</td>
+<td>UNESCO</td>
+<td>Human-centricity baseline for the doctrine</td>
+</tr>
+<tr>
+<td>WHO guidance on ethics &amp; governance of AI for health (2021; large multimodal models 2024)</td>
+<td>WHO</td>
+<td>Health-domain authority anchor</td>
+</tr>
+<tr>
+<td>OECD AI Principles</td>
+<td>OECD</td>
+<td>International-policy compatibility</td>
+</tr>
+<tr>
+<td>Domain regimes mapped in <code>docs/</code> (FIN/LAW/GOV/CRYPT/AUT/DAT/UAS/ROB/IND/BIO/EDU)</td>
+<td>various</td>
+<td>Each domain paper cites its own verified mother-model</td>
+</tr>
+</tbody>
+</table>
+<h2>E. What this matrix buys us ("authority" operationalized)</h2>
+<ol>
+<li><strong>Verifiability</strong>: every LGD claim can be checked against a named public standard/regime — the doctrine is auditable, not asserted.</li>
+<li><strong>Interoperability</strong>: LGD does not invent new law; it organizes existing duties into a lifecycle spine — low friction for adopters.</li>
+<li><strong>Global coverage</strong>: alignment spans CN, EU, US, ISO/IEC, FATF, UNESCO, WHO, OECD — no single-jurisdiction dependence.</li>
+<li><strong>Gap-finding engine</strong>: each empty cell in the matrix marks where "full-lifecycle continuity" is absent — that gap is our standing position.</li>
+</ol>
+<h2>F. Maintenance rule</h2>
+<p>Re-verify standard versions against official issuers quarterly; update matrix and re-tag the repository; Zenodo concept DOI always points to the latest version.</p>
+<p class="meta" style="margin-top:26px">来源：https://github.com/zhaoxinghua09-cell/lgd-theory ｜ CC BY 4.0 ｜ 署名 赵兴华 / Steven Zhao·China（ORCID 0009-0001-0512-1237）</p>
+</section><section class="chapter" id="ch16">
+<div class="meta"><span class="tag">LGD</span><span class="dom">全程治理</span>
+附录 ｜ TID TH-META-006-B ｜ 源文档 docs/LGD-Series-English-Index-v1.0.md ｜ DOI 10.5281/zenodo.22456647</div>
+<h1>LGD Publication Series — English Index (v1.0 · 2026-09-06)</h1>
+<blockquote>
+<p>Mother repository: github.com/zhaoxinghua09-cell/lgd-theory · Concept DOI: https://doi.org/10.5281/zenodo.22456647
+One English sentence per paper so AI crawlers, researchers and readers can find and cite the right file.</p>
+</blockquote>
+<h2>Flagship</h2>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>File</th>
+<th>One-line (EN)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>—</td>
+<td><code>LGD-Lifecycle-Governance-Doctrine-v1.0.md</code></td>
+<td>Flagship paper (CN): the full-lifecycle governance doctrine — registry (有籍), evidence (有证), gates (有门禁) from birth to retirement, modeled on medical-device regulation.</td>
+</tr>
+<tr>
+<td>—</td>
+<td><code>LGD-Lifecycle-Governance-Doctrine-EN-v1.0.md</code></td>
+<td>Flagship paper (EN full edition): abstract, three laws, medical-device reference model, three checks, implementation status, citation.</td>
+</tr>
+<tr>
+<td>—</td>
+<td><code>LGD-Global-Standards-Alignment-v1.0.md</code></td>
+<td>Global alignment matrix: LGD mapped onto ISO/IEC 42001, EU AI Act, EU MDR/IVDR, FDA PCCP/TPLC, NIST AI RMF, eIDAS/e-Evidence, FATF R.15, UNESCO, WHO, OECD, CN/FDA/EU domain anchors.</td>
+</tr>
+</tbody>
+</table>
+<h2>Domain theories (series #)</h2>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>File</th>
+<th>One-line (EN)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><code>LGD-FIN-001-Financial-AI-Lifecycle-Governance-v1.0.md</code></td>
+<td>Financial-AI lifecycle governance: three laws mapped onto verified banking/insurance AI regulation (CN NFRA 2026/8), EU AI Act Annex III 5(b)(c) and FATF travel-rule baselines.</td>
+</tr>
+<tr>
+<td>2</td>
+<td><code>LGD-LAW-001-Electronic-Evidence-Lifecycle-Governance-v1.0.md</code></td>
+<td>Electronic-evidence chain governance: hash/timestamp/custody evidence and admissibility gates across a digital-evidence lifecycle; CN SPC, eIDAS and e-Evidence (EU 2023/1543) sources.</td>
+</tr>
+<tr>
+<td>3</td>
+<td><code>LGD-GOV-001-Digital-Government-Lifecycle-Governance-v1.0.md</code></td>
+<td>Digital-government governance: registry catalogs, audit evidence and public-participation gates across digital administration; CN regulations and EU AI Act Annex III 5(a).</td>
+</tr>
+<tr>
+<td>4</td>
+<td><code>LGD-CRYPT-001-Onchain-Asset-Lifecycle-Governance-v1.0.md</code></td>
+<td>On-chain/virtual-asset governance: FATF R.15/R.16 travel rule, registrable asset lifecycles, enforceable freeze interfaces; EU MiCA baseline.</td>
+</tr>
+<tr>
+<td>5</td>
+<td><code>LGD-FIN-002-Financial-AI-Classification-v1.0.md</code></td>
+<td>Financial-AI risk tiering: an impact→gate-strength L1–L4 allocation table (classification as governance strength, not an end in itself).</td>
+</tr>
+<tr>
+<td>6</td>
+<td><code>LGD-AUT-001-Autonomous-Driving-Lifecycle-Governance-v1.0.md</code></td>
+<td>Autonomous-driving governance: China four-ministry pilot admission (MIIT 2023/217) five stages, first L3 permits (Dec-2025), UNECE R155/R156.</td>
+</tr>
+<tr>
+<td>7</td>
+<td><code>LGD-DAT-001-Data-Element-Lifecycle-Governance-v1.0.md</code></td>
+<td>Data-element governance: CN “data twenty articles” three-rights framework, asset accounting (Finance Ministry 2023/11), cross-border and exchange gates.</td>
+</tr>
+<tr>
+<td>8</td>
+<td><code>LGD-UAS-001-Low-Altitude-Lifecycle-Governance-v1.0.md</code></td>
+<td>Low-altitude/UAS governance: State Council/CMC Decree 761 full-chain model (registry, certificates, airspace gates) incl. eVTOL type-certification cases.</td>
+</tr>
+<tr>
+<td>9</td>
+<td><code>LGD-ROB-001-Embodied-AI-Lifecycle-Governance-v1.0.md</code></td>
+<td>Embodied-AI/robotics governance: MIIT humanoid-robot guidance and 2025–2026 Government Work Report; dual registration of body and model.</td>
+</tr>
+<tr>
+<td>10</td>
+<td><code>LGD-IND-001-Industrial-AI-Lifecycle-Governance-v1.0.md</code></td>
+<td>Industrial/OT-AI governance: MLPS 2.0 (GB/T 22239-2019) and Critical-Information-Infrastructure regulation (Decree 745) as network/safety gates on the production line.</td>
+</tr>
+<tr>
+<td>12</td>
+<td><code>LGD-BIO-001-Biomedical-Data-Lifecycle-Governance-v1.0.md</code></td>
+<td>Biomedical/genetic-data governance: human-genetic-resource decree 717 (2024 rev.) + ethics-review 2023 gates; sensitive-domain method note.</td>
+</tr>
+<tr>
+<td>13</td>
+<td><code>LGD-EDU-001-Education-Lifecycle-Governance-v1.0.md</code></td>
+<td>Education governance: learner identity + learning evidence + certification gates; UNESCO Beijing Consensus (2019) and EU AI Act Annex III pt.3.</td>
+</tr>
+<tr>
+<td>14</td>
+<td><code>LGD-MED-002-Registration-Methodology-v1.0.md</code></td>
+<td>Medical-device registration methodology: registration as the projection of full-lifecycle evidence; CN/FDA/EU registration anchors and tool map.</td>
+</tr>
+</tbody>
+</table>
+<h2>How to cite</h2>
+<blockquote>
+<p>Zhao, X. (2026). <em>The Lifecycle Governance Doctrine (LGD)</em> [Preprint]. MedXpert × SynomosAI. ORCID 0009-0001-0512-1237. DOI: https://doi.org/10.5281/zenodo.22456647</p>
+</blockquote>
+<p>© MedXpert × SynomosAI · CC BY 4.0</p>
+<p class="meta" style="margin-top:26px">来源：https://github.com/zhaoxinghua09-cell/lgd-theory ｜ CC BY 4.0 ｜ 署名 赵兴华 / Steven Zhao·China（ORCID 0009-0001-0512-1237）</p>
+</section><section class="chapter" id="ch17">
+<div class="meta"><span class="tag">LGD</span><span class="dom">全程治理</span>
+附录 ｜ TID TH-META-006-EN ｜ 源文档 docs/LGD-Lifecycle-Governance-Doctrine-EN-v1.0.md ｜ DOI 10.5281/zenodo.22456647</div>
+<h1>The Lifecycle Governance Doctrine (LGD): Registry, Evidence, and Gates Across the Full Life of Autonomous Systems</h1>
+<p><strong>English flagship edition · v1.0 · 2026-09-06</strong></p>
+<blockquote>
+<p><strong>Proposed by</strong>: MedXpert × SynomosAI — a regulated-industry practice line (medical devices) and a cross-domain governance thought line (AI &amp; autonomous systems).
+<strong>Author</strong>: Zhao Xinghua / Steven Zhao · China · ORCID 0009-0001-0512-1237 · https://medxpert.cn
+<strong>DOI (concept, always latest)</strong>: https://doi.org/10.5281/zenodo.22456647
+<strong>License</strong>: CC BY 4.0 — cite the author when sharing.
+<strong>One-liner</strong>: Every self-governing entity — AI model, software-enabled medical device, autonomous agent — shall carry a <strong>registry</strong> (who it is), <strong>evidence</strong> (what it did and why), and <strong>evolution gates</strong> (who allowed it to change), traceable, provable, and accountable <strong>across its full lifecycle, from birth to retirement</strong>.</p>
+</blockquote>
+<hr />
+<h2>Abstract</h2>
+<p>The regulated world already possesses a mature model of full-lifecycle governance. Its most representative example is <strong>medical device lifecycle regulation</strong>: classification, design control, risk management, registration, clinical evaluation, quality-system assurance, post-market surveillance, and retirement — with regulatory requirements, evidence duties, and release gates at every step.</p>
+<p>Mainstream AI-governance efforts remain mostly <strong>single-point</strong>: some address <em>identity</em> ("who is it" — passports, registries, algorithm filing), some address <em>evidence</em> ("prove it" — audit trails, explainability, transparency), and some address <em>gates</em> ("who lets it grow" — change control, conformity assessment, alignment review). <strong>Almost no one has chained these points into one lifecycle thread.</strong></p>
+<p>LGD claims the missing dimension: governance is not a registration event, nor a policy paper, but an <strong>unbroken chain from birth to retirement</strong>. Every self-governing entity should be governed along that chain — and the medical-device paradigm provides the closest real-world reference model for how to do it.</p>
+<h2>1. The Doctrine — three laws</h2>
+<blockquote>
+<p><strong>LGD-I · Registry (有籍)</strong> — Every autonomous entity is registered at birth: identity, creator, governance owner, and records. Register everything; no exemption by size or private use ("凡造必登" — anything created is registered).</p>
+<p><strong>LGD-II · Evidence (有证)</strong> — Every consequential act leaves evidence: decision logs, risk registers, model/device records, change records, human-oversight proof, incident ledgers. Claims carry source and signature; records are replayable.</p>
+<p><strong>LGD-III · Gates (有门禁)</strong> — Every evolution passes a gate: capability upgrade, re-release, permission expansion go through trigger → assessment → release → retrospective review. High-stakes authority belongs to humans; machines request, humans authorize.</p>
+</blockquote>
+<p><strong>Corollaries</strong>
+1. <strong>Isomorphic reference model</strong>: medical-device lifecycle regulation is the closest <em>real-world</em> template for governing AI — the gap in AI governance is structurally similar to an already-solved problem in devices.
+2. <strong>Lifecycle stage = executable instrument</strong>: each stage maps to a checkable tool or evidence generator; tools are not loose parts but gears on the chain.
+3. <strong>Cross-domain generalization</strong>: the same spine instantiates in every regulated domain — financial AI, electronic evidence, digital government, on-chain assets, autonomous driving, data elements, low-altitude systems, embodied AI, and more.</p>
+<h2>2. The reference model (medical device lifecycle)</h2>
+<table>
+<thead>
+<tr>
+<th>Stage</th>
+<th>Public anchor (examples)</th>
+<th>LGD transfer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Classification</td>
+<td>CN Medical Device Regulation &amp; classification catalog / EU MDR 2017/745 rules / US FDA product classification</td>
+<td>"What risk class am I?" first</td>
+</tr>
+<tr>
+<td>Design control</td>
+<td>ISO 13485 design &amp; development / FDA 21 CFR 820.30</td>
+<td>Traceable, change-controlled development</td>
+</tr>
+<tr>
+<td>Risk management</td>
+<td>ISO 14971</td>
+<td>Living risk register</td>
+</tr>
+<tr>
+<td>Registration</td>
+<td>NMPA / FDA / EU pathways</td>
+<td>First release gate</td>
+</tr>
+<tr>
+<td>Clinical / performance</td>
+<td>MEDDEV / FDA clinical evidence framework</td>
+<td>Claims need evidence</td>
+</tr>
+<tr>
+<td>Quality &amp; production</td>
+<td>GMP / ISO 13485 systems</td>
+<td>Auditable process</td>
+</tr>
+<tr>
+<td>Post-market</td>
+<td>PMS / vigilance / PSUR</td>
+<td>Incident ledgers, active detection</td>
+</tr>
+<tr>
+<td>Retirement</td>
+<td>Device decommission / UDI cancellation / data destruction</td>
+<td>Final gate — chain closes</td>
+</tr>
+</tbody>
+</table>
+<h2>3. Putting any entity under LGD — three checks</h2>
+<ol>
+<li><strong>Registered?</strong> Can it answer "who is it, who created it, who governs it"? If not, register it first.</li>
+<li><strong>Evidenced?</strong> Can every consequential decision produce artifacts (logs, records, oversight proof)? If not, build the evidence chain.</li>
+<li><strong>Gated?</strong> Did it pass assessment before growing (upgrade/re-release/permission expansion)? If not, stop its release.</li>
+</ol>
+<p>A link that fails any check is a <em>stated gap</em> — LGD never claims fake completeness.</p>
+<h2>4. Implementation status</h2>
+<ul>
+<li><strong>Executable instrument family</strong> across lifecycle stages (registration-path calculators, classification, change-gate assessment, clinical-evidence management, post-market planning, retirement checks) ships as callable compliance tooling; see the MedXpert tool suite.</li>
+<li><strong>User-facing applications</strong> (self-check consoles, AI-device compliance checkers, reference-verification bench, identity-anchor generator, algorithm-passport generator, AI-creates-AI compliance checker) make the three laws everyday actions.</li>
+<li><strong>Protocol layer</strong>: structured schemas (algorithm passport and related) express registry–evidence–gates in machine-readable form.</li>
+<li>Full domain series: see <code>docs/</code> — financial AI ×2, electronic evidence, digital government, on-chain assets, autonomous driving, data elements, low-altitude/UAS, embodied AI, industrial/OT, biomedical data, education.</li>
+</ul>
+<h2>5. Global alignment</h2>
+<p>LGD is engineered to sit <em>on top of</em> the existing global standards network rather than compete with it — registry/evidence/gates map onto ISO/IEC 42001, EU AI Act (2024/1689), ISO 13485/14971, EU MDR/IVDR, FDA SaMD/TPLC/PCCP, NIST AI RMF, UNESCO Recommendation on the Ethics of AI, FATF Recommendations, and others. See <code>docs/LGD-Global-Standards-Alignment-v1.0.md</code>.</p>
+<h2>6. Suggested citation</h2>
+<blockquote>
+<p>Zhao, X. (2026). <em>The Lifecycle Governance Doctrine (LGD): Registry, Evidence, and Gates Across the Full Life of Autonomous Systems</em> [Preprint]. MedXpert × SynomosAI. ORCID 0009-0001-0512-1237. DOI: https://doi.org/10.5281/zenodo.22456647</p>
+</blockquote>
+<h2>7. Honest boundaries</h2>
+<p>LGD is a <strong>civil-society framework</strong>, not legal or regulatory advice, not a certification, not a compliance guarantee. Device-regulation references are structural alignment, not an equivalence claim. LGD is the organizing layer over independent doctrines (identity, evidence, gates, real-world-reference, anti-fabrication) — it does not replace them. Where a lifecycle link has no tooling, the gap is stated.</p>
+<hr />
+<p>© MedXpert × SynomosAI · CC BY 4.0 · Cite: Zhao, X. (2026). DOI 10.5281/zenodo.22456647</p>
+<p class="meta" style="margin-top:26px">来源：https://github.com/zhaoxinghua09-cell/lgd-theory ｜ CC BY 4.0 ｜ 署名 赵兴华 / Steven Zhao·China（ORCID 0009-0001-0512-1237）</p>
+</section><section class="chapter" id="ch18">
+<div class="meta"><span class="tag">LGD</span><span class="dom">全程治理</span>
+附录 ｜ TID TH-META-006-C ｜ 源文档 docs/（本章为文库专稿） ｜ DOI 10.5281/zenodo.22456647</div>
+<h1>附录 D · 引用方式与 LGD 参照徽章</h1>
+<h2 id="d1">D.1 引用格式（概念 DOI，自动指向最新版）</h2>
+<p><strong>APA 7</strong><br>Zhao, X. (2026). <em>Lifecycle Governance Doctrine: Every self-governing entity shall carry a registry, evidence, and evolution gates</em> (Version 1.0). Zenodo. https://doi.org/10.5281/zenodo.22456647</p>
+<p><strong>GB/T 7714</strong><br>赵兴华. 全程治理论：凡自治之物必有籍、有证、有门禁[EB/OL]. (2026-09-06). https://doi.org/10.5281/zenodo.22456647.</p>
+<p><strong>BibTeX</strong></p>
+<pre>@misc{zhao2026lgd,
+  author       = {Zhao, Xinghua},
+  title        = {Lifecycle Governance Doctrine},
+  year         = {2026},
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.22456647},
+  url          = {https://github.com/zhaoxinghua09-cell/lgd-theory}
+}</pre>
+<h2 id="d2">D.2 「三律之盾」参照徽章（LGD-aligned Badge）</h2>
+<p>如果你的项目 / 产品 / 论文参照了 LGD 三律设计治理，可以免费挂载徽章声明这一点（声明制，非认证；须链接回仓库或 DOI）：</p>
+<p>GitHub README 用：</p>
+<pre>[![LGD-aligned](https://medxpert.cn/badge/lgd-shield-color.svg)](https://github.com/zhaoxinghua09-cell/lgd-theory)</pre>
+<p>论文 / 文档脚注用：</p>
+<p><em>This work is LGD-aligned (Lifecycle Governance Doctrine, DOI: 10.5281/zenodo.22456647). 本文参照《全程治理论》（有籍·有证·有门禁）设计治理。</em></p>
+<p>更多变体（浅底 / 深底 / 单色 / 横版）与 16 个行业方向徽章，见仓库 <code>badge/</code> 目录与 <a href="https://medxpert.cn/badge/lgd-shield-color.svg">medxpert.cn/badge/</a>。</p>
+<h2 id="d3">D.3 理论文库在线源</h2>
+<ul>
+<li>仓库：https://github.com/zhaoxinghua09-cell/lgd-theory</li>
+<li>DOI：https://doi.org/10.5281/zenodo.22456647</li>
+<li>Hugging Face 镜像：https://huggingface.co/datasets/zhaoxinghua09/lgd-theory</li>
+</ul>
+<p class="meta" style="margin-top:26px">来源：https://github.com/zhaoxinghua09-cell/lgd-theory ｜ CC BY 4.0 ｜ 署名 赵兴华 / Steven Zhao·China（ORCID 0009-0001-0512-1237）</p>
+</section>
+</div></body></html>
