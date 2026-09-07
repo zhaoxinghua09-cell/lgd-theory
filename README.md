@@ -4,7 +4,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22456647.svg)](https://doi.org/10.5281/zenodo.22456647)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE)
 
-> **Start here** · 2-minute version: [`TLDR.md`](TLDR.md) (CN/EN) · How to cite: [`CITE.md`](CITE.md) · Full library: [`book/`](book/) (LGD-Library v1.0, EPUB/HTML) · Brand & badges: [`badge/EMBEDS.md`](badge/EMBEDS.md) · AI-crawler index: [`llms.txt`](llms.txt)
+> **Start here** · 2-minute version: [`TLDR.md`](TLDR.md) (CN/EN) · How to cite: [`CITE.md`](CITE.md) · Full library: [`book/`](book/) (LGD-Library v1.1, EPUB/HTML) · Brand & badges: [`badge/EMBEDS.md`](badge/EMBEDS.md) · AI-crawler index: [`llms.txt`](llms.txt) · **Web homepages**: [GitHub Pages](https://zhaoxinghua09-cell.github.io/lgd-theory/) · [medxpert.cn/lgd.html](https://medxpert.cn/lgd.html)
 
 
 **Domain badges** · 金融 · 证据 · 政务 · 链上 · 驾驶 · 数据 · 低空 · 具身 · 工业 · 生物 · 教育 · 医械注册 —— 16 方向 × EN/CN（`assets/badges/directions/`，v8 象牙色调）：
