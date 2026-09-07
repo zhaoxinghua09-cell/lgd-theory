@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.1 — 2026-09-07
+- Book (Appendix D) expanded into the full badge system: LGD-aligned reference badge (declaration), Laws badges — Registered / Evidenced / Gated (progress), LGD-Powered tool badge (mandatory for toolchain builds), and the lgd-certify certification line (register → evidence → gate, certification.json with cert_hash).
+- Library version bumped to v1.1 across HTML / print / EPUB; EPUB regenerated (ch18.xhtml + opf title + toc).
+- Badge embed URLs: medxpert.cn/badge/laws/svg/* and medxpert.cn/badge/powered/svg/*.
+
 ## v1.0 — 2026-09-06
 - Flagship paper first release-ready version: `docs/LGD-Lifecycle-Governance-Doctrine-v1.0.md`
 - Repository scaffold: README (EN/CN), llms.txt, LICENSE (CC BY 4.0)
