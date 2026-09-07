@@ -50,3 +50,5 @@
 - docs/theories/MAIT-Memory-Anchor-Identity-v1.0.md: TH-AIG-006 — AI identity anchored in memory continuity; mother template = real-world identity confirmation
 - docs/theories/RRM-speedpage.html: RRM JSON-LD speedpage (Article+DefinedTerm+Person)
 - docs/theories/MAIT-speedpage.html: MAIT JSON-LD speedpage
+- docs/theories/A3-speedpage.html: TH-AIG-003 A³ Laws of AI Creation speedpage (forge authority/forge seal/lineage registry)
+- docs/theories/UBIC-speedpage.html: TH-AIG-001 UBIC Circle Charter speedpage (AI passport, four governance goals)
