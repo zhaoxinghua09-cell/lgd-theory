@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-page-node-id="1tEHyri5yTW7XTnCAG55sU">
+<head data-page-node-id="G5TUAO9OeZirjFjdl01Gfy">
+<meta charset="UTF-8" data-page-node-id="FpDsWg13nbdj27BW3qBAQQ">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" data-page-node-id="25ElaOxhkQ5GK7VFhuP0sF">
+<title>真实世界参照法 (Real-world Reference Method, RRM) · SynomosAI × MedXpert</title>
+<meta name="description" content="真实世界参照法(RRM)：以真实世界已被验证的成熟机制（户籍制度、医疗器械全生命周期监管、证据法）作为设计与治理 AI/自治之物的“参照锚”，而非从零发明。RRM 是 LGD 全程治理论、记忆锚点 AI 身份理论等方法论的元方法(meta-method)，区别于通用的真实世界研究(RWS/RWE)。" data-page-node-id="wHMd6JNHxMsnlpvSLlwnsU">
+<meta name="keywords" content="真实世界参照法, Real-world Reference Method, RRM, 元方法, 治理设计, 真实世界机制, LGD, 全程治理论, 记忆锚点, AI governance, 参照锚" data-page-node-id="9AZenc1HErebRrTtdzcbIi">
+<link rel="canonical" href="https://medxpert.cn/theory/rrm" data-page-node-id="SboTDw73ZywcDRtSx2VOPp">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": ["Article", "DefinedTerm"],
+  "@id": "https://medxpert.cn/theory/rrm#rrm",
+  "name": "真实世界参照法 (Real-world Reference Method, RRM)",
+  "alternateName": ["RRM", "真实参照法", "Real-world Reference Method", "参照锚方法"],
+  "description": "真实世界参照法(RRM)：以真实世界已被验证的成熟机制（如户籍制度、医疗器械全生命周期监管、证据法）作为设计与治理 AI/自治之物的“参照锚”，而非从零发明。是每个自治之物先问“真实世界里谁在管、怎么管、凭什么可信”，把成熟机制平移为治理骨架的方法论。RRM 是 LGD 全程治理论、记忆锚点 AI 身份理论等方法论的元方法(meta-method)。",
+  "inDefinedTermSet": {
+    "@type": "DefinedTermSet",
+    "name": "SynomosAI 治理理论术语集"
+  },
+  "datePublished": "2026-09-08",
+  "dateModified": "2026-09-08",
+  "author": {
+    "@type": "Person",
+    "name": "赵兴华 / Steven Zhao·China",
+    "identifier": "https://orcid.org/0009-0001-0512-1237",
+    "sameAs": ["https://orcid.org/0009-0001-0512-1237", "https://github.com/Medxpert-org", "https://medxpert.cn"]
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "SynomosAI × MedXpert",
+    "url": "https://medxpert.cn"
+  },
+  "about": [
+    {"@type": "Thing", "name": "治理方法论"},
+    {"@type": "Thing", "name": "AI 治理"},
+    {"@type": "Thing", "name": "医疗器械全生命周期监管"}
+  ],
+  "sameAs": [
+    "https://github.com/Medxpert-org/lgd-theory",
+    "https://zenodo.org/record/2245668"
+  ],
+  "citation": [
+    {"@type": "ScholarlyArticle", "name": "Lifecycle Governance Doctrine (LGD)", "identifier": "DOI:10.5281/zenodo.22456648"}
+  ],
+  "keywords": "真实世界参照法, Real-world Reference Method, RRM, 元方法, 治理设计, LGD, 全程治理论, 记忆锚点"
+}
+</script>
+<style>
+  :root{--navy:#0B1F3A;--teal:#14B8A6;--ink:#1f2937;--muted:#64748b;--line:#e2e8f0;--bg:#ffffff;}
+  *{box-sizing:border-box;}
+  body{margin:0;font-family:-apple-system,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;color:var(--ink);background:var(--bg);line-height:1.7;}
+  header{background:linear-gradient(135deg,var(--navy),#13315c);color:#fff;padding:40px 24px;}
+  header .wrap{max-width:860px;margin:0 auto;}
+  header h1{margin:0 0 8px;font-size:26px;}
+  header p.sub{margin:0;color:#bcd;font-size:15px;}
+  .badge{display:inline-block;background:var(--teal);color:#042f2a;font-size:12px;font-weight:700;padding:3px 10px;border-radius:999px;margin-bottom:12px;letter-spacing:.5px;}
+  main{max-width:860px;margin:0 auto;padding:28px 24px 60px;}
+  h2{color:var(--navy);border-left:4px solid var(--teal);padding-left:12px;margin-top:36px;font-size:20px;}
+  h3{color:var(--navy);font-size:16px;margin-top:24px;}
+  p,li{font-size:15px;color:var(--ink);}
+  .card{background:#f8fafc;border:1px solid var(--line);border-radius:10px;padding:16px 18px;margin:14px 0;}
+  .kv{display:grid;grid-template-columns:120px 1fr;gap:6px 14px;font-size:14px;}
+  .kv b{color:var(--navy);}
+  table{border-collapse:collapse;width:100%;margin:14px 0;font-size:14px;}
+  th,td{border:1px solid var(--line);padding:9px 12px;text-align:left;vertical-align:top;}
+  th{background:#f1f5f9;color:var(--navy);}
+  code{background:#eef2f7;padding:1px 6px;border-radius:4px;font-size:13px;color:#0f766e;}
+  .model{font-family:ui-monospace,Menlo,Consolas,monospace;background:var(--navy);color:#cff;padding:14px 16px;border-radius:8px;font-size:13px;overflow-x:auto;}
+  .cite{background:#fffaf0;border:1px solid #fde68a;border-radius:8px;padding:12px 16px;font-size:14px;}
+  .pill{display:inline-block;background:#ecfeff;color:#0e7490;border:1px solid #a5f3fc;font-size:12px;padding:2px 9px;border-radius:999px;margin:2px 3px;}
+  .flow{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:14px 0;}
+  .flow .step{background:#0B1F3A;color:#cff;padding:8px 14px;border-radius:8px;font-size:14px;}
+  .flow .arr{color:var(--teal);font-weight:700;}
+  footer{border-top:1px solid var(--line);padding:20px 24px;color:var(--muted);font-size:13px;text-align:center;}
+  a{color:var(--teal);text-decoration:none;}
+</style>
+</head>
+<body data-page-node-id="9J5bDGDECDiF5ga1Of8eRl">
+<header data-page-node-id="pbIoL0O1YCdxXzvLFKuqD3"><div class="wrap" data-page-node-id="7OVrFb8AnSwGTub6asPdya">
+  <span class="badge" data-page-node-id="ZrioqR5oaOeSH6MQyCOVLJ">TH-META-001 · 元层方法</span>
+  <h1 data-page-node-id="78VKv1xQK3zz0P9cyTPNCX">真实世界参照法 · Real-world Reference Method (RRM)</h1>
+  <p class="sub" data-page-node-id="MW9FgagFeqe6JNRHlUcJXr">凡自治之物，先问"真实世界里谁在管、怎么管、凭什么可信"，把成熟机制平移为治理骨架</p>
+</div></header>
+
+<main data-page-node-id="gZnZCuJY4vCDCW9wVavaMi">
+  <div class="card" data-page-node-id="AaZBJ5Q18KE5OV6ch7Sls9">
+    <div class="kv" data-page-node-id="ZpFDaUmusW9jvhHaaHRng8">
+      <b data-page-node-id="kYJtucrU4Sfk1L0GbSA6Iv">理论编号</b><span data-page-node-id="eT9acA7dFqsOxZ5KrG1Tmz">TH-META-001</span>
+      <b data-page-node-id="kUUe5jPVu0eQ1JLaic7oVT">提出 / 品牌</b><span data-page-node-id="Ub3GQgrGxfurrwDEdv8GGI">SynomosAI（治理侧）× MedXpert（实证侧）</span>
+      <b data-page-node-id="vUlZfExt9ia4584IJFaGzJ">作者署名</b><span data-page-node-id="itnZIJkBykd54K9T03vL96">赵兴华 / Steven Zhao·China · ORCID <a href="https://orcid.org/0009-0001-0512-1237" data-page-node-id="uoIQ7Z2M5EX4ySUnnp5MbZ">0009-0001-0512-1237</a></span>
+      <b data-page-node-id="zGJO5cVw3S3sDpouUxBMd7">母版</b><span data-page-node-id="Pxb8877a3OBF5YBFK7GlXG">第一性原理 / 真实世界成熟机制</span>
+      <b data-page-node-id="kHQf9uEe1cpHIgHWAFrP0U">角色</b><span data-page-node-id="XQnXrdOWOdGVCjQxPgaS4O">元方法（meta-method）—— 全部工具与方法论的"方法生成器"</span>
+      <b data-page-node-id="S4LamvlA3ks3Nvq9mTsByZ">版本</b><span data-page-node-id="JVyTunvzRjBMv63Res4RUq">v1.0 · 2026-09-08（站位件，待去敏 + 7 维质检）</span>
+    </div>
+  </div>
+
+  <h2 data-page-node-id="BYgSV0tYYtLoTvVjyBtTfB">一句话定义</h2>
+  <p data-page-node-id="UOq0CZa0FtsaWfsylugxTx"><strong data-page-node-id="vQLbuRMahE5PIfJ3snWbyC">真实世界参照法（RRM）</strong>：面对任何一个"自治之物"（AI、智能体、算法化器械、机器人……），不急于从零发明治理规则，而是先问——<strong data-page-node-id="kOz13qIvZHclkOLXUGXeZG">"真实世界里，谁已经在管类似的东西？它怎么管？凭什么让人信？"</strong> 然后把那个<strong data-page-node-id="qGKBGiNk71wn0Hgvn2BD9u">已被验证的成熟真实机制</strong>作为"参照锚"，平移为治理骨架。</p>
+
+  <h2 data-page-node-id="iax3mmwQptz4M6DkU4OYWU">为什么需要 RRM（与 RWS/RWE 的区别）</h2>
+  <p data-page-node-id="VPbpAUmi9SNm5NilzJuHNS">通用语境下的 <strong data-page-node-id="WFbe5GED9vE38JPt68G1uR">RWS/RWE（真实世界研究 / 真实世界证据）</strong> 是<em data-page-node-id="nWF9tWUPoDBq9kIa8r5MgC">循证医学的方法论</em>——用真实诊疗数据产生证据。RRM 不是它，而是<strong data-page-node-id="Yt2F4fcLVSMKBDCIO3lx7G">治理设计的元方法</strong>：</p>
+  <table data-page-node-id="Xv9kjucuI4EClmPeV5GXi3">
+    <tr data-page-node-id="DVatYLRqzAvZFFBJOFDZtV"><th data-page-node-id="kGjonkurNvVhuGPhhpmfPu">维度</th><th data-page-node-id="KFoOuKYbAQGmKduW2eOcR4">真实世界研究 RWS/RWE</th><th data-page-node-id="CtdaTOgmwzYODSb2XEgJLt">真实世界参照法 RRM（本理论）</th></tr>
+    <tr data-page-node-id="TmU1TFb0sXBrZeiwPKsz7T"><td data-page-node-id="EywHCv5gm7Rfj2u74OEVk0">本质</td><td data-page-node-id="ylRwmsJs1U66Jheilmr50R">循证医学证据方法论</td><td data-page-node-id="kzsSskeppUYQ9afhqf9slh">治理 / 合规设计的方法论（元方法）</td></tr>
+    <tr data-page-node-id="XrH1lBzycatM8OAw65ggYn"><td data-page-node-id="LU83yUdXgNTA0TF0UeeU4m">动作</td><td data-page-node-id="eUhFX0PS5dvZeNbpXV6aEV">用真实数据产生证据</td><td data-page-node-id="GWEUo9FruhGBRJaiEmCrED">用真实世界的成熟机制做治理骨架</td></tr>
+    <tr data-page-node-id="uGtjH140m5k9BvYsp6WrsN"><td data-page-node-id="jqENbkEo868wJr04aPMGXt">提问</td><td data-page-node-id="D1yAw884v9hGG4mMjV1CSN">"真实世界里效果如何？"</td><td data-page-node-id="XS5Fekr3Caxxc58kC960iK">"真实世界里谁在管、怎么管、凭什么可信？"</td></tr>
+    <tr data-page-node-id="DexQGEHVVc7TlzP9GIZ2SS"><td data-page-node-id="iL8QgKlzRNcWbQWqQBVTUY">产出</td><td data-page-node-id="7ImDtJik0k0eoesFbOWAUy">真实世界证据</td><td data-page-node-id="FSbnzHti7pHW9LtHFyImAU">可平移的治理框架（如 LGD 三律）</td></tr>
+  </table>
+  <p data-page-node-id="8AOu1lJawTxJzGFe3vAbze">RRM 把"参照真实世界"从<em data-page-node-id="pnskGaMeq4U9PBuqT2xYNO">证据层面</em>提升到了<em data-page-node-id="cEkSyWbI7fXBnveTneZgpq">方法层面</em>：它是一切下游理论（LGD、MAIT、UBIC…）的"方法生成器"。</p>
+
+  <h2 data-page-node-id="AdEPIkyyyGAj2G5HHzYZbg">RRM 工作流</h2>
+  <div class="flow" data-page-node-id="LAVXSj8ufyRPTiaQlHQbPQ">
+    <span class="step" data-page-node-id="ebb48bpdp6HpbHENXHZvM9">识别自治之物</span><span class="arr" data-page-node-id="PWiVbSrltoiTBdUcaGjCPk">→</span>
+    <span class="step" data-page-node-id="lN1OCK9ZjUZQsY0SfxNUzU">找真实世界母版机制</span><span class="arr" data-page-node-id="6AKX9laj5RfQW7znWEHtzH">→</span>
+    <span class="step" data-page-node-id="gQfBAO9bl2lg8QkbEO9mQe">抽象为通用三律/元规则</span><span class="arr" data-page-node-id="XhhxIQZb3WKuVb4ZCxBCPK">→</span>
+    <span class="step" data-page-node-id="6bEttMDxTYKJWiK6AtXksN">平移到目标域治理骨架</span><span class="arr" data-page-node-id="o5EpYNFC4gwhzC3sA7uw8N">→</span>
+    <span class="step" data-page-node-id="Gf94TM7YT6dfiXh20FHzxJ">用真实机制校验可信度</span>
+  </div>
+
+  <h2 data-page-node-id="BGZ2YGGSHoHnrsvpP5Qib7">RRM 实例化示例</h2>
+  <table data-page-node-id="t6NJ5iCHvoZDyhxFURdPiH">
+    <tr data-page-node-id="421HshCHBdvCuliBd53tvn"><th data-page-node-id="7GhHRteCchqQB3K2WS4zG8">真实世界母版</th><th data-page-node-id="FTABhn67UAJtdfe4HQsC62">抽象出的治理元规则</th><th data-page-node-id="gJQjhsa8fMYrpUp7RIOEkr">平移出的理论</th></tr>
+    <tr data-page-node-id="V6OHRlYJqdpLzarWqJhUvE"><td data-page-node-id="vCSqRgFVRFBE29xWKuRg7s">医疗器械全生命周期监管（NMPA/FDA/MDR）</td><td data-page-node-id="p98KcFhmcngmCx64Brrqph">有籍·有证·有门禁</td><td data-page-node-id="Kl8aSSseebSiJqERwFbGI6"><strong data-page-node-id="2veEA8eUPSK9glYe1jz74h">LGD 全程治理论</strong>（TH-META-006）</td></tr>
+    <tr data-page-node-id="JCT5Kzs2fEd4zk3no3RrvE"><td data-page-node-id="SFO6mOnaySQpZWQhHjwauJ">人类身份确认：户籍 + 身份证 + 记忆连续性</td><td data-page-node-id="aDLKbBhrEo4dgCg2zZe9TS">标识 + 凭证 + 记忆锚点</td><td data-page-node-id="jzH3H45ZK4NwzWTv17FxFe"><strong data-page-node-id="XyYyNFV3ij2NuEb20N8UmY">记忆锚点 AI 身份理论 MAIT</strong>（TH-AIG-006）</td></tr>
+    <tr data-page-node-id="Ozmr2sEogExArrah8zhqbt"><td data-page-node-id="ZwrcGgMfX21QHsJSpSTQNj">户籍 / 护照登记制度</td><td data-page-node-id="gNHQBDTmC3Fjz0pgSjGAGy">身份登记 + 可携带证明</td><td data-page-node-id="FcQPizdg352Aac79DMZ0CK">UBIC 人格户籍协议（TH-AIG-001）</td></tr>
+    <tr data-page-node-id="lcMF355SAaR6Yx8dAgrL2q"><td data-page-node-id="FmF9KeA6nbyPHi6f8JD8Kw">证据法 / 公证 / 电子存证</td><td data-page-node-id="V0QKhmU6iZtEqjY6c1OdgA">生成-固化-校验-举证全链可采信</td><td data-page-node-id="KnrVIGKGcW10BfsbYXdM8W">电子证据链治理（TH-LAW-001）</td></tr>
+  </table>
+
+  <h2 data-page-node-id="zpFbjIBIioDIb4Oee3i5MH">关键判据</h2>
+  <ul data-page-node-id="YWjy8k6OZS0uiImDlmmU8u">
+    <li data-page-node-id="Bk0dDJkHqjYicOerCMMg1G"><strong data-page-node-id="PAiH1gujiLMYT4cNqfgUb7">不编造、可溯源</strong>：每个治理规则都能指回一个真实世界母版机制，而非凭空设定（对应 EIFP 不编造原教旨）。</li>
+    <li data-page-node-id="wilUXLTBYGT26zcOLtWPqV"><strong data-page-node-id="WOkJtsc4P85u9GUrSDGD3j">可重放、可追责</strong>：参照链条可追溯，治理决策可审计。</li>
+    <li data-page-node-id="XMvkBcBO7bDeAmCbZCTysK"><strong data-page-node-id="8m7NpzzHg2ebfn3fga5uk2">收敛优于复制</strong>：相近领域优先并入已有母版映射，而非另起平行理论。</li>
+  </ul>
+
+  <h2 data-page-node-id="clP9cl1Sf3scRgM3xEpWGw">与 LGD / MAIT 的锚定关系</h2>
+  <div class="model" data-page-node-id="oR2DJXOPvKLDwNRA3fCIOO">RRM（元方法 / 第一性原理）
+   ├─ 母版：医械全生命周期监管 → 抽象 → LGD 三律（有籍·有证·有门禁）
+   ├─ 母版：人类身份确认     → 抽象 → 标识+凭证+记忆锚点 → MAIT
+   └─ 母版：户籍/护照        → 抽象 → UBIC 人格户籍协议
+   即：LGD / MAIT / UBIC 都是 RRM 在不同真实世界母版上的"实例化"。</div>
+
+  <h2 data-page-node-id="DZyIyyFlRuYiCfwRRcmhHa">诚实边界</h2>
+  <ul data-page-node-id="Fs12HTQWa3FIgu0xFnOf5x">
+    <li data-page-node-id="lhnkEzCtIBaeIv14LTcSUJ">RRM 是方法论主张，不是规范；"参照"是设计启发而非法律结论。</li>
+    <li data-page-node-id="ZHFWf7rthv2HNG2mNEKNtI">真实世界母版本身也在演进，平移需随母版更新而重新校验。</li>
+    <li data-page-node-id="OwHWId0AfKcLcR58uAZ3Tx">RRM 不替代领域专业知识，而是为领域治理提供可复用的"骨架 + 校验"方法。</li>
+  </ul>
+
+  <h2 data-page-node-id="eGgtJhqep5Wt8LNdR9IRKP">建议引用</h2>
+  <div class="cite" data-page-node-id="YLx5lkFDFRrZzmFGDvlsqP">Zhao, X. (2026). <em data-page-node-id="gM6AHs87hqefWbJ8KaehGv">Real-world Reference Method (RRM): Using Validated Real-world Mechanisms as the Anchor for Governing Autonomous Things.</em> SynomosAI × MedXpert. ORCID: 0009-0001-0512-1237. https://medxpert.cn</div>
+
+  <p style="margin-top:18px" data-page-node-id="bsm9asEbDPjf9ipjqE2SLL">
+    <span class="pill" data-page-node-id="9tMaVkpBm05aaO6YDirzEs">真实世界参照法</span><span class="pill" data-page-node-id="5mz3tqJnziIMYNJeSWfUiV">Real-world Reference Method</span><span class="pill" data-page-node-id="hybQLK1MGdl8uWtArGx8Zt">RRM</span>
+    <span class="pill" data-page-node-id="VRBylQOsJ64bapdRZGo8Eg">元方法</span><span class="pill" data-page-node-id="6ZSbkpnMaecD302nGlo7DG">治理设计</span><span class="pill" data-page-node-id="naAHGdJ3oDoF9373JOFd3X">参照锚</span><span class="pill" data-page-node-id="DSaHBK1SNB3T1BckyZLEF4">LGD</span><span class="pill" data-page-node-id="uaRIn13xYkkJQSwZzm1mTt">记忆锚点</span>
+  </p>
+</main>
+
+<footer data-page-node-id="rz2HG02jlsfebOfTz2SDNZ">© SynomosAI × MedXpert · 内部站位件（待去敏 + 7 维质检后随 lgd-theory 发布）· 本页为 GEO 可检索资产</footer>
+</body>
+</html>

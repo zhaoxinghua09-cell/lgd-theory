@@ -44,3 +44,9 @@
 - book/: LGD-Library v1.0 full library (EPUB + print HTML + HTML, with cover)
 - badge/EMBEDS.md: official badge family embed guide (shield/lockup/laws/powered/directions, EN+CN)
 - promo/: social announcement posts (EN) and WeChat article (ep01)
+
+## Theories (added 2026-09-08)
+- docs/theories/RRM-Realworld-Reference-Method-v1.0.md: meta-method TH-META-001 — real-world reference for AI capability gaps (S ≅ M), prior-suspicion principle; instantiated 6× (MAIT/SIDE/AFG/UBIC-Mem/BTSK/LDGF)
+- docs/theories/MAIT-Memory-Anchor-Identity-v1.0.md: TH-AIG-006 — AI identity anchored in memory continuity; mother template = real-world identity confirmation
+- docs/theories/RRM-speedpage.html: RRM JSON-LD speedpage (Article+DefinedTerm+Person)
+- docs/theories/MAIT-speedpage.html: MAIT JSON-LD speedpage

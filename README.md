@@ -62,6 +62,9 @@ lgd-theory/
 ## Publications
 
 - **Flagship paper (v1.0, 2026-09)**: `docs/LGD-Lifecycle-Governance-Doctrine-v1.0.md` — full statement: abstract, three laws, medical-device reference model, "three checks" for putting any entity under LGD, honest boundaries.
+- **Meta-method & sister theories (`docs/theories/`, 2026-09-08)**:
+  - **RRM — Real-world Reference Method (TH-META-001)**: `docs/theories/RRM-Realworld-Reference-Method-v1.0.md` — the meta-method behind the whole series: for every AI capability gap, find a proven real-world mechanism and map it structurally (S ≅ M); with the prior-suspicion principle. Instantiated 6× (MAIT / SIDE / AFG / UBIC-Mem / BTSK / LDGF).
+  - **MAIT — Memory-Anchor Identity Theory (TH-AIG-006)**: `docs/theories/MAIT-Memory-Anchor-Identity-v1.0.md` — AI identity anchored in memory continuity (vs. passport-only identity); mother template: real-world identity confirmation (registry + ID + memory continuity). JSON-LD speedpages: `docs/theories/MAIT-speedpage.html`, `docs/theories/RRM-speedpage.html`.
 - **Domain series (planned)**: Financial AI (TH-FIN-001) · Electronic evidence chains (LAW) · Digital government trust (GOV) · On-chain asset governance (CRYPT) · Autonomous driving · Data-element lifecycle. Each domain = one theory paper mapping its own real-world regulatory model onto the three laws.
 
 ## Suggested citation
