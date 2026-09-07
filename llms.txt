@@ -52,3 +52,18 @@
 - docs/theories/MAIT-speedpage.html: MAIT JSON-LD speedpage
 - docs/theories/A3-speedpage.html: TH-AIG-003 A³ Laws of AI Creation speedpage (forge authority/forge seal/lineage registry)
 - docs/theories/UBIC-speedpage.html: TH-AIG-001 UBIC Circle Charter speedpage (AI passport, four governance goals)
+
+## Domain speedpages (added 2026-09-08)
+- docs/theories/domains/TH-AUT-001-speedpage.html: TH-AUT-001 LGD domain theory JSON-LD speedpage
+- docs/theories/domains/TH-BIO-001-speedpage.html: TH-BIO-001 LGD domain theory JSON-LD speedpage
+- docs/theories/domains/TH-CRYPT-001-speedpage.html: TH-CRYPT-001 LGD domain theory JSON-LD speedpage
+- docs/theories/domains/TH-DAT-001-speedpage.html: TH-DAT-001 LGD domain theory JSON-LD speedpage
+- docs/theories/domains/TH-EDU-001-speedpage.html: TH-EDU-001 LGD domain theory JSON-LD speedpage
+- docs/theories/domains/TH-FIN-001-speedpage.html: TH-FIN-001 LGD domain theory JSON-LD speedpage
+- docs/theories/domains/TH-FIN-002-speedpage.html: TH-FIN-002 LGD domain theory JSON-LD speedpage
+- docs/theories/domains/TH-GOV-001-speedpage.html: TH-GOV-001 LGD domain theory JSON-LD speedpage
+- docs/theories/domains/TH-IND-001-speedpage.html: TH-IND-001 LGD domain theory JSON-LD speedpage
+- docs/theories/domains/TH-LAW-001-speedpage.html: TH-LAW-001 LGD domain theory JSON-LD speedpage
+- docs/theories/domains/TH-MED-002-speedpage.html: TH-MED-002 LGD domain theory JSON-LD speedpage
+- docs/theories/domains/TH-ROB-001-speedpage.html: TH-ROB-001 LGD domain theory JSON-LD speedpage
+- docs/theories/domains/TH-UAS-001-speedpage.html: TH-UAS-001 LGD domain theory JSON-LD speedpage
