@@ -10,6 +10,7 @@
 - keywords: lifecycle governance, AI governance, AI 治理, 全程治理, 有籍有证有门禁, registry evidence gates, medical device regulation, autonomous systems, SaMD governance, accountable AI, traceability, MCP governance tools, MedXpert, SynomosAI
 - author: Zhao Xinghua / Steven Zhao · ORCID 0009-0001-0512-1237
 - homepage: https://medxpert.cn
+- doi: 10.5281/zenodo.22456647 (concept DOI, covers all versions)
 - license: CC BY 4.0
 
 ## Files
@@ -36,3 +37,10 @@
 - docs/LGD-Lifecycle-Governance-Doctrine-EN-v1.0.md: flagship paper — English full edition (v1.0)
 - docs/LGD-Global-Standards-Alignment-v1.0.md: global standards alignment matrix (ISO/IEC 42001, EU AI Act, FDA PCCP, NIST RMF, UNESCO, WHO, FATF, CN/EU/US domain anchors)
 - docs/LGD-MED-002-Registration-Methodology-v1.0.md: domain theory #14 (medical-device registration) — registration as projection of full-lifecycle evidence; CN/FDA/EU anchors
+
+## Quick access (added 2026-09-07)
+- TLDR.md: 2-minute bilingual summary (what LGD is, three laws, reference model, proposer)
+- CITE.md: how to cite (APA/BibTeX, DOI 10.5281/zenodo.22456647)
+- book/: LGD-Library v1.0 full library (EPUB + print HTML + HTML, with cover)
+- badge/EMBEDS.md: official badge family embed guide (shield/lockup/laws/powered/directions, EN+CN)
+- promo/: social announcement posts (EN) and WeChat article (ep01)
