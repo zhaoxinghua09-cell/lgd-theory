@@ -78,3 +78,12 @@ LGD is a **civil-society framework, not legal or regulatory advice**; device-reg
 ---
 
 © MedXpert × SynomosAI · CC BY 4.0 · cite the author when sharing
+
+---
+
+## Machine-readable metadata
+
+- Structured citation: [`schema.jsonld`](schema.jsonld) — schema.org `ScholarlyArticle`
+- Agent collaboration conventions: [`AGENTS.md`](AGENTS.md)
+- Citation pack: [`CITE.md`](CITE.md) · TL;DR: [`TLDR.md`](TLDR.md)
+- Concept DOI: <https://doi.org/10.5281/zenodo.22456647> · ORCID: [0009-0001-0512-1237](https://orcid.org/0009-0001-0512-1237)
