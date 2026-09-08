@@ -69,5 +69,6 @@
 - docs/theories/domains/TH-UAS-001-speedpage.html: TH-UAS-001 LGD domain theory JSON-LD speedpage
 - docs/theories/XCGS-Governance-Safety-Framework-v1.0.md: TH-AIG-002 XCGS whitepaper v1.0 (three portable governance attributes: boundary declaration / identity self-disclosure / accountability chain)
 - docs/theories/XCGS-speedpage.html: TH-AIG-002 XCGS speedpage (portable governance attributes; ISO/IEC 42001 & NIST AI RMF aligned)
+- docs/theories/BTSK-Bitemporal-Knowledge-Base-v1.0.md: TH-MED-003 BTSK whitepaper v1.0 (bitemporal knowledge base: valid time x transaction time, evidence-eligibility condition, gate semantics for knowledge edits)
 - docs/theories/BTSK-speedpage.html: TH-MED-003 BTSK speedpage (bitemporal knowledge base: valid time x transaction time as evidence-eligibility condition; Zep Graphiti engineering echo, BTSK contributes governance rules)
 - arxiv/main.tex: arXiv cs.CY position paper source — "The Lifecycle Governance Doctrine (LGD): Registry, Evidence, and Gates Across the Full Life of Autonomous Systems" (LGD + RRM + MAIT integrated, 2026 frontier comparison, 12-domain instantiation)
