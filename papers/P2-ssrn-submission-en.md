@@ -1,0 +1,67 @@
+# Principles Will Not Save AI Governance: The Missing Layer of Determination — Evidence from the Chinese Side
+
+**SSRN submission draft · v1.1 (EN) · SynomosAI Governance Line · 2026-09-08**
+
+> Suggested metadata below — copy into the SSRN form. This file contains the full English text ready for upload (paste into Word/Google Docs and export PDF, or use as-is for text upload).
+
+---
+
+## Abstract (for the SSRN form, ~150 words)
+
+AI governance has converged on principles; it has not converged on determinations. Drawing on three specimens from Chinese regulatory practice — formalized criteria without determination procedures; identity institutions with suspended auditing criteria; and rules whose legal status is itself indeterminate — this article argues that the missing layer of AI governance is determination: the machinery that converts principles into decidable, replayable, archivable verdicts. Recent formal results (McCann 2026; Tibebu & Shemtaga 2026) show the gap is one of kind, not of pace. Acknowledging the nearest neighbour, Chalupa's Decision Demonstrability framework diagnoses the pathology of decision identity failure; this article contributes Chinese-side empirical evidence and a determination-procedure proposal. Three minimal claims are advanced: a formalizability spectrum for governance criteria (L0–L4); four-state output with an explicit suspended state and the measurement of determination debt; and complementarity between subject institutions and determination procedures.
+
+**Keywords**: AI governance; determination; regulatory design; China; NMPA; algorithm change; determination debt; auditability
+
+**Suggested SSRN subject areas**: Primary — Technology Law; Secondary — Public Policy / Comparative Law
+
+---
+
+## 1. The Convergence Illusion
+
+The most visible achievement of AI governance in the past decade is the convergence of principles. Jobin, Ienca and Vayena's landmark mapping of more than two hundred AI ethics guidelines documented a near-global consensus on transparency, justice, non-maleficence, responsibility and privacy. Yet convergence is precisely where this article begins: if principles have converged, why do governance failures persist in familiar patterns?
+
+Mittelstadt answered in 2019 that principles alone cannot guarantee ethical AI. Principles are necessary; what is missing is the intermediate machinery that converts principles into determinations. This article continues that critique from a deliberately shifted vantage point: **not the front door of European and American regulatory texts, but the side window of Chinese governance practice.** China is chosen because within a single jurisdiction it now exhibits, simultaneously, three conditions that together form a complete specimen for testing principle-first governance: criteria that are formalized but not operationalized; criteria that are institutionally promised but suspended; and criteria whose very legal status is indeterminate.
+
+## 2. Three Failure Forms at the Determination Layer
+
+**Form I: criteria exist, determination procedures do not.** China's regulation of AI-enabled medical devices is among the rare jurisdictions where the classification criteria for algorithm changes are explicitly written. Algorithm-driven updates — including retraining that abandons the original training dataset — are, in principle, treated as significant software updates requiring change registration; data-driven updates are assessed by performance comparison against the previously registered version, with no statistically significant difference meaning non-significant. In the vocabulary of the doctrine of governance determinability, these criteria reach Level 2 on a formalizability spectrum (declarations L0, checklists L1, rules L2, code L3, proofs L4). Yet what followed the publication of these criteria? No publicly specified determination procedure, no interactive determination tool, no requirement that determination records be replayable. Firms rely on consultancy articles and oral interpretation. This confirms a sharp corollary of the Mittelstadt critique: **Level-2 criteria without Level-3/4 procedures are just another article.** The existence of criteria does not automatically generate determinations.
+
+**Form II: the institution exists, the criteria are suspended.** The GB/Z 185 series of national guiding technical documents on AI agent interconnection, published in May 2026, established an identity-code regime for AI agents: one identity code corresponds to exactly one agent, issued through a national node. This is a legislative precedent for "having registration" — anchoring the governed object. Yet the same official narrative concedes that agent auditing standards remain under development. Identity first, auditing pending: the governed objects are registered, but no one can determine whether an agent's behaviour is compliant. Between the ambition of the principles layer and the emptiness of the determination layer sits an entire missing institutional stratum.
+
+**Form III: the status of the criteria is itself indeterminate.** Announcement No. 63 (2025) proposed simplified change-registration requirements for performance-optimization updates that leave the core algorithm unchanged; the market widely read this as a new "algorithm iteration" regime. But professional sources note that the supporting normative document has not been issued, while corporate service pages simultaneously claim the regime "is in force" and manage changes under a three-tier minor/moderate/major scheme. Two sources contradict each other about the legal status of the same policy. This is not information noise; it is the externalization of **determination debt**: when a firm cannot determine whether a rule is in force right now, every compliance decision accrues a liability that cannot be replayed. Principle-first governance has no instrument to measure such debt — the principles layer has no "status" variable at all.
+
+## 3. Not a Chinese Delay but a Provable Boundary
+
+Two replies are available to defenders of principle-first governance: that China is still maturing while Western regimes are more developed, or that principles will eventually be operationalized. Both underestimate the structural nature of the gap. Recent formal results show the gap is one of kind, not of pace. McCann and collaborators, using 454 machine-checked theorems, proved the undecidability of behavioural-governance conformance for Turing-complete systems: no governance claim can, in general, be mechanically verified. Tibebu proved an accountability-incompleteness theorem: once the composite autonomy of a human–agent collective exceeds a computable threshold, no accountability framework can simultaneously satisfy attributability, foreseeability, non-vacuity and completeness.
+
+Before turning to the formal boundary, acknowledgement and demarcation are due to the nearest neighbour at the determination layer: Chalupa's Decision Demonstrability framework (2026–, Zenodo preprint series) has already argued that the three criteria on which existing governance frameworks rest — auditability, explainability and regulatory compliance (NIST AI RMF, ISO/IEC 42001) — are **necessary but not sufficient**: Decision Identity Failure, in which an output is labelled as an instance of a governing decision category while the derivation that would make it one cannot be independently reconstructed, is orthogonal to all three, and a seven-fold taxonomy of organizational failure modes accompanies the diagnosis. This article is complementary, not competitive: **Chalupa diagnoses the pathology of decision identity failure; the present article contributes Chinese-side empirical evidence and a determination-procedure proposal** — he answers why decisions cannot be trusted, this article answers what a determination procedure should look like and how suspension should be accounted for.
+
+These theorems, together with the neighbouring critique, delineate an **impossibility region**. Its lesson is uncomfortable for principles: governance that stops at declarations has an upper bound on effectiveness set by the degree of formalization achieved at the determination layer. Governance output should therefore be redefined — not "how many principles are declared" but "what fraction of governance questions fall inside the decidable region." For questions outside that region, an honest exit must exist: neither pretending a determination was made (compliance theatre) nor pretending the question does not exist. This motivates the doctrine's introduction of a **suspended state** and the measurement of **determination debt**: making "temporarily undecidable" a variable of the regime rather than a shame of it.
+
+## 4. The Determinability Turn: Three Minimal Claims
+
+**Claim 1: a spectrum for criteria.** Governance criteria should be graded by formalizability (L0 declarations, L1 checklists, L2 rules, L3 code, L4 proofs). The failure of principle-first governance can be precisely located: much content sits at L0/L1 yet is treated as if it were L2. Progress is measured not by another principles document but by migration of criteria up the spectrum.
+
+**Claim 2: four-state output and determination debt.** A determination procedure should output one of four states for any governance question: allowed, denied, conditional, suspended. The stock of suspended cases — determination debt — is the most honest health indicator of a governance regime. A regime without a suspended state is either lying or disguising the undecidable as the decidable. A demarcation from its machine-learning neighbour is required: the Learning-to-Defer lineage (Chow 1957 → Madras et al. 2018 → Mozannar & Sontag 2020 → the Oxford survey of 2025) studies "handing over to a human when the AI is uncertain," superficially isomorphic to suspension — but L2D is a **per-prediction routing action** (a statistical learning objective with no institutional semantics), whereas suspension is an **institutional state** carrying ledger fields, audit chains and debt-aging measures. In one sentence: L2D answers "route to whom"; suspension answers "who is accountable during the suspension, how much debt accrues, and when reconsideration triggers."
+
+**Claim 3: separation from, and complement to, subject-institution.** Zheng has recently argued for the separation of evaluation from construction: the evaluating subject must be institutionally independent of the building subject, bound by professional duties. This article complements that at the determination layer: subject institutions answer "who is entitled to judge"; determination procedures answer "by what criteria, with what output, replayable how." Either without the other yields organizational form without judgment, or judgment without standing.
+
+## 5. Three Objections
+
+**Objection 1: does formalization hand governance to algorithms — a determinism fear?** No. The doctrine deliberately distinguishes determination from determinism. Levels L0–L1 explicitly preserve space for human discretion: admitting that only checklist-level criteria exist is more honest than pretending rule-level criteria exist. The suspended state is precisely the institutional exit reserved for discretion and deliberation.
+
+**Objection 2: formalized criteria become obsolete.** They do — which is why criteria maintenance is an axiom of the doctrine: every criterion carries a validity period and re-determination triggers. That criteria age is no argument against formalization, just as the need to amend law is no argument against legislation.
+
+**Objection 3: can the Chinese case generalize?** The spectrum and the four-state output are jurisdiction-neutral abstractions; moreover, medical devices, automotive OTA, financial model risk and generative-AI filing regimes are converging on the same change–classification–regulatory-action structure (the reality-reference method's cross-domain instantiations). What we observe is not Chinese particularity but the common condition of regulated industries.
+
+## 6. Conclusion
+
+The convergence of principles was the achievement of AI governance's first decade; the missing determination layer is the debt it left behind. The three specimens offered by the Chinese side — criteria without procedures, identity without auditing, and rules whose status is itself indeterminate — show that the debt has come due. The next decade of AI governance should not produce the two hundred and first principles document. It should produce the first statement of determination debt.
+
+## References
+
+Jobin, Ienca & Vayena (2019) *Nature Machine Intelligence*; Mittelstadt (2019) *Phil. Trans. R. Soc. A*; Tibebu & Shemtaga (2026) arXiv:2604.07778; McCann (2026) arXiv:2604.27292; Chalupa (2026) Zenodo DIP-CORE-1.0 / Decision Demonstrability, DOI 10.5281/zenodo.18362037 et seq.; Mozannar & Sontag (2020); *Learning to Defer: A Survey* (2025, Oxford); Xue (2026) in *Digital Economy Development and Governance* No. 1; Zhang & Shan (2026) *Enterprise Economy* No. 2; Zheng (2026) *Political Science and Law* No. 4; NMPA, Guiding Principles for Registration Review of AI Medical Devices (2022); GB/Z 185—2026 series; NMPA Announcement No. 63 (2025).
+
+---
+
+© 2026 SynomosAI. This working paper is provided "AS IS" without warranty of any kind. Third-party laws, standards and theorems are cited for scholarship; official texts prevail. Not legal advice.
