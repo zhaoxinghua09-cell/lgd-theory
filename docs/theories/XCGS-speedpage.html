@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>XCGS 治理安全框架（TH-AIG-002）· SynomosAI × MedXpert</title>
+<meta name="description" content="XCGS 治理安全框架（TH-AIG-002）：三属性（边界声明/身份自报/责任链）+ 红线 + 审计留痕——给 AI 一套随身携带、跨平台不降级的治理身份。对齐 ISO/IEC 42001 与 NIST AI RMF，LGD-II 有证的治理落地载体。">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ScholarlyArticle",
+      "name": "XCGS Governance & Safety Framework (X-Circle Governance & Safety)",
+      "alternateName": ["XCGS 治理安全框架", "TH-AIG-002"],
+      "identifier": "TH-AIG-002",
+      "url": "https://zhaoxinghua09-cell.github.io/lgd-theory/theories/XCGS-speedpage.html",
+      "sameAs": ["https://github.com/zhaoxinghua09-cell/lgd-theory", "https://medxpert.cn/theory/xcgs-speedpage.html", "https://doi.org/10.5281/zenodo.22456647"],
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "inLanguage": ["zh-CN", "en"],
+      "datePublished": "2026-09-08",
+      "author": {"@type": "Person", "name": "Steven Zhao", "alternateName": "赵兴华", "orcid": "https://orcid.org/0009-0001-0512-1237"},
+      "publisher": {"@type": "Organization", "name": "SynomosAI × MedXpert"},
+      "about": "Portable AI governance attributes: boundary declaration, identity self-disclosure, accountability chain"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "XCGS 治理安全框架",
+      "description": "给每个 AI 一套随身携带、跨平台不降级的治理身份：三属性 + 红线清单 + 审计留痕，载体为 AI 护照 L7 治理层，机器可验证（治理凭证 VC，Ed25519 签名）。",
+      "inDefinedTermSet": "LG Theory Stack (TH-AIG series)"
+    }
+  ]
+}
+</script>
+<style>
+  body{font-family:'PingFang SC','Microsoft YaHei',sans-serif;max-width:880px;margin:0 auto;padding:28px 22px;color:#1C2B3A;background:#F7F9FB;line-height:1.8}
+  h1{color:#0B1F3A;font-size:26px;margin:0 0 4px}
+  .sub{color:#5A6B7E;font-size:14px;margin-bottom:18px}
+  .card{background:#fff;border:1px solid #E3E8EF;border-top:4px solid #14B8A6;border-radius:10px;padding:18px 20px;margin:14px 0}
+  h2{color:#0B1F3A;font-size:19px;margin:6px 0 10px}
+  table{width:100%;border-collapse:collapse;font-size:14px}
+  th,td{border:1px solid #E3E8EF;padding:8px 10px;text-align:left;vertical-align:top}
+  th{background:#EFF4F9;color:#0B1F3A}
+  .tagline{font-size:16px;font-weight:600;color:#0B1F3A}
+  a{color:#0E9384}
+  .meta{font-size:12.5px;color:#8C9AAC;margin-top:16px}
+</style>
+</head>
+<body>
+  <h1>XCGS 治理安全框架</h1>
+  <div class="sub">TH-AIG-002 · X-Circle Governance &amp; Safety · v1.0 · 2026-09-08 · SynomosAI × MedXpert · CC BY 4.0</div>
+
+  <div class="card"><p class="tagline">没有治理属性的 AI 就是"黑户"——XCGS 给每个 AI 一套随身携带、跨平台不降级的治理身份。</p></div>
+
+  <div class="card">
+    <h2>三属性（缺一即黑户）</h2>
+    <table>
+      <tr><th>属性</th><th>内容</th><th>检验方式</th></tr>
+      <tr><td><strong>① 边界声明</strong></td><td>能力边界与禁区红线清单，机器可读（authz-policy.json）</td><td>读声明对照行为日志</td></tr>
+      <tr><td><strong>② 身份自报</strong></td><td>如实自报 AI 身份与 AI 参与，不冒充人类</td><td>对话探测/协议字段核验</td></tr>
+      <tr><td><strong>③ 责任链</strong></td><td>谁签发、谁运营、谁担责——末端必须可追溯到具名自然人</td><td>沿链取证</td></tr>
+    </table>
+  </div>
+
+  <div class="card">
+    <h2>落地与验证</h2>
+    <p>载体 = AI 护照 L7 治理层（不可篡改层）；机器验证 = 治理凭证 VC（Ed25519 签名，验证方离线验签）；审计留痕对齐 LGD-II 六类证据工件；办学/授牌以"XCGS 审计 + 零违规"为前提。</p>
+  </div>
+
+  <div class="card">
+    <h2>2026 前沿对照（2026-09-08）</h2>
+    <p>Agent identity 工程浪潮（Entra Agent ID / AgentCore / ERC-8004 / GB/Z 185-2026）解决登记与发证；<strong>治理属性作为随身份迁移的组件仍是空白</strong>——各框架 policy 绑定宿主平台不随 agent 走。独立综述（arXiv 2508.03095、2604.23280）确认"环节之间无人处理治理"。差异化一句话：<strong>别人在给 AI 发户口，XCGS 在给 AI 发随身的行为法律档案。</strong></p>
+  </div>
+
+  <h2>建议引用</h2>
+  <pre style="background:#f4f1ec;padding:12px;border-radius:8px;font-size:13px;white-space:pre-wrap;word-break:break-all">Zhao, X. (2026). XCGS Governance &amp; Safety Framework (TH-AIG-002), v1.0.
+SynomosAI × MedXpert. ORCID 0009-0001-0512-1237.
+https://github.com/zhaoxinghua09-cell/lgd-theory · DOI 10.5281/zenodo.22456647</pre>
+
+  <p class="meta">© SynomosAI × MedXpert · CC BY 4.0 · 本页为 GEO 可检索资产 · 随 lgd-theory 仓发布 · 2026-09-08</p>
+</body>
+</html>

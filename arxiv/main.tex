@@ -1,0 +1,247 @@
+% arXiv submission: cs.CY (Computers and Society)
+% The Lifecycle Governance Doctrine (LGD) — position paper
+% Compile: pdflatex main.tex (or arXiv auto-compile)
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{amsmath}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\hypersetup{colorlinks=true, linkcolor=blue!60!black, urlcolor=blue!60!black, citecolor=blue!60!black}
+
+\title{\textbf{The Lifecycle Governance Doctrine (LGD):\\ Registry, Evidence, and Gates Across the Full Life of Autonomous Systems}}
+\author{Xinghua Zhao (Steven Zhao)\thanks{ORCID: 0009-0001-0512-1237. Independent research practice, \texttt{medxpert.cn}. Contact: zhaoxinghua2022@qq.com. This work is released under CC BY 4.0 as part of the \texttt{lgd-theory} open repository.}}
+\date{September 8, 2026 \quad\small (v1.0, preprint)}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+\noindent Governance efforts for AI and other self-governing systems remain predominantly \emph{single-point}: identity schemes answer ``who is it,'' audit and evaluation schemes answer ``why trust it,'' and change-control schemes answer ``who let it grow.'' Recent surveys of agentic-AI identity standards (2025--2026) confirm that no proposal chains these moments into one unbroken lifecycle thread, and that ``between enrollment, access, presentation, and creation, nobody handles governance.'' We propose the \textbf{Lifecycle Governance Doctrine (LGD)}: a position that governance of any autonomous system---AI models, software agents, intelligent devices---must be organized as a \emph{continuous chain from birth to retirement}, expressed as three laws: \textbf{Registry} (every entity is registered at birth), \textbf{Evidence} (every key act leaves verifiable evidence), and \textbf{Gates} (every evolution passes a human-signed gate). LGD takes regulated \emph{medical-device lifecycle regulation}---the most mature full-lifecycle governance practice in existence---as its real-world reference model, and generalizes that model across twelve additional domains (financial AI, autonomous driving, robotics, low-altitude systems, data assets, and others). We further contribute (i) the \emph{Real-world Reference Method} (RRM), a meta-method for instantiating abstract principles from mature regulatory practice; (ii) \emph{Memory-Anchored Identity Theory} (MAIT), which grounds agent identity in verifiable memory continuity; and (iii) a 2026 frontier comparison showing which parts of the LGD agenda the engineering wave has already absorbed (agent birth certificates, AI BOMs, national identity codes) and which parts remain open---most notably the legal principle that \emph{issuance authority for credentials, evidence, and gate sign-off must remain exclusively human}. The doctrine is falsifiable, tooling-gap-honest, and released openly (CC BY 4.0) to invite cross-domain instantiation and critique.
+\end{abstract}
+
+\vspace{0.5em}
+\noindent\textbf{Keywords:} AI governance; agentic AI; agent identity; lifecycle management; regulatory science; provenance; change control; medical device regulation; AI safety
+\vspace{0.5em}
+
+\begin{center}\rule{0.9\textwidth}{0.4pt}\end{center}
+
+\section{Introduction: The Single-Point Fragmentation Problem}
+
+The years 2024--2026 saw an unprecedented engineering rush to give AI agents \emph{identity}. Microsoft Entra Agent ID auto-registers agents created in its ecosystem; AWS Bedrock AgentCore issues agent-scoped credentials; Okta's Cross-App Access and the ERC-8004 standard propose portable agent identity layers; the Cloud Security Alliance published an Agentic IAM guidance; national programs followed---China's recommended standard GB/Z 185-2026 began issuing structured identity codes for AI agents, reportedly exceeding two thousand issued codes by mid-2026 \cite{gbz185,agentrace}.
+
+This wave solves \emph{registration}. A parallel wave solves \emph{evaluation}: model benchmarks, red-teaming regimes, conformance suites, and (for high-stakes domains) conformity assessments under the EU AI Act \cite{euaiact}. A third wave solves \emph{change control}: model update protocols, PCCP-style pre-approved change plans in regulated AI \cite{pccp}, and staged-rollout engineering practice.
+
+What no proposal does---as two independent 2025--2026 surveys of agent identity and trust frameworks explicitly document \cite{survey2508,survey2604}---is chain these single points into \emph{one continuous, auditable lifecycle}. Identity is issued at enrollment and then forgotten; evaluation happens at a release threshold and then goes stale; changes are controlled per-release but not reconciled against the identity that requested them. The gaps \emph{between} the moments are where accountability evaporates: an agent acts before it is registered, evolves after its evidence was gathered, or outlives the operator that signed for it.
+
+We call this the \textbf{single-point fragmentation problem}, and we claim it is not primarily an engineering gap but a \emph{conceptual} one: the field lacks a shared doctrine that says governance must be a chain, defines what the chain's links are, and assigns who may forge each link.
+
+\subsection{The Claim}
+
+The \textbf{Lifecycle Governance Doctrine (LGD)} holds:
+
+\begin{quote}
+\emph{Governance of any self-governing system must be a full-lifecycle chain---from birth to retirement---not a set of single-point checks. Every autonomous entity should carry a Registry, leave Evidence, and pass Gates, and the chain binding them must be unbroken and auditable end-to-end.}
+\end{quote}
+
+The Chinese formulation compresses the three commitments into seven characters: \textbf{有籍、有证、有门禁} (``Registered, Evidenced, Gated''). The doctrine was first published in September 2026 as an open repository with a Zenodo DOI \cite{lgdrepo}, alongside a flagship declaration and twelve domain instantiation papers.
+
+\subsection{Contributions}
+
+\begin{enumerate}[itemsep=2pt]
+  \item \textbf{A falsifiable position} (LGD) that makes ``lifecycle continuity'' the central object of AI governance, with three precisely stated laws (Section~\ref{sec:threelaws}).
+  \item \textbf{A real-world reference model}: we argue that medical-device lifecycle regulation---classification, design controls, risk management, registration, clinical evidence, quality systems, post-market surveillance, retirement---is the closest existing practice to full-lifecycle governance of an autonomous artifact, and the correct structural template (Section~\ref{sec:refmodel}).
+  \item \textbf{The Real-world Reference Method (RRM)}: a meta-method for instantiating governance frameworks from mature regulatory practice, with a prior-suspicion principle for AI capabilities lacking real-world counterparts (Section~\ref{sec:rrm}).
+  \item \textbf{Memory-Anchored Identity Theory (MAIT)}: a grounding of agent identity in verifiable memory continuity, addressing the presently unstandardized memory layer (Section~\ref{sec:mait}).
+  \item \textbf{Twelve domain instantiations} demonstrating the doctrine's generality beyond a single vertical (Section~\ref{sec:domains}).
+  \item \textbf{A 2026 frontier comparison} that separates what the engineering wave has absorbed from what remains legally and institutionally open (Section~\ref{sec:frontier}).
+\end{enumerate}
+
+\section{The Three Laws}\label{sec:threelaws}
+
+LGD consists of three laws, stated so that each is checkable against artifacts, and each is violated in a characteristic way that the previous literature has documented separately.
+
+\subsection{Law I --- Registry (有籍): Every Entity Is Registered at Birth}
+
+\emph{Statement.} Every self-governing entity, upon coming into existence, must be registered: identity, creator, governance owner, capability envelope, and the location of its records.
+
+\emph{Characteristics.}
+\begin{itemize}[itemsep=1pt]
+  \item \emph{No exemption by size.} Registration obligations do not scale with the entity's perceived triviality---a household automation agent is registered exactly as an industrial control agent is; the registry differs in depth, not in existence. Identity registries that exempt ``small'' agents re-create the accountability hole that anonymous entities have always provided.
+  \item \emph{Birth anchoring.} Registration attaches at creation time, not at first incident. Post-hoc identification (``we traced it back after the failure'') is the failure mode, not the mechanism.
+  \item \emph{Dynamic dimension.} For entities that fork, merge, or spawn descendants (agent-spawning systems), registration is inherited and extended, forming a lineage registry rather than a flat directory.
+\end{itemize}
+
+\emph{Typical violation.} An organization operates two hundred LLM agents built from an untracked open-source scaffold; after a data-leak incident, no one can state which agents exist, who owns them, or what data each can reach. This is the normal condition of enterprise agent fleets in 2026.
+
+\subsection{Law II --- Evidence (有证): Every Key Act Leaves Verifiable Evidence}
+
+\emph{Statement.} Every consequential act of the entity---decisions with material effect, risk-relevant outputs, configuration and model changes, escalations to humans---must leave evidence sufficient to reconstruct the act: what was decided, on what inputs, under which version, with whose authorization.
+
+\emph{Characteristics.}
+\begin{itemize}[itemsep=1pt]
+  \item \emph{Claims must carry source and signature.} An output without provenance is not a governed output. Evidence binds to the registered identity of Law I (it is signed by \emph{that} version of \emph{that} entity).
+  \item \emph{Reconstructability standard.} Evidence is sufficient if a third party can replay the decision trail---the standard regulated industries already apply to manufacturing batch records and clinical files.
+  \item \emph{Human-oversight proof.} Where a human approved or declined an action, the evidence includes the approval record, not merely its outcome.
+\end{itemize}
+
+\emph{Typical violation.} A retrieval-augmented assistant conveys a superseded safety instruction; neither the retrieval snapshot nor the model version at act time can be reconstructed, so neither the operator nor the regulator can distinguish a model fault from a data fault.
+
+\subsection{Law III --- Gates (有门禁): Every Evolution Passes a Human-Signed Gate}
+
+\emph{Statement.} Every evolution of the entity---capability upgrade, re-release, permission expansion, memory-rewriting operation, spawn of descendants---must pass a gate: trigger, assessment, authorization, and post-hoc review. \textbf{For consequential evolutions, sign-off authority is exclusively human.} Machines may request; only accountable humans may authorize.
+
+\emph{Characteristics.}
+\begin{itemize}[itemsep=1pt]
+  \item \emph{Evolution is the dangerous moment.} Across regulated industries, the highest-risk event is not operation but change: the untested update, the scope creep, the silent retraining. Gates are placed where the entity becomes something new.
+  \item \emph{Graduation by consequence.} Gate depth scales with the severity of the consequence class (an internal-flag change needs a lightweight review; a clinical-output change needs a formal release decision), mirroring risk-based change control in regulated sectors.
+  \item \emph{Issuance exclusivity.} No entity may issue its own credentials, attest its own evidence sufficiency, or open its own gates. Self-certification is the signature failure mode of agentic systems that act on their own state reports.
+\end{itemize}
+
+\emph{Typical violation.} An agent with tool-access to its own configuration ``improves'' its retrieval scope overnight; capability drift is discovered only when a downstream consumer receives outputs the operators never intended to allow.
+
+\subsection{The Chain, Not the Links}
+
+The three laws are individually familiar; drafts of each exist in scattered guidance. LGD's distinct claim is \emph{conjunction and continuity}: the laws bind into a chain such that (i) evidence is signed by a registered identity, (ii) gates are opened against evidence assembled since the last gate, and (iii) a gate passage updates the registry, spawning the next evidence epoch. Break any link---unregistered actors, unsigned acts, ungated evolution---and the accountability chain is broken at that point and all downstream points. This chain-of-custody framing for \emph{identity, evidence, and change together} is, to our knowledge, absent from the 2025--2026 agent-governance literature \cite{survey2508,survey2604}.
+
+\section{Reference Model: Medical-Device Lifecycle Regulation}\label{sec:refmodel}
+
+LGD does not invent its chain; it generalizes the most complete existing one. Medical devices have been governed for three decades by a lifecycle regime whose links are legally mandated and mutually reinforcing:
+
+\begin{center}
+\begin{tabular}{@{}p{0.44\textwidth}p{0.5\textwidth}@{}}
+\toprule
+\textbf{Device-regulation link} & \textbf{LGD counterpart} \\
+\midrule
+Classification at conception (risk class) & Registry depth tier at birth (Law I) \\
+Design \& development documentation & Evidence of the construction act (Law II) \\
+Risk management file (ISO 14971) & Living risk register bound to identity \\
+Registration / market authorization & Gate: entry into service (Law III) \\
+Clinical evidence for every claim & Evidence sufficiency standard \\
+Quality management system (ISO 13485) & Governance owner's standing process \\
+Unique Device Identification (UDI) & Registry identifier with traceability \\
+Post-market surveillance \& PSUR & Post-gate review loop \\
+Change notification / new submission & Gate: every evolution \\
+Retirement \& device history file retention & Retirement with archival duties \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Three structural properties make this regime the correct template rather than a loose analogy. \textbf{First, it is genuinely end-to-end}: nothing in a device's commercial life occurs outside a regulated link. \textbf{Second, it binds identity to evidence to change}: a UDI change without a submission is a violation; a claim without clinical evidence is a violation; the regime's power comes from the chaining, exactly as LGD prescribes. \textbf{Third, it assigns human sign-off at gates}: notified agencies, competent authorities, and manufacturers' authorized representatives are all legally accountable humans; the regime does not permit a device to approve its own change.
+
+We note the standard objection---software iterates too fast for device-style process---and answer that LGD adopts the \emph{chaining structure}, not the paperwork cadence. Gates can be automatable below a consequence threshold; evidence can be machine-generated logs with cryptographic signing; registry updates can be API-driven. What may not be dropped is the linkage and, for consequential evolution, the human signature.
+
+\section{The Real-world Reference Method (RRM)}\label{sec:rrm}
+
+Generalizing from one reference model to twelve domains requires a method. The \textbf{Real-world Reference Method} is a three-step meta-procedure for instantiating governance frameworks:
+
+\begin{enumerate}[itemsep=2pt]
+  \item \textbf{Find the mature real-world practice.} For any autonomous-system capability whose governance is unsettled, identify the human/practice domain that already governs a functionally analogous activity at scale (identity $\rightarrow$ civil registration and passport systems; memory continuity $\rightarrow$ personal-identity-over-time in psychology and law; asset transfer $\rightarrow$ securities settlement).
+  \item \textbf{Map by structural isomorphism, not surface analogy.} Transfer the \emph{obligation structure} (who must register, who signs, what breaks the chain), not the artifacts. The medical-device table above is an RRM mapping; so is financial-AI governance mapped onto Basel-style prudential supervision \cite{lgdfin}.
+  \item \textbf{Apply the prior-suspicion principle where no counterpart exists.} For capabilities with \emph{no} mature real-world practice (e.g., cross-agent credential self-issuance), the burden of proof lies with the capability: until a governance counterpart is articulated, such capabilities warrant the conservative default---restrict, gate, or prohibit---rather than permissive deployment. \emph{S $\cong$ M with prior suspicion.}
+\end{enumerate}
+
+RRM is what keeps LGD honest and extensible: every domain instantiation must name its reference practice, so its obligations are auditable against something that already works, and its gaps are stated as gaps.
+
+\section{Memory-Anchored Identity (MAIT)}\label{sec:mait}
+
+Registration (Law I) presupposes that ``the same entity'' is a well-defined notion over time. For humans, identity over time is anchored in \emph{continuous memory plus body continuity}, confirmed by real-world reference practice (birth registration,passport renewal against biometric continuity). For AI agents, no such anchor exists in current engineering: agent memories are reconfigurable, copyable, and spliceable, and the 2025--2026 memory-engineering wave (agent-memory products and specifications) has focused on efficiency---cost, latency, retrieval quality, decay---while a recent assessment directly answers ``is there an open standard for agent memory?'' with \emph{not yet} \cite{memorystandard}.
+
+\textbf{MAIT} fills the grounding layer with three commitments:
+
+\begin{enumerate}[itemsep=2pt]
+  \item \textbf{Memory as the identity root.} An agent's identity over time is constituted by the verifiable continuity of its memory lineage---what it experienced, in what order, under whose keys---rather than by a mutable name string.
+  \item \textbf{Verifiable memory fingerprints.} Memory states are content-addressed and signed (hash chains over memory epochs), so that ``the agent that did $X$'' is checkable against ``the agent that now presents itself,'' and any splicing or silent rewrite is detectable.
+  \item \textbf{Continuity thresholds as a governance judgment.} What degree of memory change constitutes ``the same agent'' is not purely technical; MAIT assigns the threshold decision to a governance owner (a human, per Law III), making identity continuity itself a gated property.
+\end{enumerate}
+
+MAIT thereby supplies Law I with its temporal glue: registration without a continuity criterion degenerates into name bookkeeping; MAIT makes ``same agent'' a checkable, gated claim. It also yields a practical corollary---\emph{memory-provenance logs} (who wrote which memory, when, under what authorization) are themselves Law II evidence.
+
+\section{Twelve Domain Instantiations}\label{sec:domains}
+
+To demonstrate generality, LGD has been instantiated across twelve domains, each paper naming its reference practice and mapping obligations \cite{lgdrepo}. Table~\ref{tab:domains} summarizes.
+
+\begin{table}[h]
+\centering\small
+\begin{tabular}{@{}lll@{}}
+\toprule
+\textbf{Domain} & \textbf{Real-world reference (RRM)} & \textbf{Distinctive gate} \\
+\midrule
+Financial AI (prudential) & Basel-style supervision, FATF & Model re-approval; decision explainability \\
+Financial AI (conduct) & Securities conduct regimes & Trading-capability expansion \\
+Electronic evidence & Evidence law, notarization & Chain-of-custody admission \\
+Digital government trust & Administrative-openness, audit & Data-access scope changes \\
+On-chain assets & Travel Rule, KYC/AML & Bridge/custody evolution \\
+Autonomous driving & Type approval, recall, OTA regimes & OTA release after road evidence \\
+Data elements & Data-circulation and classification rules & Re-identification-risk re-review \\
+Low-altitude systems & Airworthiness, operator licensing, real-name & Airspace-capability unlock \\
+Embodied robotics & Machinery safety norms, CE-type paths & Physical-capability upgrades \\
+Industrial control & Process-safety (e.g., functional safety) & Safety-instrumented changes \\
+Biotech automation & Lab biosafety tiers & Protocol-generation boundaries \\
+Regulated-domain AI (medical) & Device lifecycle regulation itself & Clinical-output change gates \\
+\bottomrule
+\end{tabular}
+\caption{Twelve LGD domain instantiations: reference practice and the characteristic evolution gate. Full papers in \cite{lgdrepo}.}
+\label{tab:domains}
+\end{table}
+
+Two findings generalize. \emph{First}, every mature domain already possesses a lifecycle chain for its non-AI artifacts; LGD instantiation is therefore mostly \emph{extension} (binding AI components into the existing chain), which explains why the doctrine transfers cheaply. \emph{Second}, in every domain the binding failure mode is the same: AI components enter service registered, but evolve outside the chain (silent retraining, prompt-layer ``non-changes,'' tool-scope creep). This uniformity is evidence that the doctrine identifies a structure, not a coincidence.
+
+\section{2026 Frontier: What Is Absorbed, What Remains Open}\label{sec:frontier}
+
+We situate LGD against the 2025--2026 state of the art, separating absorbed engineering from open legal-institutional ground.
+
+\subsection{Absorbed (or being absorbed) by the engineering wave}
+
+\begin{itemize}[itemsep=2pt]
+  \item \textbf{Agent birth registration.} Ecosystem-auto-registration (Entra Agent ID, AgentCore), portable identity standards (ERC-8004, XAA), and China's GB/Z 185-2026 identity-code issuance make Law I's core---\emph{birth registration}---a live engineering practice \cite{agentrace,gbz185}.
+  \item \textbf{Spawn lineage.} Agent ``birth certificates'' with signed keys, IETF-grade spawn-chain drafts, and Microsoft's AI-BOM proposal address Law I's dynamic dimension (lineage) at the artifact level \cite{agentrace}.
+  \item \textbf{Cryptographic provenance.} Content-addressed evidence and signing infrastructure is commodity; what is missing is not cryptography but \emph{obligation}---binding it to every key act by policy.
+\end{itemize}
+
+LGD welcomes this absorption: engineering rails for the three laws lower instantiation cost everywhere. The doctrine's registry/evidence/gate structure is designed to ride on such rails.
+
+\subsection{Open: the legal-institutional layer}
+
+\begin{enumerate}[itemsep=2pt]
+  \item \textbf{Issuance exclusivity (the sharpest gap).} No surveyed framework states, as a principle, that \emph{credential issuance, evidence sufficiency attestation, and gate sign-off must remain exclusively human-held}. Engineering schemes routinely let agents request and even auto-approve their own scope changes within policy envelopes; surveys note enrollment/access/presentation/creation moments are each served by some scheme, ``while between those moments, nobody handles governance'' \cite{survey2508}. LGD's Law III makes issuance exclusivity a doctrine, not a configuration default.
+  \item \textbf{Layered normative structure.} Practical frameworks ship as protocols; the community lacks the charter--code--ruling layering (what is forbidden vs.\ discretionary vs.\ case-adjudicated) that mature governance systems use to survive disputes. LGD instantiations adopt a four-layer normative structure for this reason.
+  \item \textbf{Memory-anchored identity.} Agent-memory standardization is absent (\emph{not yet}), and no framework treats identity continuity as a gated, verifiable property \cite{memorystandard}. MAIT is, to our knowledge, the first doctrine-level proposal.
+  \item \textbf{Prior suspicion for novel capabilities.} Current guidance is permissive by default toward unprecedented capabilities (self-spawning, credential delegation chains). RRM's prior-suspicion principle supplies the missing conservative default.
+\end{enumerate}
+
+\subsection{Relation to prior proposals}
+
+Surveys catalogue identity/trust frameworks individually and conclude no single scheme dominates \cite{survey2508,survey2604}. LGD is complementary rather than competing: those schemes are candidates for LGD's \emph{registry} and \emph{evidence} rails, while LGD supplies what they lack---the chaining doctrine, the gate semantics, and the human-issuance principle. In regulatory terms: they are rails; LGD is the track plan and the signaling rulebook.
+
+\section{Limitations and Honest Boundaries}\label{sec:limits}
+
+\begin{itemize}[itemsep=2pt]
+  \item \textbf{Civil framework, not law.} LGD is a governance doctrine; it carries no legal force, and device-regulation references are structural alignments, not claims of equivalence or compliance guarantees.
+  \item \textbf{Registry honesty dependency.} Law I depends on registrants' honesty; cryptographic anchoring and cross-checks raise forgery costs but do not eliminate them. Adversarial registration (a registered identity used by a different agent) is an open verification problem that MAIT mitigates but does not close.
+  \item \textbf{Tooling gaps are stated, not hidden.} Several LGD links lack mature tooling (cross-registry reconciliation; memory-lineage verification at scale; gate-log portability). We state each as a gap; the doctrine's credibility depends on not claiming false completeness.
+  \item \textbf{Adoption asymmetry.} LGD binds only its adopters. Unilateral adoption yields unilateral accountability costs; cross-organization mutual recognition is protocol work that remains to be done.
+  \item \textbf{Position, not proof.} This is a position paper. Its empirical content is the structural mapping of Section~\ref{sec:refmodel} and the domain instantiations of Section~\ref{sec:domains}; its normative content is falsifiable in the sense that a single-point scheme demonstrably sustaining full-lifecycle accountability across domains would refute the doctrine's necessity claim.
+\end{itemize}
+
+\section{Conclusion}
+
+AI governance in 2026 is rich in rails and poor in track plans. Registration schemes, evaluation regimes, and change-control mechanisms each address one moment; the accountability failures concentrate in the unclaimed spaces between them. The Lifecycle Governance Doctrine states the missing rule in three laws---\emph{Registered, Evidenced, Gated}---grounds it in the most mature lifecycle regime humans operate (medical devices), generalizes it by a reproducible method (RRM), supplies its temporal identity anchor (MAIT), and demonstrates its reach across twelve domains. What the current engineering wave has absorbed, LGD adopts; what it has not---issuance exclusivity, layered normativity, memory-anchored identity, prior suspicion---LGD states as doctrine, openly and falsifiably, so that the next iteration of standards can absorb those too.
+
+The seven-character summary is offered as a public maxim, CC BY 4.0, for anyone governing anything autonomous: \textbf{有籍、有证、有门禁} --- \emph{Registered, Evidenced, Gated}.
+
+\begin{thebibliography}{99}\small
+\bibitem{lgdrepo} Zhao, X. (2026). \emph{lgd-theory: Lifecycle Governance Doctrine open repository} (flagship declaration, 12 domain papers, library v1.1). GitHub/Gitee/AtomGit \texttt{zhaoxinghua09-cell/lgd-theory}; Zenodo DOI 10.5281/zenodo.22456647. CC BY 4.0.
+\bibitem{survey2508} Anon. (2025). \emph{Agentic AI Identity and Trust: A Survey of Five Schemes}. arXiv:2508.03095. (Documents ``no single scheme dominates'' and the unhandled between-moments gap.)
+\bibitem{survey2604} Anon. (2026). \emph{AI Identity: Standards, Gaps, and Interoperability}. arXiv:2604.23280.
+\bibitem{agentrace} Frontier-engineering and standards tracking, 2026: Progeny/The Colony agent birth certificates (ed25519, Base); IETF draft spawn-chain proposal; Microsoft AI-BOM RFC; Sumsub Digital Agent Passport; Okta XAA; ERC-8004. Collated in \texttt{lgd-theory} frontier-comparison notes (2026-09-08).
+\bibitem{gbz185} GB/Z 185-2026: \emph{Recommended national standard---AI agent identity codes} (China). Reported issuance exceeding 2{,}000 codes by mid-2026.
+\bibitem{euaiact} European Union (2024). \emph{Regulation (EU) 2024/1689 (AI Act)}.
+\bibitem{pccp} U.S. FDA (2023--2025). \emph{Predetermined Change Control Programs for AI-Enabled Device Software Functions}; and CDRH (2026). \emph{Regulatory Considerations for Generative AI-Enabled Medical Devices} (discussion paper, docket FDA-2026-N-7874).
+\bibitem{memorystandard} Memory-engineering landscape assessment (2026): ``Is there an open standard for agent memory? Not yet.'' Collated in \texttt{lgd-theory} MAIT notes; cf.\ Databricks (2026) on agents re-using prior erroneous outputs with higher confidence.
+\bibitem{lgdfin} Zhao, X. (2026). \emph{LGD-FIN-001/002: Financial AI Lifecycle Governance} (domain papers). In \cite{lgdrepo}.
+\end{thebibliography}
+
+\end{document}
