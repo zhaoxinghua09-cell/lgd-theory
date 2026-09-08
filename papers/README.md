@@ -33,7 +33,7 @@ graph TD
 
 | 文件 | 矩阵位 | 状态 | 一句话 |
 |---|---|---|---|
-| [P0-governance-determinability-doctrine-v1.1-zh.md](P0-governance-determinability-doctrine-v1.1-zh.md) | 基础工作稿 | v1.1（内部拍板） | 治理判定论：判据可形式化谱系 L0–L4、判定债务、悬置态、六命题附可证伪条件 |
+| [P0-governance-determinability-doctrine-v1.2-zh.md](P0-governance-determinability-doctrine-v1.2-zh.md) | 基础工作稿 | v1.1（内部拍板） | 治理判定论：判据可形式化谱系 L0–L4、判定债务、悬置态、六命题附可证伪条件 |
 | [P2-critique-principles-cannot-save-ai-governance-v1.0-zh-en.md](P2-critique-principles-cannot-save-ai-governance-v1.0-zh-en.md) | P2 批判 | v1.0 中英双版 | 原则层趋同不等于治理效力；批判型短文（引用大户"批判姿势"） |
 | [P5-governance-impossibility-map-v0.3-zh.md](P5-governance-impossibility-map-v0.3-zh.md) | P5 地图 | v0.2（2026-09-08） | 五块不可能域（哲学/可解释性/判定/责任/授权-观测）整合图 + 可能域定位；英文版备稿中 |
 

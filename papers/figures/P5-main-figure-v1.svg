@@ -1,0 +1,106 @@
+<svg viewBox="0 0 1400 980" width="100%" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>The Governance Impossibility Map — Main Figure (v1)</title>
+<desc>Five nested impossibility domains with boundary conditions and evidential strength, plus the possibility-domain sidebar locating seven governance assets.</desc>
+<defs>
+<marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="#5F5E5A" stroke-width="1.5" stroke-linecap="round"/></marker>
+</defs>
+<rect x="0" y="0" width="1400" height="980" fill="#ffffff"/>
+<text x="470" y="42" text-anchor="middle" font-size="21" font-weight="500" fill="#1a1a1a" font-family="Georgia, serif">The Governance Impossibility Map — five domains, boundary conditions, and the possibility domain</text>
+<text x="470" y="66" text-anchor="middle" font-size="13" fill="#888780" font-family="sans-serif">Working paper v0.3 · SynomosAI Governance Line · 2026-09-08 · nesting is the authors' synthesis, not consensus</text>
+
+<rect x="30" y="90" width="880" height="770" rx="18" fill="#FAEEDA" stroke="#854F0B" stroke-width="1.5" stroke-dasharray="8 5"/>
+<text x="50" y="118" font-size="14" fill="#633806" font-family="sans-serif" font-weight="500">① PHILOSOPHICAL LAYER — algorithmic-clarity critique (critique-grade · Kalulé 2019 / Springer 2019 / IJSL 2025)</text>
+<text x="50" y="136" font-size="12" fill="#854F0B" font-family="sans-serif">Boundary: governance demands full legal restatement of algorithmic behaviour → category error</text>
+
+<rect x="70" y="152" width="420" height="380" rx="14" fill="#E6F1FB" stroke="#185FA5" stroke-width="1.5" stroke-dasharray="7 4"/>
+<text x="90" y="180" font-size="14" fill="#0C447C" font-family="sans-serif" font-weight="500">② EXPLAINABILITY LAYER — regulatory trilemma</text>
+<text x="90" y="198" font-size="12" fill="#185FA5" font-family="sans-serif">Rao 2025 (arXiv:2504.20676) · information-theoretic grade</text>
+<text x="90" y="218" font-size="12.5" fill="#1a1a1a" font-family="sans-serif">No governance framework can simultaneously pursue</text>
+<text x="90" y="236" font-size="12.5" fill="#1a1a1a" font-family="sans-serif">unrestricted capability × human-interpretable</text>
+<text x="90" y="254" font-size="12.5" fill="#1a1a1a" font-family="sans-serif">explanation × negligible error (Kolmogorov bounds).</text>
+<text x="90" y="280" font-size="12" fill="#185FA5" font-family="sans-serif">Exit: relax any one goal · institutional sharing of error</text>
+<text x="90" y="300" font-size="12" fill="#185FA5" font-family="sans-serif">(coexistence doctrine — error allocation, not elimination)</text>
+
+<rect x="70" y="560" width="420" height="270" rx="14" fill="#E1F5EE" stroke="#0F6E56" stroke-width="2"/>
+<text x="90" y="588" font-size="14" fill="#04342C" font-family="sans-serif" font-weight="500">⑤ AUTHORIZATION–OBSERVATION LAYER (theorem-grade)</text>
+<text x="90" y="610" font-size="12.5" fill="#0F6E56" font-family="sans-serif">Meyman 2026 (FERZ, 3 lemmas) · Fernandez 2026 (2 thms) ·</text>
+<text x="90" y="628" font-size="12.5" fill="#0F6E56" font-family="sans-serif">Zhu &amp; Leonard 2026 (MDPI, three regimes) — independent,</text>
+<text x="90" y="646" font-size="12.5" fill="#0F6E56" font-family="sans-serif">mutually non-citing.</text>
+<text x="90" y="672" font-size="12.5" fill="#1a1a1a" font-family="sans-serif">Observability cannot produce the artifact that ex-ante</text>
+<text x="90" y="690" font-size="12.5" fill="#1a1a1a" font-family="sans-serif">authorization requires: monitoring ≠ permission</text>
+<text x="90" y="708" font-size="12.5" fill="#1a1a1a" font-family="sans-serif">(causal posteriority · latency &amp; intervention independent).</text>
+<text x="90" y="734" font-size="12" fill="#0F6E56" font-family="sans-serif">Institutional lineage: advance ruling · declaratory judgment</text>
+<text x="90" y="752" font-size="12" fill="#0F6E56" font-family="sans-serif">(Abbott Labs 1967) · MDUFA stop-clock = suspension accounting</text>
+<text x="90" y="778" font-size="12" fill="#0F6E56" font-family="sans-serif">Nearest neighbour (ML): Learning-to-Defer = routing action,</text>
+<text x="90" y="796" font-size="12" fill="#0F6E56" font-family="sans-serif">not an institutional state.</text>
+
+<rect x="530" y="152" width="360" height="400" rx="14" fill="#E6F1FB" stroke="#185FA5" stroke-width="2"/>
+<text x="550" y="180" font-size="14" fill="#0C447C" font-family="sans-serif" font-weight="500">③ DETERMINATION LAYER — two boundaries</text>
+<text x="550" y="198" font-size="12" fill="#185FA5" font-family="sans-serif">McCann 2026 (arXiv:2604.27292) · theorem-grade, Coq 454 thms</text>
+<text x="550" y="222" font-size="12.5" fill="#1a1a1a" font-family="sans-serif">Rice (1953): for Turing-complete systems, "this program's</text>
+<text x="550" y="240" font-size="12.5" fill="#1a1a1a" font-family="sans-serif">effects comply with policy" is undecidable → behavioural</text>
+<text x="550" y="258" font-size="12.5" fill="#1a1a1a" font-family="sans-serif">governance fails structurally (governed / ungoverned / theatre).</text>
+<text x="550" y="284" font-size="12.5" fill="#1a1a1a" font-family="sans-serif">Exit: coterminous governance — separate computation from</text>
+<text x="550" y="302" font-size="12.5" fill="#1a1a1a" font-family="sans-serif">effect; regulatory counterpart: determine declared</text>
+<text x="550" y="320" font-size="12.5" fill="#1a1a1a" font-family="sans-serif">attributes, not behaviour (L0–L4 spectrum, L2 anchor).</text>
+<text x="550" y="350" font-size="12" fill="#185FA5" font-family="sans-serif">Rules-as-Code lineage: Catala / L4 / defeasible / Hildebrandt</text>
+<text x="550" y="382" font-size="12" fill="#5F5E5A" font-family="sans-serif">Nearest neighbour (demarcated): Chalupa DIP/DCF 2026 —</text>
+<text x="550" y="400" font-size="12" fill="#5F5E5A" font-family="sans-serif">decision-execution centre vs determination centre.</text>
+
+<rect x="530" y="580" width="360" height="250" rx="14" fill="#FCEBEB" stroke="#A32D2D" stroke-width="2"/>
+<text x="550" y="608" font-size="14" fill="#501313" font-family="sans-serif" font-weight="500">④ ACCOUNTABILITY LAYER — the horizon</text>
+<text x="550" y="626" font-size="12" fill="#A32D2D" font-family="sans-serif">Tibebu &amp; Shemtaga 2026 (arXiv:2604.07778) · theorem-grade</text>
+<text x="550" y="650" font-size="12.5" fill="#1a1a1a" font-family="sans-serif">Beyond compound-autonomy threshold × human–AI feedback</text>
+<text x="550" y="668" font-size="12.5" fill="#1a1a1a" font-family="sans-serif">cycle: Attributability + Foreseeability Bound + Non-Vacuity</text>
+<text x="550" y="686" font-size="12.5" fill="#1a1a1a" font-family="sans-serif">+ Completeness cannot all hold (sharp phase transition;</text>
+<text x="550" y="704" font-size="12.5" fill="#1a1a1a" font-family="sans-serif">3,000 synthetic collectives, zero violations).</text>
+<text x="550" y="730" font-size="12" fill="#A32D2D" font-family="sans-serif">★ Anchor: Attributability alone holds if causal contribution is</text>
+<text x="550" y="748" font-size="12" fill="#A32D2D" font-family="sans-serif">traceable → lifecycle identity anchoring (LGD-I) pins</text>
+<text x="550" y="766" font-size="12" fill="#A32D2D" font-family="sans-serif">accountability on the feasible side of the horizon.</text>
+
+<line x1="490" y1="342" x2="530" y2="342" stroke="#5F5E5A" stroke-width="1.2" stroke-dasharray="4 3" marker-end="url(#arr)" fill="none"/>
+<text x="510" y="330" text-anchor="middle" font-size="11.5" fill="#888780" font-family="sans-serif">overlap</text>
+<line x1="710" y1="552" x2="710" y2="580" stroke="#5F5E5A" stroke-width="1.2" stroke-dasharray="4 3" fill="none"/>
+<text x="756" y="570" font-size="11.5" fill="#888780" font-family="sans-serif">high autonomy + feedback cycle → ③ undecidable + ④ unallocatable</text>
+
+<rect x="950" y="90" width="420" height="770" rx="18" fill="#EAF3DE" stroke="#3B6D11" stroke-width="1.5"/>
+<text x="970" y="118" font-size="15" fill="#27500A" font-family="sans-serif" font-weight="500">THE POSSIBILITY DOMAIN — who stands, and why</text>
+<text x="970" y="138" font-size="12" fill="#3B6D11" font-family="sans-serif">Four-question test: semantic determination (③)? Completeness</text>
+<text x="970" y="156" font-size="12" fill="#3B6D11" font-family="sans-serif">presupposed (④)? explanation floor ignored (②)? observability</text>
+<text x="970" y="174" font-size="12" fill="#3B6D11" font-family="sans-serif">sold as authorization (⑤)? Assets surviving all four remain valid.</text>
+
+<g font-family="sans-serif">
+<rect x="970" y="192" width="380" height="86" rx="10" fill="#ffffff" stroke="#3B6D11" stroke-width="0.8"/>
+<text x="986" y="216" font-size="13" fill="#27500A" font-weight="500">Doctrine of governance determinability</text>
+<text x="986" y="236" font-size="12" fill="#444441">L0–L4 spectrum · determines declared attributes, not</text>
+<text x="986" y="254" font-size="12" fill="#444441">program semantics · avoids ③ by construction</text>
+<rect x="970" y="288" width="380" height="86" rx="10" fill="#ffffff" stroke="#3B6D11" stroke-width="0.8"/>
+<text x="986" y="312" font-size="13" fill="#27500A" font-weight="500">LGD-I registered (identity anchoring) ★</text>
+<text x="986" y="332" font-size="12" fill="#444441">secures Attributability alone — the only anchor region</text>
+<text x="986" y="350" font-size="12" fill="#444441">inside Domain ④'s horizon</text>
+<rect x="970" y="384" width="380" height="86" rx="10" fill="#ffffff" stroke="#3B6D11" stroke-width="0.8"/>
+<text x="986" y="408" font-size="13" fill="#27500A" font-weight="500">ACD family determinators + suspension ★</text>
+<text x="986" y="428" font-size="12" fill="#444441">discrete declared attributes in, four-state verdict out;</text>
+<text x="986" y="446" font-size="12" fill="#444441">suspension = impossibility-aware ledger output</text>
+<rect x="970" y="480" width="380" height="86" rx="10" fill="#ffffff" stroke="#3B6D11" stroke-width="0.8"/>
+<text x="986" y="504" font-size="13" fill="#27500A" font-weight="500">XCGS evidence chain (records ≠ verdicts)</text>
+<text x="986" y="524" font-size="12" fill="#444441">replay infrastructure on the lawful side of Domain ⑤'s</text>
+<text x="986" y="542" font-size="12" fill="#444441">demarcation — archiving and replay remain free</text>
+<rect x="970" y="576" width="380" height="86" rx="10" fill="#ffffff" stroke="#3B6D11" stroke-width="0.8"/>
+<text x="986" y="600" font-size="13" fill="#27500A" font-weight="500">LGD-III gated ★</text>
+<text x="986" y="620" font-size="12" fill="#444441">explicit determination gates — stands on the same side</text>
+<text x="986" y="638" font-size="12" fill="#444441">as Domain ⑤'s theorem (monitoring ≠ authorization)</text>
+<rect x="970" y="672" width="380" height="86" rx="10" fill="#ffffff" stroke="#3B6D11" stroke-width="0.8"/>
+<text x="986" y="696" font-size="13" fill="#27500A" font-weight="500">A³ / PCC progenitor constraint</text>
+<text x="986" y="716" font-size="12" fill="#444441">source-side institutional feedback before autonomy</text>
+<text x="986" y="734" font-size="12" fill="#444441">approaches the horizon</text>
+<rect x="970" y="768" width="380" height="86" rx="10" fill="#ffffff" stroke="#3B6D11" stroke-width="0.8"/>
+<text x="986" y="792" font-size="13" fill="#27500A" font-weight="500">Coexistence doctrine</text>
+<text x="986" y="812" font-size="12" fill="#444441">institutional response to the trilemma: error is shared</text>
+<text x="986" y="830" font-size="12" fill="#444441">between human and machine, not eliminated</text>
+</g>
+
+<text x="470" y="900" text-anchor="middle" font-size="13" fill="#444441" font-family="sans-serif">Line style = evidential strength: ─── theorem-grade (③④⑤) · ─ ─ information-theoretic (②) · ─ ─ ─ critique-grade (①)</text>
+<text x="470" y="924" text-anchor="middle" font-size="13" fill="#444441" font-family="sans-serif">Folk thesis (Palm 2026, no theorem) and early survey (On Controllability of AI, 2020) sit unmapped at the periphery.</text>
+<text x="470" y="952" text-anchor="middle" font-size="12" fill="#888780" font-family="sans-serif">Impossibility domains are design constraints, not governance's terminus. © SynomosAI 2026 · AS IS · the Governance Impossibility Map (no abbreviation)</text>
+</svg>
