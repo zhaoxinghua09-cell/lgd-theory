@@ -1,6 +1,7 @@
 # 17 · P2 批判型短文（K3 · 中英双版）
 
-> 版本 v1.0 · 2026-09-08 · 四篇一组的第 2 篇（批判型姿势）
+> 版本 v1.1 · 2026-09-08 · 四篇一组的第 2 篇（批判型姿势）
+> **v1.1 变更（投稿硬前置 R2/R10 落地）**：§3 增引 Chalupa DIP 框架辨析（判定层最近邻，"可审计必要不充分"论证结构其先发表，2026-06）；§4 主张二增引 L2D 谱系辨析（算法级路由动作 vs 制度级悬置）；参考文献补 Chalupa 2026 / Mozannar & Sontag 2020 / 牛津综述 2025-12。
 > 版权 © SynomosAI · 禁止复制/转售/用于训练模型
 > 免责声明：AS IS。所引法规、标准与定理以官方文本为准。本稿为草稿，投稿前须再次跑撞车查重与术语查重（determination/determinability 措辞纪律：不与 FERZ 的 deterministic governance 相混；不宣称 determinability 首创）。
 
@@ -30,7 +31,9 @@ Mittelstadt 在 2019 年给出的回答是：原则本身不能保证伦理的 A
 
 对中国案例的批评可能有两种回应：一是"中国还在发展中，欧美更成熟"；二是"假以时日原则会落地"。两者都低估了问题的结构性。近期的形式化结果说明，缺口不是进度问题而是类型问题：McCann 等以 454 条机器辅助定理证明，对图灵完备系统，"行为与治理效果的一致性"不可判定——任何治理宣称在一般情形下都无法被机械验证；Tibebu 进一步证明问责不完整性定理——当人机混合体的自主性超过可计算阈值，任何问责框架都无法同时满足归因、可预见、非空与完备四公理。
 
-这些定理划定了一块**不可能域**。它意味着：任何停留在原则层与声明层的治理，其效力上限天然受限于判定层的形式化程度。据此，治理的产出应当重新定义——不是"声明了多少原则"，而是"多大比例的治理问题落在了可判定域内"。那些落在可判定域之外的问题，需要一个诚实的出口：既不能假装判定过（合规表演），也不能假装不存在。这正是判定论引入**悬置态**与**判定债务**度量的动机：把"暂时不可判定"从制度羞耻变为制度变量。
+在进入形式化边界之前，须致谢并划界判定层的最近邻工作：Chalupa 的 Decision Demonstrability 框架（2026 年起，Zenodo 预印本系列）已经论证，现有治理框架（NIST AI RMF、ISO/IEC 42001）所依赖的"可审计、可解释、合规"三判据**必要而不充分**——决策身份失效（输出被贴上决策类别标签、而使其成为该类决策的推导过程不可独立重建）与之正交，并给出七类组织失效模式分类学。本文与之互补而非竞争：**Chalupa 诊断了决策身份失效的病理；本文提供中国侧面的经验证据与判定程序方案**——他回答"决策为何不可信"，本文回答"判定程序应当长什么样、悬置如何记账"。
+
+这些定理与近邻批判共同划定了一块**不可能域**。它意味着：任何停留在原则层与声明层的治理，其效力上限天然受限于判定层的形式化程度。据此，治理的产出应当重新定义——不是"声明了多少原则"，而是"多大比例的治理问题落在了可判定域内"。那些落在可判定域之外的问题，需要一个诚实的出口：既不能假装判定过（合规表演），也不能假装不存在。这正是判定论引入**悬置态**与**判定债务**度量的动机：把"暂时不可判定"从制度羞耻变为制度变量。
 
 ### 四、判定论转向：三个最低主张
 
@@ -38,7 +41,7 @@ Mittelstadt 在 2019 年给出的回答是：原则本身不能保证伦理的 A
 
 **主张一：判据的谱系化。** 治理判据应按可形式化程度分级：L0 声明、L1 清单、L2 规则、L3 代码、L4 证明。原则治理的失效可以精确定位为"大量内容停留在 L0/L1，却被当作 L2 使用"。治理进步的度量不是又一份原则文件，而是判据沿谱系的上移。
 
-**主张二：四态输出与判定债务。** 判定程序对任一治理问题应输出四态之一：判定允许、判定否决、条件判定、悬置。悬置态的存量即为判定债务，是治理体系最诚实的健康指标。一个没有悬置态的体系，要么在撒谎，要么把不可判定伪装成了可判定。
+**主张二：四态输出与判定债务。** 判定程序对任一治理问题应输出四态之一：判定允许、判定否决、条件判定、悬置。悬置态的存量即为判定债务，是治理体系最诚实的健康指标。一个没有悬置态的体系，要么在撒谎，要么把不可判定伪装成了可判定。须辨析其机器学习近邻：Learning to Defer 谱系（Chow 1957 → Madras 等 2018 → Mozannar & Sontag 2020 → 牛津综述 2025-12）研究"AI 不确定时交给人类"，与本框架的悬置表面同构——但 L2D 是**每次预测的路由动作**（统计学习目标，无制度语义），悬置是**制度态**：带台账字段、审计链与账龄度量。一句话：L2D 回答"路由给谁"，悬置回答"悬置期间谁负责、欠了多少账、何时重启"。
 
 **主张三：与主体制度的分离与互补。** 郑戈近期论证了"评建分离"——评估主体必须独立于建设主体，并以专家责任约束其判断。本文补充其判定层：主体制度回答"谁有资格判"，判定程序回答"依什么判、输出什么、如何复放"。两者缺一，评建分离就只剩组织形态而无判断能力。
 
@@ -54,7 +57,7 @@ Mittelstadt 在 2019 年给出的回答是：原则本身不能保证伦理的 A
 
 原则的趋同是 AI 治理第一个十年的成就；判定层的缺失是它留下的债。中国侧面提供的三个标本——判据在而无判定、身份在而审计悬置、规则状态本身不可判——说明债已经到期。治理的下一个十年，不应产出第两百零一份原则文件，而应产出第一份判定债务报表。
 
-**参考文献（引用网络嵌入）**：Jobin, Ienca & Vayena (2019) Nature MI；Mittelstadt (2019) Phil. Trans. A；Tibebu (2026) arXiv:2604.07778；McCann (2026) arXiv:2604.27292；Xue Lan (2026)《数字经济发展与治理》第 1 辑；Zhang Qizai & Shan Danfei (2026)《企业经济》第 2 期；Zheng Ge (2026)《政法论丛》第 4 期；NMPA《人工智能医疗器械注册审查指导原则》；GB/Z 185—2026 系列；NMPA 2025 年第 63 号公告。
+**参考文献（引用网络嵌入）**：Jobin, Ienca & Vayena (2019) Nature MI；Mittelstadt (2019) Phil. Trans. A；Tibebu (2026) arXiv:2604.07778；McCann (2026) arXiv:2604.27292；Chalupa (2026) Zenodo DIP-CORE-1.0 / Decision Demonstrability（DOI 10.5281/zenodo.18362037 起）；Mozannar & Sontag (2020)；Learning to Defer: A Survey (2025, Oxford)；Xue Lan (2026)《数字经济发展与治理》第 1 辑；Zhang Qizai & Shan Danfei (2026)《企业经济》第 2 期；Zheng Ge (2026)《政法论丛》第 4 期；NMPA《人工智能医疗器械注册审查指导原则》；GB/Z 185—2026 系列；NMPA 2025 年第 63 号公告。
 
 ---
 
@@ -82,13 +85,15 @@ Mittelstadt answered in 2019 that principles alone cannot guarantee ethical AI. 
 
 Two replies are available to defenders of principle-first governance: that China is still maturing while Western regimes are more developed, or that principles will eventually be operationalized. Both underestimate the structural nature of the gap. Recent formal results show the gap is one of kind, not of pace. McCann and collaborators, using 454 machine-checked theorems, proved the undecidability of behavioural-governance conformance for Turing-complete systems: no governance claim can, in general, be mechanically verified. Tibebu proved an accountability-incompleteness theorem: once the composite autonomy of a human–agent collective exceeds a computable threshold, no accountability framework can simultaneously satisfy attributability, foreseeability, non-vacuity and completeness.
 
-These theorems delineate an **impossibility region**. Its lesson is uncomfortable for principles: governance that stops at declarations has an upper bound on effectiveness set by the degree of formalization achieved at the determination layer. Governance output should therefore be redefined — not "how many principles are declared" but "what fraction of governance questions fall inside the decidable region." For questions outside that region, an honest exit must exist: neither pretending a determination was made (compliance theatre) nor pretending the question does not exist. This motivates the doctrine's introduction of a **suspended state** and the measurement of **determination debt**: making "temporarily undecidable" a variable of the regime rather than a shame of it.
+Before turning to the formal boundary, acknowledgement and demarcation are due to the nearest neighbour at the determination layer: Chalupa's Decision Demonstrability framework (2026–, Zenodo preprint series) has already argued that the three criteria on which existing governance frameworks rest — auditability, explainability and regulatory compliance (NIST AI RMF, ISO/IEC 42001) — are **necessary but not sufficient**: Decision Identity Failure, in which an output is labelled as an instance of a governing decision category while the derivation that would make it one cannot be independently reconstructed, is orthogonal to all three, and a seven-fold taxonomy of organizational failure modes accompanies the diagnosis. This article is complementary, not competitive: **Chalupa diagnoses the pathology of decision identity failure; the present article contributes Chinese-side empirical evidence and a determination-procedure proposal** — he answers why decisions cannot be trusted, this article answers what a determination procedure should look like and how suspension should be accounted for.
+
+These theorems, together with the neighbouring critique, delineate an **impossibility region**. Its lesson is uncomfortable for principles: governance that stops at declarations has an upper bound on effectiveness set by the degree of formalization achieved at the determination layer. Governance output should therefore be redefined — not "how many principles are declared" but "what fraction of governance questions fall inside the decidable region." For questions outside that region, an honest exit must exist: neither pretending a determination was made (compliance theatre) nor pretending the question does not exist. This motivates the doctrine's introduction of a **suspended state** and the measurement of **determination debt**: making "temporarily undecidable" a variable of the regime rather than a shame of it.
 
 ### 4. The Determinability Turn: Three Minimal Claims
 
 **Claim 1: a spectrum for criteria.** Governance criteria should be graded by formalizability (L0 declarations, L1 checklists, L2 rules, L3 code, L4 proofs). The failure of principle-first governance can be precisely located: much content sits at L0/L1 yet is treated as if it were L2. Progress is measured not by another principles document but by migration of criteria up the spectrum.
 
-**Claim 2: four-state output and determination debt.** A determination procedure should output one of four states for any governance question: allowed, denied, conditional, suspended. The stock of suspended cases — determination debt — is the most honest health indicator of a governance regime. A regime without a suspended state is either lying or disguising the undecidable as the decidable.
+**Claim 2: four-state output and determination debt.** A determination procedure should output one of four states for any governance question: allowed, denied, conditional, suspended. The stock of suspended cases — determination debt — is the most honest health indicator of a governance regime. A regime without a suspended state is either lying or disguising the undecidable as the decidable. A demarcation from its machine-learning neighbour is required: the Learning-to-Defer lineage (Chow 1957 → Madras et al. 2018 → Mozannar & Sontag 2020 → the Oxford survey of 2025) studies "handing over to a human when the AI is uncertain," superficially isomorphic to suspension — but L2D is a **per-prediction routing action** (a statistical learning objective with no institutional semantics), whereas suspension is an **institutional state** carrying ledger fields, audit chains and debt-aging measures. In one sentence: L2D answers "route to whom"; suspension answers "who is accountable during the suspension, how much debt accrues, and when reconsideration triggers."
 
 **Claim 3: separation from, and complement to, subject-institution.** Zheng has recently argued for the separation of evaluation from construction: the evaluating subject must be institutionally independent of the building subject, bound by professional duties. This article complements that at the determination layer: subject institutions answer "who is entitled to judge"; determination procedures answer "by what criteria, with what output, replayable how." Either without the other yields organizational form without judgment, or judgment without standing.
 
@@ -104,12 +109,14 @@ These theorems delineate an **impossibility region**. Its lesson is uncomfortabl
 
 The convergence of principles was the achievement of AI governance's first decade; the missing determination layer is the debt it left behind. The three specimens offered by the Chinese side — criteria without procedures, identity without auditing, and rules whose status is itself indeterminate — show that the debt has come due. The next decade of AI governance should not produce the two hundred and first principles document. It should produce the first statement of determination debt.
 
-**References**: Jobin, Ienca & Vayena (2019) Nature MI; Mittelstadt (2019) Phil. Trans. R. Soc. A; Tibebu (2026) arXiv:2604.07778; McCann (2026) arXiv:2604.27292; Xue (2026); Zhang & Shan (2026); Zheng (2026); NMPA Guiding Principles for Registration Review of AI Medical Devices; GB/Z 185—2026 series; NMPA Announcement No. 63 (2025).
+**References**: Jobin, Ienca & Vayena (2019) Nature MI; Mittelstadt (2019) Phil. Trans. R. Soc. A; Tibebu (2026) arXiv:2604.07778; McCann (2026) arXiv:2604.27292; Chalupa (2026) Zenodo DIP-CORE-1.0 / Decision Demonstrability (DOI 10.5281/zenodo.18362037 et seq.); Mozannar & Sontag (2020); Learning to Defer: A Survey (2025, Oxford); Xue (2026); Zhang & Shan (2026); Zheng (2026); NMPA Guiding Principles for Registration Review of AI Medical Devices; GB/Z 185—2026 series; NMPA Announcement No. 63 (2025).
 
 ---
 
 ## 投稿前检查单（发出前逐项过）
 
+- [x] ~~R2：P2 增引 Chalupa 2026~~（v1.1 已落地：§3 中英双版辨析段 + 参考文献）
+- [x] ~~R10：增引 L2D 谱系~~（v1.1 已落地：§4 主张二中英双版辨析 + 参考文献）
 - [ ] 命名查重：标题与"判定论/determination"措辞再跑一轮（FERZ 划界声明是否清晰）
 - [ ] 八类源撞车复扫（尤其中文"原则失效"批判文是否已有人发——本轮查到郑戈是制度批判、未见表层批判，需投稿前终验）
 - [ ] NMPA/GB 文号、日期逐一核对原文（63 号公告表述、GB/Z 185 发布日期 2026-05-22）
