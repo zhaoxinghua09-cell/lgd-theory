@@ -1,7 +1,8 @@
-# 治理不可能域地图（工作稿 v0.2）
+# 治理不可能域地图（工作稿 v0.3）
 
-> **the Governance Impossibility Map** — Working Paper v0.2
+> **the Governance Impossibility Map** — Working Paper v0.3
 > SynomosAI 治理线 · 论文矩阵 P5 · 2026-09-08
+> v0.3 变更（吸收双机查重合并结果 23–26 号）：域③补 **Chalupa DIP/DCF 辨析**（判定层最近邻，必引）；§2.5 域⑤补 **L2D 谱系辨析**（路由动作 vs 制度态）与 **advance ruling / MDUFA 时钟**制度先例；§5 补**债务族谱六兄弟表**（判定债务=上游成员）；域③出口补 **Rules as Code**（Catala/L4）工程先例；致谢表补四行。
 > v0.2 变更（2026-09-08 撞车复扫后）：新增**域⑤ 授权-观测层不可能**（Meyman 2026 / Fernandez 2026 / Zhu & Leonard 2026 三组独立发现）；全稿"四块域"扩为"五块域"；§4 可能域表相应更新（XCGS/LGD-III 避域理由重写）。
 > 定位：盘点型 + 批判型合体（对标 Jobin 2019 画地图姿势：不做新定理，做坐标系）
 > 状态：中文内容首稿（D3–D4 产物）。SSRN 提交版需英文化（外部动作，届时确认）。
@@ -56,6 +57,7 @@ Jobin、Ienca 与 Vayena（2019）把全球 84 份 AI 伦理指南的原则趋�
 - **临界条件**：治理采取"事后外挂、语义级判定任意程序行为"的形态时，不可判定性全额兑现。
 - **证据强度**：定理级（计算理论经典结果 + 机械化证明）。
 - **地图定位**：内环。它圈出的是**计算层面**的不可能：语义级合规判定不可判定——除非改变架构而非加强治理。
+- **最近邻辨析（Chalupa DIP/DCF，必引）**：Chalupa 的 Decision Demonstrability & Identity Failure 框架（Zenodo，2026-06 起）与 Decision Closure Framework（2026-03-20 委员会草案 v1.3：Continuous Closure / Authority Rebinding / Failure Transition Control）是本域**决策执行中心**的最近邻工作。划界：Chalupa 回答"决策何时允许执行、合法性条件失效时权威归谁"（决策→执行轴）；本域③（McCann）回答"语义级判定在计算上是否可判"（可计算性轴），本文域④回答"责任能否分配"（社会选择轴）。他无判定债务、无可判定性谱系、无辖区映射；其 FTC（失败转移控制）与本图域⑤的授权语义相邻，地图将其定位为域③/域⑤边界的执行侧工作。
 
 ### 2.4 域④责任层：问责地平线（定理级）
 
@@ -73,6 +75,8 @@ Jobin、Ienca 与 Vayena（2019）把全球 84 份 AI 伦理指南的原则趋�
 - **临界条件**：治理把"观测能力"误当"授权能力"时全额兑现；把授权做成执行前独立裁决（而非观测衍生品）即退出。
 - **证据强度**：定理级（形式化引理/定理 + 实验验证；MDPI 版经同行评审）。
 - **地图定位**：内环偏执行侧，与域③判定层互补——域③说"语义级合规判定不可判定"，域⑤说"事后观测不构成事前授权"；两者共同禁止"用外挂观测堆栈替代显式授权/判定架构"这一治理幻觉。
+- **输出态最近邻辨析（L2D 谱系，必引）**：Learning to Defer（Chow 1957 → Madras et al. 2018 → Mozannar & Sontag 2020 → 牛津综述 2025-12）是"AI 不确定时交给人类"这一**输出态语义**的 ML 成熟领域，与悬置表面同构。划界：L2D 是**每次预测的路由动作**（统计学习目标，无制度语义）；本图域⑤与治理判定论的悬置是**制度态**——带台账字段、审计链、度量与生命周期门禁。一句话：L2D 回答"路由给谁"，制度性悬置回答"悬置期间谁负责、欠了多少账、何时重启"。"制度性悬置（institutional suspension）"概念词短语层面干净（algorithmic deferral 标题级仅 1 无关命中）。
+- **制度谱系锚（资产非撞车）**："判定前移"制度族在行政法/贸易法成熟存在数十年——advance ruling（WTO《贸易便利化协定》约束性预裁定）、declaratory judgment（28 U.S.C. §2201；Abbott Labs v. Gardner 1967 确立执行前审查）、FDA Pre-Sub/Q-Submission（MDUFA VI 新增 Focused Follow-Up Pre-Sub）；**MDUFA 双时钟的"缺陷信停钟、响应重启"机制是悬置核算的官方先例**（约 70% 510(k) 首轮收缺陷信——悬置是常态非常态），MDUFA VI 草案"Not Grantable"信是输出态制度先例。工程侧：BPMN escalation 事件与 Camunda 执行模型证明"悬置作为工程机制"成熟——但均无债务语义与行业度量。本文将此制度谱系定位为域⑤/悬置态的历史纵深，不作为不可能性证据。
 
 ### 2.6 外缘注记：民间版论题与早期综述（不入图）
 
@@ -149,9 +153,11 @@ Jobin、Ienca 与 Vayena（2019）把全球 84 份 AI 伦理指南的原则趋�
 
 转向是：**治理的有效产出不是"合规声明"，而是"判定与债务管理"**——
 
-1. **显式化判定点**：把治理要求落到离散、可判定的属性上（域③的出口）；
+1. **显式化判定点**：把治理要求落到离散、可判定的属性上（域③的出口；Rules as Code 运动——Catala / L4 / defeasible reasoning——已为"规则即代码"的可判定性提供体系与批判基础（含 Hildebrandt 的法律自动化批判），本图把监管侧的对应出口定位为"判定离散申报属性而非程序语义"）；
 2. **显式化悬置**：判据、证据、主体不齐时，输出"悬置"并记账，而非硬判或默默放行——治理失败的主要形态不是"没原则"，而是**判定债务**（已声明但未具备判定条件的要求之存量）的隐形累积；
 3. **显式化边界**：对每项治理承诺，说明它假设自己不在哪块不可能域内——承诺可审计的前提是承诺可定位。
+
+**债务族谱（辨析表）**：债务隐喻已被多个领域占用——technical debt（技术债，成熟）、verification debt（证据欠账，CACM 专文）、assurance debt（保证欠账，Frontiers 定义成文）、compliance debt（合规欠账，厂商与 Gartner compliance-as-code 语境）、regulatory debt（医械行话）。本图的判定债务是族谱第六位、**唯一指向判定本体的上游成员**：其余五种债记录"证据/动作/合规物的欠账"，判定债务记录"监管定性本身的欠账"——它们之间是因果关系（判定悬置 → 后续验证与保证行为失去锚点）。引用本概念时须显式作此辨析。
 
 这一节与作者方批判型短文《原则救不了 AI 治理》（P2，工作稿）互为表里：P2 批判原则层悬空，本文给出悬空的几何原因（原则默认自己站在可能域，而实际可能不在）。
 
@@ -175,6 +181,11 @@ Jobin、Ienca 与 Vayena（2019）把全球 84 份 AI 伦理指南的原则趋�
 | McCann 2026（arXiv:2604.27292，Alan L. McCann） | 定理级（Coq 机械化） | 域③；coterminous governance 概念引用 |
 | Tibebu & Shemtaga 2026（arXiv:2604.07778，Haileleol Tibebu, Hewan Shemtaga） | 定理级 | 域④；Attributability 锚点论据 |
 | Rice 1953 | 经典定理 | 域③的理论源头 |
+| Chalupa 2026（DIP 框架 + DCF 委员会草案 v1.3，Zenodo） | 最近邻框架 | 域③/域⑤边界执行侧辨析；决策执行中心 vs 判定中心划界 |
+| L2D 谱系（Chow 1957 / Madras et al. 2018 / Mozannar & Sontag 2020 / 牛津综述 2025-12） | ML 成熟领域 | 域⑤输出态辨析：路由动作 vs 制度态 |
+| Catala / L4 / Hildebrandt（Rules as Code） | 规则即代码体系与批判 | §5 判定点出口的工程与法学基础 |
+| MDUFA V/VI（FDA） | 监管制度先例 | 悬置核算官方先例（停钟机制 + Not Grantable 输出态） |
+| advance ruling / declaratory judgment（WTO TFA / 28 U.S.C. §2201 / Abbott Labs 1967） | 行政法制度谱系 | 域⑤/悬置态的历史纵深注记 |
 | Meyman 2026（Edward Meyman，FERZ 研究纲领，Zenodo 10.5281/zenodo.19647542） | 定理级（三引理） | 域⑤；观测≠授权的结构性论证 |
 | Fernandez 2026（Marcelo Fernandez，Agent Governance Series，Zenodo 10.5281/zenodo.19669430） | 定理级（两定理三推论） | 域⑤；完整性≠覆盖 |
 | Zhu & Leonard 2026（Applied Sciences 16(10):4917） | 形式化框架（同行评审） | 域⑤；部署可行性三 regime |
@@ -183,14 +194,15 @@ Jobin、Ienca 与 Vayena（2019）把全球 84 份 AI 伦理指南的原则趋�
 | Palm 2026（LinkedIn） | 民间论题 | 外缘注记（不入图） |
 | Jobin, Ienca & Vayena 2019 | 画地图姿势来源 | §1 方法论先例 |
 
-## 附 B：发布前检查单状态（对应 18 号 §七）
+## 附 B：发布前检查单状态（对应 18 号 §七 + 26 号六轮总台账）
 
 - ☑ 缩写纪律：全文无任何缩写指代本地图；中文主名「治理不可能域地图」+ 英文 the Governance Impossibility Map；两处划界句（impossible map / regulatory impossibility results）已嵌入 §1
 - ☑ 文献命题核对（2026-09-08 摘要级）：Rao / McCann / Tibebu 三篇 arXiv 直读；域⑤三组（Meyman Zenodo / Fernandez Zenodo / Zhu & Leonard MDPI）搜索结果摘要直读——作者、日期、定理表述已入稿
 - ☑ 证据强度分级标注（定理级 ×3 组 / 信息论级 / 批判级 / 同行评审框架 / 民间注记）
-- ☑ **撞车复扫（2026-09-08 17:20–17:40，OpenAlex 八路 + Web 搜索）**：①精确短语 "governance impossibility map" 标题级 26 篇全为设计/数学/地图学无关域，治理语境 0 占用（OpenAlex 全文级检索因 429 限流未跑成，SSRN 提交前需补 Google 复检一次）；②Tibebu 引用者 1 篇（归因实践，非地图）、Rao 引用者 1 篇（readiness 指数，非地图）——**地图型整合论文级撞车 = 零**；③新增域⑤三组独立发现（强化"坐标缺位"主张），已收编入 v0.2
+- ☑ **撞车复扫（2026-09-08 17:20–17:40，OpenAlex 八路 + Web 搜索）**：①精确短语 "governance impossibility map" 标题级 26 篇全为设计/数学/地图学无关域，治理语境 0 占用（OpenAlex 全文级检索因 429 限流未跑成，SSRN 提交前需补 Google 复检一次）；②Tibebu 引用者 1 篇（归因实践，非地图）、Rao 引用者 1 篇（readiness 指数，非地图）——**地图型整合论文级撞车 = 零**；③新增域⑤三组独立发现（强化"坐标缺位"主张），已收编
+- ☑ **v0.3 引用包吸收（公司机 23–26 号双机合并）**：Chalupa DIP+DCF 辨析（域③）✅ ｜ 债务族谱六兄弟表（§5）✅ ｜ L2D 谱系辨析（域⑤）✅ ｜ Rules as Code 出口注记（§5）✅ ｜ advance ruling/MDUFA 制度谱系锚（域⑤）✅ ——投稿引用包六项中四项已入本稿；TC260 2.0 与中文三人组属中文版/P4 挂载项，英文 SSRN 版暂不强制
 - ☐ **D5 余项**：Google 侧精确短语补检 + 敏感扫描终检
-- ☐ **D6–D7 待办**：英文化（SSRN 版）→ 内审 → 定稿 → SSRN 提交（外部动作，逐次确认）
+- ☐ **D6–D7 待办**：英文化（SSRN 版）→ 内审 → 定稿 → SSRN 提交（外部动作，逐次确认；按 26 号规矩：引用包六项齐备方可提交）
 
 ---
 
