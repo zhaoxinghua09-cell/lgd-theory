@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>The Governance Impossibility Map — SSRN Submission PDF (Print this page)</title>
+<style>
+@page{size:A4;margin:2.2cm}
+body{font-family:Georgia,"Times New Roman",serif;max-width:720px;margin:0 auto;padding:32px;line-height:1.6;color:#111;font-size:13.5px}
+h1{font-size:20px;line-height:1.35;margin-bottom:6px}
+h2{font-size:16px;margin:20px 0 8px}
+h3{font-size:14.5px;margin:16px 0 6px}
+.meta{color:#555;font-size:13px;margin-bottom:14px;border-bottom:1px solid #ccc;padding-bottom:10px}
+p{text-align:justify;margin:0 0 11px}
+.abs{background:#f6f6f2;border-left:3px solid #0B1F3A;padding:12px 16px;font-size:13px;margin:14px 0}
+.kw{font-size:13px;color:#444;margin-bottom:14px}
+table{width:100%;border-collapse:collapse;font-size:12px;margin:10px 0}
+th,td{border:1px solid #bbb;padding:5px 7px;text-align:left;vertical-align:top}
+th{background:#f0f4f8}
+pre{background:#f6f6f2;padding:10px;font-size:11px;white-space:pre-wrap;border:1px solid #ddd}
+.no-print{background:#0B1F3A;color:#fff;padding:10px 14px;border-radius:8px;font-family:sans-serif;font-size:14px;margin-bottom:18px}
+.refs{font-size:12px;line-height:1.5}
+@media print{.no-print{display:none}body{padding:0}}
+</style>
+</head>
+<body>
+<div class="no-print">📱 iPad/手机操作：分享 → 打印 → 存储为 PDF → 上传 SSRN。蓝条不会进 PDF。</div>
+
+<h1>The Governance Impossibility Map: Five Impossibility Domains in AI Governance and Where the Possibility Domain Begins</h1>
+<div class="meta">SynomosAI Governance Line · Working paper v0.3 (EN) · 2026-09-08</div>
+
+<div class="abs"><b>Abstract.</b> Between 2025 and 2026, AI governance witnessed a dense cluster of impossibility results: the information-theoretic limits of explainability (Rao 2025), the computational limits of behavioural governance (McCann 2026), the axiomatic limits of collective accountability (Tibebu &amp; Shemtaga 2026), the structural impossibility of observation-based ex-ante authorization (Meyman 2026; Fernandez 2026; Zhu &amp; Leonard 2026), and the earlier philosophical critique of algorithmic clarity (2019–2025). These results are scattered across five mutually non-citing literature clusters — Tibebu &amp; Shemtaga self-describe as "the first impossibility result in AI governance" although Rao's regulatory impossibility theorem predates theirs by nearly a year, with no citation in either direction. Governors face not a scarcity of theorems but an absence of coordinates. This paper proves no new theorem. It (1) states each of five impossibility domains precisely; (2) offers a nesting-and-overlap integration map, flagged as the authors' synthesis; and (3) locates existing governance assets inside the possibility domain, converting impossibility literature from a knell into a design constraint. The map is the first integrated chart and the first survey-level treatment of this literature.</div>
+<div class="kw"><b>Keywords:</b> AI governance; impossibility theorem; explainability; undecidability; accountability; ex-ante authorization; determination debt</div>
+
+<h2>§1 Introduction</h2>
+<p>Jobin, Ienca and Vayena (2019) charted the convergence of AI-ethics principles across two hundred guidelines and became the coordinate system for the field — the proof of value for the mapping move: a map adds no new knowledge, but turns existing knowledge into something navigable. Between 2025 and 2026 a symmetric literature appeared: work proving that certain governance goals cannot be jointly achieved. Rao (2025) proves a regulatory impossibility theorem from algorithmic information theory. McCann (2026) establishes the two boundaries of behavioural governance via Rice's theorem and a Coq-mechanized development. Tibebu and Shemtaga (2026) prove an accountability-incompleteness theorem by axiomatic means. Meyman (2026), Fernandez (2026) and Zhu &amp; Leonard (2026) independently establish that observation cannot constitute ex-ante authorization.</p>
+<p>The shared predicament is the absence of coordinates: different disciplines, different vocabularies, zero cross-citation. A checkable detail: Tibebu and Shemtaga (2026) call their result "the first impossibility result in AI governance," while Rao (April 2025) had already proved a regulatory impossibility theorem nearly a year earlier; neither cites the other. This is not criticism — it is proof that the map between these results is missing. This paper supplies it.</p>
+<p><b>Naming and demarcation.</b> We call this chart the Governance Impossibility Map. Demarcations: (i) unrelated to the design-theory notion of "impossible maps"; (ii) "regulatory impossibility results" is Rao's coinage, used only to refer to his theorem. No abbreviation is used for the map anywhere in this paper.</p>
+
+<h2>§2 Five Impossibility Domains</h2>
+<h3>2.1 Domain ① — Philosophical layer: the algorithmic-clarity critique (critique-grade)</h3>
+<p>A structural tension exists between the closedness of algorithmic systems and law's demand for determinacy; demanding full legal restatement of algorithmic decisions may be a category error (Kalulé 2019; Springer 2019; IJSL 2025, "Against Algorithmic Clarity"). Boundary: erupts when governance requires complete restatement for legal procedure. Outermost ring — an impossibility at the level of language and concepts.</p>
+<h3>2.2 Domain ② — Explainability layer: the regulatory trilemma (information-theoretic grade)</h3>
+<p>Rao (2025, arXiv:2504.20676) formalizes explanation as a simpler approximation of a model, measured by Kolmogorov complexity. A complexity-gap theorem: any explanation significantly simpler than the model must differ from it on some inputs. A regulatory impossibility theorem: no governance framework can simultaneously pursue unrestricted AI capabilities, human-interpretable explanations, and negligible error. Boundary: infeasible only when all three goals are pushed to their limits. Middle ring — an impossibility at the level of information: explanation, as lossy compression, has a mathematical floor.</p>
+<h3>2.3 Domain ③ — Determination layer: the two boundaries of behavioural governance (theorem-grade)</h3>
+<p>McCann (2026, arXiv:2604.27292): every system has an expressiveness boundary and a governance boundary; independently defined they yield three regions — governed capabilities, ungoverned capabilities (risk), and governance addressing non-existent capabilities (theatre). By Rice's theorem, for any Turing-complete architecture "this program's effects comply with the governance policy" is undecidable — behavioural governance fails structurally in the general case. The exit is coterminous governance: an architectural decision separating computation from effect, making governance checks part of the execution pipeline (Coq-mechanized: 454 theorems, 36 modules, 0 admitted). Inner ring — semantic-level compliance determination is undecidable unless the architecture changes. Nearest-neighbour demarcation (must-cite): Chalupa's Decision Demonstrability framework and Decision Closure Framework (2026, Zenodo) work the decision-execution axis — when a decision may be executed and who holds authority when legitimacy fails; Domain ③ works the computability axis; Domain ④ the social-choice axis. Chalupa offers no determination debt, no formalizability spectrum, no jurisdictional mapping.</p>
+<h3>2.4 Domain ④ — Accountability layer: the accountability horizon (theorem-grade)</h3>
+<p>Tibebu &amp; Shemtaga (2026, arXiv:2604.07778) formalize human–agent collectives within a structural causal model and axiomatize accountability by four minimal properties: Attributability, Foreseeability Bound, Non-Vacuity, Completeness. The accountability-incompleteness theorem: when compound autonomy exceeds the Accountability Horizon and the interaction graph contains a human–AI feedback cycle, no framework can satisfy all four axioms; the impossibility is structural — transparency, audits, and oversight cannot resolve it without reducing autonomy. Below the threshold legitimate frameworks exist: a sharp phase transition (3,000 synthetic collectives, zero violations). Inner ring, responsibility side.</p>
+<h3>2.5 Domain ⑤ — Authorization–observation layer: observability is not ex-ante authorization (theorem-grade)</h3>
+<p>Three independent discoveries within one half-year, mutually non-citing — the hardest evidence for coordinate absence. Meyman (2026, FERZ, Zenodo 10.5281/zenodo.19647542): no observability architecture can produce an artifact satisfying an ex-ante authorization requirement (three lemmas: causal posteriority of observational signals; non-verifiability of observational artifacts; composition-independence; corollaries of latency and intervention independence). Fernandez (2026, Agent Governance Series): attestation is necessary but never sufficient — integrity and coverage must be separated. Zhu &amp; Leonard (2026, Applied Sciences 16(10):4917): under a fixed information structure, perfect post-deployment monitoring cannot resolve ambiguity intrinsic to the observation structure. Together with Domain ③ they prohibit the governance illusion of substituting a bolted-on observability stack for an explicit authorization/determination architecture.</p>
+<p>Output-state nearest neighbour (must-cite): the Learning-to-Defer lineage (Chow 1957 → Madras et al. 2018 → Mozannar &amp; Sontag 2020 → Oxford survey 2025) studies handing over to a human when the AI is uncertain — superficially isomorphic to suspension. Demarcation: L2D is a per-prediction routing action (a statistical learning objective with no institutional semantics); institutional suspension is an institutional state carrying ledger fields, audit chains, debt aging and lifecycle gates. In one sentence: L2D answers "route to whom"; institutional suspension answers "who is accountable during the suspension, how much debt accrues, and when reconsideration triggers." The phrase <i>institutional suspension</i> is unoccupied at phrase level.</p>
+<p>Institutional lineage anchor (asset): advance rulings (WTO TFA; CBP binding rulings), declaratory judgment (28 U.S.C. §2201; Abbott Labs v. Gardner 1967), FDA Pre-Sub/Q-Submission; the MDUFA dual-clock stop-clock-on-deficiency mechanism is the official precedent for suspension accounting (roughly 70% of first-round 510(k)s receive deficiency letters — suspension is the norm); MDUFA VI's draft "Not Grantable" letter is a terminal output-state precedent. BPMN escalation events show suspension as a mature engineering mechanism — without debt semantics or sector metrics.</p>
+<h3>2.6 Periphery (not mapped)</h3>
+<p>Palm (2026, LinkedIn) — the regulatory incompleteness thesis: no theorem-grade proof; kept as a peripheral note signalling that impossibility narratives are spreading through industry. <i>On Controllability of AI</i> (arXiv:2008.04071, 2020) — a cross-domain compilation of control-theoretic classics; demarcated as an intellectual precursor of the observational dimension, predating the 2025–2026 burst and not covering the map's increment.</p>
+
+<h2>§3 Nesting and Overlap (Author Synthesis)</h2>
+<p>Three integrative claims: (1) <b>Convergent direction, independent routes</b> — five routes (conceptual critique, information theory, computability theory, axiomatic social choice, authorization architecture) approach the same conclusion: governance effectiveness has a structural boundary; the convergence of independent routes is itself evidence. (2) <b>Nesting is synthesis, not consensus</b> — the philosophical layer is outermost; explainability and determination sit inside side by side; accountability overlaps determination under high autonomy plus feedback cycle; authorization–observation sits beside determination. (3) <b>Two empirical symptoms of non-citation</b> — Rao/Tibebu on priority; Meyman/Fernandez/Zhu &amp; Leonard on isomorphic independent discovery. Across this literature even "who was first" and "how many domains exist" lack coordinates; the necessity of a public coordinate system is proven by the literature's own behaviour. (Full nested figure: papers/figures/P5-main-figure-v1.svg.)</p>
+
+<h2>§4 The Possibility Domain</h2>
+<p>Assets are located by a four-question test: Does your governance action rely on semantic-level determination (③)? Does your accountability promise presuppose Completeness (④)? Does your transparency promise ignore the information floor of explanation (②)? Is your observability being sold as authorization capability (⑤)? Assets surviving all four remain valid after the impossibility literature. Worked instance (authors' portfolio): the doctrine of governance determinability (L0–L4 spectrum; determines declared attributes, not program semantics — avoids ③); LGD-I registered identity anchoring (secures Attributability alone — the only anchor region inside Domain ④, since Tibebu concedes legitimate frameworks exist below the horizon); the ACD family determinators (discrete declared attributes in, four-state verdicts with explicit suspension out); XCGS evidence chain (records ≠ verdicts — on the lawful side of Domain ⑤'s demarcation); LGD-III gated (stands on the same side as Domain ⑤'s theorem); A³/PCC progenitor constraint (source-side feedback before the threshold); coexistence doctrine (error shared institutionally, responding to Domain ②). The method generalizes to any regime.</p>
+
+<h2>§5 From "Perfect Compliance" to "Debt Management"</h2>
+<p>A paradigm whose default goal is perfect compliance pours resources into impossibility domains. The turn: the effective output of governance is determination and debt management — (1) explicit determination points on discrete decidable attributes (the exit of Domain ③; the Rules-as-Code movement — Catala, L4, defeasible reasoning, Hildebrandt's critique — supplies the system and its limits); (2) explicit suspension with ledger entries — the dominant failure mode is the silent accretion of determination debt, the stock of declared requirements that never acquired determination conditions; (3) explicit boundaries — every governance promise states which impossibility domain it assumes itself outside of. Demarcation (the debt family): technical, verification (CACM), assurance (Frontiers), compliance (vendor/Gartner), regulatory (medtech parlance) — determination debt is the sixth sibling and the only one pointing at the determination itself: their upstream cause. Cite with explicit demarcation.</p>
+
+<h2>§6 Limitations and Replies</h2>
+<p>(1) The nesting is philosophically contestable — accepted, flagged as synthesis; the map's value is the coordinate function. (2) Boundary conditions may be relaxed by future work — each domain states its boundary condition; a relaxed theorem shrinks a domain rather than invalidating the map. (3) The folk thesis is unmapped for lack of theorem-grade evidence. (4) This negates nothing: the map's purpose is to withdraw resources from impossibility domains and redeploy them where governance works — impossibility domains are design constraints, not a terminus, still less a reason for inaction. (5) Self-positioning is not circular: the map stands independently; §4 is one application instance and the method generalizes; the doctrine is cited as an unpublished working paper.</p>
+
+<h2>Appendix A: Acknowledgement and Demarcation Table (abridged)</h2>
+<table>
+<tr><th>Source</th><th>Type</th><th>Use</th></tr>
+<tr><td>Rao 2025 (arXiv:2504.20676, Shrisha Rao)</td><td>Information-theoretic theorem</td><td>Domain ②; ownership of "regulatory impossibility results"</td></tr>
+<tr><td>McCann 2026 (arXiv:2604.27292, Alan L. McCann)</td><td>Theorem-grade (Coq)</td><td>Domain ③; coterminous governance</td></tr>
+<tr><td>Tibebu &amp; Shemtaga 2026 (arXiv:2604.07778)</td><td>Theorem-grade</td><td>Domain ④; Attributability anchor</td></tr>
+<tr><td>Rice 1953</td><td>Classical theorem</td><td>Source of Domain ③</td></tr>
+<tr><td>Chalupa 2026 (DIP + DCF, Zenodo)</td><td>Nearest-neighbour framework</td><td>③/⑤ execution-side demarcation</td></tr>
+<tr><td>L2D lineage (Chow; Madras; Mozannar &amp; Sontag; Oxford 2025)</td><td>Mature ML field</td><td>Domain ⑤ output-state demarcation</td></tr>
+<tr><td>Catala / L4 / Hildebrandt</td><td>System + critique</td><td>§5 Rules-as-Code foundation</td></tr>
+<tr><td>MDUFA V/VI (FDA)</td><td>Regulatory institution</td><td>Suspension accounting precedent</td></tr>
+<tr><td>advance ruling / declaratory judgment</td><td>Administrative-law lineage</td><td>Historical depth of Domain ⑤</td></tr>
+<tr><td>Meyman 2026 (FERZ, Zenodo)</td><td>Theorem-grade</td><td>Domain ⑤</td></tr>
+<tr><td>Fernandez 2026 (Agent Governance Series, Zenodo)</td><td>Theorem-grade</td><td>Domain ⑤</td></tr>
+<tr><td>Zhu &amp; Leonard 2026 (Applied Sciences)</td><td>Formal framework (peer-reviewed)</td><td>Domain ⑤</td></tr>
+<tr><td>On Controllability of AI (arXiv:2008.04071, 2020)</td><td>Early survey</td><td>Demarcated citation, §2.6</td></tr>
+<tr><td>Kalulé 2019 / Springer 2019 / IJSL 2025</td><td>Philosophical critique</td><td>Domain ①</td></tr>
+<tr><td>Palm 2026 (LinkedIn)</td><td>Folk thesis</td><td>Peripheral note</td></tr>
+<tr><td>Jobin, Ienca &amp; Vayena 2019</td><td>Mapping precedent</td><td>§1 methodology</td></tr>
+<tr><td>Zhou Li'an 2024 (impossible trinity of governance)</td><td>Social-science precursor</td><td>Chinese governance scholarship; demarcated</td></tr>
+</table>
+
+<h2>Appendix B: Pre-Submission Checklist Status</h2>
+<p>No abbreviation for the map anywhere; demarcations embedded at §1; propositions verified against primary sources (2026-09-08); evidential grading marked; nine collision-sweep rounds with zero map-type integration; exact phrase "governance impossibility map" = 0 hits (OpenAlex title + full-text; Google); citation package: Chalupa DIP+DCF ✓ / debt family ✓ / Rules as Code ✓ / L2D ✓; remaining before submission: final sensitive scan; SSRN submission is an external action requiring confirmation.</p>
+
+<p style="font-size:12px;color:#666;border-top:1px solid #ccc;padding-top:8px">© 2026 SynomosAI. This working paper is provided "AS IS" without warranty of any kind. Third-party laws, standards and theorems are cited for scholarship; official texts prevail. Not legal advice. Chinese master version: P5-governance-impossibility-map-v0.3-zh.md.</p>
+</body>
+</html>

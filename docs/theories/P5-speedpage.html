@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>治理不可能域地图 (the Governance Impossibility Map) · SynomosAI × MedXpert</title>
+<meta name="description" content="治理不可能域地图：把 2025–2026 年 AI 治理领域密集出现的五块不可能性结果——哲学层算法清晰性批判、可解释性监管三难（Rao 2025）、判定层两边界（McCann 2026）、责任层问责地平线（Tibebu & Shemtaga 2026）、授权-观测层观测≠事前授权（Meyman/Fernandez/Zhu & Leonard 2026）——整合为一张嵌套坐标系图，并给出可能域定位四问检验。首个整合图与首个综述性处理。" name="description">
+<meta name="keywords" content="治理不可能域地图, Governance Impossibility Map, AI governance, impossibility theorem, 不可判定, 判定层, 问责地平线, 监管三难, LGD, 治理判定论, AI 治理">
+<link rel="canonical" href="https://medxpert.cn/theory/impossibility-map">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": ["Article", "DefinedTerm"],
+  "@id": "https://medxpert.cn/theory/impossibility-map#gim-full",
+  "name": "治理不可能域地图 (the Governance Impossibility Map)",
+  "alternateName": ["Governance Impossibility Map", "不可能域地图", "治理不可能域图"],
+  "description": "把 2025–2026 年 AI 治理领域密集出现的五块不可能性结果整合为一张嵌套坐标系图：哲学层（算法清晰性批判）、可解释性层（监管三难，Rao 2025）、判定层（行为式治理两边界，McCann 2026）、责任层（问责地平线，Tibebu & Shemtaga 2026）、授权-观测层（可观测性不构成事前授权，Meyman/Fernandez/Zhu & Leonard 2026 三组独立发现）。并给出可能域定位四问检验，把不可能性文献从治理的丧钟读成设计约束。首个整合图与首个综述性处理。",
+  "inDefinedTermSet": {"@type": "DefinedTermSet", "name": "SynomosAI 治理理论术语集"},
+  "datePublished": "2026-09-08",
+  "dateModified": "2026-09-08",
+  "author": {"@type": "Person", "name": "赵兴华 / Steven Zhao·China", "identifier": "https://orcid.org/0009-0001-0512-1237", "sameAs": ["https://orcid.org/0009-0001-0512-1237", "https://github.com/Medxpert-org", "https://medxpert.cn"]},
+  "publisher": {"@type": "Organization", "name": "SynomosAI × MedXpert", "url": "https://medxpert.cn"},
+  "about": [{"@type": "Thing", "name": "AI 治理"}, {"@type": "Thing", "name": "不可能性定理"}, {"@type": "Thing", "name": "监管判定"}],
+  "sameAs": ["https://github.com/Medxpert-org/lgd-theory"],
+  "citation": [
+    {"@type": "ScholarlyArticle", "name": "The Limits of AI Explainability (regulatory impossibility theorem)", "identifier": "arXiv:2504.20676"},
+    {"@type": "ScholarlyArticle", "name": "The Two Boundaries: Why Behavioral AI Governance Fails Structurally", "identifier": "arXiv:2604.27292"},
+    {"@type": "ScholarlyArticle", "name": "The Accountability Horizon", "identifier": "arXiv:2604.07778"},
+    {"@type": "ScholarlyArticle", "name": "On the Impossibility of Observability-Based Authorization", "identifier": "DOI:10.5281/zenodo.19647542"}
+  ],
+  "keywords": "治理不可能域地图, Governance Impossibility Map, impossibility, AI governance, 判定层, 问责地平线, 监管三难"
+}
+</script>
+<style>
+:root{--navy:#0B1F3A;--teal:#14B8A6;--ink:#1f2937;--muted:#64748b;--line:#e2e8f0}
+*{box-sizing:border-box}
+body{margin:0;font-family:-apple-system,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;color:var(--ink);background:#fff;line-height:1.7}
+header{background:var(--navy);color:#fff;padding:40px 24px}
+header .wrap{max-width:860px;margin:0 auto}
+header h1{margin:0 0 8px;font-size:26px}
+header p.sub{margin:0;color:#bcd;font-size:15px}
+main{max-width:860px;margin:0 auto;padding:28px 24px}
+h2{font-size:19px;color:var(--navy);border-left:4px solid var(--teal);padding-left:10px;margin:28px 0 10px}
+table{width:100%;border-collapse:collapse;font-size:14px;margin:12px 0}
+th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+th{background:#f0f4f8;color:var(--navy)}
+.card{background:#f6f9fc;border:1px solid var(--line);border-radius:10px;padding:14px 18px;margin:10px 0}
+.q{font-weight:600;color:var(--navy)}
+.foot{font-size:13px;color:var(--muted);border-top:1px solid var(--line);margin-top:26px;padding-top:12px}
+.ai-note{font-size:12.5px;color:var(--muted);background:#f6f9fc;border-radius:6px;padding:6px 10px;display:inline-block;margin-top:8px}
+a{color:#185FA5}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+<h1>治理不可能域地图 <span style="font-size:16px;font-weight:400">the Governance Impossibility Map</span></h1>
+<p class="sub">五块不可能域 × 一张坐标系 × 可能域四问检验 —— SynomosAI 治理线 · 论文矩阵 P5 · 2026-09-08</p>
+</div></header>
+<main>
+
+<div class="card"><b>一句话：</b>2025–2026 年 AI 治理密集出现一批"某些治理目标在结构上不可能同时达成"的定理级结果，它们散落在五个互不引用的文献簇里。本地图不证明任何新定理，只做三件事：逐块给出精确命题与临界条件、给出嵌套整合图（作者综合主张）、标出可能域里谁站得住——<b>把不可能性文献从"丧钟"读成"设计约束"。</b>本图是该文献簇的首个整合图与首个综述性处理（双库检索验证）。</div>
+
+<h2>五块不可能域</h2>
+<table>
+<tr><th>域</th><th>层</th><th>核心命题</th><th>代表文献</th><th>证据强度</th></tr>
+<tr><td>①</td><td>哲学层</td><td>算法封闭性与法律确定性要求存在结构性张力</td><td>Kalulé 2019 / Springer 2019 / IJSL 2025</td><td>批判级</td></tr>
+<tr><td>②</td><td>可解释性层</td><td>监管三难：能力 × 可解释 × 低误差不可兼得</td><td>Rao 2025 (arXiv:2504.20676)</td><td>信息论级</td></tr>
+<tr><td>③</td><td>判定层</td><td>语义级行为合规判定不可判定；出口=架构分离（计算/效果）</td><td>McCann 2026 (arXiv:2604.27292)；Rice 1953</td><td>定理级（Coq 454）</td></tr>
+<tr><td>④</td><td>责任层</td><td>自主性超阈值 × 人机反馈环 → 问责四公理不可兼得（问责地平线）</td><td>Tibebu &amp; Shemtaga 2026 (arXiv:2604.07778)</td><td>定理级</td></tr>
+<tr><td>⑤</td><td>授权-观测层</td><td>可观测性不构成事前授权：监控≠许可</td><td>Meyman 2026 / Fernandez 2026 / Zhu &amp; Leonard 2026（三组独立发现互不引用）</td><td>定理级</td></tr>
+</table>
+<p style="font-size:13px;color:#64748b">嵌套关系为作者综合主张，非共识；各域内部结论归原作者。域④与域③在"高自主性+人机反馈环"条件下交叠；域⑤与域③并列内环（一个关于判定、一个关于授权）。</p>
+
+<h2>可能域四问检验（任何治理体系都可自测）</h2>
+<div class="card">
+<p><span class="q">①</span> 你的治理动作依赖语义级判定吗？（域③：对图灵完备系统不可判定）</p>
+<p><span class="q">②</span> 你的问责承诺隐含 Completeness（全额责任分配）吗？（域④：超阈值不可满足）</p>
+<p><span class="q">③</span> 你的透明度承诺忽视解释的信息下界吗？（域②：解释是有损压缩）</p>
+<p><span class="q">④</span> 你的"可观测性"被当成"授权能力"卖了吗？（域⑤：监控≠许可）</p>
+<p style="margin-top:8px"><b>四问之后仍站得住的资产，才是不可能性文献之后仍然有效的资产。</b></p>
+</div>
+
+<h2>对治理者的含义</h2>
+<p>治理的有效产出不是"合规声明"，而是<b>判定与债务管理</b>：显式化判定点（落到离散可判定属性）、显式化悬置（判据/证据/主体不齐时记账而非硬判——悬置的存量即<b>判定债务</b>，是治理体系最诚实的健康指标）、显式化边界（每项承诺说明自己不在哪块不可能域内）。</p>
+
+<h2>关联理论</h2>
+<p><a href="/lgd.html">LGD 全程治理论</a>（有籍/有证/有门禁）→ <a href="/theory/impossibility-map">治理判定论</a>（本图域③④的可能域方法底座）→ ACD 家族（NMPA 算法变更判定器，域③可能域实例）→ XCGS 证据链（域⑤合法侧：records ≠ verdicts）。完整工作稿见 <a href="https://github.com/Medxpert-org/lgd-theory">lgd-theory 开放仓 papers/</a>（中英双语）。</p>
+
+<div class="foot">
+<b>命名划界</b>：与设计批评界 "impossible map" 概念无关；"regulatory impossibility results" 一词由 Rao（2025）首创，仅指其定理；全文不使用缩写指代本地图。<br>
+<b>首席发声人</b>：诺声（LGD · 判定论族）｜ <b>查重</b>：九轮检索零撞车，命名短语双库 0 占用（2026-09-08）。<br>
+<b>免责声明</b>：内容基于公开学术文献与官方文件整理，标注核验日期 2026-09-08；所引第三方定理归其各自权利人所有；不构成法规意见，以官方最新发布为准。
+<div class="ai-note">本文由 AI 助手生成，经人工审核。</div>
+</div>
+</main>
+</body>
+</html>
