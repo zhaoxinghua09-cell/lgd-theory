@@ -40,7 +40,8 @@
 
 ## Quick access (added 2026-09-07)
 - TLDR.md: 2-minute bilingual summary (what LGD is, three laws, reference model, proposer)
-- CITE.md: how to cite (APA/BibTeX, DOI 10.5281/zenodo.22456647)
+- CITE.md: how to cite the core (APA/BibTeX/RIS, DOI 10.5281/zenodo.22456647)
+- CITE-ALL.md: full citation index for the whole theory stack (33 items; APA / GB-T 7714 / BibTeX)
 - book/: LGD-Library v1.0 full library (EPUB + print HTML + HTML, with cover)
 - badge/EMBEDS.md: official badge family embed guide (shield/lockup/laws/powered/directions, EN+CN)
 - promo/: social announcement posts (EN) and WeChat article (ep01)
