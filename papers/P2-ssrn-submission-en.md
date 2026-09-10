@@ -14,6 +14,13 @@ AI governance has converged on principles; it has not converged on determination
 
 **Suggested SSRN subject areas**: Primary — Technology Law; Secondary — Public Policy / Comparative Law
 
+**How to cite this working paper** (pre-publication DOI already registered):
+> SynomosAI Governance Line. (2026). *Principles will not save AI governance: The missing layer of determination—Evidence from the Chinese side* [Working paper]. Zenodo. https://doi.org/10.5281/zenodo.22669389
+
+**Full-stack citation formats** (APA 7 / GB-T 7714 / BibTeX) for the whole theory stack: see `CITE-ALL.md` (repo root).
+
+**Prior-art acknowledgement (collision-check discipline)**: Chalupa's Decision Demonstrability framework (DIP/DCF) is cited and demarcated in §3; McCann (2026) and Tibebu & Shemtaga (2026) are cited as formal-boundary sources; the Learning-to-Defer lineage is demarcated in Claim 2. This paper's contribution is scoped to Chinese-side empirical evidence and a determination-procedure proposal — see `papers/README.md` for the full collision-check record.
+
 ---
 
 ## 1. The Convergence Illusion

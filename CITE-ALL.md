@@ -66,6 +66,8 @@
 | TH-META-006 | **全程治理论 LGD** | 见 §一 C1（有 DOI） |
 | TH-META-007 | 双品牌协同 / MedXpert × SynomosAI | Zhao, X. (2026). *Dual-brand symbiosis*. SynomosAI. |
 | TH-META-008 | 跨会话连续性协议 / **CSCP** | Zhao, X. (2026). *Cross-session continuity protocol (CSCP)*. SynomosAI. |
+| TH-META-012 | **价值序论**（四支柱冲突裁决规则） | Zhao, X. (2026). *Value-order doctrine: Conflict adjudication for the four pillars of AI governance*. SynomosAI. |
+| TH-META-013 | **治理对象三元本体** | Zhao, X. (2026). *Triadic ontology of the governed: Entity, event, and evidence*. SynomosAI. |
 
 ---
 
