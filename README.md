@@ -65,6 +65,17 @@ lgd-theory/
 - **Meta-method & sister theories (`docs/theories/`, 2026-09-08)**:
   - **RRM — Real-world Reference Method (TH-META-001)**: `docs/theories/RRM-Realworld-Reference-Method-v1.0.md` — the meta-method behind the whole series: for every AI capability gap, find a proven real-world mechanism and map it structurally (S ≅ M); with the prior-suspicion principle. Instantiated 6× (MAIT / SIDE / AFG / UBIC-Mem / BTSK / LDGF).
   - **MAIT — Memory-Anchor Identity Theory (TH-AIG-006)**: `docs/theories/MAIT-Memory-Anchor-Identity-v1.0.md` — AI identity anchored in memory continuity (vs. passport-only identity); mother template: real-world identity confirmation (registry + ID + memory continuity). JSON-LD speedpages: `docs/theories/MAIT-speedpage.html`, `docs/theories/RRM-speedpage.html`.
+- **Cross-domain governance angles (`TH-ANG`, 2026-09-10)** — the second blank axis: **angles** cut across *all* domains (retirement / memory / accountability / runtime / insurability), while **domains** cut across industries. Every descriptive English name collided at the theory layer (5/5), so all five use **LGD-coined terms** (theory-layer zero collision), with the descriptive name kept as a search-facing subtitle. Coined-term repos each carry definition + collision rationale + citation format:
+
+| Angle | Coined term | Descriptive subtitle | Repo |
+|---|---|---|---|
+| #1 | **Terminance** | Retirement Governance | [terminance](https://github.com/zhaoxinghua09-cell/terminance) |
+| #2 | **Mnemoship** | Portable Memory Law | [mnemoship](https://github.com/zhaoxinghua09-cell/mnemoship) |
+| #3 | **Culpachain** | Multi-Agent Accountability | [culpachain](https://github.com/zhaoxinghua09-cell/culpachain) |
+| #4 | **Runtigil** | Runtime Gatekeeping | [runtigil](https://github.com/zhaoxinghua09-cell/runtigil) |
+| #5 | **Assurability** | Governance-Conditioned Insurability | [assurability](https://github.com/zhaoxinghua09-cell/assurability) |
+
+  Collision rule (criterion v3, theory-first): **theory-layer collision = one-vote veto**; brand-layer collision = advisory only.
 - **Domain series (planned)**: Financial AI (TH-FIN-001) · Electronic evidence chains (LAW) · Digital government trust (GOV) · On-chain asset governance (CRYPT) · Autonomous driving · Data-element lifecycle. Each domain = one theory paper mapping its own real-world regulatory model onto the three laws.
 
 ## Suggested citation
