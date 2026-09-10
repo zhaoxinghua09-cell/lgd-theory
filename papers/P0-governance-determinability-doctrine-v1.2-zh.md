@@ -77,7 +77,7 @@
 - **D5 判定主体**：对判定结果负责的自然人或法人（P6：不可外包给算法）。
 - **D6 判定点**：生命周期中必须发生判定的位置（状态转移点）。
 - **D7 悬置（undetermined）**：判据、证据、主体任一缺失时的**显式**判定结果。
-- **D8 判定债务（determination debt）**：已声明但未具备判定条件的治理要求之存量（悬置条目的累积）。本论原创概念，为 closure gap 提供存量度量。
+- **D8 判定债务（determination debt）**：已声明但未具备判定条件的治理要求之存量（悬置条目的累积）。本论原创概念，为 closure gap 提供存量度量。**译名纪律：英文固定 `determination debt`，绝不译作 `Judgment Debt`（该词已被他人具名，行为科学视角，概念空间不同）或 `decision debt`（软件工程话语）。**
 - **D9 判定漂移**：同一判据在不同时点或辖区产生不一致判定的现象。
 - **D10 复放（replay）**：第三方以相同证据与判据重现相同判定结果（A4 的操作化）。
 
@@ -305,6 +305,54 @@ LGD（全程治理论）三定律在判定论中获得形式化载体——每�
 ☐ 敏感扫描（真名 / 邮箱 / 账号 / 本地路径 0 命中）
 ☐ 权属五件套（时间戳 + 指纹，随包 manifest）
 ☐ 外部动作逐次确认（arXiv / Zenodo / ITU 投稿均为外部动作）
+
+---
+
+## 16. 投稿就绪附录（Submission-ready Addendum · v1.2）
+
+> 本节约等于「投稿包」的英文态与命名闸固化件。正文为中文工作稿；对外投稿（Zenodo / SSRN / 期刊）时，以本节的英文题名 / Abstract / Keywords 作元数据，正文可附中文全文或另出英文版（外部动作，逐次确认）。
+
+### 16.1 英文题名与署名
+
+- **Title (EN)**: *The Doctrine of Governance Determinability: Why What Cannot Be Determined Cannot Be Governed*
+- **Subtitle (CN)**: 治理判定论 · 理论纲要（工作稿 v1.2）
+- **Author**: Zhao, Xinghua (Steven Zhao) — ORCID 0009-0001-0512-1237
+- **Affiliation (brand)**: SynomosAI Governance Line
+- **Stable URL**: `https://github.com/zhaoxinghua09-cell/lgd-theory` → `papers/P0-governance-determinability-doctrine-v1.2-zh.md`（随 lgd-theory release 获 Zenodo 概念 DOI 10.5281/zenodo.22456647 新版）
+- **TID**: TH-META-011（编号 2026-09-10 定稿；GDD 缩写弃用）
+
+### 16.2 Abstract（EN，约 150 词）
+
+> The efficacy bottleneck of AI governance frameworks lies not at the principle layer but at the **determination layer**: when regulatory criteria cannot be formalized to a degree where enterprises and regulators can reach *consistent determinations*, governance produces statements but not enforcements. This working paper proposes the **Doctrine of Governance Determinability** — its core thesis: *what cannot be determined cannot be governed*. Built on three pillars (the tri-element determination model with four-state output; the L0–L4 formalizability spectrum; determination debt and lifecycle gates), the doctrine integrates three prior foundations (legal indeterminacy theory, Rice's theorem on behavioral compliance, FERZ's deterministic governance) and engineeringizes them into a spectrum, a procedure, metrics, and instances. It introduces **determination debt** as the stock metric of suspended determinations, distinguishes it from adjacent "debt" metaphors (verification / assurance / compliance / regulatory), and maps the doctrine onto China's medical-device change-determination instance (ACD-MD). The paper explicitly positions itself as complementary to — not superseding — nearest-neighbor frameworks (Chalupa's Decision Demonstrability, L2D, Rules as Code), and claims no originality over the concept of "determinability" itself.
+
+### 16.3 Keywords（EN）
+
+`AI governance` · `determinability` · `determination debt` · `formalizability spectrum` · `suspended determination` · `lifecycle gate` · `LGD`
+
+### 16.4 How to cite（统一引用格式）
+
+> Zhao, X. (2026). *The Doctrine of Governance Determinability: Why What Cannot Be Determined Cannot Be Governed* (Working Paper v1.2, TH-META-011). SynomosAI Governance Line. GitHub: `zhaoxinghua09-cell/lgd-theory`; Zenodo DOI 10.5281/zenodo.22456647. ORCID: 0009-0001-0512-1237.
+
+### 16.5 命名闸终检清单（固化 v3 判据 + M1 译名纪律）
+
+投稿前逐项过，全绿方可提交（引用 26 号六轮台账规则）：
+
+| # | 检查项 | 状态 | 证据 |
+|---|---|---|---|
+| 1 | 主名 `Governance Determinability` / 中文「治理判定论」无具名理论占同一空间 | ✅ | 14 号立项复核五项零撞车 |
+| 2 | GDD 缩写全库弃用 | ✅ | 全文无 GDD 缩写 |
+| 3 | 子概念 `determination debt`（判定债务）英文锚定唯一，未串用 `Judgment Debt` / `decision debt` | ✅ | 15 号 D8 + 附录 B + M1 报告 §八 译名纪律 |
+| 4 | `Adjudication Debt`（裁决债务，TH-META-012）与 `Value Debt` / `Judgment Debt` 划界 | ✅ | M1 报告 §四 + §八 |
+| 5 | 不与 FERZ `deterministic governance` 混用；不宣称 determinability 首创 | ✅ | §0A / §14 纪律句 |
+| 6 | 引用包六项齐备（Chalupa DIP+DCF / 债务族谱六兄弟 / Rules as Code / L2D 谱系 / 制度谱系锚 / 中文三人组） | ✅ | §0A / §0B / §9 / §14 / 附录 B |
+| 7 | 敏感扫描（真名 / 邮箱 / 账号 / 本地路径）0 命中 | ☐ 投稿前终验 |
+| 8 | 外部动作（Zenodo / SSRN / arXiv / ITU）逐次本人确认，AI 不代持凭据 | ☐ 提交时确认 |
+
+### 16.6 投稿通道备忘（外部动作，非本环境可执行）
+
+- **Zenodo**（首选时间戳）：zenodo.org 直连在本环境为网络层黑洞（http=000），须能联网机器由本人网页提交；P2/P5 已验证 DOI 可发（22669389 / 22668958，state=findable）。本稿随 lgd-theory release 进概念 DOI 10.5281/zenodo.22456647 新版。
+- **SSRN**（次选抢时间戳）：注册无门槛；此前家网代理 502 受阻，主通道已切 Zenodo。
+- **arXiv cs.CY**：需领域 endorsement（一次背书永久有效），慢一步。
 
 ---
 

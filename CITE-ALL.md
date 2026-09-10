@@ -66,8 +66,8 @@
 | TH-META-006 | **全程治理论 LGD** | 见 §一 C1（有 DOI） |
 | TH-META-007 | 双品牌协同 / MedXpert × SynomosAI | Zhao, X. (2026). *Dual-brand symbiosis*. SynomosAI. |
 | TH-META-008 | 跨会话连续性协议 / **CSCP** | Zhao, X. (2026). *Cross-session continuity protocol (CSCP)*. SynomosAI. |
-| TH-META-012 | **价值序论**（四支柱冲突裁决规则） | Zhao, X. (2026). *Value-order doctrine: Conflict adjudication for the four pillars of AI governance*. SynomosAI. |
-| TH-META-013 | **治理对象三元本体** | Zhao, X. (2026). *Triadic ontology of the governed: Entity, event, and evidence*. SynomosAI. |
+| TH-META-012 | **价值裁决序论**（四支柱冲突裁决规则） | Zhao, X. (2026). *Value-Order Doctrine: Conflict Adjudication for the Four Pillars of AI Governance*. SynomosAI. |
+| TH-META-013 | **治理对象三元本体** | Zhao, X. (2026). *Triadic Ontology of the Governed: Entity, Event, and Evidence*. SynomosAI. |
 
 ---
 
@@ -139,7 +139,7 @@
 
 | 名称 | 英文 | 状态 |
 |---|---|---|
-| **治理判定论** | Governance Determination Doctrine (GDD) | 🟡 纲要 v1.2 已成稿（`lgd-theory/papers/P0-…-v1.2-zh.md`），待投稿 |
+| **治理判定论** | Governance Determinability Doctrine (GDD 缩写弃用) | 🟢 纲要 v1.2 成稿·**投稿就绪**（`lgd-theory/papers/P0-…-v1.2-zh.md` §16 投稿就绪附录含 EN Abstract/Keywords/How-to-cite/命名闸终检） |
 
 **核心命题（可被反复引用）**：
 > **不可判定，则不可治理。** / *What cannot be determined cannot be governed.*
@@ -162,6 +162,10 @@
 **判定口诀**：**引"理论"用个人（保学术可追溯 + ORCID 权威性）；引"品牌"用机构（保双线品牌隔离）。**
 **混合件处理**（如 Zenodo 论文）：正文/描述署名用机构，引用格式（BibTeX/APA author 字段）用个人——各司其职，不冲突。
 **共同红线**：**永不出现雇主公司名。** 原"无真名、无个人 ORCID"表述**已废止**（与学术可引用性冲突）。
+
+### 理论线贡献定位（对外可引用陈述）
+
+> 统一口径见 `发布/SynomosAI_AI治理贡献定位陈述_20260910.md`。一句话：**SynomosAI 不提出又一个原则框架，而是把原则往下推一层，补 AI 治理缺失的操作性底座**（可裁决 / 可度量 / 可审计）。三缺口补法：价值冲突无裁决序（TH-META-012 价值裁决序论）→ 治理对象无统一本体（TH-META-013 治理对象三元本体）→ "不可判定"无治理应答（TH-META-011 治理判定论）。
 
 ### 维护纪律
 - **版本更新走 Zenodo「New version」**（同一 concept DOI 自动挂 vN），**勿新开记录**；
