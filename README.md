@@ -88,7 +88,9 @@ LGD is a **civil-society framework, not legal or regulatory advice**; device-reg
 
 ---
 
-© MedXpert × SynomosAI · CC BY 4.0 · cite the author when sharing
+© XLGD · MedXpert × SynomosAI · CC BY 4.0 · cite the author when sharing
+
+<sub>XLGD — X distinction mark. [xlgd](https://github.com/zhaoxinghua09-cell/xlgd)</sub>
 
 ---
 
