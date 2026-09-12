@@ -15,7 +15,8 @@
       "publisher": { "@type": "Organization", "name": "MedXpert × SynomosAI" },
       "sameAs": "https://doi.org/10.5281/zenodo.22456647",
       "url": "https://github.com/zhaoxinghua09-cell/lgd-theory",
-      "keywords": "lifecycle governance, AI governance, registry, evidence, gates, 有籍, 有证, 有门禁"
+      "alternateName": "Evidence-Gated AI Lifecycle Governance",
+      "keywords": "Evidence-Gated AI Lifecycle Governance, lifecycle governance, AI governance, registry, evidence, gates, 全程治理论, 凡自治之物, 有籍, 有证, 有门禁, medical device regulation, autonomous systems, GB/Z 185-2026"
     },
     {
       "@type": "Organization",
