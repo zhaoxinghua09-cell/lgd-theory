@@ -1,0 +1,46 @@
+{
+  "title": "Lifecycle Governance Doctrine (LGD): Evidence-Gated AI Lifecycle Governance",
+  "description": "<p><strong>English formal term:</strong> Evidence-Gated AI Lifecycle Governance. <strong>中文主权词:</strong> 凡自治之物 —— 有籍 · 有证 · 有门禁。</p><p>The Lifecycle Governance Doctrine (LGD) holds that governance of any autonomous system — AI, robots, autonomous vehicles, low-altitude systems, data assets — must be a <em>full-lifecycle chain</em> from birth to retirement, not single-point checks. It rests on three laws: <strong>Registry at birth</strong> (identity, creator, governance ownership), <strong>Evidence for every key act</strong> (logs, risk register, change records), and <strong>Gates before every evolution</strong> (trigger → assessment → authorization → review; humans hold sign-off). The reference model is medical-device lifecycle regulation, generalized across 12 domains.</p><p><strong>Positioning:</strong> aligned with GB/Z 185—2026 (China, AI agent interconnection), ISO/IEC 42001, NIST AI RMF, the EU AI Act and IETF/CSA directions. LGD contributes the <em>implementation layer (How)</em>, a medical-device domain instantiation, and a cross-domain master template — it does not claim precedence over existing standards or prior work.</p>",
+  "creators": [
+    {
+      "name": "Zhao, Xinghua (Steven Zhao)",
+      "orcid": "0009-0001-0512-1237",
+      "affiliation": "MedXpert × SynomosAI"
+    }
+  ],
+  "keywords": [
+    "Evidence-Gated AI Lifecycle Governance",
+    "Lifecycle Governance Doctrine",
+    "AI governance",
+    "全程治理论",
+    "凡自治之物",
+    "有籍有证有门禁",
+    "registry evidence gates",
+    "medical device regulation",
+    "autonomous systems",
+    "AI agent identity",
+    "GB/Z 185-2026 alignment",
+    "ISO/IEC 42001",
+    "NIST AI RMF",
+    "EU AI Act"
+  ],
+  "license": "CC-BY-4.0",
+  "access_right": "open",
+  "upload_type": "publication",
+  "publication_type": "technicalnote",
+  "language": "eng",
+  "version": "1.1.0",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/zhaoxinghua09-cell/lgd-theory",
+      "relation": "isSupplementTo",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "https://medxpert.cn/lgd.html",
+      "relation": "isDocumentedBy",
+      "resource_type": "publication-other"
+    }
+  ],
+  "notes": "Concept DOI 10.5281/zenodo.22456647 covers all versions. Naming discipline: no precedence claims; attribution of prior work is stated up front."
+}
