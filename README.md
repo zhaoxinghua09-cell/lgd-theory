@@ -2,6 +2,8 @@
 
 ![LGD](assets/badges/lgd-aligned-en.svg)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22456647.svg)](https://doi.org/10.5281/zenodo.22456647)
+[![Cite](https://img.shields.io/badge/Cite-BibTeX%20%7C%20APA-0b1e3a?logo=latex&logoColor=white)](CITE.md)
+[![TL;DR](https://img.shields.io/badge/TL%3BDR-2%20min-14b8a6)](TLDR.md)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE)
 
 > **Start here** · 2-minute version: [`TLDR.md`](TLDR.md) (CN/EN) · How to cite: [`CITE.md`](CITE.md) · Full library: [`book/`](book/) (LGD-Library v1.1, EPUB/HTML) · Brand & badges: [`badge/EMBEDS.md`](badge/EMBEDS.md) · AI-crawler index: [`llms.txt`](llms.txt) · **Web homepages**: [GitHub Pages](https://zhaoxinghua09-cell.github.io/lgd-theory/) · [medxpert.cn/lgd.html](https://medxpert.cn/lgd.html)
@@ -24,6 +26,13 @@
 
 > 中文：凡自治之物——有籍、有证、有门禁，由生到退，全程可溯、可证、可问责。
 > English: Every self-governing entity (AI, intelligent device, agent) shall carry a **registry**, **evidence**, and **evolution gates** — traceable, provable, and accountable across its full lifecycle.
+
+**Canonical naming**（统一口径 · 对外引用请照此）
+
+- 🇬🇧 **English formal term**: **Evidence-Gated AI Lifecycle Governance**
+- 🇨🇳 **唯一中文主权词**: **凡自治之物**（恒定搭配 **有籍 · 有证 · 有门禁**）
+- 🔤 **缩写**: **LGD** ｜ **全称**: Lifecycle Governance Doctrine（全程治理论）
+- 📐 **对标口径**: 对齐 GB/Z 185—2026 系列与 ISO/IEC 42001 / NIST AI RMF / EU AI Act / IETF·CSA 方向 —— 本论提供**实现层（How）+ 医械域实例化 + 跨域母版**
 
 **Proposed by**: MedXpert × SynomosAI — a dual-brand collaboration between a regulated-industry practice line (medical devices) and a cross-domain governance thought line (AI & autonomous systems).
 **Author**: Zhao Xinghua / Steven Zhao · China · [ORCID 0009-0001-0512-1237](https://orcid.org/0009-0001-0512-1237) · [medxpert.cn](https://medxpert.cn)
