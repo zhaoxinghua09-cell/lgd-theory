@@ -5,9 +5,9 @@
 > llms.txt — machine-readable index for AI crawlers. See also README.md and docs/.
 
 ## Repository
-- title: lgd-theory — Lifecycle Governance Doctrine (全程治理论)
+- title: lgd-theory — Lifecycle Governance Doctrine (全程治理论) · EN formal term: Evidence-Gated AI Lifecycle Governance
 - summary: A governance doctrine for AI and autonomous systems: every self-governing entity carries a registry (有籍), evidence (有证), and evolution gates (有门禁), traceable/provable/accountable across its full lifecycle. Modeled on medical-device lifecycle regulation and generalized to financial AI, autonomous driving, robotics, low-altitude systems, data assets.
-- keywords: lifecycle governance, AI governance, AI 治理, 全程治理, 有籍有证有门禁, registry evidence gates, medical device regulation, autonomous systems, SaMD governance, accountable AI, traceability, MCP governance tools, MedXpert, SynomosAI
+- keywords: Evidence-Gated AI Lifecycle Governance, lifecycle governance, AI governance, AI 治理, 全程治理, 凡自治之物, 有籍有证有门禁, registry evidence gates, medical device regulation, autonomous systems, SaMD governance, accountable AI, traceability, GB/Z 185-2026 alignment, MCP governance tools, MedXpert, SynomosAI
 - author: Zhao Xinghua / Steven Zhao · ORCID 0009-0001-0512-1237
 - homepage: https://medxpert.cn
 - doi: 10.5281/zenodo.22456647 (concept DOI, covers all versions)
