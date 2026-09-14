@@ -1,7 +1,7 @@
 # LGD International Social Pack (EN) · 2026-09-06
 
 > Prepared by: content publishing ops (Paredros) · Brand: MedXpert × SynomosAI
-> Author line to use everywhere: Zhao Xinghua / Steven Zhao · China · ORCID 0009-0001-0512-1237
+> Author line to use everywhere: SynomosAI Governance Line · ORCID & full byline via CITE.md
 > Links: GitHub https://github.com/zhaoxinghua09-cell/lgd-theory · DOI (concept, always latest = v1.1.0, verified 2026-09-06) https://doi.org/10.5281/zenodo.22456647 · https://medxpert.cn
 > License: CC BY 4.0. Status: ready-to-post (P-017 in release ledger). No internal codenames, no internal paths.
 
@@ -31,7 +31,7 @@ The most mature lifecycle regulation humans have is **medical-device regulation*
 Flagship paper + 9-domain series (open access, CC BY 4.0): https://github.com/zhaoxinghua09-cell/lgd-theory
 DOI (always resolves to latest version): https://doi.org/10.5281/zenodo.22456647
 
-Zhao Xinghua / Steven Zhao · China — MedXpert × SynomosAI
+SynomosAI Governance Line — MedXpert × SynomosAI
 
 #AIGovernance #ResponsibleAI #AIRegulation #MedicalDevices #SaMD #TrustworthyAI
 

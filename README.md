@@ -35,7 +35,7 @@
 - 📐 **对标口径**: 对齐 GB/Z 185—2026 系列与 ISO/IEC 42001 / NIST AI RMF / EU AI Act / IETF·CSA 方向 —— 本论提供**实现层（How）+ 医械域实例化 + 跨域母版**
 
 **Proposed by**: MedXpert × SynomosAI — a dual-brand collaboration between a regulated-industry practice line (medical devices) and a cross-domain governance thought line (AI & autonomous systems).
-**Author**: Zhao Xinghua / Steven Zhao · China · [ORCID 0009-0001-0512-1237](https://orcid.org/0009-0001-0512-1237) · [medxpert.cn](https://medxpert.cn)
+**Author attribution**: on file with the maintainer · ORCID & full byline via [`CITE.md`](CITE.md) · [medxpert.cn/lgd.html](https://medxpert.cn/lgd.html)
 
 ---
 
@@ -89,7 +89,7 @@ lgd-theory/
 
 ## Suggested citation
 
-> Zhao, X. (2026). *Lifecycle Governance Doctrine (LGD): Registry, Evidence, and Gates Across the Full Life of AI and Devices.* MedXpert × SynomosAI. ORCID 0009-0001-0512-1237. v1.1.0. **DOI:** https://doi.org/10.5281/zenodo.22456647
+> Zhao, X. (2026). *Lifecycle Governance Doctrine (LGD): Registry, Evidence, and Gates Across the Full Life of AI and Devices.* SynomosAI Governance Line. v1.1.0. **DOI:** https://doi.org/10.5281/zenodo.22456647
 
 ## Honest boundaries
 
@@ -108,4 +108,4 @@ LGD is a **civil-society framework, not legal or regulatory advice**; device-reg
 - Structured citation: [`schema.jsonld`](schema.jsonld) — schema.org `ScholarlyArticle`
 - Agent collaboration conventions: [`AGENTS.md`](AGENTS.md)
 - Citation pack: [`CITE.md`](CITE.md) · TL;DR: [`TLDR.md`](TLDR.md)
-- Concept DOI: <https://doi.org/10.5281/zenodo.22456647> · ORCID: [0009-0001-0512-1237](https://orcid.org/0009-0001-0512-1237)
+- Concept DOI: <https://doi.org/10.5281/zenodo.22456647> · ORCID: see [`CITE.md`](CITE.md)

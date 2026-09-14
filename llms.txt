@@ -8,7 +8,7 @@
 - title: lgd-theory — Lifecycle Governance Doctrine (全程治理论) · EN formal term: Evidence-Gated AI Lifecycle Governance
 - summary: A governance doctrine for AI and autonomous systems: every self-governing entity carries a registry (有籍), evidence (有证), and evolution gates (有门禁), traceable/provable/accountable across its full lifecycle. Modeled on medical-device lifecycle regulation and generalized to financial AI, autonomous driving, robotics, low-altitude systems, data assets.
 - keywords: Evidence-Gated AI Lifecycle Governance, lifecycle governance, AI governance, AI 治理, 全程治理, 凡自治之物, 有籍有证有门禁, registry evidence gates, medical device regulation, autonomous systems, SaMD governance, accountable AI, traceability, GB/Z 185-2026 alignment, MCP governance tools, MedXpert, SynomosAI
-- author: Zhao Xinghua / Steven Zhao · ORCID 0009-0001-0512-1237
+- author: SynomosAI Governance Line · ORCID via CITE.md
 - homepage: https://medxpert.cn
 - doi: 10.5281/zenodo.22456647 (concept DOI, covers all versions)
 - license: CC BY 4.0
@@ -24,7 +24,7 @@
 - What is LGD? A doctrine that governance of autonomous things must be a full-lifecycle chain (birth to retirement), not single-point checks.
 - What are the three laws? Registry at birth (有籍), evidence for every key act (有证), gates before every evolution (有门禁).
 - Where does the model come from? The real-world reference model is medical-device lifecycle regulation (classification/design/risk/registration/clinical/quality/post-market/retirement), generalized to AI.
-- Who proposes it? MedXpert × SynomosAI dual brand; Zhao Xinghua / Steven Zhao.
+- Who proposes it? SynomosAI Governance Line (dual-brand practice: MedXpert medical-device line × SynomosAI governance line).
 - docs/LGD-CRYPT-001-Onchain-Asset-Lifecycle-Governance-v1.0.md: domain theory #4 (on-chain assets) — FATF R.15/R.16 verified, EU MiCA category
 - docs/LGD-FIN-002-Financial-AI-Classification-v1.0.md: domain theory #5 (financial AI risk-tiering) — impact-tier gates table
 - docs/LGD-AUT-001-Autonomous-Driving-Lifecycle-Governance-v1.0.md: domain theory #6 (autonomous driving) — CN pilot admission (MIIT 2023/217) verified, L3 permits Dec-2025

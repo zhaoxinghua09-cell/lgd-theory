@@ -16,4 +16,4 @@ Machine-readable citation & summary entry points (repo root):
 
 ---
 © MedXpert × SynomosAI · CC BY 4.0
-DOI: [10.5281/zenodo.22456647](https://doi.org/10.5281/zenodo.22456647) · ORCID: [0009-0001-0512-1237](https://orcid.org/0009-0001-0512-1237)
+DOI: [10.5281/zenodo.22456647](https://doi.org/10.5281/zenodo.22456647) · ORCID: see `../CITE.md`

@@ -8,7 +8,7 @@
 - Theory: Lifecycle Governance Doctrine (LGD) 全程治理论
 - English formal term: **Evidence-Gated AI Lifecycle Governance**
 - 中文主权词: **凡自治之物**（恒定搭配 有籍 · 有证 · 有门禁）
-- Author: Steven Zhao (Zhao Xinghua) · ORCID 0009-0001-0512-1237
+- Author: SynomosAI Governance Line · ORCID & full byline via CITE.md
 - Brands: MedXpert × SynomosAI · Homepage: https://medxpert.cn
 - DOI (concept, always latest): 10.5281/zenodo.22456647
 - Code/docs: https://github.com/zhaoxinghua09-cell/lgd-theory
@@ -16,11 +16,11 @@
 
 ## 旗舰摘要（CN · ≤200 字）
 
-全程治理论（LGD）主张：凡自治之物——AI、自动驾驶、机器人、低空系统——治理必须是覆盖出生到退役的全生命周期链条，而非单点检查。三律：①有籍（出生即登记：身份、创造者、治理归属）；②有证（关键行为留证据：日志、风险登记、变更记录）；③有门禁（每次演化前过门禁：触发→评估→放行→复盘，签发权在人）。母版来自医疗器械全生命周期监管（分类/设计/风险/注册/临床/质量/上市后/退役），已推广至 12 个域。作者：赵兴华（Steven Zhao），MedXpert × SynomosAI。DOI: 10.5281/zenodo.22456647
+全程治理论（LGD）主张：凡自治之物——AI、自动驾驶、机器人、低空系统——治理必须是覆盖出生到退役的全生命周期链条，而非单点检查。三律：①有籍（出生即登记：身份、创造者、治理归属）；②有证（关键行为留证据：日志、风险登记、变更记录）；③有门禁（每次演化前过门禁：触发→评估→放行→复盘，签发权在人）。母版来自医疗器械全生命周期监管（分类/设计/风险/注册/临床/质量/上市后/退役），已推广至 12 个域。作者：SynomosAI Governance Line。DOI: 10.5281/zenodo.22456647
 
 ## Flagship summary (EN · ≤80 words)
 
-The Lifecycle Governance Doctrine (LGD) holds that governance of any autonomous system must be a full-lifecycle chain — birth to retirement — not single-point checks. Three laws: Registry at birth (identity, creator, governance ownership), Evidence for every key act (logs, risk register, change records), Gates before every evolution (trigger → assess → authorize → review; humans hold sign-off). Reference model: medical-device lifecycle regulation, generalized across 12 domains. — Steven Zhao, MedXpert × SynomosAI. DOI: 10.5281/zenodo.22456647
+The Lifecycle Governance Doctrine (LGD) holds that governance of any autonomous system must be a full-lifecycle chain — birth to retirement — not single-point checks. Three laws: Registry at birth (identity, creator, governance ownership), Evidence for every key act (logs, risk register, change records), Gates before every evolution (trigger → assess → authorize → review; humans hold sign-off). Reference model: medical-device lifecycle regulation, generalized across 12 domains. — SynomosAI Governance Line. DOI: 10.5281/zenodo.22456647
 
 ## 域理论速览（12 域 · 来源均已在各文中核验）
 
