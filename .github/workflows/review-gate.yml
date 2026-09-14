@@ -1,0 +1,41 @@
+name: Review Gate
+
+# 发布闸门 · 服务端校验
+# 作用：PR 或推送到 main 时，校验 docs/ 下的理论件是否带合法审查标记。
+# 注意：本工作流只**报警**；要真正拦合并，须在仓库设置里启用分支保护并要求本检查通过。
+# 规范见 11-研究成果/发布闸门/发布闸门规范_v1.md（本地）
+
+on:
+  pull_request:
+    paths:
+      - 'docs/**'
+      - 'tools/check_review_status.py'
+      - '.review-gate-baseline'
+  push:
+    branches: [main]
+    paths:
+      - 'docs/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  review-gate:
+    name: review-gate
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run publish review gate
+        run: |
+          if [ -f .review-gate-baseline ]; then
+            python tools/check_review_status.py docs --baseline .review-gate-baseline
+          else
+            echo "::warning::未找到基线文件，按严格模式执行"
+            python tools/check_review_status.py docs
+          fi

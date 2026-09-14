@@ -1,0 +1,39 @@
+# 发布闸门 · 基线豁免清单（Baseline）
+#
+# 用途：登记**已存在且已公开**的历史问题，使发布闸门只拦截「新增问题」，
+#       而不会因为存量问题把仓库推送整体锁死。
+#
+# 规则：
+#   1. 列在下面的文件属于「已登记历史问题」——推送时只警告，不阻断。
+#   2. 修复某份文档后，**必须把该行从本清单删除**（校验器会提示哪些条目已失效）。
+#   3. 本清单**只减不增**。往这里加新文件名 = 掩盖新问题。
+#   4. 匹配方式：按文件名匹配（不含路径），避免路径分隔符差异。
+#
+# 建立：2026-09-15 ｜ 首次扫描 22 份全部 FAIL（PASS 0）
+# 清空目标：随 A03–A13 逐域完成审查与补标记，逐条销账
+
+## A 类 · 自称「🟢 可发布」但无任何审查标记（13 份 · 命中 G-2）
+LGD-AUT-001-Autonomous-Driving-Lifecycle-Governance-v1.0.md
+LGD-BIO-001-Biomedical-Data-Lifecycle-Governance-v1.0.md
+LGD-CRYPT-001-Onchain-Asset-Lifecycle-Governance-v1.0.md
+LGD-DAT-001-Data-Element-Lifecycle-Governance-v1.0.md
+LGD-EDU-001-Education-Lifecycle-Governance-v1.0.md
+LGD-FIN-001-Financial-AI-Lifecycle-Governance-v1.0.md
+LGD-FIN-002-Financial-AI-Classification-v1.0.md
+LGD-GOV-001-Digital-Government-Lifecycle-Governance-v1.0.md
+LGD-IND-001-Industrial-AI-Lifecycle-Governance-v1.0.md
+LGD-LAW-001-Electronic-Evidence-Lifecycle-Governance-v1.0.md
+LGD-MED-002-Registration-Methodology-v1.0.md
+LGD-ROB-001-Embodied-AI-Lifecycle-Governance-v1.0.md
+LGD-UAS-001-Low-Altitude-Lifecycle-Governance-v1.0.md
+
+## B 类 · 无标记、无自称（9 份 · 命中 G-1）
+LGD-Global-Standards-Alignment-v1.0.md
+LGD-Lifecycle-Governance-Doctrine-EN-v1.0.md
+LGD-Lifecycle-Governance-Doctrine-v1.0.md
+LGD-Series-English-Index-v1.0.md
+doctrine-concepts.md
+BTSK-Bitemporal-Knowledge-Base-v1.0.md
+MAIT-Memory-Anchor-Identity-v1.0.md
+RRM-Realworld-Reference-Method-v1.0.md
+XCGS-Governance-Safety-Framework-v1.0.md
