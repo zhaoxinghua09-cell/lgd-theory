@@ -1,7 +1,7 @@
 # 全程治理论 Lifecycle Governance Doctrine (LGD) · 理论发布版
 
 > **提出 / 品牌**：MedXpert × SynomosAI（受监管实业实证侧 × 跨域治理思想侧）
-> **作者署名**：Zhao Xinghua / Steven Zhao·China（ORCID 0009-0001-0512-1237 ｜ GitHub: Medxpert-org ｜ https://medxpert.cn）
+> **作者署名**：SynomosAI Governance Line（治理线）｜ https://medxpert.cn
 > **版本**：v1.0 · 2026-09-06 ｜ **许可**：CC BY 4.0（转载需署名本页）
 > **一句话主张**：凡自治之物——有籍（Registry）、有证（Evidence）、有门禁（Gates），由生到退，全程可溯、可证、可问责。
 > **One-liner**：Every self-governing entity (AI, intelligent device, agent) shall carry a registry, evidence, and evolution gates — traceable, provable, and accountable across its full lifecycle.
@@ -76,7 +76,7 @@
 ## 5. 引用与传播
 
 **建议引用格式**
-> Zhao, X. (2026). *Lifecycle Governance Doctrine (LGD): Registry, Evidence, and Gates Across the Full Life of AI and Devices.* MedXpert × SynomosAI. ORCID 0009-0001-0512-1237. v1.0.
+> SynomosAI (2026). *Lifecycle Governance Doctrine (LGD): Registry, Evidence, and Gates Across the Full Life of AI and Devices.* MedXpert × SynomosAI. v1.0.
 
 **传播定位**
 1. 作为《理论驱动工具集》的理论总纲：把一批"合规小工具"升格为"一个理论的各环节执行器"。

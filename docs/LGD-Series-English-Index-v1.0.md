@@ -28,6 +28,6 @@
 | 14 | `LGD-MED-002-Registration-Methodology-v1.0.md` | Medical-device registration methodology: registration as the projection of full-lifecycle evidence; CN/FDA/EU registration anchors and tool map. |
 
 ## How to cite
-> Zhao, X. (2026). *The Lifecycle Governance Doctrine (LGD)* [Preprint]. MedXpert × SynomosAI. ORCID 0009-0001-0512-1237. DOI: https://doi.org/10.5281/zenodo.22456647
+> SynomosAI (2026). *The Lifecycle Governance Doctrine (LGD)* [Preprint]. MedXpert × SynomosAI. DOI: https://doi.org/10.5281/zenodo.22456647
 
 © MedXpert × SynomosAI · CC BY 4.0

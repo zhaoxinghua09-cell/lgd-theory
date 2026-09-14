@@ -1,7 +1,7 @@
 # 生物与基因数据全程治理 · LGD 域理论系列 #12（TH-BIO-001 · v1.0）
 
 > 提出/品牌：SynomosAI（治理侧）× MedXpert（实证侧）
-> 作者署名：赵兴华 / Steven Zhao·China（ORCID 0009-0001-0512-1237 ｜ GitHub: zhaoxinghua09-cell/lgd-theory ｜ https://medxpert.cn）
+> 作者署名：SynomosAI Governance Line（治理线）｜ https://medxpert.cn
 > 版本：v1.0（2026-09-06）｜ 状态：🟢 可发布（引用已核；敏感域，措辞审慎）
 > TID：TH-BIO-001 ｜ 上游：TH-META-006(LGD), TH-META-001(RRM), TH-DAT-001, TH-MED-001
 > 一句话：凡人类遗传资源与生物数据——有籍（申报登记与样本档案）·有证（来源/伦理/知情同意可溯）·有门禁（伦理审查、对外提供与跨境、科技活动复核门禁），由采集到处置全程合规可责。

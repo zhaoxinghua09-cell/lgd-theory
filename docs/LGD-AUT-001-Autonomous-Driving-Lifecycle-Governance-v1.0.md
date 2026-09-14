@@ -1,7 +1,7 @@
 # 自动驾驶全程治理 · LGD 域理论系列 #6（TH-AUT-001 · v1.0）
 
 > 提出/品牌：SynomosAI（治理侧）× MedXpert（实证侧）
-> 作者署名：赵兴华 / Steven Zhao·China（ORCID 0009-0001-0512-1237 ｜ GitHub: zhaoxinghua09-cell/lgd-theory ｜ https://medxpert.cn）
+> 作者署名：SynomosAI Governance Line（治理线）｜ https://medxpert.cn
 > 版本：v1.0（2026-09-06）｜ 状态：🟢 可发布（中国侧已核；UNECE/欧盟条目以官方原文为准）
 > TID：TH-AUT-001 ｜ 上游：TH-META-006(LGD), TH-META-001(RRM)
 > 一句话：凡自动驾驶系统——有籍（车辆与算法/软件登记）·有证（测试与运行数据可溯）·有门禁（准入许可、试点放行、OTA 变更与召回门禁），由设计到退役全程可责。

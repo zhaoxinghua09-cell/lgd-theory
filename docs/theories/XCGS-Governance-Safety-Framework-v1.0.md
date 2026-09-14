@@ -3,7 +3,7 @@ tid: TH-AIG-002
 name: XCGS 治理安全框架（X-Circle Governance & Safety）
 version: 1.0
 date: 2026-09-08
-author: 赵兴华 / Steven Zhao·China（ORCID 0009-0001-0512-1237）
+author: SynomosAI Governance Line
 issuer: SynomosAI × MedXpert
 license: CC BY 4.0
 alignment: ISO/IEC 42001 · NIST AI RMF · EU AI Act（精神对齐，非等同认证）

@@ -1,7 +1,7 @@
 # 链上资产全程治理 · LGD 域理论系列 #4（TH-CRYPT-001 · v1.0）
 
 > 提出/品牌：SynomosAI（治理侧）× MedXpert（实证侧）
-> 作者署名：赵兴华 / Steven Zhao·China（ORCID 0009-0001-0512-1237 ｜ GitHub: zhaoxinghua09-cell/lgd-theory ｜ https://medxpert.cn）
+> 作者署名：SynomosAI Governance Line（治理线）｜ https://medxpert.cn
 > 版本：v1.0（2026-09-06）｜ 状态：🟢 可发布（FATF 系列已核；MiCA 以 EUR-Lex 原文为准）
 > TID：TH-CRYPT-001 ｜ 上游：TH-META-006(LGD), TH-META-001(RRM), TH-AIG-001(UBIC), TH-FIN-001
 > 一句话：凡链上资产与虚拟资产服务——有籍（链上身份与资产登记）·有证（可溯账本与旅行规则信息伴随）·有门禁（准入、上币、交易与处置门禁），由发行到冻结/销毁全程可溯可执行。

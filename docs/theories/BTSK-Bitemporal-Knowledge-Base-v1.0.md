@@ -3,7 +3,7 @@ tid: TH-MED-003
 name: BTSK 双时态知识库（Bitemporal Temporal-Semantic Knowledge base）
 version: 1.0
 date: 2026-09-08
-author: 赵兴华 / Steven Zhao·China（ORCID 0009-0001-0512-1237）
+author: SynomosAI Governance Line
 issuer: SynomosAI × MedXpert
 license: CC BY 4.0
 status: 发布版

@@ -1,7 +1,7 @@
 # 医疗器械注册全程方法论 · LGD 域理论系列 #14（TH-MED-002 · v1.0）
 
 > 提出/品牌：MedXpert（实证侧）× SynomosAI（治理侧）
-> 作者署名：赵兴华 / Steven Zhao·China（ORCID 0009-0001-0512-1237 ｜ GitHub: zhaoxinghua09-cell/lgd-theory ｜ https://medxpert.cn）
+> 作者署名：SynomosAI Governance Line（治理线）｜ https://medxpert.cn
 > 版本：v1.0（2026-09-06）｜ 状态：🟢 可发布（法规条目为稳定公开名称，复核声明见 §4）
 > TID：TH-MED-002 ｜ 上游：TH-META-006(LGD 母版), TH-MED-001(AFG), TH-AIG-002(XCGS)
 > 一句话：注册不是产品旅程的终点，而是**把全程证据投影成一份可监管的"文档化承诺"**——有籍（预期用途与产品定义）、有证（风险/性能/临床/质量证据卷宗）、有门禁（变更控制与上市后延续门禁），注册证只是这条链在准入时点的快照。

@@ -4,7 +4,7 @@
 > **TID**：TH-AIG-006 ｜ **域码**：AIG ｜ **母版(RRM)**：真实世界身份确认机制（户籍 + 身份证 + 记忆连续性）
 > **上游锚定**：TH-META-006(LGD 全程治理论) · TH-META-001(RRM 真实参照法) · TH-AIG-001(UBIC 人格户籍协议)
 > **提出 / 品牌**：SynomosAI（治理侧）× MedXpert（实证侧）
-> **作者署名**：赵兴华 / Steven Zhao·China（ORCID 0009-0001-0512-1237 ｜ GitHub Medxpert-org · medxpert.cn）
+> **作者署名**：SynomosAI Governance Line（治理线）｜ medxpert.cn
 > **版本**：v1.0 ｜ **状态**：🟢 已落地 lgd-theory/docs（DOI 申请中 · 7 维质检已过）
 > **官方主页**：https://medxpert.cn ｜ **仓库**：github.com/Medxpert-org/lgd-theory
 
@@ -131,7 +131,7 @@ MAIT 不是孤立架构，而是治理理论矩阵的有机节点：
 
 - **不另起炉灶，补其空白**：以"**memory-anchor extension**"提案形式参与 W3C DID 工作组定标，主张在 DID 文档中增加 `memoryAnchor` 可验证字段（指纹 / 谱系 / 跨入口可携带封装）。
 - **占位三步（专家 → 警察 → 标准）**：先在自有理论文档与开源实现中固化主张（专家阶段，本文即起点）；再推动第三方可复现验证（警察阶段）；最终进入标准组织提案（标准阶段）。
-- **可引用身份**：本文建议引用格式见 §8；配套 Zenodo DOI 与 ORCID 回链随发布闸门一并落地。
+- **可引用身份**：本文建议引用格式见 §8；配套 Zenodo DOI 回链随发布闸门一并落地。
 
 ## 7. 讨论与诚实边界
 
@@ -152,20 +152,20 @@ AI 身份的认定，必须从"它有什么证"推进到"它的记忆连续吗�
 4. ISO/IEC 42001:2023 — AI Management System.
 5. NIST AI Risk Management Framework (AI RMF 1.0).
 6. C2PA Coalition for Content Provenance and Authenticity.
-7. Zhao, X. (2026). *Lifecycle Governance Doctrine (LGD): Registry · Evidence · Gates.* SynomosAI / MedXpert. Zenodo DOI 10.5281/zenodo.22456648.
-8. Zhao, X. (2026). *UBIC 人格户籍协议 / UBIC-Mem 记忆可携带律.* SynomosAI.
-9. Zhao, X. (2026). *A³ Laws 造 AI 三定律.* SynomosAI.
+7. SynomosAI (2026). *Lifecycle Governance Doctrine (LGD): Registry · Evidence · Gates.* SynomosAI / MedXpert. Zenodo DOI 10.5281/zenodo.22456648.
+8. SynomosAI (2026). *UBIC 人格户籍协议 / UBIC-Mem 记忆可携带律.* SynomosAI.
+9. SynomosAI (2026). *A³ Laws 造 AI 三定律.* SynomosAI.
 10. LessWrong. *Continuity Engineering: Using Memory Anchors to Stabilize Recall.* (社群讨论)
 
 ---
 
 ### 建议引用格式（Suggested Citation）
 
-> Zhao, X. (2026). *Memory-Anchor Identity Theory: Treating Memory as the Root Anchor of AI Identity.* SynomosAI × MedXpert. ORCID: 0009-0001-0512-1237. https://medxpert.cn
+> SynomosAI (2026). *Memory-Anchor Identity Theory: Treating Memory as the Root Anchor of AI Identity.* SynomosAI × MedXpert. https://medxpert.cn
 
 ---
 
-© SynomosAI × MedXpert · 内部白皮书草稿（待去敏 + 7 维质检后随 lgd-theory 发布）
+© SynomosAI × MedXpert · CC BY 4.0
 
 ---
 
@@ -173,7 +173,7 @@ AI 身份的认定，必须从"它有什么证"推进到"它的记忆连续吗�
 
 **White Paper v1.0 · 2026-09-08**
 TID: TH-AIG-006 · Domain: AIG · Upstream: LGD (TH-META-006), RRM (TH-META-001), UBIC (TH-AIG-001)
-Author: Zhao Xinghua / Steven Zhao·China (ORCID 0009-0001-0512-1237 · GitHub Medxpert-org · medxpert.cn)
+Author: SynomosAI Governance Line · medxpert.cn
 Brand: SynomosAI (theory) × MedXpert (evidence)
 
 ## Abstract
@@ -241,7 +241,7 @@ The `h(M)` fingerprint and `prov(M)` provenance make "is it still the same ident
 
 - **Don't reinvent; fill the gap**: propose a "**memory-anchor extension**" to the W3C DID WG — a verifiable `memoryAnchor` field (fingerprint / provenance / cross-entry portable encapsulation) in the DID document.
 - **Three steps (expert → police → standard)**: solidify in theory doc + OSS (expert, this paper is the start) → third-party reproducible validation (police) → SDO proposal (standard).
-- **Citable identity**: Zenodo DOI + ORCID backlink delivered via the publish gate.
+- **Citable identity**: Zenodo DOI backlink delivered via the publish gate.
 
 ## 8. Discussion and Honest Boundaries
 
@@ -262,14 +262,12 @@ AI identity attribution must advance from "what is it certified for" to "is its 
 4. ISO/IEC 42001:2023.
 5. NIST AI Risk Management Framework (AI RMF 1.0).
 6. C2PA Specification.
-7. Zhao, X. (2026). *Lifecycle Governance Doctrine (LGD).* SynomosAI/MedXpert. Zenodo DOI 10.5281/zenodo.22456648.
-8. Zhao, X. (2026). *UBIC / UBIC-Mem.*
-9. Zhao, X. (2026). *A³ Laws.*
+7. SynomosAI (2026). *Lifecycle Governance Doctrine (LGD).* SynomosAI/MedXpert. Zenodo DOI 10.5281/zenodo.22456648.
+8. SynomosAI (2026). *UBIC / UBIC-Mem.*
+9. SynomosAI (2026). *A³ Laws.*
 10. LessWrong. *Continuity Engineering: Using Memory Anchors to Stabilize Recall.*
 
-**Suggested Citation**: Zhao, X. (2026). *Memory-Anchor Identity Theory: Treating Memory as the Root Anchor of AI Identity.* SynomosAI × MedXpert. ORCID: 0009-0001-0512-1237.
-
----
+**Suggested Citation**: SynomosAI (2026). *Memory-Anchor Identity Theory: Treating Memory as the Root Anchor of AI Identity.* SynomosAI × MedXpert. ---
 
 ## 10. 落地执行段 · Landing & Execution
 
@@ -284,7 +282,7 @@ AI identity attribution must advance from "what is it certified for" to "is its 
 ### 10.2 发布与引用路径
 - **仓库**：`lgd-theory/docs/`（GitHub 公开仓，随 LGD 文库 v1.x 发布）
 - **可发现**：本白皮书与速查页（含 JSON-LD: Article / DefinedTerm / Person / Organization）同步入库，供搜索引擎与 AI 抓取
-- **可引用身份**：Zenodo DOI（A³ 通道申请中）｜ ORCID 0009-0001-0512-1237 ｜ GitHub Medxpert-org
+- **可引用身份**：Zenodo DOI（A³ 通道申请中）｜ GitHub Medxpert-org
 - **建议引用**：见上方 Suggested Citation
 
 ### 10.3 如何使用（部署）

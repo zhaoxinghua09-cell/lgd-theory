@@ -3,7 +3,7 @@
 **English flagship edition · v1.0 · 2026-09-06**
 
 > **Proposed by**: MedXpert × SynomosAI — a regulated-industry practice line (medical devices) and a cross-domain governance thought line (AI & autonomous systems).
-> **Author**: Zhao Xinghua / Steven Zhao · China · ORCID 0009-0001-0512-1237 · https://medxpert.cn
+> **Author**: SynomosAI Governance Line · https://medxpert.cn
 > **DOI (concept, always latest)**: https://doi.org/10.5281/zenodo.22456647
 > **License**: CC BY 4.0 — cite the author when sharing.
 > **One-liner**: Every self-governing entity — AI model, software-enabled medical device, autonomous agent — shall carry a **registry** (who it is), **evidence** (what it did and why), and **evolution gates** (who allowed it to change), traceable, provable, and accountable **across its full lifecycle, from birth to retirement**.
@@ -65,7 +65,7 @@ LGD is engineered to sit *on top of* the existing global standards network rathe
 
 ## 6. Suggested citation
 
-> Zhao, X. (2026). *The Lifecycle Governance Doctrine (LGD): Registry, Evidence, and Gates Across the Full Life of Autonomous Systems* [Preprint]. MedXpert × SynomosAI. ORCID 0009-0001-0512-1237. DOI: https://doi.org/10.5281/zenodo.22456647
+> SynomosAI (2026). *The Lifecycle Governance Doctrine (LGD): Registry, Evidence, and Gates Across the Full Life of Autonomous Systems* [Preprint]. MedXpert × SynomosAI. DOI: https://doi.org/10.5281/zenodo.22456647
 
 ## 7. Honest boundaries
 
@@ -73,4 +73,4 @@ LGD is a **civil-society framework**, not legal or regulatory advice, not a cert
 
 ---
 
-© MedXpert × SynomosAI · CC BY 4.0 · Cite: Zhao, X. (2026). DOI 10.5281/zenodo.22456647
+© MedXpert × SynomosAI · CC BY 4.0 · Cite: SynomosAI (2026). DOI 10.5281/zenodo.22456647

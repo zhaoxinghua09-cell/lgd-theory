@@ -1,7 +1,7 @@
 # 金融 AI 分级治理 · LGD 域理论系列 #5（TH-FIN-002 · v1.0）
 
 > 提出/品牌：SynomosAI（治理侧）× MedXpert（实证侧——分级思维母版=SaMD 风险分类）
-> 作者署名：赵兴华 / Steven Zhao·China（ORCID 0009-0001-0512-1237 ｜ GitHub: zhaoxinghua09-cell/lgd-theory ｜ https://medxpert.cn）
+> 作者署名：SynomosAI Governance Line（治理线）｜ https://medxpert.cn
 > 版本：v1.0（2026-09-06）｜ 状态：🟢 可发布（引用沿用 TH-FIN-001 已核来源；SaMD 分级为公开概念）
 > TID：TH-FIN-002 ｜ 上游：TH-META-006(LGD), TH-FIN-001, TH-MED-001(AFG)
 > 一句话：金融 AI 分级不是目的，而是"治理强度的配给表"——按用途风险分级，配给对应深度的登记、证据与人工门禁。
