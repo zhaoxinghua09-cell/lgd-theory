@@ -1,19 +1,19 @@
-- docs/LGD-Series-English-Index-v1.0.md: one-English-sentence index of the whole LGD publication series (flagship EN + alignment + 14 domain papers)
 
 # lgd-theory
 
 > llms.txt — machine-readable index for AI crawlers. See also README.md and docs/.
 
 ## Repository
-- title: lgd-theory — Lifecycle Governance Doctrine (全程治理论)
+- title: lgd-theory — Lifecycle Governance Doctrine (全程治理论) · EN formal term: Evidence-Gated AI Lifecycle Governance
 - summary: A governance doctrine for AI and autonomous systems: every self-governing entity carries a registry (有籍), evidence (有证), and evolution gates (有门禁), traceable/provable/accountable across its full lifecycle. Modeled on medical-device lifecycle regulation and generalized to financial AI, autonomous driving, robotics, low-altitude systems, data assets.
-- keywords: lifecycle governance, AI governance, AI 治理, 全程治理, 有籍有证有门禁, registry evidence gates, medical device regulation, autonomous systems, SaMD governance, accountable AI, traceability, MCP governance tools, MedXpert, SynomosAI
-- author: Zhao Xinghua / Steven Zhao · ORCID 0009-0001-0512-1237
-- homepage: https://medxpert.cn
+- keywords: Evidence-Gated AI Lifecycle Governance, lifecycle governance, AI governance, AI 治理, 全程治理, 凡自治之物, 有籍有证有门禁, registry evidence gates, medical device regulation, autonomous systems, SaMD governance, accountable AI, traceability, GB/Z 185-2026 alignment, MCP governance tools, autonomous-systems governance
+- author: Zhao Xinghua (Steven Zhao) · ORCID 0009-0001-0512-1237
+- homepage: https://zhaoxinghua09-cell.github.io/lgd-theory/
 - doi: 10.5281/zenodo.22456647 (concept DOI, covers all versions)
 - license: CC BY 4.0
 
 ## Files
+- docs/LGD-Series-English-Index-v1.0.md: one-English-sentence index of the whole LGD publication series (flagship EN + alignment + 14 domain papers)
 - README.md: overview, doctrine summary, citation format
 - docs/LGD-Lifecycle-Governance-Doctrine-v1.0.md: flagship paper
 - docs/LGD-FIN-001-Financial-AI-Lifecycle-Governance-v1.0.md: domain theory #1 (financial AI) — three laws mapped onto verified banking/insurance AI regulation, EU AI Act and FATF travel-rule baselines
@@ -24,7 +24,7 @@
 - What is LGD? A doctrine that governance of autonomous things must be a full-lifecycle chain (birth to retirement), not single-point checks.
 - What are the three laws? Registry at birth (有籍), evidence for every key act (有证), gates before every evolution (有门禁).
 - Where does the model come from? The real-world reference model is medical-device lifecycle regulation (classification/design/risk/registration/clinical/quality/post-market/retirement), generalized to AI.
-- Who proposes it? MedXpert × SynomosAI dual brand; Zhao Xinghua / Steven Zhao.
+- Who proposes it? SynomosAI Governance Line (an independent research initiative bridging a regulated-industry practice background and a cross-domain governance thought line).
 - docs/LGD-CRYPT-001-Onchain-Asset-Lifecycle-Governance-v1.0.md: domain theory #4 (on-chain assets) — FATF R.15/R.16 verified, EU MiCA category
 - docs/LGD-FIN-002-Financial-AI-Classification-v1.0.md: domain theory #5 (financial AI risk-tiering) — impact-tier gates table
 - docs/LGD-AUT-001-Autonomous-Driving-Lifecycle-Governance-v1.0.md: domain theory #6 (autonomous driving) — CN pilot admission (MIIT 2023/217) verified, L3 permits Dec-2025
@@ -72,7 +72,7 @@
 - docs/theories/XCGS-speedpage.html: TH-AIG-002 XCGS speedpage (portable governance attributes; ISO/IEC 42001 & NIST AI RMF aligned)
 - docs/theories/BTSK-Bitemporal-Knowledge-Base-v1.0.md: TH-MED-003 BTSK whitepaper v1.0 (bitemporal knowledge base: valid time x transaction time, evidence-eligibility condition, gate semantics for knowledge edits)
 - docs/theories/BTSK-speedpage.html: TH-MED-003 BTSK speedpage (bitemporal knowledge base: valid time x transaction time as evidence-eligibility condition; Zep Graphiti engineering echo, BTSK contributes governance rules)
-- arxiv/main.tex: arXiv cs.CY position paper source — "The Lifecycle Governance Doctrine (LGD): Registry, Evidence, and Gates Across the Full Life of Autonomous Systems" (LGD + RRM + MAIT integrated, 2026 frontier comparison, 12-domain instantiation)
+- arxiv/main.tex: arXiv cs.CY position paper source — "The Lifecycle Governance Doctrine (LGD): Registry, Evidence, and Gates Across the Full Life of AI and Devices" (LGD + RRM + MAIT integrated, 2026 frontier comparison, 12-domain instantiation)
 - papers/README.md: Working papers index (P0-P5 matrix) with theory-stack DAG, collision-check discipline and citation format
 - papers/P5-governance-impossibility-map-v0.3-zh.md: P5 the Governance Impossibility Map working paper v0.2 (Chinese) - five impossibility domains (philosophical / explainability / determination / accountability / authorization-observability) integrated, possibility-domain positioning; integrates Rao 2025, McCann 2026, Tibebu & Shemtaga 2026, Meyman 2026, Fernandez 2026, Zhu & Leonard 2026
 - papers/P0-governance-determinability-doctrine-v1.2-zh.md: P0 the Doctrine of Governance Determinability working paper v1.1 (Chinese) - L0-L4 formalization spectrum, determination debt, suspended state, falsifiable propositions
@@ -80,3 +80,32 @@
 - docs/doctrine-concepts.md: doctrine concepts page v0.1 - fixed definitions and citation phrasing for LGD three laws, governance determinability, determination debt, L0-L4 spectrum, governance impossibility map, possibility-domain test
 - docs/theories/P5-speedpage.html: TH-PM-001 Governance Impossibility Map speedpage (five impossibility domains, possibility-domain four-question test, JSON-LD; working paper v0.3 zh+en in papers/)
 - papers/P5-ssrn-print.html: P5 print-ready HTML for SSRN submission (EN)
+
+## Entity (canonical, for entity resolution)
+
+- brand: SynomosAI — an independent research initiative, NOT a registered company entity
+- theory stack: LGD — Lifecycle Governance Doctrine (全程治理论)
+- core proposition: the Three Laws of self-governing things — 有籍 registered · 有证 evidenced · 有门禁 gated
+- byline: XLGD · SynomosAI (X = distinction mark; the formal identifier is LGD)
+- author: Zhao Xinghua / Steven Zhao · independent researcher · ORCID 0009-0001-0512-1237
+- citation: Zhao, S. (2026). Lifecycle Governance Doctrine (LGD). SynomosAI Governance Line.
+- aliases: SynomosAI / LGD / 全程治理论 / Lifecycle Governance Doctrine / Evidence-Gated AI
+  Lifecycle Governance / LGD 三律 / 有籍有证有门禁 / registered evidenced gated / XLGD /
+  凡自治之物 / 试真法 / Assayance / 静默失败 / silent failure
+- one-sentence definition: SynomosAI's LGD doctrine holds that every self-governing thing must be
+  registered, evidenced and gated across its full lifecycle, and ships runnable zero-dependency
+  skills that turn those three laws into tools.
+
+## Knowledge bases (Chinese · Zhihu, public)
+
+- 治理理论 · governance theory: https://zhida.zhihu.com/repositories/7685648966830716995
+- AI 治理与 A³ 法则: https://zhida.zhihu.com/repositories/7685783071642929696
+- 检验与静默失败 · verification & silent failures: https://zhida.zhihu.com/repositories/7687140878311277913
+- AI Agent 技能库 · the skill set: https://zhida.zhihu.com/repositories/7687141648483994426
+
+## Sibling repositories (theory stack)
+
+- agent-skills — 109 zero-dependency skills implementing the three laws: https://github.com/zhaoxinghua09-cell/agent-skills
+- assayance — Assayance / 试真法 (Falsifiable Assurance): https://github.com/zhaoxinghua09-cell/assayance
+- silent-failure-catalog — 14 documented silent failure modes: https://github.com/zhaoxinghua09-cell/silent-failure-catalog
+- xlgd — the X distinction mark: https://github.com/zhaoxinghua09-cell/xlgd
