@@ -1,7 +1,7 @@
 # 金融 AI 全程治理 · LGD 域理论系列 #1（TH-FIN-001 · v1.0）
 
-> 提出/品牌：SynomosAI（治理侧）× MedXpert（实证侧——医械域已验证 LGD 三律可落地）
-> 作者署名：赵兴华 / Steven Zhao·China（ORCID 0009-0001-0512-1237 ｜ GitHub: zhaoxinghua09-cell/lgd-theory ｜ https://medxpert.cn）
+> 提出：SynomosAI Governance Line（独立研究线；受监管实业实证背景——医械域已验证 LGD 三律可落地）
+> 作者署名：赵兴华（Steven Zhao）｜ ORCID 0009-0001-0512-1237
 > 版本：v1.0（2026-09-06）｜ 状态：🟢 可发布（引用已联网复核，见 §3 复核声明）
 > TID：TH-FIN-001 ｜ 上游锚定：TH-META-006(LGD), TH-META-001(RRM), TH-AIG-002(XCGS), TH-AIG-003(A³)
 > 一句话：凡金融自治之物——算法/模型/机器人投顾——有籍（清单与登记）·有证（变更与运行留痕）·有门禁（高风险准入与人工放行），由立项到退出一程可溯可证可问责。
@@ -61,4 +61,4 @@
 
 ---
 
-© SynomosAI × MedXpert · LGD 域实例化系列 #1 · CC BY 4.0（引用监管文件属各发布机构）
+© SynomosAI Governance Line · LGD 域实例化系列 #1 · CC BY 4.0（引用监管文件属各发布机构）

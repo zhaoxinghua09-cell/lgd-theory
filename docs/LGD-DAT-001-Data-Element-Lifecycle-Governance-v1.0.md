@@ -1,7 +1,7 @@
 # 数据要素全程治理 · LGD 域理论系列 #7（TH-DAT-001 · v1.0）
 
-> 提出/品牌：SynomosAI（治理侧）× MedXpert（实证侧）
-> 作者署名：赵兴华 / Steven Zhao·China（ORCID 0009-0001-0512-1237 ｜ GitHub: zhaoxinghua09-cell/lgd-theory ｜ https://medxpert.cn）
+> 提出：SynomosAI Governance Line（独立研究线；受监管实业实证背景 × 跨域治理思想侧）
+> 作者署名：赵兴华（Steven Zhao）｜ ORCID 0009-0001-0512-1237
 > 版本：v1.0（2026-09-06）｜ 状态：🟢 可发布（政策依据已核，均中办/国办/财政部等公开文件）
 > TID：TH-DAT-001 ｜ 上游：TH-META-006(LGD), TH-META-001(RRM), TH-AIG-001(UBIC 有籍面), TH-LAW-001(证据链)
 > 一句话：凡数据资源与数据资产——有籍（产权登记与目录）·有证（来源/质量/合规可溯）·有门禁（跨境、交易与处置门禁），由产生到退场全程可管可溯可计。
@@ -39,4 +39,4 @@
 
 ---
 
-© SynomosAI × MedXpert · LGD 域理论系列 #7 · CC BY 4.0
+© SynomosAI Governance Line · LGD 域理论系列 #7 · CC BY 4.0

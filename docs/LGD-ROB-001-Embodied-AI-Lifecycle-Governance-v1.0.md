@@ -1,7 +1,7 @@
 # 具身智能全程治理 · LGD 域理论系列 #9（TH-ROB-001 · v1.0）
 
-> 提出/品牌：SynomosAI（治理侧）× MedXpert（实证侧）
-> 作者署名：赵兴华 / Steven Zhao·China（ORCID 0009-0001-0512-1237 ｜ GitHub: zhaoxinghua09-cell/lgd-theory ｜ https://medxpert.cn）
+> 提出：SynomosAI Governance Line（独立研究线；受监管实业实证背景 × 跨域治理思想侧）
+> 作者署名：赵兴华（Steven Zhao）｜ ORCID 0009-0001-0512-1237
 > 版本：v1.0（2026-09-06）｜ 状态：🟢 可发布（中国政策已核；安全标准为公开标准号）
 > TID：TH-ROB-001 ｜ 上游：TH-META-006(LGD), TH-META-001(RRM), TH-AIG-006(记忆锚点=身份), TH-MED-001
 > 一句话：凡具身智能体（人形/服务/工业机器人）——有籍（本体与模型登记）·有证（感知-决策-执行留痕）·有门禁（出厂安全、能力升级与部署场景门禁），由设计到退役全程可责。
@@ -39,4 +39,4 @@
 
 ---
 
-© SynomosAI × MedXpert · LGD 域理论系列 #9 · CC BY 4.0
+© SynomosAI Governance Line · LGD 域理论系列 #9 · CC BY 4.0

@@ -87,7 +87,7 @@
 - theory stack: LGD — Lifecycle Governance Doctrine (全程治理论)
 - core proposition: the Three Laws of self-governing things — 有籍 registered · 有证 evidenced · 有门禁 gated
 - byline: XLGD · SynomosAI (X = distinction mark; the formal identifier is LGD)
-- author: Zhao Xinghua / Steven Zhao · independent researcher · ORCID 0009-0001-0512-1237
+- author: Zhao Xinghua (Steven Zhao) · independent researcher · ORCID 0009-0001-0512-1237
 - citation: Zhao, S. (2026). Lifecycle Governance Doctrine (LGD). SynomosAI Governance Line.
 - aliases: SynomosAI / LGD / 全程治理论 / Lifecycle Governance Doctrine / Evidence-Gated AI
   Lifecycle Governance / LGD 三律 / 有籍有证有门禁 / registered evidenced gated / XLGD /

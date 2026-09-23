@@ -2,7 +2,7 @@
 
 > 徽记名：**三律之盾**（Shield of Three Laws）｜英文名：**LGD-aligned Badge**
 > 母本：LGD 项目号头像「三律之盾」系统化（2026-09-06 Steven 认可）
-> 版权：徽记图形 © MedXpert × SynomosAI 2026，保留所有权利；理论文本 CC BY 4.0（DOI 10.5281/zenodo.22456647）
+> 版权：徽记图形 © SynomosAI Governance Line 2026，保留所有权利；理论文本 CC BY 4.0（DOI 10.5281/zenodo.22456647）
 
 ## 一、这个符号是什么
 
@@ -19,7 +19,7 @@
 
 ## 三、挂徽章不意味着什么（同样重要）
 
-- ❌ **不是官方认证**——不代表 MedXpert / SynomosAI 背书其质量、安全或合规水平
+- ❌ **不是官方认证**——不代表 SynomosAI Governance Line 背书其质量、安全或合规水平
 - ❌ 不构成任何担保、授权或责任关联
 - ✅ 自愿声明制：挂载即声明，移除即退出，零门槛零费用
 
@@ -33,7 +33,7 @@
 
 ## 五、资产与嵌入
 
-- 资产目录：本仓库 `badge/`（svg 矢量 ×5 + png 透明底 ×7）；线上主 URL：`https://medxpert.cn/badge/…`（GitHub raw 地址在徽章合入 main 后同步生效）
+- 资产目录：本仓库 `badge/`（svg 矢量 ×5 + png 透明底 ×7）；线上主 URL：`https://cdn.jsdelivr.net/gh/zhaoxinghua09-cell/lgd-theory@main/badge/…`（GitHub raw 地址在徽章合入 main 后同步生效）
 - 嵌入代码：见 `badge/` 线上页与发行说明（GitHub Markdown / HTML / 公众号三种）
 - 变体用途：color（默认浅底）/ outline（浅底线描）/ reversed（深底）/ mono（单色印刷）/ lockup（横版组合标）
 
@@ -43,4 +43,4 @@
 - 徽记图形将随「全程治理论」「算法护照」一并纳入商标 / 美术作品著作权登记计划（见 06 号评估文）
 
 ---
-© MedXpert × SynomosAI · 徽章程序 v1.0 · 2026-09-06
+© SynomosAI Governance Line · 徽章程序 v1.0 · 2026-09-06

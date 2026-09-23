@@ -3,8 +3,8 @@ tid: TH-AIG-002
 name: XCGS 治理安全框架（X-Circle Governance & Safety）
 version: 1.0
 date: 2026-09-08
-author: 赵兴华 / Steven Zhao·China（ORCID 0009-0001-0512-1237）
-issuer: SynomosAI × MedXpert
+author: Zhao Xinghua (Steven Zhao)
+issuer: SynomosAI Governance Line
 license: CC BY 4.0
 alignment: ISO/IEC 42001 · NIST AI RMF · EU AI Act（精神对齐，非等同认证）
 status: 发布版（原嵌于《AI 护照规范》v1.12.8 §十，本版独立成文）
@@ -64,6 +64,6 @@ AI 专家/智能体今天是可迁移的：换模型后端（DeepSeek/GLM/Kimi�
 ## 七、版本
 
 - v1.0 · 2026-09-08 · 独立成文发布版（素材源：《AI 护照规范》v1.12.8 §一/§十/§十一，2026-09-04）
-- TID：TH-AIG-002 · 引用建议：`SynomosAI × MedXpert, "XCGS Governance & Safety Framework", v1.0, 2026.`
+- TID：TH-AIG-002 · 引用建议：`SynomosAI Governance Line, "XCGS Governance & Safety Framework", v1.0, 2026.`
 
-© SynomosAI × MedXpert · CC BY 4.0 · 转载请署名
+© SynomosAI Governance Line · CC BY 4.0 · 转载请署名

@@ -1,7 +1,7 @@
 # 电子证据全程治理 · LGD 域理论系列 #2（TH-LAW-001 · v1.0）
 
-> 提出/品牌：SynomosAI（治理侧）× MedXpert（实证侧）
-> 作者署名：赵兴华 / Steven Zhao·China（ORCID 0009-0001-0512-1237 ｜ GitHub: zhaoxinghua09-cell/lgd-theory ｜ https://medxpert.cn）
+> 提出：SynomosAI Governance Line（独立研究线；受监管实业实证背景 × 跨域治理思想侧）
+> 作者署名：赵兴华（Steven Zhao）｜ ORCID 0009-0001-0512-1237
 > 版本：v1.0（2026-09-06）｜ 状态：🟢 可发布（引用已联网复核；US FRE 正式文本以 uscourts.gov 为准）
 > TID：TH-LAW-001 ｜ 上游：TH-META-006(LGD), TH-META-001(RRM), TH-AIG-002(XCGS), TH-MED-001(AFG)
 > 一句话：凡法律意义上的数字证据——生成、固化、存管、调取、举证、采信、处置——有籍（身份与保管链登记）·有证（哈希/时间戳/存证链路）·有门禁（真实性与可采性门槛），全程可溯可证可采信。
@@ -52,4 +52,4 @@
 
 ---
 
-© SynomosAI × MedXpert · LGD 域理论系列 #2 · CC BY 4.0
+© SynomosAI Governance Line · LGD 域理论系列 #2 · CC BY 4.0

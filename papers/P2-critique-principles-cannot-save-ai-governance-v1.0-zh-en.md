@@ -2,7 +2,7 @@
 
 > 版本 v1.1 · 2026-09-08 · 四篇一组的第 2 篇（批判型姿势）
 > **v1.1 变更（投稿硬前置 R2/R10 落地）**：§3 增引 Chalupa DIP 框架辨析（判定层最近邻，"可审计必要不充分"论证结构其先发表，2026-06）；§4 主张二增引 L2D 谱系辨析（算法级路由动作 vs 制度级悬置）；参考文献补 Chalupa 2026 / Mozannar & Sontag 2020 / 牛津综述 2025-12。
-> 版权 © SynomosAI · 禁止复制/转售/用于训练模型
+> 版权 © SynomosAI Governance Line · CC BY 4.0
 > 免责声明：AS IS。所引法规、标准与定理以官方文本为准。本稿为草稿，投稿前须再次跑撞车查重与术语查重（determination/determinability 措辞纪律：不与 FERZ 的 deterministic governance 相混；不宣称 determinability 首创）。
 
 ---

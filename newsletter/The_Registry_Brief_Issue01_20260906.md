@@ -1,7 +1,7 @@
 # 《The Registry Brief》 · LGD 月报 · Issue 01（创刊号 · 2026-09-06）
 
 > **The Registry Brief** —— 有籍 · 有证 · 有门禁（Registry · Evidence · Gates）。LGD 全程治理论官方月报。
-> 主编：A 号 ｜ 品牌：MedXpert × SynomosAI ｜ 许可 CC BY 4.0
+> 许可 CC BY 4.0
 > 真源：github.com/zhaoxinghua09-cell/lgd-theory ｜ DOI：10.5281/zenodo.22456647 ｜ HF 镜像同步
 
 ## 编者按（创刊词）
@@ -31,7 +31,7 @@
 - 电子书《全程治理论文库》｜ 徽章家族（16 方向标识）｜ LinkedIn 首波 ｜ 论坛方法论帖 ｜ +14 天命中复测。
 
 ## 引用
-> Zhao, X. (2026). *The Lifecycle Governance Doctrine (LGD)*. MedXpert × SynomosAI. DOI: 10.5281/zenodo.22456647
+> Zhao, X. (2026). *The Lifecycle Governance Doctrine (LGD)*. SynomosAI Governance Line. DOI: 10.5281/zenodo.22456647
 
 ---
-© MedXpert × SynomosAI · CC BY 4.0 · 月报每月 1 日发布（仓库 newsletter/ 目录）
+© SynomosAI Governance Line · CC BY 4.0 · 月报每月 1 日发布（仓库 newsletter/ 目录）

@@ -1,7 +1,7 @@
 # 工业智能全程治理 · LGD 域理论系列 #10（TH-IND-001 · v1.0）
 
-> 提出/品牌：SynomosAI（治理侧）× MedXpert（实证侧）
-> 作者署名：赵兴华 / Steven Zhao·China（ORCID 0009-0001-0512-1237 ｜ GitHub: zhaoxinghua09-cell/lgd-theory ｜ https://medxpert.cn）
+> 提出：SynomosAI Governance Line（独立研究线；受监管实业实证背景 × 跨域治理思想侧）
+> 作者署名：赵兴华（Steven Zhao）｜ ORCID 0009-0001-0512-1237
 > 版本：v1.0（2026-09-06）｜ 状态：🟢 可发布（引用已核）
 > TID：TH-IND-001 ｜ 上游：TH-META-006(LGD), TH-META-001(RRM), TH-ROB-001
 > 一句话：凡进入产线的自治系统（智能装备/工业AI/OT 系统）——有籍（资产与模型登记）·有证（工控日志与变更可溯）·有门禁（网络安全与功能安全放行门禁），由上线到退役全程可控可责。
@@ -30,4 +30,4 @@
 - 本域增量中等，价值在把"网络安全+功能安全"整合为产线 AI 的全程视图；工具（后置）：OT 资产与变更登记清单、联网放行门禁检查。
 
 ---
-© SynomosAI × MedXpert · LGD 域理论系列 #10 · CC BY 4.0
+© SynomosAI Governance Line · LGD 域理论系列 #10 · CC BY 4.0

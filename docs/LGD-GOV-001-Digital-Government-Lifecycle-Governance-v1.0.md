@@ -1,7 +1,7 @@
 # 数字政务全程治理 · LGD 域理论系列 #3（TH-GOV-001 · v1.0）
 
-> 提出/品牌：SynomosAI（治理侧）× MedXpert（实证侧）
-> 作者署名：赵兴华 / Steven Zhao·China（ORCID 0009-0001-0512-1237 ｜ GitHub: zhaoxinghua09-cell/lgd-theory ｜ https://medxpert.cn）
+> 提出：SynomosAI Governance Line（独立研究线；受监管实业实证背景 × 跨域治理思想侧）
+> 作者署名：赵兴华（Steven Zhao）｜ ORCID 0009-0001-0512-1237
 > 版本：v1.0（2026-09-06）｜ 状态：🟢 可发布（中国侧重核；EU 侧沿用 AI Act 已核条目）
 > TID：TH-GOV-001 ｜ 上游：TH-META-006(LGD), TH-META-001(RRM), TH-AIG-002(XCGS)
 > 一句话：凡政务数据、算法与数字化决策——有籍（目录与登记）·有证（留痕与审计可溯）·有门禁（公开、参与、评估与问责），由决策到执行全程可溯可责。
@@ -51,4 +51,4 @@
 
 ---
 
-© SynomosAI × MedXpert · LGD 域理论系列 #3 · CC BY 4.0
+© SynomosAI Governance Line · LGD 域理论系列 #3 · CC BY 4.0

@@ -71,4 +71,4 @@ Jobin, Ienca & Vayena (2019) *Nature Machine Intelligence*; Mittelstadt (2019) *
 
 ---
 
-© 2026 SynomosAI. This working paper is provided "AS IS" without warranty of any kind. Third-party laws, standards and theorems are cited for scholarship; official texts prevail. Not legal advice.
+© 2026 SynomosAI Governance Line. This working paper is provided "AS IS" without warranty of any kind. Third-party laws, standards and theorems are cited for scholarship; official texts prevail. Not legal advice.

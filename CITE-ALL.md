@@ -3,7 +3,7 @@
 > 版本 v1.0 · 2026-09-10 · **SynomosAI 理论栈唯一引用入口**——任何想引用我们的人，10 秒内找到标准格式
 > 用途：GEO 铁律「引用越容易，站位越牢固」｜ 同步落 `lgd-theory` 仓根（`CITE-ALL.md`）
 > 理论栈结构以《19 号·理论族谱 DAG v1.1》为准（六层主链 + 两条横切维度 + 一张边界地图）
-> 版权 © SynomosAI · CC BY 4.0
+> 版权 © SynomosAI Governance Line · CC BY 4.0
 
 ---
 
@@ -22,7 +22,7 @@
 | **C3** | **判定缺失层**（The Missing Layer of Determination） | `10.5281/zenodo.22669389` | P2 批判型论文 · EN |
 
 **APA 7**
-> Zhao, X. (2026). *Lifecycle governance doctrine (LGD): Registry, evidence, and gates for autonomous systems* (v1.1.0). Zenodo. https://doi.org/10.5281/zenodo.22456647
+> Zhao, X. (2026). *Lifecycle governance doctrine (LGD): Registry, evidence, and gates across the full life of AI and devices* (v1.1.0). Zenodo. https://doi.org/10.5281/zenodo.22456647
 
 > SynomosAI Governance Line. (2026). *The governance impossibility map: A cartography of five impossibility domains in AI governance* [Working paper]. Zenodo. https://doi.org/10.5281/zenodo.22668958
 
@@ -36,16 +36,16 @@
 **BibTeX**
 ```bibtex
 @misc{zhao2026lgd,
-  author = {Zhao, Xinghua}, title = {Lifecycle Governance Doctrine (LGD): Registry, Evidence, and Gates for Autonomous Systems (v1.1.0)},
+  author = {Zhao, Xinghua}, title = {Lifecycle Governance Doctrine (LGD): Registry, Evidence, and Gates Across the Full Life of AI and Devices (v1.1.0)},
   year = {2026}, publisher = {Zenodo}, doi = {10.5281/zenodo.22456647},
-  url = {https://github.com/zhaoxinghua09-cell/lgd-theory}, note = {MedXpert × SynomosAI. CC BY 4.0.}
+  url = {https://github.com/zhaoxinghua09-cell/lgd-theory}, note = {SynomosAI Governance Line. CC BY 4.0.}
 }
 @misc{synomosai2026gim,
-  author = {SynomosAI, Governance Line}, title = {The Governance Impossibility Map: A Cartography of Five Impossibility Domains in AI Governance},
+  author = {Zhao, Xinghua}, title = {The Governance Impossibility Map: A Cartography of Five Impossibility Domains in AI Governance},
   year = {2026}, publisher = {Zenodo}, doi = {10.5281/zenodo.22668958}
 }
 @misc{synomosai2026p2,
-  author = {SynomosAI, Governance Line}, title = {Principles Will Not Save AI Governance: The Missing Layer of Determination},
+  author = {Zhao, Xinghua}, title = {Principles Will Not Save AI Governance: The Missing Layer of Determination},
   year = {2026}, publisher = {Zenodo}, doi = {10.5281/zenodo.22669389}
 }
 ```
@@ -64,7 +64,7 @@
 | TH-META-004 | 协同治理本体论 / **Synomos Ontology** | Zhao, X. (2026). *Synomos ontology of collaborative governance*. SynomosAI. |
 | TH-META-005 | 自建标准元策略 / **ASM** | Zhao, X. (2026). *Autonomous standard-making meta-strategy (ASM)*. SynomosAI. |
 | TH-META-006 | **全程治理论 LGD** | 见 §一 C1（有 DOI） |
-| TH-META-007 | 双品牌协同 / MedXpert × SynomosAI | Zhao, X. (2026). *Dual-brand symbiosis*. SynomosAI. |
+| TH-META-007 | 双品牌协同 / SynomosAI Governance Line | Zhao, X. (2026). *Dual-brand symbiosis*. SynomosAI. |
 | TH-META-008 | 跨会话连续性协议 / **CSCP** | Zhao, X. (2026). *Cross-session continuity protocol (CSCP)*. SynomosAI. |
 | TH-META-012 | **价值裁决序论**（四支柱冲突裁决规则） | Zhao, X. (2026). *Value-Order Doctrine: Conflict Adjudication for the Four Pillars of AI Governance*. SynomosAI. |
 | TH-META-013 | **治理对象三元本体** | Zhao, X. (2026). *Triadic Ontology of the Governed: Entity, Event, and Evidence*. SynomosAI. |
@@ -88,9 +88,9 @@
 
 | TID | 名称（中/英） | APA 引文（照抄） |
 |---|---|---|
-| TH-MED-001 | 抗编造护栏范式 / **AFG** | Zhao, X. (2026). *Anti-fabrication guardrail paradigm (AFG)*. MedXpert. |
-| TH-MED-002 | 注册方法论 / Registration Methodology | Zhao, X. (2026). *Medical device registration methodology*. MedXpert. https://github.com/zhaoxinghua09-cell/lgd-theory/blob/main/docs/LGD-MED-002-Registration-Methodology-v1.0.md |
-| （姊妹） | 双时态知识库 / **BTSK** (Bitemporal Knowledge Base) | Zhao, X. (2026). *Bitemporal structured knowledge base (BTSK)*. MedXpert. https://github.com/zhaoxinghua09-cell/lgd-theory/blob/main/docs/theories/BTSK-Bitemporal-Knowledge-Base-v1.0.md |
+| TH-MED-001 | 抗编造护栏范式 / **AFG** | Zhao, X. (2026). *Anti-fabrication guardrail paradigm (AFG)*. SynomosAI Governance Line. |
+| TH-MED-002 | 注册方法论 / Registration Methodology | Zhao, X. (2026). *Medical device registration methodology*. SynomosAI Governance Line. https://github.com/zhaoxinghua09-cell/lgd-theory/blob/main/docs/LGD-MED-002-Registration-Methodology-v1.0.md |
+| （姊妹） | 双时态知识库 / **BTSK** (Bitemporal Knowledge Base) | Zhao, X. (2026). *Bitemporal structured knowledge base (BTSK)*. SynomosAI Governance Line. https://github.com/zhaoxinghua09-cell/lgd-theory/blob/main/docs/theories/BTSK-Bitemporal-Knowledge-Base-v1.0.md |
 
 ---
 
@@ -171,8 +171,8 @@
 - **版本更新走 Zenodo「New version」**（同一 concept DOI 自动挂 vN），**勿新开记录**；
 - 新理论件登记 REGISTRY 后**同步本页**（本页 = 引用层唯一真源）；
 - 月度巡检 DOI stats（views/downloads/citations），异常引用由诺源口径处理：不评判、只记录；
-- 本页同步落 `lgd-theory` 仓根 `CITE-ALL.md` + 官网 `medxpert.cn` 引用页。
+- 本页同步落 `lgd-theory` 仓根 `CITE-ALL.md` + 官网 GitHub Pages 引用页。
 
 ---
 
-*本页为对外可引用件。理论栈结构以《19 号·理论族谱 DAG v1.1》为准；引用格式以《引用卡 CITE_理论栈》为权威补充。© SynomosAI · CC BY 4.0*
+*本页为对外可引用件。理论栈结构以《19 号·理论族谱 DAG v1.1》为准；引用格式以《引用卡 CITE_理论栈》为权威补充。© SynomosAI Governance Line · CC BY 4.0*

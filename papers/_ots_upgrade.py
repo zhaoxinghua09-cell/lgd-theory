@@ -2,7 +2,8 @@
 """Upgrade OpenTimestamps .ots from PendingAttestation to BitcoinBlockHeaderAttestation.
 Self-contained (no otsclient/bitcoinlib) — companion to _ots_stamp.py."""
 import sys, os
-sys.path.insert(0, r"D:\Workbuddy\2026-09-06-08-06-50\_conv\ots\pylibs")
+sys.path.insert(0, os.environ.get("OTS_PYLIBS") or os.path.join(
+    os.path.dirname(os.path.abspath(__file__)), "_ots_pylibs"))
 from opentimestamps.core.timestamp import DetachedTimestampFile
 from opentimestamps.core.notary import PendingAttestation, BitcoinBlockHeaderAttestation
 from opentimestamps.core.serialize import StreamDeserializationContext, StreamSerializationContext

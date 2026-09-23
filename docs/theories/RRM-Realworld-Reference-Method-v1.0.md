@@ -4,10 +4,10 @@
 > **TID**：TH-META-001 ｜ **域码**：META ｜ **母版**：第一性原理 / 真实世界成熟机制
 > **角色**：元方法（meta-method）—— 全部工具与方法论的"方法生成器"
 > **下游锚定**：TH-META-006(LGD 全程治理论) · TH-AIG-006(MAIT 记忆锚点=AI 身份) · TH-AIG-001(UBIC 人格户籍协议) · TH-LAW-001(电子证据链) 等
-> **提出 / 品牌**：SynomosAI（治理侧）× MedXpert（实证侧）
-> **作者署名**：赵兴华 / Steven Zhao·China（ORCID 0009-0001-0512-1237 ｜ GitHub Medxpert-org · medxpert.cn）
+> **提出**：SynomosAI Governance Line（独立研究线；受监管实业实证背景 × 跨域治理思想侧）
+> **作者署名**：赵兴华（Steven Zhao）｜ ORCID 0009-0001-0512-1237
 > **版本**：v1.0 ｜ **状态**：🟢 已落地 lgd-theory/docs（DOI 申请中 · 7 维质检已过）
-> **官方主页**：https://medxpert.cn ｜ **仓库**：github.com/Medxpert-org/lgd-theory
+> **官方主页**：https://zhaoxinghua09-cell.github.io/lgd-theory/ ｜ **仓库**：github.com/zhaoxinghua09-cell/lgd-theory
 
 ---
 
@@ -148,7 +148,7 @@ RRM（元方法 / 第一性原理 / 方法生成器）
 - **首发（顶六篇）**：作为 SynomosAI 方法论总纲 / 《AI 世界理论体系》方法学卷的基座对外发布——它天然串起 MAIT/SIDE/AFG/UBIC-Mem/BTSK/LDGF 六件，一篇顶六篇。
 - **第三方引用**：随 A³ Laws + XCGS + LDGF 治理方法论三件套一并对外；通过开源社区与公开竞赛获取第三方引用，长期瞄准 ISO/W3C 标准参与（元原则"不满足于用标准，要立自己的标准"）。
 - **不另起炉灶，补其空白**：RWS/RWE 已占"证据"位；RRM 占"方法"位，二者互补。主张在治理论述中明确"参照层"作为独立于"证据层"的方法论构件。
-- **可引用身份**：本文建议引用格式见 §8；配套 Zenodo DOI 与 ORCID 回链随发布闸门一并落地。
+- **可引用身份**：本文建议引用格式见 §8；配套 Zenodo DOI 回链随发布闸门一并落地。
 
 ## 7. 讨论与诚实边界
 
@@ -173,8 +173,8 @@ AI 治理的缺口，不在"能不能生成"，而在"生成物能否锚回真�
 7. OECD. *AI Principles / Adaptive Policy.* (政策试验参考)
 8. ISO/IEC 42001:2023 — AI Management System.
 9. W3C Decentralized Identifiers (DID) v1.0 / Verifiable Credentials Data Model. W3C Recommendation.
-10. Zhao, X. (2026). *Lifecycle Governance Doctrine (LGD).* SynomosAI / MedXpert. Zenodo DOI 10.5281/zenodo.22456648.
-11. Zhao, X. (2026). *Memory-Anchor Identity Theory (MAIT).* SynomosAI × MedXpert.
+10. Zhao, X. (2026). *Lifecycle Governance Doctrine (LGD).* SynomosAI Governance Line. Zenodo DOI 10.5281/zenodo.22456647.
+11. Zhao, X. (2026). *Memory-Anchor Identity Theory (MAIT).* SynomosAI Governance Line.
 12. Zhao, X. (2026). *UBIC 人格户籍协议 / UBIC-Mem 记忆可携带律.* SynomosAI.
 13. Zhao, X. (2026). *A³ Laws 造 AI 三定律.* SynomosAI.
 
@@ -182,11 +182,11 @@ AI 治理的缺口，不在"能不能生成"，而在"生成物能否锚回真�
 
 ### 建议引用格式（Suggested Citation）
 
-> Zhao, X. (2026). *Real-world Reference Method (RRM): A Meta-Method for Grounding AI Solutions in Proven Real-World Mechanisms.* SynomosAI × MedXpert. ORCID: 0009-0001-0512-1237. https://medxpert.cn
+> Zhao, X. (2026). *Real-world Reference Method (RRM): A Meta-Method for Grounding AI Solutions in Proven Real-World Mechanisms.* SynomosAI Governance Line. https://zhaoxinghua09-cell.github.io/lgd-theory/
 
 ---
 
-© SynomosAI × MedXpert · 内部白皮书草稿（待去敏 + 7 维质检后随 lgd-theory 发布）
+© SynomosAI Governance Line · CC BY 4.0
 
 ---
 
@@ -195,8 +195,8 @@ AI 治理的缺口，不在"能不能生成"，而在"生成物能否锚回真�
 **White Paper v1.0 · 2026-09-08**
 TID: TH-META-001 · Domain: META · Role: meta-method (method generator)
 Upstream: none (first principle) · Downstream: LGD (TH-META-006), MAIT (TH-AIG-006), UBIC (TH-AIG-001), AFG/LDGF/BTSK
-Author: Zhao Xinghua / Steven Zhao·China (ORCID 0009-0001-0512-1237 · GitHub Medxpert-org · medxpert.cn)
-Brand: SynomosAI (theory) × MedXpert (evidence)
+Author: Zhao Xinghua (Steven Zhao) · ORCID 0009-0001-0512-1237
+Brand: SynomosAI Governance Line
 
 ## Abstract
 
@@ -276,7 +276,7 @@ RRM is the "method of methods" at the meta-layer, generating downstream theories
 - **First release (six-in-one)**: as the基座 of the SynomosAI methodology compendium / AI-world theory-system methods volume — naturally chaining the six artifacts above.
 - **Third-party citation**: with A³ Laws + XCGS + LDGF governance trio; via OSS community and open competitions; long-term ISO/W3C engagement.
 - **Don't reinvent; fill the gap**: RWS/RWE owns the "evidence" slot; RRM owns the "method" slot — complementary. Assert the "reference layer" as a methodology component independent of the "evidence layer."
-- **Citable identity**: Zenodo DOI + ORCID backlink delivered via the publish gate.
+- **Citable identity**: Zenodo DOI backlink delivered via the publish gate.
 
 ## 8. Discussion and Honest Boundaries
 
@@ -301,14 +301,12 @@ The gap in AI governance is not "can it generate," but "can its output anchor ba
 7. OECD. AI Principles / Adaptive Policy.
 8. ISO/IEC 42001:2023.
 9. W3C DID v1.0 / VC Data Model. W3C Recommendation.
-10. Zhao, X. (2026). *Lifecycle Governance Doctrine (LGD).* SynomosAI/MedXpert. Zenodo DOI 10.5281/zenodo.22456648.
-11. Zhao, X. (2026). *Memory-Anchor Identity Theory (MAIT).* SynomosAI × MedXpert.
+10. Zhao, X. (2026). *Lifecycle Governance Doctrine (LGD).* SynomosAI Governance Line. Zenodo DOI 10.5281/zenodo.22456647.
+11. Zhao, X. (2026). *Memory-Anchor Identity Theory (MAIT).* SynomosAI Governance Line.
 12. Zhao, X. (2026). *UBIC / UBIC-Mem.* SynomosAI.
 13. Zhao, X. (2026). *A³ Laws.* SynomosAI.
 
-**Suggested Citation**: Zhao, X. (2026). *Real-world Reference Method (RRM): A Meta-Method for Grounding AI Solutions in Proven Real-World Mechanisms.* SynomosAI × MedXpert. ORCID: 0009-0001-0512-1237.
-
----
+**Suggested Citation**: Zhao, X. (2026). *Real-world Reference Method (RRM): A Meta-Method for Grounding AI Solutions in Proven Real-World Mechanisms.* SynomosAI Governance Line. ---
 
 ## 10. 落地执行段 · Landing & Execution
 
@@ -323,7 +321,7 @@ The gap in AI governance is not "can it generate," but "can its output anchor ba
 ### 10.2 发布与引用路径
 - **仓库**：`lgd-theory/docs/`（随 LGD 文库 v1.x 发布）
 - **可发现**：白皮书 + 速查页（含 JSON-LD）同步入库，供搜索引擎与 AI 抓取
-- **可引用身份**：Zenodo DOI（A³ 通道申请中）｜ ORCID 0009-0001-0512-1237 ｜ GitHub Medxpert-org
+- **可引用身份**：Zenodo DOI（A³ 通道申请中）｜ GitHub zhaoxinghua09-cell
 - **建议引用**：见上方 Suggested Citation
 
 ### 10.3 如何使用
@@ -331,4 +329,4 @@ The gap in AI governance is not "can it generate," but "can its output anchor ba
 2. 找不到 M → 强制标注"无参照·未验证"（去伪红线，可写入发布闸门）
 3. 找到 M → 用 **方法生成器**做同构映射 S ≅ M，产出领域件
 
-© SynomosAI × MedXpert · 已落地 lgd-theory/docs · CC BY 4.0
+© SynomosAI Governance Line · 已落地 lgd-theory/docs · CC BY 4.0

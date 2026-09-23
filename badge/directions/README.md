@@ -1,6 +1,6 @@
 # LGD 方向徽章家族 v1.0（16 方向 × EN/CN）
 
-> 版式复刻 A 线模板：左块 MedXpert 红 #C0392B（渐变）白字 LGD ｜ 右块 #2b2b2b 白字方向词 ｜ 高 20px ｜ SVG 文本可选中 ｜ CC BY 4.0
+> 版式复刻 A 线模板：左块 品牌红 #C0392B（渐变）白字 LGD ｜ 右块 #2b2b2b 白字方向词 ｜ 高 20px ｜ SVG 文本可选中 ｜ CC BY 4.0
 > 纪律：禁 WorkBuddy 紫 #7B2FBE；不引入第三方 logo。生成器：`../../_build_directions.py`
 
 | 域码 | EN | CN | 徽章文件（svg/png 同名） | 方向图标 |
@@ -23,5 +23,5 @@
 | REG | Reg | 注册 | `lgd-aligned-reg-en.svg` / `-cn.svg` | `icon-reg.svg` |
 
 - SVG（20px 高，矢量缩放）在 `svg/`；透明 PNG（2x，40px 高）在 `png/`；方向图标 `icons/`（40×40 线稿）
-- 嵌入示例（论文 md 顶部）：`![LGD-aligned Finance](https://medxpert.cn/badge/directions/svg/lgd-aligned-fin-en.svg)`
+- 嵌入示例（论文 md 顶部）：`![LGD-aligned Finance](https://cdn.jsdelivr.net/gh/zhaoxinghua09-cell/lgd-theory@main/badge/directions/svg/lgd-aligned-fin-en.svg)`
 - 挂载位点：论文 md 顶部 / 电子书章节头 / 各仓 README / lgd-toolkit 导航卡片 / 公众号文首

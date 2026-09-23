@@ -1,7 +1,7 @@
 # 教育全程治理 · LGD 域理论系列 #13（TH-EDU-001 · v1.0）
 
-> 提出/品牌：SynomosAI（治理侧）× MedXpert（实证侧）
-> 作者署名：赵兴华 / Steven Zhao·China（ORCID 0009-0001-0512-1237 ｜ GitHub: zhaoxinghua09-cell/lgd-theory ｜ https://medxpert.cn）
+> 提出：SynomosAI Governance Line（独立研究线；受监管实业实证背景 × 跨域治理思想侧）
+> 作者署名：赵兴华（Steven Zhao）｜ ORCID 0009-0001-0512-1237
 > 版本：v1.0（2026-09-06）｜ 状态：🟢 可发布（引用已核）
 > TID：TH-EDU-001 ｜ 上游：TH-META-006(LGD), TH-AIG-006(记忆锚点=身份), TH-DAT-001
 > 一句话：凡 AI 进教育——有籍（学习者身份与 AI 应用登记）·有证（学习行为与评测可溯）·有门禁（AI 使用边界、测评公平、认证签发门禁），由入学到终身认证全程可信。
@@ -31,4 +31,4 @@ AI 教育应用（个性化学习、智能批改、AI 助教、过程性评价�
 - 工具（后置）：AI 教育应用登记卡、评测过程证据体检、证书发放门禁清单。
 
 ---
-© SynomosAI × MedXpert · LGD 域理论系列 #13 · CC BY 4.0
+© SynomosAI Governance Line · LGD 域理论系列 #13 · CC BY 4.0

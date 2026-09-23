@@ -1,9 +1,9 @@
 # LGD International Social Pack (EN) · 2026-09-06
 
-> Prepared by: content publishing ops (Paredros) · Brand: MedXpert × SynomosAI
-> Author line to use everywhere: Zhao Xinghua / Steven Zhao · China · ORCID 0009-0001-0512-1237
-> Links: GitHub https://github.com/zhaoxinghua09-cell/lgd-theory · DOI (concept, always latest = v1.1.0, verified 2026-09-06) https://doi.org/10.5281/zenodo.22456647 · https://medxpert.cn
-> License: CC BY 4.0. Status: ready-to-post (P-017 in release ledger). No internal codenames, no internal paths.
+> Prepared by: SynomosAI Governance Line
+> Author line: Zhao Xinghua (Steven Zhao) · ORCID 0009-0001-0512-1237
+> Links: GitHub https://github.com/zhaoxinghua09-cell/lgd-theory · DOI (concept, always latest = v1.1.0, verified 2026-09-06) https://doi.org/10.5281/zenodo.22456647
+> License: CC BY 4.0. Status: ready-to-post. No internal codenames, no internal paths.
 
 ---
 
@@ -31,7 +31,7 @@ The most mature lifecycle regulation humans have is **medical-device regulation*
 Flagship paper + 9-domain series (open access, CC BY 4.0): https://github.com/zhaoxinghua09-cell/lgd-theory
 DOI (always resolves to latest version): https://doi.org/10.5281/zenodo.22456647
 
-Zhao Xinghua / Steven Zhao · China — MedXpert × SynomosAI
+SynomosAI Governance Line — SynomosAI Governance Line
 
 #AIGovernance #ResponsibleAI #AIRegulation #MedicalDevices #SaMD #TrustworthyAI
 
@@ -71,11 +71,11 @@ https://github.com/zhaoxinghua09-cell/lgd-theory
 
 ## C. One-line bio / reply snippet
 
-> LGD (Lifecycle Governance Doctrine): every self-governing entity carries a registry, evidence, and gates — traceable, provable, accountable, from birth to retirement. Proposed by MedXpert × SynomosAI. DOI 10.5281/zenodo.22456648
+> LGD (Lifecycle Governance Doctrine): every self-governing entity carries a registry, evidence, and gates — traceable, provable, accountable, from birth to retirement. Proposed by SynomosAI Governance Line. DOI 10.5281/zenodo.22456647
 
 ## D. Posting checklist
 
 - [ ] Publish from the designated EN-facing account (Steven 拍板 which account)
 - [ ] Attach flagship-paper link + DOI in first post
 - [ ] Pin thread after posting; cross-link from lgd-theory README "Discussions" later
-- [ ] Log final URLs back into 发布总账 P-017
+- [ ] Log final URLs back into the release ledger

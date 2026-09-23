@@ -1,7 +1,7 @@
 # 医疗器械注册全程方法论 · LGD 域理论系列 #14（TH-MED-002 · v1.0）
 
-> 提出/品牌：MedXpert（实证侧）× SynomosAI（治理侧）
-> 作者署名：赵兴华 / Steven Zhao·China（ORCID 0009-0001-0512-1237 ｜ GitHub: zhaoxinghua09-cell/lgd-theory ｜ https://medxpert.cn）
+> 提出：SynomosAI Governance Line（独立研究线；受监管实业实证背景 × 跨域治理思想侧）
+> 作者署名：赵兴华（Steven Zhao）｜ ORCID 0009-0001-0512-1237
 > 版本：v1.0（2026-09-06）｜ 状态：🟢 可发布（法规条目为稳定公开名称，复核声明见 §4）
 > TID：TH-MED-002 ｜ 上游：TH-META-006(LGD 母版), TH-MED-001(AFG), TH-AIG-002(XCGS)
 > 一句话：注册不是产品旅程的终点，而是**把全程证据投影成一份可监管的"文档化承诺"**——有籍（预期用途与产品定义）、有证（风险/性能/临床/质量证据卷宗）、有门禁（变更控制与上市后延续门禁），注册证只是这条链在准入时点的快照。
@@ -40,9 +40,9 @@
 
 ## 4. 复核与边界
 
-- 复核声明：上文法规与标准均为公开稳定名称；具体条款版本以监管官网原文为准，随变更更新（发布总账追踪）。
+- 复核声明：上文法规与标准均为公开稳定名称；具体条款版本以监管官网原文为准，随变更更新（随监管更新复校）。
 - 边界：民间方法论，非注册代理/法律意见；不构成对任何具体申报的承诺。
-- 实证：本方法论由 MedXpert 工具矩阵落地——reg-path/reg-calc/device-classifier/risk-14971/design-control/clin-evidence/eu-ai-act-check/pccp-planner/pms-planner/change-renewal/device-retire 等（对应 LGD 域论文之"环节=执行器"）。
+- 实证：本方法论由 SynomosAI 工具矩阵落地——reg-path/reg-calc/device-classifier/risk-14971/design-control/clin-evidence/eu-ai-act-check/pccp-planner/pms-planner/change-renewal/device-retire 等（对应 LGD 域论文之"环节=执行器"）。
 
 ## 5. 路线
 
@@ -50,4 +50,4 @@
 2. 医疗线后续：与 AFG（反编造实证叙事）、SaMD 分级等站位件合并成"医械治理四件套"，作为官网 MED/AIB 白皮书区与公众号医疗线内容源。
 
 ---
-© MedXpert × SynomosAI · LGD 域理论系列 #14 · CC BY 4.0
+© SynomosAI Governance Line · LGD 域理论系列 #14 · CC BY 4.0

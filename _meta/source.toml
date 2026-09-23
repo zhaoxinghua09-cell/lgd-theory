@@ -1,0 +1,64 @@
+# ==============================================================================
+# LGD 理论体系 · 单一真值源（Single Source of Truth / SSOT）
+# ==============================================================================
+#
+# 🔴 铁律：本文件是「唯一」允许写死下列口径值的地方。
+#     其他任何文件里的版本号 / 署名 / 题名 / DOI / 仓库地址 / 研究线名，
+#     一律视为「副本」，必须由 _tools/sync_meta.py 从本文件派生。
+#
+#     手改副本 = 制造漂移。要改值，只改本文件，然后跑：
+#         python _tools/sync_meta.py --check    # 只校验（门禁用，不一致即 exit 1）
+#         python _tools/sync_meta.py --apply    # 从本文件派生写入各承载位
+#
+# 🟡 为什么要有这个文件（2026-09-18 立）：
+#     同一份电子书曾在两个目录各存一份、版本号在 3 个文件里各写一个值、
+#     署名有 5 种形态并存。根因不是"抄错"，是「同一事实被复制到多处承载」。
+#     副本越多，漂移概率按副本数递增。解法只有一个：只留一处，其余皆派生。
+#
+# 本文件只含公开信息，可进公开仓库。
+# ==============================================================================
+
+schema = 1
+
+# ── 发布版本（Zenodo 记录版本）────────────────────────────────────────────────
+[release]
+version     = "1.1.0"                          # 决定 Zenodo 记录版本号，必须与 CITE.md 一致
+date        = "2026-09-06"
+doi_concept = "10.5281/zenodo.22456647"        # 概念 DOI，永远指向最新版
+
+# ── 题名（正本唯一）───────────────────────────────────────────────────────────
+# 判定依据：唯一同时出现在（旗舰论文本体 + README + 全部电子书）的形态。
+[title]
+full = "Lifecycle Governance Doctrine (LGD): Registry, Evidence, and Gates Across the Full Life of AI and Devices"
+zh   = "全程治理论（LGD）：有籍·有证·有门禁"
+
+# ── 作者（位置决定形态 —— 不是"统一成一种写法"）──────────────────────────────
+# 同一个人的名字，在不同位置有不同规范形态，这是「规范差异」不是「不一致」。
+# 真正的错误是：某个位置出现了不属于该位置允许集合的形态。
+[author]
+display    = "Zhao Xinghua (Steven Zhao)"   # 网页展示位 / 结构化数据 name
+cite       = "Zhao, X."                     # 引文作者位（APA / 正文引用）
+family     = "Zhao"                         # CFF family-names 字段位
+given      = "Xinghua"                      # CFF given-names 字段位
+tex        = "Xinghua Zhao"                 # LaTeX \author 位（Given Family 顺序）
+zh_display = "赵兴华"                        # 中文展示位
+orcid      = "0009-0001-0512-1237"
+
+# ── 研究线标识（只在标签位出现，不得进作者位/出版者位）──────────────────────
+[line]
+brand   = "SynomosAI Governance Line"
+desc_en = "an independent research initiative bridging a regulated-industry practice background (medical devices) and a cross-domain governance thought line (AI & autonomous systems)"
+desc_zh = "独立研究线；连接受监管实业实证背景与跨域治理思想侧"
+
+# ── 仓库与许可 ────────────────────────────────────────────────────────────────
+[repo]
+url      = "https://github.com/zhaoxinghua09-cell/lgd-theory"
+homepage = "https://zhaoxinghua09-cell.github.io/lgd-theory/"
+license  = "CC BY 4.0"
+
+# ── 电子书文库版本（与 release.version 是两个不同概念，勿混）──────────────────
+# version = 当前发布版（README 引用 与 多数产物均为 v1.1）
+# legacy  = 仍在仓内保留的历史产物版本（允许存在，不应与当前版混淆）
+[library]
+version = "1.1"
+legacy  = ["1.0"]

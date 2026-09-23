@@ -1,10 +1,16 @@
+---
+title: P0-governance-determinability-doctrine-v1.2-zh
+type: note
+permalink: workbuddy/08-理论体系/发布/lgd-theory/papers/p0-governance-determinability-doctrine-v1.2-zh
+---
+
 # 治理判定论 · 理论纲要（v1.2 工作稿）
 
 > **the Doctrine of Governance Determinability** — Working Paper v1.2
 > SynomosAI 治理线 · 2026-09-08 · 状态：内部工作稿，未发表
 > 核心命题：**不可判定，则不可治理。** *What cannot be determined cannot be governed.*
 > 立项复核：已完成（见 14 号），核心主体五项零撞车，术语地雷已拆除
-> 权属：时间戳与指纹见包内 manifest；© SynomosAI；版权与免责声明见文末
+> 权属：时间戳与指纹见包内 manifest；© SynomosAI Governance Line；版权与免责声明见文末
 > **v1.1 变更（L2/L4/L5 已拍落地，2026-09-08）**：新增 **§12 失效模式与判定债务的定量联动**（引 AIDLC-FMEA）、**§13 判据有效期与谱系衰变**、**§14 中文引用网络**（薛澜/张其仔/郑戈固定引用）、**附录 A 全体系可证伪清单**（LGD/XCGS/A³/Passport/共存论/RRM 全家福免疫力工程）；原发布前检查单顺延为 §15。
 > **v1.2 变更（2026-09-08 晚，投稿硬前置 R3/R5/R6/R10/R11/R12 全落地）**：**§0A 邻位术语辨析**（regulatory debt / mandate suspension / reconstructability / L2D 四组，24 号 R3 + 26 号 R10）；**§0B 制度谱系锚**（advance ruling / declaratory judgment / Abbott Labs 1967，R11）；**§6 后 MDUFA 时钟停启官方先例注记**（R12）；**§9 增 Rules as Code 行**（Catala/L4/defeasible/Hildebrandt，R6）；**附录 B 债务族谱六兄弟表**（verification/assurance/compliance/regulatory/technical/determination——判定债务=唯一上游成员，R5）；AI Passport 可证伪行补 GB/Z 185 对齐站位注记（F3）。
 
@@ -77,7 +83,7 @@
 - **D5 判定主体**：对判定结果负责的自然人或法人（P6：不可外包给算法）。
 - **D6 判定点**：生命周期中必须发生判定的位置（状态转移点）。
 - **D7 悬置（undetermined）**：判据、证据、主体任一缺失时的**显式**判定结果。
-- **D8 判定债务（determination debt）**：已声明但未具备判定条件的治理要求之存量（悬置条目的累积）。本论原创概念，为 closure gap 提供存量度量。**译名纪律：英文固定 `determination debt`，绝不译作 `Judgment Debt`（该词已被他人具名，行为科学视角，概念空间不同）或 `decision debt`（软件工程话语）。**
+- **D8 判定债务（determination debt）**：已声明但未具备判定条件的治理要求之存量（悬置条目的累积）。本论原创概念，为 closure gap 提供存量度量。**译名纪律：英文固定 `determination debt`，绝不译作 `Judgment-Debt`（该词已被他人具名，行为科学视角，概念空间不同）或 `decision debt`（软件工程话语）。**
 - **D9 判定漂移**：同一判据在不同时点或辖区产生不一致判定的现象。
 - **D10 复放（replay）**：第三方以相同证据与判据重现相同判定结果（A4 的操作化）。
 
@@ -341,8 +347,8 @@ LGD（全程治理论）三定律在判定论中获得形式化载体——每�
 |---|---|---|---|
 | 1 | 主名 `Governance Determinability` / 中文「治理判定论」无具名理论占同一空间 | ✅ | 14 号立项复核五项零撞车 |
 | 2 | GDD 缩写全库弃用 | ✅ | 全文无 GDD 缩写 |
-| 3 | 子概念 `determination debt`（判定债务）英文锚定唯一，未串用 `Judgment Debt` / `decision debt` | ✅ | 15 号 D8 + 附录 B + M1 报告 §八 译名纪律 |
-| 4 | `Adjudication Debt`（裁决债务，TH-META-012）与 `Value Debt` / `Judgment Debt` 划界 | ✅ | M1 报告 §四 + §八 |
+| 3 | 子概念 `determination debt`（判定债务）英文锚定唯一，未串用 `Judgment-Debt` / `decision debt` | ✅ | 15 号 D8 + 附录 B + M1 报告 §八 译名纪律 |
+| 4 | `Adjudication Debt`（裁决债务，TH-META-012）与 `Value Debt` / `Judgment-Debt` 划界 | ✅ | M1 报告 §四 + §八 |
 | 5 | 不与 FERZ `deterministic governance` 混用；不宣称 determinability 首创 | ✅ | §0A / §14 纪律句 |
 | 6 | 引用包六项齐备（Chalupa DIP+DCF / 债务族谱六兄弟 / Rules as Code / L2D 谱系 / 制度谱系锚 / 中文三人组） | ✅ | §0A / §0B / §9 / §14 / 附录 B |
 | 7 | 敏感扫描（真名 / 邮箱 / 账号 / 本地路径）0 命中 | ☐ 投稿前终验 |
@@ -358,4 +364,4 @@ LGD（全程治理论）三定律在判定论中获得形式化载体——每�
 
 ## 版权与声明
 
-© SynomosAI（2026）。本纲要为工作稿，未经授权禁止复制、转售或用于模型训练。按「原样（AS IS）」提供，不附带任何明示或默示担保；使用后果由使用者自负。文中引用之第三方框架、标准、术语与成果归其各自权利人所有，本文仅作学术引用与致谢，引用关系以各权利人官方文本为准。
+© SynomosAI Governance Line（2026）。本纲要为工作稿，按 CC BY 4.0 许可发布（署名即可复用）。按「原样（AS IS）」提供，不附带任何明示或默示担保；使用后果由使用者自负。文中引用之第三方框架、标准、术语与成果归其各自权利人所有，本文仅作学术引用与致谢，引用关系以各权利人官方文本为准。

@@ -11,7 +11,7 @@
 
 用法
    python check_review_status.py <目录> [更多目录...]
-   python check_review_status.py D:/Workbuddy/08-理论体系/发布/lgd-theory/docs
+   python check_review_status.py docs/              # 相对路径即可
    python check_review_status.py docs/ --json out.json
    python check_review_status.py docs/ --quiet      # 只输出汇总与失败项
 

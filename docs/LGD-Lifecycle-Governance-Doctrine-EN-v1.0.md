@@ -1,9 +1,9 @@
-# The Lifecycle Governance Doctrine (LGD): Registry, Evidence, and Gates Across the Full Life of Autonomous Systems
+# The Lifecycle Governance Doctrine (LGD): Registry, Evidence, and Gates Across the Full Life of AI and Devices
 
 **English flagship edition · v1.0 · 2026-09-06**
 
-> **Proposed by**: MedXpert × SynomosAI — a regulated-industry practice line (medical devices) and a cross-domain governance thought line (AI & autonomous systems).
-> **Author**: Zhao Xinghua / Steven Zhao · China · ORCID 0009-0001-0512-1237 · https://medxpert.cn
+> **Proposed by**: SynomosAI Governance Line — an independent research initiative bridging a regulated-industry practice background (medical devices) and a cross-domain governance thought line (AI & autonomous systems).
+> **Author**: Zhao Xinghua (Steven Zhao) · ORCID 0009-0001-0512-1237
 > **DOI (concept, always latest)**: https://doi.org/10.5281/zenodo.22456647
 > **License**: CC BY 4.0 — cite the author when sharing.
 > **One-liner**: Every self-governing entity — AI model, software-enabled medical device, autonomous agent — shall carry a **registry** (who it is), **evidence** (what it did and why), and **evolution gates** (who allowed it to change), traceable, provable, and accountable **across its full lifecycle, from birth to retirement**.
@@ -54,7 +54,7 @@ A link that fails any check is a *stated gap* — LGD never claims fake complete
 
 ## 4. Implementation status
 
-- **Executable instrument family** across lifecycle stages (registration-path calculators, classification, change-gate assessment, clinical-evidence management, post-market planning, retirement checks) ships as callable compliance tooling; see the MedXpert tool suite.
+- **Executable instrument family** across lifecycle stages (registration-path calculators, classification, change-gate assessment, clinical-evidence management, post-market planning, retirement checks) ships as callable compliance tooling; see the SynomosAI tool suite.
 - **User-facing applications** (self-check consoles, AI-device compliance checkers, reference-verification bench, identity-anchor generator, algorithm-passport generator, AI-creates-AI compliance checker) make the three laws everyday actions.
 - **Protocol layer**: structured schemas (algorithm passport and related) express registry–evidence–gates in machine-readable form.
 - Full domain series: see `docs/` — financial AI ×2, electronic evidence, digital government, on-chain assets, autonomous driving, data elements, low-altitude/UAS, embodied AI, industrial/OT, biomedical data, education.
@@ -65,7 +65,7 @@ LGD is engineered to sit *on top of* the existing global standards network rathe
 
 ## 6. Suggested citation
 
-> Zhao, X. (2026). *The Lifecycle Governance Doctrine (LGD): Registry, Evidence, and Gates Across the Full Life of Autonomous Systems* [Preprint]. MedXpert × SynomosAI. ORCID 0009-0001-0512-1237. DOI: https://doi.org/10.5281/zenodo.22456647
+> Zhao, X. (2026). *The Lifecycle Governance Doctrine (LGD): Registry, Evidence, and Gates Across the Full Life of AI and Devices* [Preprint]. SynomosAI Governance Line. DOI: https://doi.org/10.5281/zenodo.22456647
 
 ## 7. Honest boundaries
 
@@ -73,4 +73,4 @@ LGD is a **civil-society framework**, not legal or regulatory advice, not a cert
 
 ---
 
-© MedXpert × SynomosAI · CC BY 4.0 · Cite: Zhao, X. (2026). DOI 10.5281/zenodo.22456647
+© SynomosAI Governance Line · CC BY 4.0 · Cite: Zhao, X. (2026). DOI 10.5281/zenodo.22456647

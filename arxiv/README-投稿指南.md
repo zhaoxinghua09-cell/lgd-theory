@@ -25,13 +25,13 @@
 
 | arXiv 字段 | 填写内容 |
 |---|---|
-| Title | The Lifecycle Governance Doctrine (LGD): Registry, Evidence, and Gates Across the Full Life of Autonomous Systems |
+| Title | The Lifecycle Governance Doctrine (LGD): Registry, Evidence, and Gates Across the Full Life of AI and Devices |
 | Authors | Steven Zhao (Zhao Xinghua) — ORCID 0009-0001-0512-1237 |
 | Abstract | 见 main.tex（自动带出） |
 | Primary class | cs.CY (Computers and Society) |
 | Cross-list | cs.AI; cs.MA (Multi-Agent Systems) |
 | License | Creative Commons Attribution 4.0 (CC BY 4.0) |
-| Comments | 9 pages, 3 figures planned. MedXpert × SynomosAI. Companion speedpages: medxpert.cn/lgd.html |
+| Comments | 9 pages, 3 figures planned. SynomosAI Governance Line. Companion pages: https://zhaoxinghua09-cell.github.io/lgd-theory/ |
 | Files | main.tex + refs.bib（已备于本目录） |
 
 ## 四、文件清单

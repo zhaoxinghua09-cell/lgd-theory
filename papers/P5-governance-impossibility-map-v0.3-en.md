@@ -3,7 +3,7 @@
 > SynomosAI Governance Line · Paper Matrix P5 · English working draft (D6), 2026-09-08
 > Chinese master version: P5-governance-impossibility-map-v0.3-zh.md (authoritative for content)
 > Position: inventory + critique hybrid (the Jobin-style mapping move: no new theorems, only coordinates)
-> © SynomosAI (2026). AS IS. Third-party theorems remain the property of their authors; citations follow official texts. Search data as of 2026-09-08.
+> © Zhao, X. (2026). AS IS. Third-party theorems remain the property of their authors; citations follow official texts. Search data as of 2026-09-08.
 
 ---
 

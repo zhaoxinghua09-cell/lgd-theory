@@ -1,7 +1,7 @@
 # 全程治理论 Lifecycle Governance Doctrine (LGD) · 理论发布版
 
-> **提出 / 品牌**：MedXpert × SynomosAI（受监管实业实证侧 × 跨域治理思想侧）
-> **作者署名**：Zhao Xinghua / Steven Zhao·China（ORCID 0009-0001-0512-1237 ｜ GitHub: Medxpert-org ｜ https://medxpert.cn）
+> **提出**：SynomosAI Governance Line（独立研究线；受监管实业实证背景 × 跨域治理思想侧）
+> **作者署名**：赵兴华（Steven Zhao）｜ ORCID 0009-0001-0512-1237
 > **版本**：v1.0 · 2026-09-06 ｜ **许可**：CC BY 4.0（转载需署名本页）
 > **一句话主张**：凡自治之物——有籍（Registry）、有证（Evidence）、有门禁（Gates），由生到退，全程可溯、可证、可问责。
 > **One-liner**：Every self-governing entity (AI, intelligent device, agent) shall carry a registry, evidence, and evolution gates — traceable, provable, and accountable across its full lifecycle.
@@ -66,7 +66,7 @@
 
 ## 4. 配套实现（理论已落到可执行）
 
-- **执行器家族**：围绕生命周期各环节提供可执行检查器与证据生成器（如注册路径测算、分类判定、变更门禁评估、临床证据管理、上市后监督规划、退役处置检查等），产品形态为可调用的合规工具接口，详见 MedXpert 理论驱动工具集。
+- **执行器家族**：围绕生命周期各环节提供可执行检查器与证据生成器（如注册路径测算、分类判定、变更门禁评估、临床证据管理、上市后监督规划、退役处置检查等），产品形态为可调用的合规工具接口，详见 SynomosAI 理论驱动工具集。
 - **应用端（理论看得见）**：合规自检台、AI 器械合规自检台、参照校验台、身份锚定生成器、算法护照生成器、AI 造 AI 合规自检器、连续性交接单、论证教练器等，供一线使用者把"三律三查"当日常动作执行。
 - **协议层**：算法护照等结构化 schema，承载"有籍—有证—有门禁"的机器可读表达。
 - 说明：以上实现随版本演进；任何尚未挂靠工具的环节，均显式标注"暂无执行器"，不冒充全覆盖。
@@ -76,7 +76,7 @@
 ## 5. 引用与传播
 
 **建议引用格式**
-> Zhao, X. (2026). *Lifecycle Governance Doctrine (LGD): Registry, Evidence, and Gates Across the Full Life of AI and Devices.* MedXpert × SynomosAI. ORCID 0009-0001-0512-1237. v1.0.
+> Zhao, X. (2026). *Lifecycle Governance Doctrine (LGD): Registry, Evidence, and Gates Across the Full Life of AI and Devices.* SynomosAI Governance Line. v1.0.
 
 **传播定位**
 1. 作为《理论驱动工具集》的理论总纲：把一批"合规小工具"升格为"一个理论的各环节执行器"。
@@ -102,5 +102,5 @@
 
 ---
 
-© MedXpert × SynomosAI · CC BY 4.0 · 转载需署名本页
+© SynomosAI Governance Line · CC BY 4.0 · 转载需署名本页
 *本件为理论发布物，非认证证书、非法律意见、非监管申报材料。*

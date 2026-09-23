@@ -11,8 +11,10 @@ via `ots upgrade` later (any OTS client, e.g. WSL/Linux) once block lands.
 """
 import sys, os
 
-PYLIBS = r"D:\Workbuddy\2026-09-06-08-06-50\_conv\ots\pylibs"
-if PYLIBS not in sys.path:
+# 依赖路径不写死本机绝对路径（公开仓红线）：环境变量 OTS_PYLIBS 优先，其次仓内同目录 _ots_pylibs/
+PYLIBS = os.environ.get("OTS_PYLIBS") or os.path.join(
+    os.path.dirname(os.path.abspath(__file__)), "_ots_pylibs")
+if os.path.isdir(PYLIBS) and PYLIBS not in sys.path:
     sys.path.insert(0, PYLIBS)
 
 from opentimestamps.core.notary import *          # noqa: F401,F403

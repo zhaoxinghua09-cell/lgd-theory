@@ -3,8 +3,8 @@ tid: TH-MED-003
 name: BTSK 双时态知识库（Bitemporal Temporal-Semantic Knowledge base）
 version: 1.0
 date: 2026-09-08
-author: 赵兴华 / Steven Zhao·China（ORCID 0009-0001-0512-1237）
-issuer: SynomosAI × MedXpert
+author: Zhao Xinghua (Steven Zhao)
+issuer: SynomosAI Governance Line
 license: CC BY 4.0
 status: 发布版
 ---
@@ -53,7 +53,7 @@ status: 发布版
 - **BTSK vs Graphiti 定位差**：Graphiti 解决"记 what/when 的工程效率"；BTSK 解决"知识作为**证据**的资格规矩"——双时态知识引用具备审计证据资格的条件、修改门禁语义、与 LGD-II 证据工件的绑定规范。**工程呼应印证需求，治理规矩层仍是空白。**
 - arXiv 2508.03095 / 2604.23280 综述确认 agent 证据与治理层为开放问题——BTSK 与 LGD-II 构成该空白的知识层答案。
 
-## 五、落地实况（MedXpert-RA）
+## 五、落地实况（SynomosAI-RA）
 
 - 双机同步（sync_scan / evolve_scan）保持双时态一致；
 - 知识条目版本化：修正=追加新版本+指回旧版本；
@@ -68,6 +68,6 @@ status: 发布版
 ## 七、版本
 
 - v1.0 · 2026-09-08 · 独立成文发布版（速查页同期）
-- TID：TH-MED-003 · 引用建议：`SynomosAI × MedXpert, "BTSK: Bitemporal Knowledge Base for Governed AI", v1.0, 2026.`
+- TID：TH-MED-003 · 引用建议：`SynomosAI Governance Line, "BTSK: Bitemporal Knowledge Base for Governed AI", v1.0, 2026.`
 
-© SynomosAI × MedXpert · CC BY 4.0 · 转载请署名
+© SynomosAI Governance Line · CC BY 4.0 · 转载请署名

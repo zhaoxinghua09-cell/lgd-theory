@@ -1,12 +1,12 @@
 # LGD 参照徽章 · 嵌入代码包
 
-> 主 URL（即时生效，已上线）：`https://medxpert.cn/badge/…`
+> 主 URL（即时生效，已上线）：`https://cdn.jsdelivr.net/gh/zhaoxinghua09-cell/lgd-theory@main/badge/…`
 > GitHub raw URL（待徽章合入 main 后生效）：`https://raw.githubusercontent.com/zhaoxinghua09-cell/lgd-theory/main/badge/…`
 
 ## 1. GitHub README（推荐，矢量清晰）
 
 ```markdown
-[![LGD-aligned](https://medxpert.cn/badge/lgd-shield-color.svg)](https://github.com/zhaoxinghua09-cell/lgd-theory)
+[![LGD-aligned](https://cdn.jsdelivr.net/gh/zhaoxinghua09-cell/lgd-theory@main/badge/lgd-shield-color.svg)](https://github.com/zhaoxinghua09-cell/lgd-theory)
 ```
 
 ## 2. 紧凑文字条（shields.io 风格，一行装下）
@@ -20,7 +20,7 @@
 ```html
 <a href="https://github.com/zhaoxinghua09-cell/lgd-theory" target="_blank" rel="noopener"
    title="LGD-aligned：参照全程治理论（有籍·有证·有门禁）">
-  <img src="https://medxpert.cn/badge/lgd-shield-color.svg" alt="LGD-aligned" width="72">
+  <img src="https://cdn.jsdelivr.net/gh/zhaoxinghua09-cell/lgd-theory@main/badge/lgd-shield-color.svg" alt="LGD-aligned" width="72">
 </a>
 ```
 
@@ -37,5 +37,5 @@
 ## 6. 深色背景（深色主题站点 / 终端产品 UI）
 
 ```html
-<img src="https://medxpert.cn/badge/lgd-shield-reversed.svg" alt="LGD-aligned" width="72">
+<img src="https://cdn.jsdelivr.net/gh/zhaoxinghua09-cell/lgd-theory@main/badge/lgd-shield-reversed.svg" alt="LGD-aligned" width="72">
 ```

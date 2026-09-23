@@ -1,0 +1,83 @@
+# robots.txt — lgd-theory
+# Site: https://zhaoxinghua09-cell.github.io/lgd-theory/
+# Updated: 2026-09-18
+#
+# 策略（一句话）：本体系内容是 CC BY 4.0 开放许可 —— 检索与训练**均放行**。
+#
+# 为什么不是"禁训练"：
+#   1. CC BY 4.0 已经在法律上授予了"署名条件下的再利用"，禁止爬虫与此自相矛盾；
+#   2. 禁训练的实际收益为零（robots 只约束守规矩的爬虫，且会让本体系无法进入
+#      未来模型的语料，主动放弃长期可见性）；
+#   3. 真正需要保护的内容不靠 robots 保护，靠"根本不公开"（内容分层）。
+#   → 若将来引入 RESTRICTED 内容，应在**目录级**单独处理，而不是全站禁训练。
+#
+# Content-Signal：2026 年由 Cloudflare / Vercel 等采用的新兴惯例，
+#   用一行声明三类用途的许可（search / ai-input / ai-train）。
+
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
+
+User-agent: *
+Allow: /
+
+# ── AI 检索类（决定能否被 AI 搜索命中并引用：必须放行）──────────────
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: DuckAssistBot
+Allow: /
+
+User-agent: MistralAI-Index
+Allow: /
+
+# ── 通用搜索类（同时喂 AI 答案：Bing→Copilot、Google→AI Overviews）──
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+# ── AI 训练类（放行：许可已授权）────────────────────────────────
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: MistralAI-Training
+Allow: /
+
+# 以下两条无厂商一级文档，形态待观察，暂按放行处理（与全站 CC BY 4.0 一致）
+User-agent: Bytespider
+Allow: /
+
+Sitemap: https://zhaoxinghua09-cell.github.io/lgd-theory/sitemap.xml

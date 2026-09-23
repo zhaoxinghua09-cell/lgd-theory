@@ -1,0 +1,19 @@
+# Python 编译缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# 构建临时目录
+book/_epub/
+_epub/
+
+# 编辑/工具临时文件
+*.tmp
+*.bak
+*.bak_*
+*~
+.DS_Store
+Thumbs.db
+
+# 本地受控词配置（必须放仓外，见 _tools/verify_generated.py 的 load_forbidden_terms）
+.lgd-gate/
