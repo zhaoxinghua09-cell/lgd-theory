@@ -4,10 +4,31 @@ type: theory-angle
 id: TH-ANG-004
 version: v1.0
 date: 2026-09-24
-permalink: workbuddy/08-理论体系/发布/lgd-theory/docs/theories/angles/th-ang-004-runtigil-v1.0
+permalink: /docs/theories/angles/th-ang-004-runtigil-v1.0
 ---
 
+<!-- REVIEW-GATE
+review-status: contested
+reviewed-by: 理论线复核官·甲（独立席位·非作者）
+review-date: 2026-09-24
+review-ref: 08-理论体系/域研究员/审查/理论线新产出_独立复核意见_甲_20260924.md
+verdict: conditional
+-->
+
 # 运行时门禁治理 Runtigil · LGD 跨域治理角度 #4（TH-ANG-004 · v1.0）
+
+> ⚠️ **待修订（2026-09-24 独立复核 · verdict: conditional）**
+>
+> 本件为角度层第 4 篇（Runtigil 运行时门禁治理），已过独立复核。
+> 红线维度已全清（无受控词；无本机绝对路径；无联系方式；无虚假采纳/首创声称）。
+> **下列建议级问题修订完成前，本件不宜作为权威引用**：
+> 1. **外部事实断言缺内联出处**：所引标准 / 机构 / 文献无参考文献节与 provenance 标注；抽查可核者（GDPR 第 20 条、个保法第 45 条、生态环境法典 2026-08-15 施行、Jensen–Shannon 散度）已核，其余按「未验证」论——正式投稿前须逐条核验。
+> 2. **悬空引用**：正文引 `TH-ANG-000 跨域治理角度矩阵` 为母版/上游，但仓内 `docs/theories/angles/` 仅有 001–005，母矩阵缺失，五个角度暂成孤岛；须补齐 TH-ANG-000 或修正引用。
+>
+> **本批已修**：frontmatter permalink 去除内部路径。
+>
+> 复核意见全文：`08-理论体系/域研究员/审查/理论线新产出_独立复核意见_甲_20260924.md`
+
 
 > 一句话主张：合规不能止于"上线前评估"——自治之物在运行时会发生行为漂移，必须把**门禁装到运行时**：基线登记（有籍）·漂移留痕（有证）·越界拦截（有门禁）。
 > 命名：中文主名「运行时门禁治理」｜ LGD 铸词（英文主名）**Runtigil** ｜ 描述性副名 Runtime Gatekeeping。
@@ -188,4 +209,4 @@ Runtigil 明确**不解决**以下事项：
 
 ---
 
-© LGD 治理线 · 跨域治理角度 #4 · 民间理论发布物，非技术方案。
+© SynomosAI Governance Line · 跨域治理角度 #4 · 民间理论发布物，非技术方案。

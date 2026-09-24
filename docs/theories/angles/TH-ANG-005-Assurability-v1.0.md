@@ -4,10 +4,32 @@ type: theory-angle
 id: TH-ANG-005
 version: v1.0
 date: 2026-09-24
-permalink: workbuddy/08-理论体系/发布/lgd-theory/docs/theories/angles/th-ang-005-assurability-v1.0
+permalink: /docs/theories/angles/th-ang-005-assurability-v1.0
 ---
 
+<!-- REVIEW-GATE
+review-status: contested
+reviewed-by: 理论线复核官·甲（独立席位·非作者）
+review-date: 2026-09-24
+review-ref: 08-理论体系/域研究员/审查/理论线新产出_独立复核意见_甲_20260924.md
+verdict: conditional
+-->
+
 # 可保性治理 Assurability · LGD 跨域治理角度 #5（TH-ANG-005 · v1.0）
+
+> ⚠️ **待修订（2026-09-24 独立复核 · verdict: conditional）**
+>
+> 本件为角度层第 5 篇（Assurability 可保性治理），已过独立复核。
+> 红线维度已全清（无受控词；无本机绝对路径；无联系方式；无虚假采纳/首创声称）。
+> **下列建议级问题修订完成前，本件不宜作为权威引用**：
+> 1. **外部事实断言缺内联出处**：所引标准 / 机构 / 文献无参考文献节与 provenance 标注；抽查可核者（GDPR 第 20 条、个保法第 45 条、生态环境法典 2026-08-15 施行、Jensen–Shannon 散度）已核，其余按「未验证」论——正式投稿前须逐条核验。
+> 2. **悬空引用**：正文引 `TH-ANG-000 跨域治理角度矩阵` 为母版/上游，但仓内 `docs/theories/angles/` 仅有 001–005，母矩阵缺失，五个角度暂成孤岛；须补齐 TH-ANG-000 或修正引用。
+> 3. **关联占位件误引标准条款**：`terminance_README.md` 中 `ISO/IEC 42001 §8/10`、`ISO/IEC 42001 Govern 1.7`、`Berkeley Agentic AI Profile Govern 1.7` 把 NIST AI RMF 的 Govern/Manage 术语误套到 ISO/IEC 42001 上；ISO/IEC 42001:2023 采 Annex SL 条款 4–10，无「Govern 1.7」——须在引用前更正该 README。
+>
+> **本批已修**：frontmatter permalink 去除内部路径。
+>
+> 复核意见全文：`08-理论体系/域研究员/审查/理论线新产出_独立复核意见_甲_20260924.md`
+
 
 > 一句话主张：**治理结构是可保性的前提**——保险公司定价的不是风险本身，而是"你能否证明你管住了风险"；有籍（风险主体登记）·有证（治理证据=核保依据）·有门禁（承保条件=持续治理门禁）。
 > 命名：中文主名「可保性治理」｜ LGD 铸词（英文主名）**Assurability** ｜ 描述性副名 Governance-Conditioned Insurability。
@@ -182,4 +204,4 @@ Assurability 明确**不解决**以下事项：
 
 ---
 
-© LGD 治理线 · 跨域治理角度 #5 · 民间理论发布物，非保险建议、非法律意见。
+© SynomosAI Governance Line · 跨域治理角度 #5 · 民间理论发布物，非保险建议、非法律意见。

@@ -4,10 +4,30 @@ type: theory
 id: P5
 version: v0.3
 date: 2026-09-24
-permalink: workbuddy/08-理论体系/发布/lgd-theory/docs/theories/p5-governance-impossibility-map-v0.3
+permalink: /docs/theories/p5-governance-impossibility-map-v0.3
 ---
 
+<!-- REVIEW-GATE
+review-status: contested
+reviewed-by: 理论线复核官·乙（独立席位·非作者）
+review-date: 2026-09-24
+review-ref: 08-理论体系/域研究员/审查/理论线新产出_独立复核意见_乙_20260924.md
+verdict: conditional
+-->
+
 # 治理不可能域地图 · The Governance Impossibility Map
+
+> ⚠️ **待修订（2026-09-24 独立复核 · verdict: conditional）**
+>
+> 本件为「治理不可能地图」工作稿，已过独立复核；与 `papers/P5-…-v0.3-zh.md` 母本论点一致、译名合规。
+> 红线维度已全清（无受控词；无本机绝对路径；无联系方式；无虚假采纳/首创声称）。
+> **下列建议级问题修订完成前，本件不宜作为权威引用**：
+> 1. **核心论证所依赖的外部文献未验证（最重）**：`Rao 2025 arXiv:2504.20676`、`McCann 2026 arXiv:2604.27292`（含「Coq 454 定理」断言）、`Tibebu & Shemtaga 2026`、`Meyman 2026 Zenodo 19647542`、`Fernandez 2026 Zenodo 19669430`、`Zhu & Leonard 2026 Applied Sciences 16(10):4917`、`Chalupa DIP/DCF` 等 arXiv 号与 DOI 本环境无法核验真伪。**若其中任一为虚构，则本件论证基础受损**——正式投稿前须逐条核实。已核者：`Jobin, Ienca & Vayena 2019`（Nature MI）、`Rice 1953`、FDA MDUFA / declaratory judgment 制度。
+>
+> **本批已修**：frontmatter permalink 去除内部路径。
+>
+> 复核意见全文：`08-理论体系/域研究员/审查/理论线新产出_独立复核意见_乙_20260924.md`
+
 ## 工作稿 v0.3 · 2026-09-24（整理自 papers/ 中英论文）
 
 > **编号**：论文矩阵 P5 ｜ **域码**：边界（Boundary）｜ **母版(RRM)**：Jobin 2019「原则地图」的画地图姿势

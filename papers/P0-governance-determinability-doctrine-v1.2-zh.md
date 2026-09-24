@@ -1,7 +1,7 @@
 ---
 title: P0-governance-determinability-doctrine-v1.2-zh
 type: note
-permalink: workbuddy/08-理论体系/发布/lgd-theory/papers/p0-governance-determinability-doctrine-v1.2-zh
+permalink: //papers/p0-governance-determinability-doctrine-v1.2-zh
 ---
 
 # 治理判定论 · 理论纲要（v1.2 工作稿）

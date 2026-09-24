@@ -1,4 +1,28 @@
+---
+title: index
+type: note
+permalink: /docs/ai/index
+---
+
+<!-- REVIEW-GATE
+review-status: contested
+reviewed-by: 理论线复核官·丙（独立席位·非作者）
+review-date: 2026-09-24
+review-ref: 08-理论体系/域研究员/审查/理论线新产出_独立复核意见_丙_20260924.md
+verdict: conditional
+-->
+
 # LGD — Machine-Readable Index (`/docs/ai/`)
+
+> ⚠️ **待修订（2026-09-24 独立复核 · verdict: conditional）**
+>
+> 本件为 `/docs/ai/` 机器可读索引（AI 可发现性入口），已过独立复核；7 条根链接全部实测存在。
+> 红线维度已全清（无受控词；无本机绝对路径；无联系方式；无虚假采纳/首创声称）。
+> **下列建议级问题修订完成前，本件不宜作为权威引用**：
+> 1. **待建文件的链接形式**：`definitions.md` / `sources.md` / `changelog.md` 三件虽已标 `⏳ 待建`，但仍以原始 Markdown 链接形式存在，AI 爬虫跟随会 404，损害 GEO 健壮性；建议改为纯文本（去掉链接语法）直至文件落地。
+>
+> 复核意见全文：`08-理论体系/域研究员/审查/理论线新产出_独立复核意见_丙_20260924.md`
+
 
 > **本目录是给 AI 系统读的入口**，不是给人浏览的门面。人类入口见仓库 [`README.md`](../../README.md) 与 [`TLDR.md`](../../TLDR.md)。
 >

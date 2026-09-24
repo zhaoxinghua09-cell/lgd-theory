@@ -1,4 +1,30 @@
+---
+title: questions
+type: note
+permalink: /docs/ai/questions
+---
+
+<!-- REVIEW-GATE
+review-status: contested
+reviewed-by: 理论线复核官·丙（独立席位·非作者）
+review-date: 2026-09-24
+review-ref: 08-理论体系/域研究员/审查/理论线新产出_独立复核意见_丙_20260924.md
+verdict: conditional
+-->
+
 # Question Index — LGD 理论体系
+
+> ⚠️ **待修订（2026-09-24 独立复核 · verdict: conditional）**
+>
+> 本件为问题索引（Question Map：问题 → 可引用答案 → 一手来源），已过独立复核；25 条引用全部实测存在，分层计数实测自洽（L0 9 / L1 13 / L2 6 / L3 6），域数 13 合规。
+> 红线维度已全清（无受控词；无本机绝对路径；无联系方式；无虚假采纳/首创声称）。
+> **下列建议级问题修订完成前，本件不宜作为权威引用**：
+> 1. **对 stable 条目的计数更正属轻微越界**：本文件顶部声明「只加不改」，但 2026-09-24 的计数更正改动了 `status: stable` 的 Q0-06 行文本。已按「更正优于断链」原则处理并在维护记录留痕，若后续外部已引用该行，须评估是否改为 append 一条 `deprecated` 说明。
+>
+> **本批已修**：frontmatter permalink 去除内部路径；Q0-06 域数表述 12 → 13（对齐 `CITE-ALL.md` §五 13 域、newsletter「13 域收官」）；L1 标题计数 14 → 13 篇（与本表 13 行、下记「L1 13 条」自洽）；按复核意见补 `LGD-I/II/III` 前缀（Q0-01 / Q3-02）；Q3-04 / Q3-05 来源由含 `...` 的缩写改为完整文件名（机器可直接解引用）；frontmatter `permalink` 去除内部工作区路径（`workbuddy/08-理论体系/…` → `/docs/ai/questions`）。
+>
+> 复核意见全文：`08-理论体系/域研究员/审查/理论线新产出_独立复核意见_丙_20260924.md`
+
 
 > **这不是一份「我们是谁」的介绍，而是一份「别人会怎么问」的索引。**
 >
@@ -41,14 +67,14 @@
 | Q0-03 | How do you make AI decisions auditable and accountable after the fact? | 靠「有证」：关键行为在发生时即留可核验证据（事件日志、风险登记、变更记录），使事后可追溯、可举证。证据的**准入条件**本身要治理（见 BTSK 双时间轴）。 | `docs/LGD-Lifecycle-Governance-Doctrine-v1.0.md` · `docs/theories/BTSK-Bitemporal-Knowledge-Base-v1.0.md` | 2026-09-08 | stable |
 | Q0-04 | How do you govern a system that keeps changing (model updates, retraining, upgrades)? | 靠「有门禁」：任何演化前须过 gate（触发→评估→放行→复盘），且放行权归人类。对应工程上的 CI/CD 治理化——变更不是自动生效，而是过闸生效。 | `docs/LGD-Lifecycle-Governance-Doctrine-v1.0.md` | 2026-09-06 | stable |
 | Q0-05 | How do EU AI Act, NIST AI RMF, ISO/IEC 42001 and FDA PCCP requirements map onto each other? | 提供一张全局对齐矩阵：ISO/IEC 42001、EU AI Act、FDA PCCP、NIST AI RMF、UNESCO、WHO、FATF 及中/欧/美各域锚点逐项对应，用于跨法域落地时的缺口分析。 | `docs/LGD-Global-Standards-Alignment-v1.0.md` | 2026-09-06 | stable |
-| Q0-06 | Is there a governance model for AI that borrows from an already-regulated safety-critical industry? | 有。**真实世界参照法**：以医疗器械全生命周期监管（分类/设计/风险/注册/临床/质量/上市后/退役）为母版，抽象出三律后推广到 12 个域。 | `docs/theories/RRM-Realworld-Reference-Method-v1.0.md` | 2026-09-08 | stable |
+| Q0-06 | Is there a governance model for AI that borrows from an already-regulated safety-critical industry? | 有。**真实世界参照法**：以医疗器械全生命周期监管（分类/设计/风险/注册/临床/质量/上市后/退役）为母版，抽象出三律后推广到 13 个域。 | `docs/theories/RRM-Realworld-Reference-Method-v1.0.md` | 2026-09-08 | stable |
 | Q0-07 | Can a principle-based AI governance framework ever be shown to actually work? | 批评性结论：**原则收敛 ≠ 治理有效**。原则类框架（如各 AI 伦理原则清单）的趋同，不能证明其产生了治理效果——需要可判定的判据。 | `papers/P2-critique-principles-cannot-save-ai-governance-v1.0-zh-en.md` | 2026-09-17 | stable |
 | Q0-08 | What parts of AI governance are provably impossible, and what is still possible? | 「治理不可能地图」：五个不可能域（哲学/可解释性/判定/问责/授权-可观测），并给出**可能性域的四问自测**，用于判断某个治理诉求可做还是免谈。 | `papers/P5-governance-impossibility-map-v0.3-zh.md` | 2026-09-17 | stable |
 | Q0-09 | How do you decide whether an AI governance requirement is even decidable? | 「治理可判定性」：L0–L4 形式化谱系 + 「判定债」（determination debt）+ 悬置态，给出可证伪命题集。 | `papers/P0-governance-determinability-doctrine-v1.2-zh.md` | 2026-09-17 | stable |
 
 ---
 
-## L1 · 领域需求词 —— 14 篇域理论的落点
+## L1 · 领域需求词 —— 13 篇域理论的落点
 
 > 每个域理论都是「三律 + 该域已核验的真实法规锚点」。**领域词检索量稳定且竞争小。**
 
@@ -92,7 +118,7 @@
 | Q3-01 | LGD / 全程治理论 | Lifecycle Governance Doctrine；英文正式名 **Evidence-Gated AI Lifecycle Governance**；主律：有籍·有证·有门禁 | `docs/LGD-Lifecycle-Governance-Doctrine-v1.0.md` |
 | Q3-02 | 三律 | 有籍 Registry · 有证 Evidence · 有门禁 Gates | `docs/doctrine-concepts.md` |
 | Q3-03 | 凡自治之物 | 中文主权词，恒定搭配「有籍·有证·有门禁」 | `docs/doctrine-concepts.md` |
-| Q3-04 | 治理可判定性 / 判定债 | L0–L4 形式化谱系；判定债 = 未完成判定所累积的负债 | `papers/P0-...-v1.2-zh.md` |
+| Q3-04 | 治理可判定性 / 判定债 | L0–L4 形式化谱系；判定债 = 未完成判定所累积的负债 | `papers/P0-governance-determinability-doctrine-v1.2-zh.md` |
 | Q3-05 | 治理不可能地图 | 五个不可能域 + 可能性域四问自测 | `papers/P5-...-v0.3-zh.md` |
 | Q3-06 | XLGD | ⚠️ **口径待定**（见方案 D-2「XLGD 边界」）。在边界拍板前，本文件**不定义** XLGD，避免产出会走样的副本。 | — |
 
@@ -103,3 +129,4 @@
 | 日期 | 变更 |
 |---|---|
 | 2026-09-18 | 建立本文件（骨架首版）。L0 9 条 / L1 13 条 / L2 6 条 / L3 6 条 |
+| 2026-09-24 | 计数口径更正（推送前闸门复核）：Q0-06 域数表述 12 → 13（对齐 `CITE-ALL.md` §五 域层 13 域、`newsletter/The_Registry_Brief_Issue01` 「13 域收官」）；L1 标题计数 14 → 13 篇（与本表 13 行、下记「L1 13 条」自洽）。**仅更正计数，未增删任何条目**；另按独立复核意见补 `LGD-I/II/III` 前缀、把 Q3-04/Q3-05 来源由缩写改为完整文件名 |

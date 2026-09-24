@@ -4,10 +4,32 @@ type: theory-angle
 id: TH-ANG-002
 version: v1.0
 date: 2026-09-24
-permalink: workbuddy/08-理论体系/发布/lgd-theory/docs/theories/angles/th-ang-002-mnemoship-v1.0
+permalink: /docs/theories/angles/th-ang-002-mnemoship-v1.0
 ---
 
+<!-- REVIEW-GATE
+review-status: contested
+reviewed-by: 理论线复核官·甲（独立席位·非作者）
+review-date: 2026-09-24
+review-ref: 08-理论体系/域研究员/审查/理论线新产出_独立复核意见_甲_20260924.md
+verdict: conditional
+-->
+
 # 可携带记忆律 Mnemoship · LGD 跨域治理角度 #2（TH-ANG-002 · v1.0）
+
+> ⚠️ **待修订（2026-09-24 独立复核 · verdict: conditional）**
+>
+> 本件为角度层第 2 篇（Mnemoship 可携带记忆律），已过独立复核。
+> 红线维度已全清（无受控词；无本机绝对路径；无联系方式；无虚假采纳/首创声称）。
+> **下列建议级问题修订完成前，本件不宜作为权威引用**：
+> 1. **外部事实断言缺内联出处**：所引标准 / 机构 / 文献无参考文献节与 provenance 标注；抽查可核者（GDPR 第 20 条、个保法第 45 条、生态环境法典 2026-08-15 施行、Jensen–Shannon 散度）已核，其余按「未验证」论——正式投稿前须逐条核验。
+> 2. **悬空引用**：正文引 `TH-ANG-000 跨域治理角度矩阵` 为母版/上游，但仓内 `docs/theories/angles/` 仅有 001–005，母矩阵缺失，五个角度暂成孤岛；须补齐 TH-ANG-000 或修正引用。
+> 3. **命名重叠 / 重复造词风险**：本件「Mnemoship 可携带记忆律」与上游 `TH-AIG-004 PML 可携带记忆律` 中文同名，体系内另有 `UBIC-Mem 记忆可携带律`、`MAIT 记忆锚定身份`，四词环绕同一概念而未互相界定边界；须补一段「与 PML / UBIC-Mem / MAIT 的分工说明」。且 `TH-AIG-004` 在仓内不存在（同为悬空引用）。
+>
+> **本批已修**：frontmatter permalink 去除内部路径。
+>
+> 复核意见全文：`08-理论体系/域研究员/审查/理论线新产出_独立复核意见_甲_20260924.md`
+
 
 > 一句话主张：记忆是**可携带的治理资产**——归谁（有籍）·读写迁移留痕（有证）·出境/销毁设门禁（有门禁），记忆不绑定任何单一平台。
 > 命名：中文主名「可携带记忆律」｜ LGD 铸词（英文主名）**Mnemoship** ｜ 描述性副名 Portable Memory Law。
@@ -184,4 +206,4 @@ Mnemoship 明确**不解决**以下事项：
 
 ---
 
-© LGD 治理线 · 跨域治理角度 #2 · 民间理论发布物，非法律意见。
+© SynomosAI Governance Line · 跨域治理角度 #2 · 民间理论发布物，非法律意见。

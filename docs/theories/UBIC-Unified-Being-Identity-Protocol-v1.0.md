@@ -4,10 +4,31 @@ type: theory
 id: TH-AIG-001
 version: v1.0
 date: 2026-09-24
-permalink: workbuddy/08-理论体系/发布/lgd-theory/docs/theories/ubic-unified-being-identity-protocol-v1.0
+permalink: /docs/theories/ubic-unified-being-identity-protocol-v1.0
 ---
 
+<!-- REVIEW-GATE
+review-status: contested
+reviewed-by: 理论线复核官·乙（独立席位·非作者）
+review-date: 2026-09-24
+review-ref: 08-理论体系/域研究员/审查/理论线新产出_独立复核意见_乙_20260924.md
+verdict: conditional
+-->
+
 # 人格户籍协议 · UBIC Circle Charter (Personhood Household Registry)
+
+> ⚠️ **待修订（2026-09-24 独立复核 · verdict: conditional）**
+>
+> 本件为 UBIC 人形身份协议白皮书，已过独立复核；`LGD-I 有籍` 用法正确。
+> 红线维度已全清（无受控词；无本机绝对路径；无联系方式；无虚假采纳/首创声称）。
+> **下列建议级问题修订完成前，本件不宜作为权威引用**：
+> 1. **外部引用未验证**：`微软 Entra Agent ID`、`AWS AgentCore`、`Okta XAA`、`CSA Agentic IAM`、`NIST NCCoE`、`Sumsub DAP`、`ERC-8004` 作 prior-art 引用，其中具体方案名本环境无法核实，公开仓推送时宜加一行「外部引用待核实」标注。
+> 2. **研究线品牌串缺失**：同 A3，正文未印 canonical `SynomosAI Governance Line`。
+>
+> **本批已修**：frontmatter permalink 去除内部路径。
+>
+> 复核意见全文：`08-理论体系/域研究员/审查/理论线新产出_独立复核意见_乙_20260924.md`
+
 ## 白皮书 v1.0 · 2026-09-24
 
 > **TID**：TH-AIG-001 ｜ **域码**：AIG ｜ **母版(RRM)**：真实世界的户籍与身份证制度

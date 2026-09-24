@@ -15,5 +15,8 @@ _epub/
 .DS_Store
 Thumbs.db
 
+# OTS 重打时的旧存证备份（重打戳会生成 <file>.ots.prev）
+*.ots.prev
+
 # 本地受控词配置（必须放仓外，见 _tools/verify_generated.py 的 load_forbidden_terms）
 .lgd-gate/

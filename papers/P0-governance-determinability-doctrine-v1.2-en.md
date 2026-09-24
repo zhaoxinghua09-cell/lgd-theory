@@ -6,7 +6,7 @@ lang: en
 source: P0-governance-determinability-doctrine-v1.2-zh.md
 version: v1.2-en
 date: 2026-09-24
-permalink: workbuddy/08-理论体系/发布/lgd-theory/papers/p0-governance-determinability-doctrine-v1.2-en
+permalink: //papers/p0-governance-determinability-doctrine-v1.2-en
 ---
 
 # The Doctrine of Governance Determinability — Theoretical Framework (Working Paper v1.2)
