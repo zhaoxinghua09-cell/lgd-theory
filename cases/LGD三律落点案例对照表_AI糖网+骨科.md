@@ -2,7 +2,7 @@
 title: LGD 三律落点案例对照表（AI 糖网 + 骨科）
 summary: 用 IDx-DR、EyeArt、13 个 CE 系统、VTS、长木谷 ROPA、3D 打印个性化假体等公开案例，逐条对照 LGD 三律（有籍 · 有证 · 有门禁）的落点，并给出论文写作骨架。
 domain: LGD 理论体系
-source: SynomosAI × MedXpert
+source: SynomosAI Governance Line
 version: v1.0
 updated: 2026-09-13
 tags: [LGD, 三律, 医疗AI, 案例对照]
@@ -223,5 +223,5 @@ type: case
 
 ---
 
-© MedXpert × SynomosAI · CC BY 4.0 · 2026-09-13
+© SynomosAI Governance Line · CC BY 4.0 · 2026-09-13
 *本件为论文写作素材底稿，非监管申报材料、非法律意见。性能数据均引自公开授权文件与公开文献，使用前请以监管官网原文复核。*

@@ -2,7 +2,7 @@
 title: LGD 在医疗器械 AI 应用的全面调研报告
 summary: 把 LGD 三律（有籍 · 有证 · 有门禁）映射到医疗器械 AI 全生命周期，用真实监管案例定位其落点、所补空白与差异化价值；v1.1 撞车审查修订版。
 domain: LGD 理论体系
-source: SynomosAI × MedXpert
+source: SynomosAI Governance Line
 version: v1.1
 updated: 2026-09-13
 tags: [LGD, 三律, 医疗器械, 医疗AI, 全生命周期]
@@ -10,8 +10,8 @@ type: research
 ---
 # LGD 在医疗器械 AI 应用的全面调研报告
 
-> **作者署名**：赵兴华 / Steven Zhao·China（ORCID 0009-0001-0512-1237 ｜ GitHub: zhaoxinghua09-cell/lgd-theory ｜ https://medxpert.cn）
-> **品牌**：MedXpert × SynomosAI
+> **作者署名**：赵兴华 / Steven Zhao·China（ORCID 0009-0001-0512-1237 ）
+> **品牌**：SynomosAI Governance Line
 > **版本**：v1.1（2026-09-13 撞车审查修订版）｜ **许可**：CC BY 4.0
 > **理论上游**：TH-META-006（LGD 母版 v1.0）｜ TH-MED-002（医械注册方法论 v1.0）
 > **本件定位**：硕士论文 LGD 题"医械实证素材四件套"之第三件——把 LGD 三律从"注册方法论"扩到"全生命周期方法论"，并以真实医械 AI 案例做参照映射。
@@ -531,7 +531,7 @@ PCCP 只覆盖事先声明的变更；PMS 只在事后发现；二者之间存�
 - Dayma et al. *PCCP Adoption and Documentation Transparency in FDA-cleared Radiology AI Devices.* Radiol Artif Intell 2026;8(5). https://pubs.rsna.org/doi/full/10.1148/ryai.260385 （= [B-48]）
 
 ### 9.7 LGD 自身系列（自引）
-- Zhao, X. *Lifecycle Governance Doctrine (LGD): Registry, Evidence, and Gates Across the Full Life of AI and Devices.* MedXpert × SynomosAI. v1.0, 2026-09-06. ORCID 0009-0001-0512-1237.
+- Zhao, X. *Lifecycle Governance Doctrine (LGD): Registry, Evidence, and Gates Across the Full Life of AI and Devices.* SynomosAI Governance Line. v1.0, 2026-09-06. ORCID 0009-0001-0512-1237.
 - Zhao, X. *医疗器械注册全程方法论 · LGD 域理论系列 #14 (TH-MED-002).* v1.0, 2026-09-06.
 - Zhao, X. *LGD Global Standards Alignment.* v1.0.
 
@@ -549,5 +549,5 @@ PCCP 只覆盖事先声明的变更；PMS 只在事后发现；二者之间存�
 
 ---
 
-© MedXpert × SynomosAI · CC BY 4.0 · 2026-09-13
+© SynomosAI Governance Line · CC BY 4.0 · 2026-09-13
 *本件为理论调研文档，非监管申报材料、非法律意见、非认证证书。法规条目为稳定公开名称，具体条款版本以监管官网原文为准。*
