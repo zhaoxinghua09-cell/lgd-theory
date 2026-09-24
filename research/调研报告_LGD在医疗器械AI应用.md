@@ -10,7 +10,7 @@ type: research
 ---
 # LGD 在医疗器械 AI 应用的全面调研报告
 
-> **作者署名**：赵兴华 / Steven Zhao·China（ORCID 0009-0001-0512-1237 ）
+> **作者署名**：Zhao Xinghua (Steven Zhao)（ORCID 0009-0001-0512-1237 ）
 > **品牌**：SynomosAI Governance Line
 > **版本**：v1.1（2026-09-13 撞车审查修订版）｜ **许可**：CC BY 4.0
 > **理论上游**：TH-META-006（LGD 母版 v1.0）｜ TH-MED-002（医械注册方法论 v1.0）
