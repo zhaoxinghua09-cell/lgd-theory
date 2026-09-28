@@ -10,6 +10,8 @@
   引用时请同时标注仓库名、原文链接 `https://github.com/zhaoxinghua09-cell/lgd-theory`
   与权利人「赵兴华 / Steven Zhao·China」。
 - **完整条款**：见仓库根目录 [LICENSE](LICENSE)。
+- **分层许可（2026-09-28 统一口径）**：本仓**理论文本与方法论 = 保留所有权利（ARR）**；机器可校验规范层（`uibc-core` 仓 `lgd-core/`：manifest schema + validator + 测试）中的**代码 = Apache-2.0**，以该仓 LICENSE 为准；公众号公开文章另行按 CC BY 4.0 署名发布。
+- **规范执行层指针**：三律的机器可校验规范（manifest schema + validator + 28 项测试）见 [`zhaoxinghua09-cell/uibc-core`](https://github.com/zhaoxinghua09-cell/uibc-core) 仓 `lgd-core/` 目录（本仓 = 理论总仓/上游，该目录 = 规范执行层/下游）。
 - **联系**：zhaoxinghua06@126.com ｜ ORCID 0009-0001-0512-1237
 - **品牌状态限定**：MedXpert、SynomosAI、LGD 等为相关项目标识，
   **均未申请实体注册、未申请商标注册**；出现仅作来源标识，
@@ -23,7 +25,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22456647.svg)](https://doi.org/10.5281/zenodo.22456647)
 [![Cite](https://img.shields.io/badge/Cite-BibTeX%20%7C%20APA-0b1e3a?logo=latex&logoColor=white)](CITE.md)
 [![TL;DR](https://img.shields.io/badge/TL%3BDR-2%20min-14b8a6)](TLDR.md)
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE)
+[![License: ARR custom](https://img.shields.io/badge/License-All_Rights_Reserved_(custom)-lightgrey.svg)](LICENSE)
 
 > **Start here** · 2-minute version: [`TLDR.md`](TLDR.md) (CN/EN) · How to cite: [`CITE.md`](CITE.md) · Full library: [`book/`](book/) (LGD-Library v1.1, EPUB/HTML) · Brand & badges: [`badge/EMBEDS.md`](badge/EMBEDS.md) · AI-crawler index: [`llms.txt`](llms.txt) · **Web home**: [GitHub Pages](https://zhaoxinghua09-cell.github.io/lgd-theory/)
 
@@ -80,7 +82,7 @@ LGD claims the missing dimension: governance is not a registration event nor a p
 lgd-theory/
 ├── README.md                 ← this file
 ├── llms.txt                  ← machine-readable index for AI crawlers
-├── LICENSE                   ← CC BY 4.0
+├── LICENSE                   ← custom, All Rights Reserved (theory texts)
 ├── CHANGELOG.md
 └── docs/
     ├── LGD-Lifecycle-Governance-Doctrine-v1.0.md   ← flagship paper (EN/CN)
@@ -116,7 +118,7 @@ LGD is a **civil-society framework, not legal or regulatory advice**; device-reg
 
 ---
 
-© XLGD · SynomosAI Governance Line · CC BY 4.0 · cite the author when sharing
+© XLGD · SynomosAI Governance Line · All Rights Reserved (theory texts; citation with attribution permitted — see LICENSE)
 
 <sub>XLGD — X distinction mark. [xlgd](https://github.com/zhaoxinghua09-cell/xlgd)</sub>
 
@@ -139,6 +141,7 @@ LGD is a **civil-society framework, not legal or regulatory advice**; device-reg
 
 ## Sibling repositories (theory stack)
 
+- **uibc-core / lgd-core** — machine-checkable spec of the three laws (manifest schema + validator + 28 tests; code Apache-2.0, theory texts ARR): <https://github.com/zhaoxinghua09-cell/uibc-core> (path `lgd-core/`)
 - **agent-skills** — 109 zero-dependency skills implementing the three laws: <https://github.com/zhaoxinghua09-cell/agent-skills>
 - **assayance** — Assayance / 试真法 (Falsifiable Assurance): <https://github.com/zhaoxinghua09-cell/assayance>
 - **silent-failure-catalog** — 14 documented silent failure modes: <https://github.com/zhaoxinghua09-cell/silent-failure-catalog>

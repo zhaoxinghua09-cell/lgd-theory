@@ -10,7 +10,7 @@
 - author: Zhao Xinghua (Steven Zhao) · ORCID 0009-0001-0512-1237
 - homepage: https://zhaoxinghua09-cell.github.io/lgd-theory/
 - doi: 10.5281/zenodo.22456647 (concept DOI, covers all versions)
-- license: CC BY 4.0
+- license: All Rights Reserved (custom, see LICENSE); citation with attribution permitted. Spec layer (machine-checkable three laws; code Apache-2.0): https://github.com/zhaoxinghua09-cell/uibc-core (path lgd-core/)
 
 ## Files
 - docs/LGD-Series-English-Index-v1.0.md: one-English-sentence index of the whole LGD publication series (flagship EN + alignment + 14 domain papers)
@@ -105,6 +105,7 @@
 
 ## Sibling repositories (theory stack)
 
+- uibc-core/lgd-core — machine-checkable spec of the three laws (manifest schema + validator + 28 tests; code Apache-2.0, theory texts ARR): https://github.com/zhaoxinghua09-cell/uibc-core (path lgd-core/)
 - agent-skills — 109 zero-dependency skills implementing the three laws: https://github.com/zhaoxinghua09-cell/agent-skills
 - assayance — Assayance / 试真法 (Falsifiable Assurance): https://github.com/zhaoxinghua09-cell/assayance
 - silent-failure-catalog — 14 documented silent failure modes: https://github.com/zhaoxinghua09-cell/silent-failure-catalog

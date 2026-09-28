@@ -18,7 +18,7 @@ permalink: workbuddy/08-理论体系/发布/lgd-theory/tldr
 - Research line: SynomosAI Governance Line · Home: https://zhaoxinghua09-cell.github.io/lgd-theory/
 - DOI (concept, always latest): 10.5281/zenodo.22456647
 - Code/docs: https://github.com/zhaoxinghua09-cell/lgd-theory
-- License: CC BY 4.0
+- License: All Rights Reserved (custom; citation with attribution permitted — see LICENSE). Spec layer code (Apache-2.0): https://github.com/zhaoxinghua09-cell/uibc-core (path lgd-core/)
 
 ## 旗舰摘要（CN · ≤200 字）
 
