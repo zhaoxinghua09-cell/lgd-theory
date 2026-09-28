@@ -11,6 +11,7 @@
   与权利人「赵兴华 / Steven Zhao·China」。
 - **完整条款**：见仓库根目录 [LICENSE](LICENSE)。
 - **分层许可（2026-09-28 统一口径）**：本仓**理论文本与方法论 = 保留所有权利（ARR）**；机器可校验规范层（`uibc-core` 仓 `lgd-core/`：manifest schema + validator + 测试）中的**代码 = Apache-2.0**，以该仓 LICENSE 为准；公众号公开文章另行按 CC BY 4.0 署名发布。
+- **Zenodo 存档许可沿革（2026-09-28 起）**：本仓 Zenodo 存档（concept DOI `10.5281/zenodo.22456647`）v1.5.0 及更早版本的元数据曾标注 CC BY 4.0——已发布快照不可变，按其原标注保留；**自 v1.6.0（version DOI `10.5281/zenodo.23019507`，2026-09-28）起新版存档不再授予任何许可（保留所有权利）**，显式声明见该版本描述区。
 - **规范执行层指针**：三律的机器可校验规范（manifest schema + validator + 28 项测试）见 [`zhaoxinghua09-cell/uibc-core`](https://github.com/zhaoxinghua09-cell/uibc-core) 仓 `lgd-core/` 目录（本仓 = 理论总仓/上游，该目录 = 规范执行层/下游）。
 - **联系**：zhaoxinghua06@126.com ｜ ORCID 0009-0001-0512-1237
 - **品牌状态限定**：MedXpert、SynomosAI、LGD 等为相关项目标识，
