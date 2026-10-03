@@ -23,12 +23,12 @@
     "NIST AI RMF",
     "EU AI Act"
   ],
-  "license": "CC-BY-4.0",
+  "license": "other-closed",
   "access_right": "open",
   "upload_type": "publication",
   "publication_type": "technicalnote",
   "language": "eng",
-  "version": "1.1.0",
+  "version": "1.6.0",
   "related_identifiers": [
     {
       "identifier": "https://github.com/zhaoxinghua09-cell/lgd-theory",

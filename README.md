@@ -54,7 +54,7 @@
 **Canonical naming**（统一口径 · 对外引用请照此）
 
 - 🇬🇧 **English formal term**: **Evidence-Gated AI Lifecycle Governance**
-- 🇨🇳 **唯一中文主权词**: **凡自治之物**（恒定搭配 **有籍 · 有证 · 有门禁**）
+- 🇨🇳 **核心中文主权词**: **凡自治之物**（恒定搭配 **有籍 · 有证 · 有门禁**）
 - 🔤 **缩写**: **LGD** ｜ **全称**: Lifecycle Governance Doctrine（全程治理论）
 - 📐 **对标口径**: 对齐 GB/Z 185—2026 系列与 ISO/IEC 42001 / NIST AI RMF / EU AI Act / IETF·CSA 方向 —— 本论提供**实现层（How）+ 医械域实例化 + 跨域母版**
 
@@ -96,7 +96,7 @@ lgd-theory/
 
 - **Flagship paper (v1.0, 2026-09)**: `docs/LGD-Lifecycle-Governance-Doctrine-v1.0.md` — full statement: abstract, three laws, medical-device reference model, "three checks" for putting any entity under LGD, honest boundaries.
 - **Meta-method & sister theories (`docs/theories/`, 2026-09-08)**:
-  - **RRM — Real-world Reference Method (TH-META-001)**: `docs/theories/RRM-Realworld-Reference-Method-v1.0.md` — the meta-method behind the whole series: for every AI capability gap, find a proven real-world mechanism and map it structurally (S ≅ M); with the prior-suspicion principle. Instantiated 6× (MAIT / SIDE / AFG / UBIC-Mem / BTSK / LDGF).
+  - **RRM — Real-world Reference Method (TH-META-001)**: `docs/theories/RRM-Realworld-Reference-Method-v1.0.md` — the meta-method behind the whole series: for every AI capability gap, find an established real-world mechanism and map it structurally (S ≅ M); with the prior-suspicion principle. Instantiated 6× (MAIT / SIDE / AFG / UBIC-Mem / BTSK / LDGF).
   - **MAIT — Memory-Anchor Identity Theory (TH-AIG-006)**: `docs/theories/MAIT-Memory-Anchor-Identity-v1.0.md` — AI identity anchored in memory continuity (vs. passport-only identity); mother template: real-world identity confirmation (registry + ID + memory continuity). JSON-LD speedpages: `docs/theories/MAIT-speedpage.html`, `docs/theories/RRM-speedpage.html`.
 - **Cross-domain governance angles (`TH-ANG`, 2026-09-10)** — the second blank axis: **angles** cut across *all* domains (retirement / memory / accountability / runtime / insurability), while **domains** cut across industries. Every descriptive English name collided at the theory layer (5/5), so all five use **LGD-coined terms** (theory-layer zero collision), with the descriptive name kept as a search-facing subtitle. Coined-term repos each carry definition + collision rationale + citation format:
 
@@ -113,7 +113,7 @@ lgd-theory/
 
 ## Suggested citation
 
-> Zhao, X. (2026). *Lifecycle Governance Doctrine (LGD): Registry, Evidence, and Gates Across the Full Life of AI and Devices.* SynomosAI Governance Line. v1.1.0. **DOI:** https://doi.org/10.5281/zenodo.22456647
+> Zhao, X. (2026). *Lifecycle Governance Doctrine (LGD): Registry, Evidence, and Gates Across the Full Life of AI and Devices.* SynomosAI Governance Line. v1.6.0. **DOI:** https://doi.org/10.5281/zenodo.22456647
 
 ## Honest boundaries
 
@@ -134,13 +134,6 @@ LGD is a **civil-society framework, not legal or regulatory advice**; device-reg
 - Citation pack: [`CITE.md`](CITE.md) · TL;DR: [`TLDR.md`](TLDR.md)
 - Machine-readable index for AI crawlers: [`llms.txt`](llms.txt)
 - Concept DOI: <https://doi.org/10.5281/zenodo.22456647> · ORCID: see [`CITE.md`](CITE.md)
-
-## Knowledge bases (Chinese · Zhihu, public)
-
-- 治理理论 · governance theory (this doctrine's home library): <https://zhida.zhihu.com/repositories/7685648966830716995>
-- AI 治理与 A³ 法则: <https://zhida.zhihu.com/repositories/7685783071642929696>
-- 检验与静默失败 · verification & silent failures: <https://zhida.zhihu.com/repositories/7687140878311277913>
-- AI Agent 技能库 · the skill set: <https://zhida.zhihu.com/repositories/7687141648483994426>
 
 ## Sibling repositories (theory stack)
 

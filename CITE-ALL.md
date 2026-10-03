@@ -1,6 +1,6 @@
 # 理论栈引用总页（CITE-ALL）
 
-> 版本 v1.0 · 2026-09-10 · **SynomosAI 理论栈唯一引用入口**——任何想引用我们的人，10 秒内找到标准格式
+> 版本 v1.0 · 2026-09-10 · **SynomosAI 理论栈统一引用入口**——任何想引用我们的人，10 秒内找到标准格式
 > 用途：GEO 铁律「引用越容易，站位越牢固」｜ 同步落 `lgd-theory` 仓根（`CITE-ALL.md`）
 > 理论栈结构以《19 号·理论族谱 DAG v1.1》为准（六层主链 + 两条横切维度 + 一张边界地图）
 > 版权 © SynomosAI Governance Line · CC BY 4.0
@@ -22,21 +22,21 @@
 | **C3** | **判定缺失层**（The Missing Layer of Determination） | `10.5281/zenodo.22669389` | P2 批判型论文 · EN |
 
 **APA 7**
-> Zhao, X. (2026). *Lifecycle governance doctrine (LGD): Registry, evidence, and gates across the full life of AI and devices* (v1.1.0). Zenodo. https://doi.org/10.5281/zenodo.22456647
+> Zhao, X. (2026). *Lifecycle governance doctrine (LGD): Registry, evidence, and gates across the full life of AI and devices* (v1.6.0). Zenodo. https://doi.org/10.5281/zenodo.22456647
 
 > SynomosAI Governance Line. (2026). *The governance impossibility map: A cartography of five impossibility domains in AI governance* [Working paper]. Zenodo. https://doi.org/10.5281/zenodo.22668958
 
 > SynomosAI Governance Line. (2026). *Principles will not save AI governance: The missing layer of determination—Evidence from the Chinese side* [Working paper]. Zenodo. https://doi.org/10.5281/zenodo.22669389
 
 **GB/T 7714-2015**
-> ZHAO XINGHUA. 全程治理论（LGD）：有籍·有证·有门禁: v1.1.0[EB/OL]. (2026-09-06)[引用日期]. https://doi.org/10.5281/zenodo.22456647.
+> ZHAO XINGHUA. 全程治理论（LGD）：有籍·有证·有门禁: v1.6.0[EB/OL]. (2026-09-06)[引用日期]. https://doi.org/10.5281/zenodo.22456647.
 
 > SYNOMOSAI GOVERNANCE LINE. The governance impossibility map: a cartography of five impossibility domains in AI governance[EB/OL]. (2026-09-09)[引用日期]. https://doi.org/10.5281/zenodo.22668958.
 
 **BibTeX**
 ```bibtex
 @misc{zhao2026lgd,
-  author = {Zhao, Xinghua}, title = {Lifecycle Governance Doctrine (LGD): Registry, Evidence, and Gates Across the Full Life of AI and Devices (v1.1.0)},
+  author = {Zhao, Xinghua}, title = {Lifecycle Governance Doctrine (LGD): Registry, Evidence, and Gates Across the Full Life of AI and Devices (v1.6.0)},
   year = {2026}, publisher = {Zenodo}, doi = {10.5281/zenodo.22456647},
   url = {https://github.com/zhaoxinghua09-cell/lgd-theory}, note = {SynomosAI Governance Line. CC BY 4.0.}
 }
@@ -169,7 +169,7 @@
 
 ### 维护纪律
 - **版本更新走 Zenodo「New version」**（同一 concept DOI 自动挂 vN），**勿新开记录**；
-- 新理论件登记 REGISTRY 后**同步本页**（本页 = 引用层唯一真源）；
+- 新理论件登记 REGISTRY 后**同步本页**（本页 = 引用层权威真源）；
 - 月度巡检 DOI stats（views/downloads/citations），异常引用由诺源口径处理：不评判、只记录；
 - 本页同步落 `lgd-theory` 仓根 `CITE-ALL.md` + 官网 GitHub Pages 引用页。
 
