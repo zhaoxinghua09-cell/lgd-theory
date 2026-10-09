@@ -28,8 +28,13 @@ authors:
 
 type: software
 
-license: CC-BY-4.0
-license-url: "https://creativecommons.org/licenses/by/4.0/"
+# 许可口径（2026-10-09 修正冲突）：
+#   v1.5.0 及更早版本的仓级许可曾是 CC BY 4.0（与 Zenodo 存档元数据一致，已发布
+#   快照按原标注保留、不可变）；自 v1.6.0 起本仓改为「保留所有权利（ARR，custom）」。
+#   本字段必须与 LICENSE 主文一致 —— lgd_gate_check 会机器强制这一点。
+#   分层许可详见 README「许可说明」：理论文本 = ARR；uibc-core 代码 = Apache-2.0。
+license: LicenseRef-AllRightsReserved
+license-url: "https://github.com/zhaoxinghua09-cell/lgd-theory/blob/main/LICENSE"
 
 repository-code: "https://github.com/zhaoxinghua09-cell/lgd-theory"
 url: "https://zhaoxinghua09-cell.github.io/lgd-theory/"

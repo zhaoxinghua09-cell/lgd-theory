@@ -15,11 +15,18 @@ Checks (check mode):
      echo-gate could never catch it.
   4. Relative markdown links in README.md / TLDR.md resolve inside the tree
      (anchors #, external http(s), mailto: are skipped; dir links need the dir).
+  5. License consistency: the license family declared in CITATION.cff (`license:`
+     field) must match the license family of LICENSE. This exact defect existed
+     for real (2026-10-09): LICENSE said All-Rights-Reserved while CITATION.cff
+     still declared CC-BY-4.0 — machine-readable metadata granted what the
+     human-readable license withheld. Historical released snapshots (<= v1.5.0,
+     CC BY 4.0) are immutable by design and are NOT touched; the gate enforces
+     the CURRENT tree only.
 
 Selftest mode: builds a known-good fixture (must PASS) and a known-broken
-fixture (missing LICENSE, stale version, dead link — each must FAIL). If the
-checker fails to reject the broken fixture, selftest exits non-zero: the gate
-has gone decorative again and the run must be red.
+fixture (missing LICENSE, stale version, dead link, license conflict — each
+must FAIL). If the checker fails to reject the broken fixture, selftest exits
+non-zero: the gate has gone decorative again and the run must be red.
 """
 
 from __future__ import annotations
@@ -146,12 +153,76 @@ def check_links(root: Path, rep: Report) -> None:
         rep.ok(f"all relative links resolve ({seen_live} checked in {', '.join(LINK_FILES)})")
 
 
+def license_family_from_text(text: str) -> str | None:
+    """Classify a LICENSE document into a comparable family, or None if unknown."""
+    t = text.lower()
+    if "all rights reserved" in t or "保留所有权利" in text:
+        return "arr"
+    if "apache license" in t or ("apache" in t and "2.0" in t):
+        return "apache-2.0"
+    if ("creative commons" in t and "attribution" in t) or "cc-by-4.0" in t or "cc by 4.0" in t:
+        return "cc-by-4.0"
+    if re.search(r"\bmit license\b", t):
+        return "mit"
+    return None
+
+
+def license_family_from_spdx(expr: str) -> str | None:
+    """Map a CITATION.cff `license:` SPDX expression to the same family space."""
+    s = expr.strip().strip('"').lower()
+    if "allrightsreserved" in s or "arr" in s.split("-"):
+        return "arr"
+    if "cc-by-4.0" in s or "cc-by-4" in s:
+        return "cc-by-4.0"
+    if "apache-2.0" in s:
+        return "apache-2.0"
+    if s == "mit" or "mit" in re.split(r"[\s()+&]", s):
+        return "mit"
+    return None
+
+
+def check_license_sync(root: Path, rep: Report) -> None:
+    lic = root / "LICENSE"
+    cff = root / "CITATION.cff"
+    if not (lic.is_file() and cff.is_file()):
+        rep.bad("license sync unverifiable (LICENSE/CITATION.cff missing)")
+        return
+    fam_lic = license_family_from_text(lic.read_text(encoding="utf-8"))
+    cff_text = cff.read_text(encoding="utf-8")
+    expr = cff_value(cff_text, "license")
+    if not expr:
+        rep.bad(
+            "CITATION.cff has no `license:` field — machine-readable metadata "
+            "must state the license (or its absence) explicitly"
+        )
+        return
+    fam_cff = license_family_from_spdx(expr)
+    if fam_lic is None:
+        rep.bad(
+            "LICENSE family unrecognized — add a recognizable marker "
+            "(All Rights Reserved / Apache 2.0 / MIT / Creative Commons Attribution)"
+        )
+        return
+    if fam_cff is None:
+        rep.bad(f"CITATION.cff license {expr!r} does not map to a known family")
+        return
+    if fam_lic == fam_cff:
+        rep.ok(f"license family consistent: {fam_lic} (LICENSE == CITATION.cff {expr})")
+    else:
+        rep.bad(
+            f"LICENSE METADATA CONFLICT: LICENSE says {fam_lic} but CITATION.cff "
+            f"declares {expr} ({fam_cff}) — machine metadata grants what the "
+            "license text may withhold"
+        )
+
+
 def run_checks(root: Path) -> Report:
     rep = Report()
     print(f"lgd-gate: checking {root}")
     check_required_files(root, rep)
     check_cff_keys(root, rep)
     check_version_sync(root, rep)
+    check_license_sync(root, rep)
     check_links(root, rep)
     print(f"lgd-gate: {len(rep.passed)} passed, {len(rep.failed)} failed")
     return rep
@@ -161,10 +232,10 @@ def run_checks(root: Path) -> Report:
 
 GOOD_FIXTURE: dict[str, str] = {
     "README.md": "# T\n\nSee [LICENSE](LICENSE) and [DETAILS](docs/details.md).\n",
-    "LICENSE": "MIT\n",
+    "LICENSE": "MIT License\n",
     "CITATION.cff": (
         'cff-version: 1.2.0\ntitle: "T"\nversion: "1.6.0"\n'
-        'date-released: "2026-09-28"\nauthors:\n  - family-names: Z\n'
+        'date-released: "2026-09-28"\nlicense: MIT\nauthors:\n  - family-names: Z\n'
     ),
     "CHANGELOG.md": "# Changelog\n\n## v1.6.0 — 2026-09-28\n- latest\n\n## v1.0 — old\n",
     "SECURITY.md": "s\n",
@@ -178,6 +249,18 @@ BROKEN_CASES = [
     ("stale CITATION version", {"CITATION.cff": GOOD_FIXTURE["CITATION.cff"].replace('"1.6.0"', '"1.1.0"')}, "version"),
     ("dead link", {"README.md": "# T\n\nSee [GONE](docs/gone.md).\n"}, "dead relative link"),
     ("missing CHANGELOG", {"CHANGELOG.md": None}, "required file"),
+    # the real 2026-10-09 defect: machine metadata grants CC-BY-4.0 while the
+    # license text reserves all rights
+    (
+        "license metadata conflict",
+        {"CITATION.cff": GOOD_FIXTURE["CITATION.cff"].replace("license: MIT", "license: CC-BY-4.0")},
+        "LICENSE METADATA CONFLICT",
+    ),
+    (
+        "license field dropped from CITATION",
+        {"CITATION.cff": GOOD_FIXTURE["CITATION.cff"].replace("license: MIT\n", "")},
+        "no `license:` field",
+    ),
 ]
 
 
