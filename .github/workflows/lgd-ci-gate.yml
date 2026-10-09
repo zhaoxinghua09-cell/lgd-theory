@@ -1,7 +1,14 @@
 # L0 · lgd-ci-gate —— 机器强制合并门禁（solo-mode A³ 第二审稿人）
 # 阻塞式 required status check：任何 PR 合并前，本工作流必须跑出绿勾。
-# 设计：trivial-pass 不自杀锁；security-scan 为非阻塞告警（不阻合并）。
-# 零外部 action 依赖：不引用 actions/checkout，兼容组织级 "selected actions + SHA pinning" 策略。
+#
+# v2（2026-10-09）：占位检查（echo×3 + exit 0）替换为可失败的真检查。
+#   旧版只证明「CI 跑过」，不证明「检查存在」——绿勾永不失败，抓不住任何缺陷
+#   （实证：CITATION.cff 停在 1.1.0 而 CHANGELOG 已到 v1.6.0，旧门永远绿）。
+#   新版三步：① selftest 负对照——每次运行自证「门能失败」；② 真检查——
+#   必备文件 / CITATION 键完整性 / CITATION↔CHANGELOG 版本同步 / 相对链接可解析；
+#   ③ secret-scan 原样保留（诚实声明的非阻塞辅助，主防线是原生 secret scanning）。
+# 零外部 action 依赖：不引用 actions/checkout，用 tarball API 取源（兼容组织级
+# "selected actions + SHA pinning" 策略）。
 name: lgd-ci-gate
 on:
   pull_request:
@@ -16,12 +23,22 @@ jobs:
     permissions:
       contents: read
     steps:
-      - name: Merge gate (machine-enforced, single-account solo-mode A³)
+      - name: "Fetch source tarball (no actions/checkout, org SHA-pinning policy)"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+          SHA: ${{ github.sha }}
         run: |
-          echo "lgd-ci-gate: machine-enforced merge gate."
-          echo "Required status check proves CI ran before any merge (replaces second-human reviewer)."
-          echo "Org-wide CODEOWNERS/SECURITY.md provided via .github default."
-          exit 0
+          curl -sSL --fail -H "Authorization: Bearer $GH_TOKEN" \
+            "$GITHUB_API_URL/repos/$REPO/tarball/$SHA" -o /tmp/src.tgz
+          mkdir -p /tmp/src && tar -xzf /tmp/src.tgz -C /tmp/src --strip-components=1
+          echo "source tree ready: $(find /tmp/src -type f | wc -l) files"
+
+      - name: Selftest — prove the gate can fail (negative control)
+        run: python3 /tmp/src/tools/lgd_gate_check.py selftest
+
+      - name: Real checks (files / citation keys / version sync / links)
+        run: python3 /tmp/src/tools/lgd_gate_check.py check --root /tmp/src
 
   secret-scan:
     name: secret-scan (non-blocking)
