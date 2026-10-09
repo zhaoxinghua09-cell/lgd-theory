@@ -1,5 +1,22 @@
 # Changelog
 
+## [Unreleased]
+- **Fixed — license metadata (machine-readable).** `CITATION.cff` had drifted from
+  `LICENSE`: the human-readable license reserves all rights (ARR, since v1.6.0)
+  while the machine-readable `CITATION.cff` still granted `CC-BY-4.0`. First fix
+  replaced it with `license: LicenseRef-AllRightsReserved`, but independent
+  review showed that value is **not** in the CFF 1.2.0 `license` enum (a strict
+  list of ~459 SPDX ids) — so the file was semantically contradictory *and*
+  schema-invalid. Corrected by **omitting `license:`** and declaring the license
+  via `license-url:` (the CFF-sanctioned fallback when the license is not an
+  SPDX id).
+- **Added — `tools/lgd_gate_check.py` hardened.** New checks: license-family
+  consistency with an offline CFF-enum validation, "newest = max heading"
+  changelog parsing (code-fence aware, spacing-tolerant), and link resolution
+  that rejects `..` escapes at any depth and enforces exact case. Selftest grew
+  to **18 negative controls + 3 positive controls**. (See PR #7 for the six
+  red-team bypass classes closed in the previous hardening pass.)
+
 ## v1.6.0 — 2026-09-28
 - Current published version (Zenodo record 23019507; concept DOI `10.5281/zenodo.22456647` unchanged, auto-points to latest).
 - Licensing aligned to **All Rights Reserved** (theory texts); matches the layered-licensing stance (code `uibc-core/lgd-core/` remains Apache-2.0). This is consistent with the published v1.6.0 Zenodo record (license "Other (closed)").
