@@ -76,16 +76,46 @@ def norm_ver(v: str) -> str:
 
 
 def cff_value(text: str, key: str) -> str | None:
-    m = re.search(rf"^{re.escape(key)}\s*:\s*(.+)$", text, re.M)
+    m = re.search(rf"^{re.escape(key)}\s*:\s*(.*)$", text, re.M)
     return m.group(1).strip() if m else None
 
 
+def cff_value_status(text: str, key: str) -> tuple[str | None, str]:
+    """Return (value, status) with status in {'missing','empty','ok'}.
+
+    An inline empty value (`version: ""`) is 'empty' (a failure), while a YAML
+    block scalar (value on following indented lines, e.g. `authors:`) is 'ok'.
+    """
+    m = re.search(rf"^{re.escape(key)}\s*:(.*)$", text, re.M)
+    if not m:
+        return None, "missing"
+    inline = m.group(1).strip()
+    if inline and inline not in ('""', "''"):
+        return inline, "ok"
+    for line in text[m.end():].splitlines():
+        if not line.strip():
+            continue
+        if line[:1] in (" ", "\t"):
+            return "<block>", "ok"
+        break
+    return inline, "empty"
+
+
+def _ver_key(v: str) -> tuple:
+    try:
+        return tuple(int(x) for x in norm_ver(v).split("."))
+    except ValueError:
+        return (0,)
+
+
 def changelog_newest(text: str) -> str | None:
+    """The MAXIMUM released version heading (not merely the first one)."""
+    vers: list[str] = []
     for line in text.splitlines():
-        m = re.match(r"^##\s+v?(\d+\.\d+(?:\.\d+)?)", line)
+        m = re.match(r"^##\s+\[?\s*[vV]?(\d+\.\d+(?:\.\d+)?)\s*\]?", line)
         if m:
-            return norm_ver(m.group(1))
-    return None
+            vers.append(norm_ver(m.group(1)))
+    return max(vers, key=_ver_key) if vers else None
 
 
 def check_required_files(root: Path, rep: Report) -> None:
@@ -104,8 +134,11 @@ def check_cff_keys(root: Path, rep: Report) -> None:
         return
     text = cff.read_text(encoding="utf-8")
     for key in CFF_REQUIRED_KEYS:
-        if cff_value(text, key) or re.search(rf"^{re.escape(key)}\s*:", text, re.M):
-            rep.ok(f"CITATION.cff has {key}")
+        _val, status = cff_value_status(text, key)
+        if status == "ok":
+            rep.ok(f"CITATION.cff has non-empty {key}")
+        elif status == "empty":
+            rep.bad(f"CITATION.cff key is empty: {key}")
         else:
             rep.bad(f"CITATION.cff missing key: {key}")
 
@@ -130,27 +163,66 @@ def check_version_sync(root: Path, rep: Report) -> None:
         )
 
 
+def _inline_targets(text: str) -> list[str]:
+    """Destinations of inline links `]( … )`.
+
+    Tolerates a `<...>` wrapped destination (may contain spaces) and an optional
+    `"title"` / `'title'` / `(title)` suffix; a bare destination containing
+    spaces is kept whole rather than dropped.
+    """
+    out: list[str] = []
+    for m in re.finditer(r"\]\(", text):
+        start = m.end()
+        end = text.find(")", start)
+        if end == -1:
+            continue
+        inner = text[start:end].strip()
+        if inner.startswith("<"):
+            close = inner.find(">")
+            if close != -1:
+                out.append(inner[1:close].strip())
+                continue
+        titled = re.match(r"(\S+)(?:\s+[\"'(].*[\"')])?$", inner)
+        out.append(titled.group(1) if titled else inner)
+    return out
+
+
+def _reference_targets(text: str) -> list[str]:
+    """Destinations of reference-style definitions `[label]: url`."""
+    return [m.group(1) for m in re.finditer(r"^\s*\[[^\]]+\]:\s*(\S+)", text, re.M)]
+
+
 def check_links(root: Path, rep: Report) -> None:
-    pat = re.compile(r"\]\(([^)\s]+)\)")
+    root_res = root.resolve()
     seen_dead = 0
     seen_live = 0
+    checked: list[str] = []
     for rel in LINK_FILES:
         f = root / rel
         if not f.is_file():
             continue
-        for target in pat.findall(f.read_text(encoding="utf-8")):
+        checked.append(rel)
+        text = f.read_text(encoding="utf-8")
+        for target in _inline_targets(text) + _reference_targets(text):
             if target.startswith(("#", "http://", "https://", "mailto:")):
                 continue
-            path_part = target.split("#", 1)[0].split("?", 1)[0]
+            path_part = target.split("#", 1)[0].split("?", 1)[0].strip()
             if not path_part:
                 continue
-            if (root / path_part).exists():
+            resolved = (root / path_part).resolve()
+            try:
+                resolved.relative_to(root_res)
+            except ValueError:
+                seen_dead += 1
+                rep.bad(f"{rel}: relative link escapes the tree -> {target}")
+                continue
+            if resolved.exists():
                 seen_live += 1
             else:
                 seen_dead += 1
                 rep.bad(f"{rel}: dead relative link -> {target}")
     if seen_dead == 0:
-        rep.ok(f"all relative links resolve ({seen_live} checked in {', '.join(LINK_FILES)})")
+        rep.ok(f"all relative links resolve ({seen_live} checked in {', '.join(checked) or 'n/a'})")
 
 
 def license_family_from_text(text: str) -> str | None:
@@ -231,7 +303,9 @@ def run_checks(root: Path) -> Report:
 # ---------------------------------------------------------------- selftest --
 
 GOOD_FIXTURE: dict[str, str] = {
-    "README.md": "# T\n\nSee [LICENSE](LICENSE) and [DETAILS](docs/details.md).\n",
+    "README.md": ("# T\n\nSee [LICENSE](LICENSE), [DETAILS](docs/details.md), "
+                  "[TITLED](docs/details.md \"t\"), [REF][ref] and "
+                  "[WRAPPED](<docs/details.md>).\n\n[ref]: docs/details.md\n"),
     "LICENSE": "MIT License\n",
     "CITATION.cff": (
         'cff-version: 1.2.0\ntitle: "T"\nversion: "1.6.0"\n'
@@ -261,6 +335,21 @@ BROKEN_CASES = [
         {"CITATION.cff": GOOD_FIXTURE["CITATION.cff"].replace("license: MIT\n", "")},
         "no `license:` field",
     ),
+    # --- B1..B6: six bypass classes found by an independent red-team seat ---
+    ("B1 dead link whose path contains spaces",
+     {"README.md": "# T\n\nSee [GONE](docs/gone file.md).\n"}, "dead relative link"),
+    ("B2 dead link with a title suffix",
+     {"README.md": "# T\n\nSee [GONE](docs/gone.md \"T\").\n"}, "dead relative link"),
+    ("B3 dead reference-style link",
+     {"README.md": "# T\n\nSee [GONE][g].\n\n[g]: docs/gone.md\n"}, "dead relative link"),
+    ("B4 link escapes the tree via ..",
+     {"README.md": "# T\n\nSee [OUT](../outside.md).\n"}, "escapes the tree"),
+    ("B5 newer CHANGELOG heading lower down",
+     {"CHANGELOG.md": "# Changelog\n\n## v1.6.0 — old\n\n## v9.9.9 — future\n"},
+     "newest 9.9.9"),
+    ("B6 empty CITATION value",
+     {"CITATION.cff": GOOD_FIXTURE["CITATION.cff"].replace('"1.6.0"', '""')},
+     "is empty"),
 ]
 
 
