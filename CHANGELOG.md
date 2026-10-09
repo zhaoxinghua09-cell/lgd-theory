@@ -1,5 +1,9 @@
 # Changelog
 
+## v9.9.9 — R1 negative control (auto-removed after test)
+
+- Deliberate version-desync entry to prove lgd-ci-gate can fail. Reverted after test.
+
 ## [Unreleased]
 - **Fixed — license metadata (machine-readable).** `CITATION.cff` had drifted from
   `LICENSE`: the human-readable license reserves all rights (ARR, since v1.6.0)
