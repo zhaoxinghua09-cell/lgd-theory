@@ -142,3 +142,9 @@ LGD is a **civil-society framework, not legal or regulatory advice**; device-reg
 - **assayance** — Assayance / 试真法 (Falsifiable Assurance): <https://github.com/zhaoxinghua09-cell/assayance>
 - **silent-failure-catalog** — 14 documented silent failure modes: <https://github.com/zhaoxinghua09-cell/silent-failure-catalog>
 - **xlgd** — the `X` distinction mark: <https://github.com/zhaoxinghua09-cell/xlgd>
+
+## Permanent Archive / 永久存档
+
+[![Software Heritage](https://archive.softwareheritage.org/badge/origin/save/https://github.com/zhaoxinghua09-cell/lgd-theory/)](https://archive.softwareheritage.org/browse/origin/?origin_url=https%3A%2F%2Fgithub.com%2Fzhaoxinghua09-cell%2Flgd-theory%2F)
+
+- **Software Heritage Visit ID**: `2558384` — 本仓已由 Software Heritage 永久存档（不可篡改证据），为该生态资产的长期可引用性提供基础设施级保证。

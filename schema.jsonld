@@ -1,25 +1,23 @@
 {
   "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "ScholarlyArticle",
-      "headline": "Lifecycle Governance Doctrine (LGD): Registry, Evidence, and Gates Across the Full Life of AI and Devices",
-      "author": {
-        "@type": "Person",
-        "name": "Zhao Xinghua (Steven Zhao)",
-        "identifier": "https://orcid.org/0009-0001-0512-1237"
-      },
-      "datePublished": "2026-09-06",
-      "version": "1.1.0",
-      "license": "https://github.com/zhaoxinghua09-cell/lgd-theory/blob/main/LICENSE",
-      "sameAs": [
-        "https://doi.org/10.5281/zenodo.22456647",
-        "https://orcid.org/0009-0001-0512-1237"
-      ],
-      "url": "https://zhaoxinghua09-cell.github.io/lgd-theory/",
-      "codeRepository": "https://github.com/zhaoxinghua09-cell/lgd-theory",
-      "alternateName": "Evidence-Gated AI Lifecycle Governance",
-      "keywords": "Evidence-Gated AI Lifecycle Governance, lifecycle governance, AI governance, registry, evidence, gates, 全程治理论, 凡自治之物, 有籍, 有证, 有门禁, medical device regulation, autonomous systems, GB/Z 185-2026"
-    }
+  "@type": "CreativeWork",
+  "name": "LGD — Lifecycle Governance Doctrine (全程治理论)",
+  "alternateName": [
+    "Evidence-Gated AI Lifecycle Governance",
+    "凡自治之物"
+  ],
+  "url": "https://github.com/zhaoxinghua09-cell/lgd-theory",
+  "author": {
+    "@type": "Person",
+    "name": "Zhao Xinghua (Steven Zhao)",
+    "identifier": "https://orcid.org/0009-0001-0512-1237"
+  },
+  "publisher": "SynomosAI Governance Line",
+  "description": "Implementation-layer (How) doctrine for autonomous systems: Register, Verify, Gate (有籍·有证·有门禁).",
+  "keywords": [
+    "LGD",
+    "agent governance",
+    "AI lifecycle",
+    "AI skills"
   ]
 }
