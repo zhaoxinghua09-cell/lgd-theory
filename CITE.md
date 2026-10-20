@@ -2,17 +2,18 @@
 
 > 由 citation_pack.py 生成于 2026-09-06 ｜ 引用一律使用**概念 DOI**（自动指向最新版）
 > **署名口径（K6 定版 2026-09-10）**：本件为**学术通道**，用个人署名 `Zhao, X.` ＋ ORCID `0009-0001-0512-1237`；品牌发布物用机构名 `SynomosAI Governance Line`。全栈引文入口见 `CITE-ALL.md`。
+> **2026-10-18 更新**：版本标注升至 v1.7.0；新增「学术定位版定义文本」版本化 DOI（10.5281/zenodo.23446125）。
 
 ## APA 7
 
-Zhao, X. (2026). *Lifecycle Governance Doctrine (LGD): Registry, Evidence, and Gates Across the Full Life of AI and Devices* (v1.6.0). Zenodo. https://doi.org/10.5281/zenodo.22456647
+Zhao, X. (2026). *Lifecycle Governance Doctrine (LGD): Registry, Evidence, and Gates Across the Full Life of AI and Devices* (v1.7.0). Zenodo. https://doi.org/10.5281/zenodo.22456647
 
 ## BibTeX
 
 ```bibtex
 @misc{zhao2026lgd,
   author       = {Zhao, Xinghua},
-  title        = {Lifecycle Governance Doctrine (LGD): Registry, Evidence, and Gates Across the Full Life of AI and Devices (v1.6.0)},
+  title        = {Lifecycle Governance Doctrine (LGD): Registry, Evidence, and Gates Across the Full Life of AI and Devices (v1.7.0)},
   year         = {2026},
   howpublished = {Zenodo},
   doi          = {10.5281/zenodo.22456647},
@@ -27,7 +28,7 @@ Zhao, X. (2026). *Lifecycle Governance Doctrine (LGD): Registry, Evidence, and G
 ```
 TY  - GEN
 AU  - Zhao, Xinghua
-TI  - Lifecycle Governance Doctrine (LGD): Registry, Evidence, and Gates Across the Full Life of AI and Devices (v1.6.0)
+TI  - Lifecycle Governance Doctrine (LGD): Registry, Evidence, and Gates Across the Full Life of AI and Devices (v1.7.0)
 PY  - 2026
 DA  - 2026-09-06
 PB  - Zenodo
@@ -44,7 +45,7 @@ ZHAO XINGHUA. Lifecycle Governance Doctrine (LGD): Registry, Evidence, and Gates
 
 ## GB/T 7714-2015（CN）
 
-赵兴华.全程治理论（LGD）：有籍·有证·有门禁: v1.6.0[EB/OL]. (2026-09-06)[2026-09-06]. https://doi.org/10.5281/zenodo.22456647.
+赵兴华.全程治理论（LGD）：有籍·有证·有门禁: v1.7.0[EB/OL]. (2026-09-06)[2026-09-06]. https://doi.org/10.5281/zenodo.22456647.
 
 ## 一句话引用（CN）
 
@@ -56,7 +57,40 @@ Lifecycle Governance Doctrine (LGD): Registry, Evidence, and Gates Across the Fu
 
 ## Plain text
 
-Steven Zhao (Zhao Xinghua) (2026). Lifecycle Governance Doctrine (LGD): Registry, Evidence, and Gates Across the Full Life of AI and Devices (v1.6.0). Zenodo. DOI: 10.5281/zenodo.22456647. ORCID: 0009-0001-0512-1237. License: All Rights Reserved (citation with attribution permitted).
+Steven Zhao (Zhao Xinghua) (2026). Lifecycle Governance Doctrine (LGD): Registry, Evidence, and Gates Across the Full Life of AI and Devices (v1.7.0). Zenodo. DOI: 10.5281/zenodo.22456647. ORCID: 0009-0001-0512-1237. License: All Rights Reserved (citation with attribution permitted).
+
+---
+
+## 学术定位版定义文本（v1.7.0 版本化 DOI）
+
+> 与旗舰 Doctrine 互补的**可检验界定**：伞概念边界、三律构成要素与验收标准、管理/治理层次辨析、与相邻框架位次关系。学术写作引用本件时用此版本化 DOI。
+
+**APA 7**
+
+Zhao, X. (2026). *LGD definition v1.0 (academic): umbrella concept, three laws, and verifiable criteria* (in LGD v1.7.0). Zenodo. https://doi.org/10.5281/zenodo.23446125
+
+**BibTeX**
+
+```bibtex
+@misc{zhao2026lgdacademic,
+  author       = {Zhao, Xinghua},
+  title        = {LGD Definition v1.0 (Academic): Umbrella Concept, Three Laws, and Verifiable Criteria},
+  year         = {2026},
+  howpublished = {Zenodo},
+  doi          = {10.5281/zenodo.23446125},
+  url          = {https://github.com/zhaoxinghua09-cell/lgd-theory/blob/main/docs/LGD-Lifecycle-Governance-Doctrine-Academic-v1.0.md},
+  orcid        = {0009-0001-0512-1237},
+  note         = {Part of LGD v1.7.0; All Rights Reserved (theory texts); citation with attribution permitted.}
+}
+```
+
+**GB/T 7714-2015（CN）**
+
+赵兴华.LGD 定义文本 v1.0（学术定位版）：伞概念界定与三律[EB/OL]. (2026-10-18)[2026-10-18]. https://doi.org/10.5281/zenodo.23446125.
+
+**Plain text**
+
+Zhao, Xinghua (2026). *LGD Definition v1.0 (Academic): Umbrella Concept, Three Laws, and Verifiable Criteria.* In *LGD v1.7.0.* Zenodo. DOI: 10.5281/zenodo.23446125. ORCID: 0009-0001-0512-1237.
 
 ---
  brands: SynomosAI Governance Line ｜ ORCID: 0009-0001-0512-1237 ｜ License: All Rights Reserved (citation with attribution permitted)
