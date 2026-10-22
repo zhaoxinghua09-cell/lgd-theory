@@ -204,4 +204,4 @@ Assurability 明确**不解决**以下事项：
 
 ---
 
-© SynomosAI Governance Line · 跨域治理角度 #5 · 民间理论发布物，非保险建议、非法律意见。
+© 2026 赵兴华 / Xinghua Zhao（ORCID 0009-0001-0512-1237）｜来源标识：LGD / SynomosAI Governance Line · 跨域治理角度 #5 · 民间理论发布物，非保险建议、非法律意见。

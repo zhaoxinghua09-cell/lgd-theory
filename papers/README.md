@@ -2,7 +2,7 @@
 
 > SynomosAI Governance Line · 论文矩阵公开工作稿入口
 > 状态：working papers（工作稿，未提交期刊/预印本仓库；SSRN/期刊投稿进行中）
-> 版权 © SynomosAI Governance Line（2026）。AS IS。所引第三方定理归其各自权利人所有。
+> 版权 © 2026 赵兴华 / Xinghua Zhao（ORCID 0009-0001-0512-1237）｜来源标识：LGD / SynomosAI Governance Line（2026）。AS IS。所引第三方定理归其各自权利人所有。
 
 ---
 

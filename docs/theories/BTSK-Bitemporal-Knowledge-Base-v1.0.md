@@ -70,4 +70,4 @@ status: 发布版
 - v1.0 · 2026-09-08 · 独立成文发布版（速查页同期）
 - TID：TH-MED-003 · 引用建议：`SynomosAI Governance Line, "BTSK: Bitemporal Knowledge Base for Governed AI", v1.0, 2026.`
 
-© SynomosAI Governance Line · CC BY 4.0 · 转载请署名
+© 2026 赵兴华 / Xinghua Zhao（ORCID 0009-0001-0512-1237）｜来源标识：LGD / SynomosAI Governance Line · CC BY 4.0 · 转载请署名

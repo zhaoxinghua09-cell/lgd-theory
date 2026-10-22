@@ -37,4 +37,4 @@ L3 已拿到准入许可、L4 进入试点——监管已覆盖"准入测试""�
 
 ---
 
-© SynomosAI Governance Line · LGD 域理论系列 #6 · CC BY 4.0
+© 2026 赵兴华 / Xinghua Zhao（ORCID 0009-0001-0512-1237）｜来源标识：LGD / SynomosAI Governance Line · LGD 域理论系列 #6 · CC BY 4.0

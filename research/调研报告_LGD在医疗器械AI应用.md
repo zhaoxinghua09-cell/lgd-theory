@@ -549,5 +549,5 @@ PCCP 只覆盖事先声明的变更；PMS 只在事后发现；二者之间存�
 
 ---
 
-© SynomosAI Governance Line · CC BY 4.0 · 2026-09-13
+© 2026 赵兴华 / Xinghua Zhao（ORCID 0009-0001-0512-1237）｜来源标识：LGD / SynomosAI Governance Line · CC BY 4.0 · 2026-09-13
 *本件为理论调研文档，非监管申报材料、非法律意见、非认证证书。法规条目为稳定公开名称，具体条款版本以监管官网原文为准。*

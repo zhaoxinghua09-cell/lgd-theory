@@ -32,4 +32,4 @@
 - 工具（后置）：样本/数据登记清单（复用 DAT 目录体检）、伦理审查与知情同意留痕检查、复核清单自动比对。
 
 ---
-© SynomosAI Governance Line · LGD 域理论系列 #12 · CC BY 4.0
+© 2026 赵兴华 / Xinghua Zhao（ORCID 0009-0001-0512-1237）｜来源标识：LGD / SynomosAI Governance Line · LGD 域理论系列 #12 · CC BY 4.0

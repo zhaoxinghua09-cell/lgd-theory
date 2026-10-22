@@ -30,4 +30,4 @@
 - 本域增量中等，价值在把"网络安全+功能安全"整合为产线 AI 的全程视图；工具（后置）：OT 资产与变更登记清单、联网放行门禁检查。
 
 ---
-© SynomosAI Governance Line · LGD 域理论系列 #10 · CC BY 4.0
+© 2026 赵兴华 / Xinghua Zhao（ORCID 0009-0001-0512-1237）｜来源标识：LGD / SynomosAI Governance Line · LGD 域理论系列 #10 · CC BY 4.0

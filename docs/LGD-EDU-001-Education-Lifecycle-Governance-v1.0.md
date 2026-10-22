@@ -31,4 +31,4 @@ AI 教育应用（个性化学习、智能批改、AI 助教、过程性评价�
 - 工具（后置）：AI 教育应用登记卡、评测过程证据体检、证书发放门禁清单。
 
 ---
-© SynomosAI Governance Line · LGD 域理论系列 #13 · CC BY 4.0
+© 2026 赵兴华 / Xinghua Zhao（ORCID 0009-0001-0512-1237）｜来源标识：LGD / SynomosAI Governance Line · LGD 域理论系列 #13 · CC BY 4.0

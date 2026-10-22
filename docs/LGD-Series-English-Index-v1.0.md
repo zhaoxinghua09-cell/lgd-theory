@@ -30,4 +30,4 @@
 ## How to cite
 > Zhao, X. (2026). *The Lifecycle Governance Doctrine (LGD)* [Preprint]. SynomosAI Governance Line. DOI: https://doi.org/10.5281/zenodo.22456647
 
-© SynomosAI Governance Line · CC BY 4.0
+© 2026 赵兴华 / Xinghua Zhao（ORCID 0009-0001-0512-1237）｜来源标识：LGD / SynomosAI Governance Line · CC BY 4.0

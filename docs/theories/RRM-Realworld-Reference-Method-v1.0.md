@@ -186,7 +186,7 @@ AI 治理的缺口，不在"能不能生成"，而在"生成物能否锚回真�
 
 ---
 
-© SynomosAI Governance Line · CC BY 4.0
+© 2026 赵兴华 / Xinghua Zhao（ORCID 0009-0001-0512-1237）｜来源标识：LGD / SynomosAI Governance Line · CC BY 4.0
 
 ---
 
@@ -329,4 +329,4 @@ The gap in AI governance is not "can it generate," but "can its output anchor ba
 2. 找不到 M → 强制标注"无参照·未验证"（去伪红线，可写入发布闸门）
 3. 找到 M → 用 **方法生成器**做同构映射 S ≅ M，产出领域件
 
-© SynomosAI Governance Line · 已落地 lgd-theory/docs · CC BY 4.0
+© 2026 赵兴华 / Xinghua Zhao（ORCID 0009-0001-0512-1237）｜来源标识：LGD / SynomosAI Governance Line · 已落地 lgd-theory/docs · CC BY 4.0

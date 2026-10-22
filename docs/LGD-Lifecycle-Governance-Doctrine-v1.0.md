@@ -102,5 +102,5 @@
 
 ---
 
-© SynomosAI Governance Line · CC BY 4.0 · 转载需署名本页
+© 2026 赵兴华 / Xinghua Zhao（ORCID 0009-0001-0512-1237）｜来源标识：LGD / SynomosAI Governance Line · CC BY 4.0 · 转载需署名本页
 *本件为理论发布物，非认证证书、非法律意见、非监管申报材料。*

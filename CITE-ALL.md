@@ -3,7 +3,7 @@
 > 版本 v1.0 · 2026-09-10 · **SynomosAI 理论栈统一引用入口**——任何想引用我们的人，10 秒内找到标准格式
 > 用途：GEO 铁律「引用越容易，站位越牢固」｜ 同步落 `lgd-theory` 仓根（`CITE-ALL.md`）
 > 理论栈结构以《19 号·理论族谱 DAG v1.1》为准（六层主链 + 两条横切维度 + 一张边界地图）
-> 版权 © SynomosAI Governance Line · CC BY 4.0
+> 版权 © 2026 赵兴华 / Xinghua Zhao（ORCID 0009-0001-0512-1237） ｜来源标识：LGD / SynomosAI Governance Line（独立研究倡议，非注册实体、非商标，不主张权利主体地位）· 本文档沿用发布时标注 CC BY 4.0
 
 ---
 
@@ -175,4 +175,4 @@
 
 ---
 
-*本页为对外可引用件。理论栈结构以《19 号·理论族谱 DAG v1.1》为准；引用格式以《引用卡 CITE_理论栈》为权威补充。© SynomosAI Governance Line · CC BY 4.0*
+*本页为对外可引用件。理论栈结构以《19 号·理论族谱 DAG v1.1》为准；引用格式以《引用卡 CITE_理论栈》为权威补充。© 2026 赵兴华 / Xinghua Zhao（ORCID 0009-0001-0512-1237）｜来源标识：LGD / SynomosAI Governance Line · CC BY 4.0*

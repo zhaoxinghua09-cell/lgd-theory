@@ -52,4 +52,4 @@ The Lifecycle Governance Doctrine (LGD) holds that governance of any autonomous 
 - 引用：见 CITE_lgd-theory.md（APA/BibTeX/RIS/GB 7714/一句话引用，五格式）
 
 ---
-© SynomosAI Governance Line · 对外可用（本文件本身即为宣传物料，去敏已自查）
+© 2026 赵兴华 / Xinghua Zhao（ORCID 0009-0001-0512-1237）｜来源标识：LGD / SynomosAI Governance Line · 对外可用（本文件本身即为宣传物料，去敏已自查）
