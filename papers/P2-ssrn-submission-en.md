@@ -71,4 +71,4 @@ Jobin, Ienca & Vayena (2019) *Nature Machine Intelligence*; Mittelstadt (2019) *
 
 ---
 
-© 2026 SynomosAI Governance Line. This working paper is provided "AS IS" without warranty of any kind. Third-party laws, standards and theorems are cited for scholarship; official texts prevail. Not legal advice.
+© 2026 Xinghua Zhao (ORCID 0009-0001-0512-1237). Source label: LGD / SynomosAI Governance Line — an independent research initiative, not a registered entity and not a trademark. This working paper is provided "AS IS" without warranty of any kind. Third-party laws, standards and theorems are cited for scholarship; official texts prevail. Not legal advice.

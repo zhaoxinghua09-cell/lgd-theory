@@ -2,7 +2,7 @@
 
 > 徽记名：**三律之盾**（Shield of Three Laws）｜英文名：**LGD-aligned Badge**
 > 母本：LGD 项目号头像「三律之盾」系统化（2026-09-06 Steven 认可）
-> 版权：徽记图形 © SynomosAI Governance Line 2026，保留所有权利；理论文本 CC BY 4.0（DOI 10.5281/zenodo.22456647）
+> 版权：徽记图形 © 2026 赵兴华 / Xinghua Zhao（ORCID 0009-0001-0512-1237），保留所有权利；来源标识 LGD / SynomosAI Governance Line（非实体、非商标）；理论文本沿用发布时标注 CC BY 4.0（DOI 10.5281/zenodo.22456647）
 
 ## 一、这个符号是什么
 
@@ -43,4 +43,4 @@
 - 徽记图形将随「全程治理论」「算法护照」一并纳入商标 / 美术作品著作权登记计划（见 06 号评估文）
 
 ---
-© SynomosAI Governance Line · 徽章程序 v1.0 · 2026-09-06
+© 2026 赵兴华 / Xinghua Zhao · 徽章程序 v1.0 · 2026-09-06

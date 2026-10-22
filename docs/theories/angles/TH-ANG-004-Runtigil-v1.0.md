@@ -209,4 +209,4 @@ Runtigil 明确**不解决**以下事项：
 
 ---
 
-© SynomosAI Governance Line · 跨域治理角度 #4 · 民间理论发布物，非技术方案。
+© 2026 赵兴华 / Xinghua Zhao（ORCID 0009-0001-0512-1237）｜来源标识：LGD / SynomosAI Governance Line · 跨域治理角度 #4 · 民间理论发布物，非技术方案。

@@ -223,5 +223,5 @@ type: case
 
 ---
 
-© SynomosAI Governance Line · CC BY 4.0 · 2026-09-13
+© 2026 赵兴华 / Xinghua Zhao（ORCID 0009-0001-0512-1237）｜来源标识：LGD / SynomosAI Governance Line · CC BY 4.0 · 2026-09-13
 *本件为论文写作素材底稿，非监管申报材料、非法律意见。性能数据均引自公开授权文件与公开文献，使用前请以监管官网原文复核。*

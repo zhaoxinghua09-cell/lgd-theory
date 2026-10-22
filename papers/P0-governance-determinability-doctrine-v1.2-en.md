@@ -15,7 +15,7 @@ permalink: //papers/p0-governance-determinability-doctrine-v1.2-en
 > SynomosAI Governance Line · 2026-09-08 · Status: internal working paper, unpublished
 > Core thesis: **Cannot be determined → cannot be governed.** *What cannot be determined cannot be governed.*
 > Project review: completed (see §14); the core body's five items show zero collision; terminology landmines cleared
-> Ownership: timestamp and fingerprint are recorded in the package manifest; © SynomosAI Governance Line; copyright and disclaimer at the end
+> Ownership: timestamp and fingerprint are recorded in the package manifest; © 2026 赵兴华 / Xinghua Zhao（ORCID 0009-0001-0512-1237）｜来源标识：LGD / SynomosAI Governance Line; copyright and disclaimer at the end
 > **v1.1 changes (L2/L4/L5 finalized, 2026-09-08)**: added **§12 Failure Modes and the Quantitative Linkage with Determination Debt** (citing AIDLC-FMEA), **§13 Criterion Validity Period and Spectrum Decay**, **§14 Chinese Reference Network** (fixed citations of Xue Lan / Zhang Qizai / Zheng Ge), and **Appendix A System-wide Falsifiability List** (the full immunity engineering of LGD / XCGS / A³ / Passport / Coexistence Doctrine / RRM); the pre-publication checklist was renumbered to §15.
 > **v1.2 changes (evening of 2026-09-08; submission hard-prerequisites R3/R5/R6/R10/R11/R12 all finalized)**: **§0A Adjacent-Term Disambiguation** (four pairs: regulatory debt / mandate suspension / reconstructability / L2D; R3 of the 24th + R10 of the 26th); **§0B Institutional Genealogy Anchor** (advance ruling / declaratory judgment / Abbott Labs 1967, R11); **§6 post-MDUFA clock-stop/start official precedent note** (R12); **§9 added a Rules-as-Code row** (Catala / L4 / defeasible / Hildebrandt, R6); **Appendix B Debt Genealogy "Six Siblings" table** (verification / assurance / compliance / regulatory / technical / determination — determination debt = the sole upstream member, R5); the AI Passport falsifiability row supplemented with a GB/Z 185 alignment positioning note (F3).
 
@@ -369,7 +369,7 @@ Go through item by item before submission; only submit when all green (citing th
 
 ## Copyright and Disclaimer
 
-© SynomosAI Governance Line (2026). This framework is a working paper, released under the CC BY 4.0 license (reusable with attribution). Provided "AS IS," without any express or implied warranty; the consequences of use are borne by the user. Third-party frameworks, standards, terms, and results cited herein belong to their respective right holders; this paper only makes academic citation and acknowledgment, and citation relations are subject to each right holder's official text.
+© 2026 赵兴华 / Xinghua Zhao（ORCID 0009-0001-0512-1237）｜来源标识：LGD / SynomosAI Governance Line (2026). This framework is a working paper, released under the CC BY 4.0 license (reusable with attribution). Provided "AS IS," without any express or implied warranty; the consequences of use are borne by the user. Third-party frameworks, standards, terms, and results cited herein belong to their respective right holders; this paper only makes academic citation and acknowledgment, and citation relations are subject to each right holder's official text.
 
 ---
 

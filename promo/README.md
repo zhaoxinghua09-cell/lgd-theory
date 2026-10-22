@@ -15,5 +15,5 @@ Machine-readable citation & summary entry points (repo root):
 **Term triple**: 全程治理论 / Lifecycle Governance Doctrine (LGD) / 有籍·有证·有门禁
 
 ---
-© SynomosAI Governance Line · CC BY 4.0
+© 2026 赵兴华 / Xinghua Zhao（ORCID 0009-0001-0512-1237）｜来源标识：LGD / SynomosAI Governance Line · CC BY 4.0
 DOI: [10.5281/zenodo.22456647](https://doi.org/10.5281/zenodo.22456647) · ORCID: see `../CITE.md`

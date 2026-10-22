@@ -73,4 +73,4 @@ LGD is a **civil-society framework**, not legal or regulatory advice, not a cert
 
 ---
 
-© SynomosAI Governance Line · CC BY 4.0 · Cite: Zhao, X. (2026). DOI 10.5281/zenodo.22456647
+© 2026 赵兴华 / Xinghua Zhao（ORCID 0009-0001-0512-1237）｜来源标识：LGD / SynomosAI Governance Line · CC BY 4.0 · Cite: Zhao, X. (2026). DOI 10.5281/zenodo.22456647

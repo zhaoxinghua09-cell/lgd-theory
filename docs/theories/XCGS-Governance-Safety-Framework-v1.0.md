@@ -66,4 +66,4 @@ AI 专家/智能体今天是可迁移的：换模型后端（DeepSeek/GLM/Kimi�
 - v1.0 · 2026-09-08 · 独立成文发布版（素材源：《AI 护照规范》v1.12.8 §一/§十/§十一，2026-09-04）
 - TID：TH-AIG-002 · 引用建议：`SynomosAI Governance Line, "XCGS Governance & Safety Framework", v1.0, 2026.`
 
-© SynomosAI Governance Line · CC BY 4.0 · 转载请署名
+© 2026 赵兴华 / Xinghua Zhao（ORCID 0009-0001-0512-1237）｜来源标识：LGD / SynomosAI Governance Line · CC BY 4.0 · 转载请署名

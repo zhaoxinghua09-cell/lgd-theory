@@ -10,7 +10,7 @@ permalink: //papers/p0-governance-determinability-doctrine-v1.2-zh
 > SynomosAI 治理线 · 2026-09-08 · 状态：内部工作稿，未发表
 > 核心命题：**不可判定，则不可治理。** *What cannot be determined cannot be governed.*
 > 立项复核：已完成（见 14 号），核心主体五项零撞车，术语地雷已拆除
-> 权属：时间戳与指纹见包内 manifest；© SynomosAI Governance Line；版权与免责声明见文末
+> 权属：时间戳与指纹见包内 manifest；© 2026 赵兴华 / Xinghua Zhao（ORCID 0009-0001-0512-1237）｜来源标识：LGD / SynomosAI Governance Line；版权与免责声明见文末
 > **v1.1 变更（L2/L4/L5 已拍落地，2026-09-08）**：新增 **§12 失效模式与判定债务的定量联动**（引 AIDLC-FMEA）、**§13 判据有效期与谱系衰变**、**§14 中文引用网络**（薛澜/张其仔/郑戈固定引用）、**附录 A 全体系可证伪清单**（LGD/XCGS/A³/Passport/共存论/RRM 全家福免疫力工程）；原发布前检查单顺延为 §15。
 > **v1.2 变更（2026-09-08 晚，投稿硬前置 R3/R5/R6/R10/R11/R12 全落地）**：**§0A 邻位术语辨析**（regulatory debt / mandate suspension / reconstructability / L2D 四组，24 号 R3 + 26 号 R10）；**§0B 制度谱系锚**（advance ruling / declaratory judgment / Abbott Labs 1967，R11）；**§6 后 MDUFA 时钟停启官方先例注记**（R12）；**§9 增 Rules as Code 行**（Catala/L4/defeasible/Hildebrandt，R6）；**附录 B 债务族谱六兄弟表**（verification/assurance/compliance/regulatory/technical/determination——判定债务=唯一上游成员，R5）；AI Passport 可证伪行补 GB/Z 185 对齐站位注记（F3）。
 
@@ -364,4 +364,4 @@ LGD（全程治理论）三定律在判定论中获得形式化载体——每�
 
 ## 版权与声明
 
-© SynomosAI Governance Line（2026）。本纲要为工作稿，按 CC BY 4.0 许可发布（署名即可复用）。按「原样（AS IS）」提供，不附带任何明示或默示担保；使用后果由使用者自负。文中引用之第三方框架、标准、术语与成果归其各自权利人所有，本文仅作学术引用与致谢，引用关系以各权利人官方文本为准。
+© 2026 赵兴华 / Xinghua Zhao（ORCID 0009-0001-0512-1237）｜来源标识：LGD / SynomosAI Governance Line（2026）。本纲要为工作稿，按 CC BY 4.0 许可发布（署名即可复用）。按「原样（AS IS）」提供，不附带任何明示或默示担保；使用后果由使用者自负。文中引用之第三方框架、标准、术语与成果归其各自权利人所有，本文仅作学术引用与致谢，引用关系以各权利人官方文本为准。

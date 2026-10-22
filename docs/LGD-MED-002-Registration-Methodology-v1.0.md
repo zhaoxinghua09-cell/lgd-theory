@@ -50,4 +50,4 @@
 2. 医疗线后续：与 AFG（反编造实证叙事）、SaMD 分级等站位件合并成"医械治理四件套"，作为官网 MED/AIB 白皮书区与公众号医疗线内容源。
 
 ---
-© SynomosAI Governance Line · LGD 域理论系列 #14 · CC BY 4.0
+© 2026 赵兴华 / Xinghua Zhao（ORCID 0009-0001-0512-1237）｜来源标识：LGD / SynomosAI Governance Line · LGD 域理论系列 #14 · CC BY 4.0

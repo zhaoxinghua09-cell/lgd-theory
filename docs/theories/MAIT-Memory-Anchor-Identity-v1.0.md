@@ -165,7 +165,7 @@ AI 身份的认定，必须从"它有什么证"推进到"它的记忆连续吗�
 
 ---
 
-© SynomosAI Governance Line · CC BY 4.0
+© 2026 赵兴华 / Xinghua Zhao（ORCID 0009-0001-0512-1237）｜来源标识：LGD / SynomosAI Governance Line · CC BY 4.0
 
 ---
 
@@ -290,4 +290,4 @@ AI identity attribution must advance from "what is it certified for" to "is its 
 2. **记忆锚点校验**：对每次会话 / 实例导出记忆指纹，与上一次 Merkle 根比对；不一致即触发重新认证（LGD-III 门禁）
 3. **标准参与**：以 *memory-anchor extension* 提案参与 W3C DID WG
 
-© SynomosAI Governance Line · 已落地 lgd-theory/docs · CC BY 4.0
+© 2026 赵兴华 / Xinghua Zhao（ORCID 0009-0001-0512-1237）｜来源标识：LGD / SynomosAI Governance Line · 已落地 lgd-theory/docs · CC BY 4.0
