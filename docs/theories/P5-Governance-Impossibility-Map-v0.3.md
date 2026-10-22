@@ -214,7 +214,7 @@ AI 治理的有效域是有结构边界的。治理者面对的不是定理太�
 
 ---
 
-© 独立研究线 · CC BY 4.0
+© 2026 赵兴华 / Xinghua Zhao（ORCID 0009-0001-0512-1237）· 来源标识 LGD / SynomosAI Governance Line（非实体、非商标） · CC BY 4.0
 
 ---
 
@@ -266,7 +266,7 @@ The effective domain of AI governance has a structural boundary. The Governance 
 
 ---
 
-© 独立研究线 · CC BY 4.0
+© 2026 赵兴华 / Xinghua Zhao（ORCID 0009-0001-0512-1237）· 来源标识 LGD / SynomosAI Governance Line（非实体、非商标） · CC BY 4.0
 
 ---
 
@@ -290,4 +290,4 @@ The effective domain of AI governance has a structural boundary. The Governance 
 2. 落地"判定点"而非"语义级审计"、"悬置记账"而非"硬判/放行"；
 3. 把不可能域读成设计约束，把资源投向可能域（身份锚定、离散判定、证据复放、债务管理）。
 
-© 独立研究线 · CC BY 4.0
+© 2026 赵兴华 / Xinghua Zhao（ORCID 0009-0001-0512-1237）· 来源标识 LGD / SynomosAI Governance Line（非实体、非商标） · CC BY 4.0

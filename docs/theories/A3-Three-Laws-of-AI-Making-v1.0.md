@@ -184,7 +184,7 @@ AI 造 AI 的缺口，不在"能不能造"，而在"造的边界由谁定、身�
 
 ---
 
-© 独立研究线 · CC BY 4.0
+© 2026 赵兴华 / Xinghua Zhao（ORCID 0009-0001-0512-1237）· 来源标识 LGD / SynomosAI Governance Line（非实体、非商标） · CC BY 4.0
 
 ---
 
@@ -208,4 +208,4 @@ AI 造 AI 的缺口，不在"能不能造"，而在"造的边界由谁定、身�
 2. 新生身份必须由人类持有者签发，AI 不得自签（Law II）；
 3. 每个被造体入谱系登记并携锻造印记，否则视为非法体（Law III）。
 
-© 独立研究线 · CC BY 4.0
+© 2026 赵兴华 / Xinghua Zhao（ORCID 0009-0001-0512-1237）· 来源标识 LGD / SynomosAI Governance Line（非实体、非商标） · CC BY 4.0
