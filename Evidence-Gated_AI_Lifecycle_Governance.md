@@ -104,4 +104,4 @@ Humans and Agentic AI) under an *align-and-implement* posture.
 
 ---
 
-*英文别名阐述稿（非独立预印本，并入 lgd-theory 既有 DOI 10.5281/zenodo.22456647 的新版本）。Not a standard proposal; not compliance advice. © XLGD · SynomosAI Governance Line.*
+*英文别名阐述稿（非独立预印本，并入 lgd-theory 既有 DOI 10.5281/zenodo.22456647 的新版本）。Not a standard proposal; not compliance advice. © 2026 赵兴华 / Xinghua Zhao（ORCID 0009-0001-0512-1237）· 来源标识 LGD / SynomosAI Governance Line（非实体、非商标）.*

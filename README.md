@@ -139,7 +139,7 @@ LGD is a **civil-society framework, not legal or regulatory advice**; device-reg
 
 ---
 
-© XLGD · SynomosAI Governance Line · All Rights Reserved (theory texts; citation with attribution permitted — see LICENSE)
+© 2026 赵兴华 / Xinghua Zhao（ORCID 0009-0001-0512-1237）· 来源标识 LGD / SynomosAI Governance Line（非实体、非商标） · All Rights Reserved (theory texts; citation with attribution permitted — see LICENSE)
 
 <sub>XLGD — X distinction mark. [xlgd](https://github.com/zhaoxinghua09-cell/xlgd)</sub>
 
