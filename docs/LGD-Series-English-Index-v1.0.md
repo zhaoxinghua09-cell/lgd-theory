@@ -25,7 +25,7 @@
 | 10 | `LGD-IND-001-Industrial-AI-Lifecycle-Governance-v1.0.md` | Industrial/OT-AI governance: MLPS 2.0 (GB/T 22239-2019) and Critical-Information-Infrastructure regulation (Decree 745) as network/safety gates on the production line. |
 | 12 | `LGD-BIO-001-Biomedical-Data-Lifecycle-Governance-v1.0.md` | Biomedical/genetic-data governance: human-genetic-resource decree 717 (2024 rev.) + ethics-review 2023 gates; sensitive-domain method note. |
 | 13 | `LGD-EDU-001-Education-Lifecycle-Governance-v1.0.md` | Education governance: learner identity + learning evidence + certification gates; UNESCO Beijing Consensus (2019) and EU AI Act Annex III pt.3. |
-| 14 | `LGD-MED-002-Registration-Methodology-v1.0.md` | Medical-device registration methodology: registration as the projection of full-lifecycle evidence; CN/FDA/EU registration anchors and tool map. |
+| 14 | `LGD-MED-002-Registration-Methodology-v1.0.md` | Medical-device registration methodology: registration as the projection of full-lifecycle evidence; CN/FDA/EU registration anchors and tool map. *Series note: the MED paper series starts at 002 — no LGD-MED-001 paper exists; TH-MED-001 is the upstream AFG skill, not a series member.* |
 
 ## How to cite
 > Zhao, X. (2026). *The Lifecycle Governance Doctrine (LGD)* [Preprint]. SynomosAI Governance Line. DOI: https://doi.org/10.5281/zenodo.22456647
