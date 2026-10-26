@@ -1,5 +1,8 @@
 # lgd-theory
 
+> **在线门户 Portal**：https://zhaoxinghua09-cell.github.io/lgd-hub/ — LGD 生态全景（理论 / 参考实现 / 技能全库），一跳即达。
+
+
 > **层级定位**：**理论层（Theory）** — XLGD 伞下的全程治理论（LGD）正式文本仓。词汇表与全景见 [XLGD 伞总览](https://github.com/zhaoxinghua09-cell/xlgd#readme)。
 
 ## 身份分层声明 · Identity Layers
