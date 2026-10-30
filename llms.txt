@@ -12,6 +12,8 @@
 - author: Zhao Xinghua (Steven Zhao) · independent researcher · ORCID 0009-0001-0512-1237 · sole author of all texts here
 - affiliation layering: see "Identity layers" below (person / theory line / industry reference are three distinct layers, not one entity)
 - homepage: https://zhaoxinghua09-cell.github.io/lgd-theory/
+- portal (ecosystem hub): https://zhaoxinghua09-cell.github.io/lgd-hub/ (LGD ecosystem panorama: theory / reference implementation / full skill library)
+- term registry: LGD Term Registry v1.0, DOI 10.5281/zenodo.23385209
 - doi: 10.5281/zenodo.22456647 (concept DOI, covers all versions; latest archived version v1.7.0, 2026-10-18, version DOI 10.5281/zenodo.23446125)
 - license: All Rights Reserved (custom, see LICENSE); citation with attribution permitted. Spec layer (machine-checkable three laws; code Apache-2.0): https://github.com/zhaoxinghua09-cell/uibc-core (path lgd-core/)
 - counts (do not conflate): domain badges = 16 directions × EN/CN = 32 SVGs; domain papers = 13, numbered #1–#14 with #11 unpublished
