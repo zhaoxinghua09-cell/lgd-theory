@@ -1,0 +1,12 @@
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareSourceCode",
+  "name": "lgd-theory",
+  "url": "https://github.com/zhaoxinghua09-cell/lgd-theory",
+  "isPartOf": {
+    "@id": "https://zhaoxinghua09-cell.github.io/lgd-hub/",
+    "name": "LGD 生态"
+  },
+  "license": "https://spdx.org/licenses/MIT.html",
+  "sameAs": []
+}
