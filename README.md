@@ -1,5 +1,6 @@
 # lgd-theory
 
+> **在线门户 Portal**：https://zhaoxinghua09-cell.github.io/lgd-hub/ — LGD 生态全景（理论 / 参考实现 / 技能全库），一跳即达。
 > **层级定位**：**理论层（Theory）** — XLGD 伞下的全程治理论（LGD）正式文本仓。词汇表与全景见 [XLGD 伞总览](https://github.com/zhaoxinghua09-cell/xlgd#readme)。
 ## 许可说明 · License Notice
 
@@ -30,7 +31,7 @@
 [![TL;DR](https://img.shields.io/badge/TL%3BDR-2%20min-14b8a6)](TLDR.md)
 [![License: ARR custom](https://img.shields.io/badge/License-All_Rights_Reserved_(custom)-lightgrey.svg)](LICENSE)
 
-> **Start here** · 2-minute version: [`TLDR.md`](TLDR.md) (CN/EN) · How to cite: [`CITE.md`](CITE.md) · Full library: [`book/`](book/) (LGD-Library v1.1, EPUB/HTML) · Brand & badges: [`badge/EMBEDS.md`](badge/EMBEDS.md) · AI-crawler index: [`llms.txt`](llms.txt) · **Web home**: [GitHub Pages](https://zhaoxinghua09-cell.github.io/lgd-theory/)
+> **Start here** · 2-minute version: [`TLDR.md`](TLDR.md) (CN/EN) · How to cite: [`CITE.md`](CITE.md) · Terminology: [Term Registry v1.0](https://doi.org/10.5281/zenodo.23385209) · Full library: [`book/`](book/) (LGD-Library v1.1, EPUB/HTML) · Brand & badges: [`badge/EMBEDS.md`](badge/EMBEDS.md) · AI-crawler index: [`llms.txt`](llms.txt) · **Web home**: [GitHub Pages](https://zhaoxinghua09-cell.github.io/lgd-theory/)
 
 
 **Domain badges** · 金融 · 证据 · 政务 · 链上 · 驾驶 · 数据 · 低空 · 具身 · 工业 · 生物 · 教育 · 医械注册 —— 16 方向 × EN/CN（`assets/badges/directions/`，v8 象牙色调）：
