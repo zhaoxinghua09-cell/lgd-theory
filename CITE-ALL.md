@@ -22,21 +22,21 @@
 | **C3** | **判定缺失层**（The Missing Layer of Determination） | `10.5281/zenodo.22669389` | P2 批判型论文 · EN |
 
 **APA 7**
-> Zhao, X. (2026). *Lifecycle governance doctrine (LGD): Registry, evidence, and gates across the full life of AI and devices* (v1.6.0). Zenodo. https://doi.org/10.5281/zenodo.22456647
+> Zhao, X. (2026). *Lifecycle governance doctrine (LGD): Registry, evidence, and gates across the full life of AI and devices* (v1.7.0). Zenodo. https://doi.org/10.5281/zenodo.22456647
 
 > SynomosAI Governance Line. (2026). *The governance impossibility map: A cartography of five impossibility domains in AI governance* [Working paper]. Zenodo. https://doi.org/10.5281/zenodo.22668958
 
 > SynomosAI Governance Line. (2026). *Principles will not save AI governance: The missing layer of determination—Evidence from the Chinese side* [Working paper]. Zenodo. https://doi.org/10.5281/zenodo.22669389
 
 **GB/T 7714-2015**
-> ZHAO XINGHUA. 全程治理论（LGD）：有籍·有证·有门禁: v1.6.0[EB/OL]. (2026-09-06)[引用日期]. https://doi.org/10.5281/zenodo.22456647.
+> ZHAO XINGHUA. 全程治理论（LGD）：有籍·有证·有门禁: v1.7.0[EB/OL]. (2026-09-06)[引用日期]. https://doi.org/10.5281/zenodo.22456647.
 
 > SYNOMOSAI GOVERNANCE LINE. The governance impossibility map: a cartography of five impossibility domains in AI governance[EB/OL]. (2026-09-09)[引用日期]. https://doi.org/10.5281/zenodo.22668958.
 
 **BibTeX**
 ```bibtex
 @misc{zhao2026lgd,
-  author = {Zhao, Xinghua}, title = {Lifecycle Governance Doctrine (LGD): Registry, Evidence, and Gates Across the Full Life of AI and Devices (v1.6.0)},
+  author = {Zhao, Xinghua}, title = {Lifecycle Governance Doctrine (LGD): Registry, Evidence, and Gates Across the Full Life of AI and Devices (v1.7.0)},
   year = {2026}, publisher = {Zenodo}, doi = {10.5281/zenodo.22456647},
   url = {https://github.com/zhaoxinghua09-cell/lgd-theory}, note = {SynomosAI Governance Line. CC BY 4.0.}
 }

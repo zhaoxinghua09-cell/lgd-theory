@@ -1,0 +1,136 @@
+From e886c6a6b3ca1af141cc7cc59b38bf5167f85420 Mon Sep 17 00:00:00 2001
+From: zhaoxinghua09-cell <zhaoxinghua09-cell@users.noreply.github.com>
+Date: Sat, 31 Oct 2026 08:44:12 +0800
+Subject: [PATCH] workbuddy | G-13 outsider audit fixes: @type CreativeWork
+ alignment + citation sync v1.7.0 + version DOI (F-01/F-02)
+
+---
+ AGENTS.md    |  2 +-
+ CHANGELOG.md |  4 ++++
+ CITATION.cff |  7 +++++--
+ CITE.md      | 10 +++++-----
+ README.md    |  4 ++--
+ 5 files changed, 17 insertions(+), 10 deletions(-)
+
+diff --git a/AGENTS.md b/AGENTS.md
+index 05ddf50..b78f2e9 100644
+--- a/AGENTS.md
++++ b/AGENTS.md
+@@ -11,5 +11,5 @@
+ ## 目录
+ - `docs/`：旗舰论文 + 9 域理论（FIN/LAW/GOV/CRYPT/AUT/DAT/UAS/ROB/MED）
+ - `CITE.md`：引用包（APA/BibTeX/RIS/GB/T 7714）｜ `TLDR.md`：≤200 字机器友好摘要
+-- `schema.jsonld`：schema.org ScholarlyArticle 结构化引用
++- `schema.jsonld`：schema.org CreativeWork 结构化引用
+ - `badge/`：LGD 定版徽章真源 ｜ `book/`、`newsletter/`、`promo/`、`arxiv/`：衍生物料
+diff --git a/CHANGELOG.md b/CHANGELOG.md
+index 1be6404..1583f45 100644
+--- a/CHANGELOG.md
++++ b/CHANGELOG.md
+@@ -1,5 +1,9 @@
+ # Changelog
+ 
++## v1.7.0 — 2026-10-18
++- Zenodo archive v1.7.0 registered: version DOI `10.5281/zenodo.23446125`（concept DOI `10.5281/zenodo.22456647` 不变，自动指向最新版）。
++- 版本口径收口（2026-10-31，G-13 外人实测 F-02 修复）：`llms.txt` 先行登记 v1.7.0 而 README §Suggested citation / `CITE.md` / `CITATION.cff` 停留 v1.6.0——三处引用面文件已同步至 v1.7.0，`CITATION.cff` 补版本 DOI。⚠️ 本机网络不可达 zenodo.org，记录内容级核验 NOT VERIFIED（DOI 302 解析已证实注册存在）。
++
+ ## [Unreleased]
+ - **Fixed — license metadata (machine-readable).** `CITATION.cff` had drifted from
+   `LICENSE`: the human-readable license reserves all rights (ARR, since v1.6.0)
+diff --git a/CITATION.cff b/CITATION.cff
+index e0ad8d6..f784b51 100644
+--- a/CITATION.cff
++++ b/CITATION.cff
+@@ -40,13 +40,16 @@ license-url: "https://github.com/zhaoxinghua09-cell/lgd-theory/blob/main/LICENSE
+ repository-code: "https://github.com/zhaoxinghua09-cell/lgd-theory"
+ url: "https://zhaoxinghua09-cell.github.io/lgd-theory/"
+ 
+-version: "1.6.0"
+-date-released: "2026-09-28"
++version: "1.7.0"
++date-released: "2026-10-18"
+ 
+ identifiers:
+   - type: doi
+     value: "10.5281/zenodo.22456647"
+     description: "Concept DOI — always resolves to the latest version"
++  - type: doi
++    value: "10.5281/zenodo.23446125"
++    description: "Version DOI — v1.7.0 (2026-10-18)"
+ 
+ keywords:
+   - AI governance
+diff --git a/CITE.md b/CITE.md
+index 92123ad..5b95df5 100644
+--- a/CITE.md
++++ b/CITE.md
+@@ -5,14 +5,14 @@
+ 
+ ## APA 7
+ 
+-Zhao, X. (2026). *Lifecycle Governance Doctrine (LGD): Registry, Evidence, and Gates Across the Full Life of AI and Devices* (v1.6.0). Zenodo. https://doi.org/10.5281/zenodo.22456647
++Zhao, X. (2026). *Lifecycle Governance Doctrine (LGD): Registry, Evidence, and Gates Across the Full Life of AI and Devices* (v1.7.0). Zenodo. https://doi.org/10.5281/zenodo.22456647
+ 
+ ## BibTeX
+ 
+ ```bibtex
+ @misc{zhao2026lgd,
+   author       = {Zhao, Xinghua},
+-  title        = {Lifecycle Governance Doctrine (LGD): Registry, Evidence, and Gates Across the Full Life of AI and Devices (v1.6.0)},
++  title        = {Lifecycle Governance Doctrine (LGD): Registry, Evidence, and Gates Across the Full Life of AI and Devices (v1.7.0)},
+   year         = {2026},
+   howpublished = {Zenodo},
+   doi          = {10.5281/zenodo.22456647},
+@@ -27,7 +27,7 @@ Zhao, X. (2026). *Lifecycle Governance Doctrine (LGD): Registry, Evidence, and G
+ ```
+ TY  - GEN
+ AU  - Zhao, Xinghua
+-TI  - Lifecycle Governance Doctrine (LGD): Registry, Evidence, and Gates Across the Full Life of AI and Devices (v1.6.0)
++TI  - Lifecycle Governance Doctrine (LGD): Registry, Evidence, and Gates Across the Full Life of AI and Devices (v1.7.0)
+ PY  - 2026
+ DA  - 2026-09-06
+ PB  - Zenodo
+@@ -44,7 +44,7 @@ ZHAO XINGHUA. Lifecycle Governance Doctrine (LGD): Registry, Evidence, and Gates
+ 
+ ## GB/T 7714-2015（CN）
+ 
+-赵兴华.全程治理论（LGD）：有籍·有证·有门禁: v1.6.0[EB/OL]. (2026-09-06)[2026-09-06]. https://doi.org/10.5281/zenodo.22456647.
++赵兴华.全程治理论（LGD）：有籍·有证·有门禁: v1.7.0[EB/OL]. (2026-10-18)[2026-10-31]. https://doi.org/10.5281/zenodo.22456647.
+ 
+ ## 一句话引用（CN）
+ 
+@@ -56,7 +56,7 @@ Lifecycle Governance Doctrine (LGD): Registry, Evidence, and Gates Across the Fu
+ 
+ ## Plain text
+ 
+-Steven Zhao (Zhao Xinghua) (2026). Lifecycle Governance Doctrine (LGD): Registry, Evidence, and Gates Across the Full Life of AI and Devices (v1.6.0). Zenodo. DOI: 10.5281/zenodo.22456647. ORCID: 0009-0001-0512-1237. License: All Rights Reserved (citation with attribution permitted).
++Steven Zhao (Zhao Xinghua) (2026). Lifecycle Governance Doctrine (LGD): Registry, Evidence, and Gates Across the Full Life of AI and Devices (v1.7.0). Zenodo. DOI: 10.5281/zenodo.22456647. ORCID: 0009-0001-0512-1237. License: All Rights Reserved (citation with attribution permitted).
+ 
+ ---
+  brands: SynomosAI Governance Line ｜ ORCID: 0009-0001-0512-1237 ｜ License: All Rights Reserved (citation with attribution permitted)
+\ No newline at end of file
+diff --git a/README.md b/README.md
+index a5003bb..fe14571 100644
+--- a/README.md
++++ b/README.md
+@@ -113,7 +113,7 @@ lgd-theory/
+ 
+ ## Suggested citation
+ 
+-> Zhao, X. (2026). *Lifecycle Governance Doctrine (LGD): Registry, Evidence, and Gates Across the Full Life of AI and Devices.* SynomosAI Governance Line. v1.6.0. **DOI:** https://doi.org/10.5281/zenodo.22456647
++> Zhao, X. (2026). *Lifecycle Governance Doctrine (LGD): Registry, Evidence, and Gates Across the Full Life of AI and Devices.* SynomosAI Governance Line. v1.7.0. **DOI:** https://doi.org/10.5281/zenodo.22456647
+ 
+ ## Honest boundaries
+ 
+@@ -129,7 +129,7 @@ LGD is a **civil-society framework, not legal or regulatory advice**; device-reg
+ 
+ ## Machine-readable metadata
+ 
+-- Structured citation: [`schema.jsonld`](schema.jsonld) — schema.org `ScholarlyArticle`
++- Structured citation: [`schema.jsonld`](schema.jsonld) — schema.org `CreativeWork`
+ - Agent collaboration conventions: [`AGENTS.md`](AGENTS.md)
+ - Citation pack: [`CITE.md`](CITE.md) · TL;DR: [`TLDR.md`](TLDR.md)
+ - Machine-readable index for AI crawlers: [`llms.txt`](llms.txt)
+-- 
+2.55.0.windows.3
+

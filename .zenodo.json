@@ -28,7 +28,7 @@
   "upload_type": "publication",
   "publication_type": "technicalnote",
   "language": "eng",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "related_identifiers": [
     {
       "identifier": "https://github.com/zhaoxinghua09-cell/lgd-theory",
