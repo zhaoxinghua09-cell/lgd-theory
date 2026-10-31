@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.7.0 — 2026-10-18
+- Zenodo archive v1.7.0 registered: version DOI `10.5281/zenodo.23446125`（concept DOI `10.5281/zenodo.22456647` 不变，自动指向最新版）。
+- 版本口径收口（2026-10-31，G-13 外人实测 F-02 修复）：`llms.txt` 先行登记 v1.7.0 而 README §Suggested citation / `CITE.md` / `CITATION.cff` 停留 v1.6.0——三处引用面文件已同步至 v1.7.0，`CITATION.cff` 补版本 DOI。⚠️ 本机网络不可达 zenodo.org，记录内容级核验 NOT VERIFIED（DOI 302 解析已证实注册存在）。
+
 ## [Unreleased]
 - **Fixed — license metadata (machine-readable).** `CITATION.cff` had drifted from
   `LICENSE`: the human-readable license reserves all rights (ARR, since v1.6.0)

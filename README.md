@@ -113,7 +113,7 @@ lgd-theory/
 
 ## Suggested citation
 
-> Zhao, X. (2026). *Lifecycle Governance Doctrine (LGD): Registry, Evidence, and Gates Across the Full Life of AI and Devices.* SynomosAI Governance Line. v1.6.0. **DOI:** https://doi.org/10.5281/zenodo.22456647
+> Zhao, X. (2026). *Lifecycle Governance Doctrine (LGD): Registry, Evidence, and Gates Across the Full Life of AI and Devices.* SynomosAI Governance Line. v1.7.0. **DOI:** https://doi.org/10.5281/zenodo.22456647
 
 ## Honest boundaries
 
@@ -129,7 +129,7 @@ LGD is a **civil-society framework, not legal or regulatory advice**; device-reg
 
 ## Machine-readable metadata
 
-- Structured citation: [`schema.jsonld`](schema.jsonld) — schema.org `ScholarlyArticle`
+- Structured citation: [`schema.jsonld`](schema.jsonld) — schema.org `CreativeWork`
 - Agent collaboration conventions: [`AGENTS.md`](AGENTS.md)
 - Citation pack: [`CITE.md`](CITE.md) · TL;DR: [`TLDR.md`](TLDR.md)
 - Machine-readable index for AI crawlers: [`llms.txt`](llms.txt)

@@ -11,5 +11,5 @@
 ## 目录
 - `docs/`：旗舰论文 + 9 域理论（FIN/LAW/GOV/CRYPT/AUT/DAT/UAS/ROB/MED）
 - `CITE.md`：引用包（APA/BibTeX/RIS/GB/T 7714）｜ `TLDR.md`：≤200 字机器友好摘要
-- `schema.jsonld`：schema.org ScholarlyArticle 结构化引用
+- `schema.jsonld`：schema.org CreativeWork 结构化引用
 - `badge/`：LGD 定版徽章真源 ｜ `book/`、`newsletter/`、`promo/`、`arxiv/`：衍生物料
