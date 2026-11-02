@@ -20,6 +20,10 @@ on:
   issue_comment:
     types: [created]
 
+# C1 · 工作流顶层最小权限（least-privilege）：默认只读，job 级权限按需覆盖。
+permissions:
+  contents: read
+
 jobs:
   # ─────────────────────────────────────────────────────────────
   # job1 · 递交纪律硬检查（纯规则 · 无需密钥 · 永远执行）
