@@ -14,6 +14,11 @@ on:
   issue_comment:
     types: [created]
 
+# C1 · 工作流顶层最小权限（least-privilege）：默认只读，job 级权限按需覆盖。
+# 防御纵深：即便某 job 漏写 permissions，也回落到只读而非默认宽泛 GITHUB_TOKEN。
+permissions:
+  contents: read
+
 jobs:
   ai-review:
     if: >-
