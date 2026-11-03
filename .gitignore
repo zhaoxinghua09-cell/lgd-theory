@@ -20,3 +20,5 @@ Thumbs.db
 
 # 本地受控词配置（必须放仓外，见 _tools/verify_generated.py 的 load_forbidden_terms）
 .lgd-gate/
+# SkillGate runtime artifacts (local audit trail)
+.skillgate-audit.jsonl
