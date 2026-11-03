@@ -1,4 +1,5 @@
 # lgd-theory
+[![Trust Score](https://img.shields.io/badge/Trust%20Score-98%2F100%20A+-2ea44f.svg)](https://github.com/zhaoxinghua09-cell/skillgate)
 
 > **层级定位**：**理论层（Theory）** — XLGD 伞下的全程治理论（LGD）正式文本仓。词汇表与全景见 [XLGD 伞总览](https://github.com/zhaoxinghua09-cell/xlgd#readme)。
 ## 许可说明 · License Notice
@@ -147,3 +148,11 @@ LGD is a **civil-society framework, not legal or regulatory advice**; device-reg
 
 - **medxpert-reg-hub** — LGD 医械域落地示例（registration-compliance skill hub）：28 枢纽按全生命周期 7 阶段组织，119 条官方链接浏览器级核验，48 实例双轨评测（技能侧五维全 5.0 vs 无技能侧基线）；中英双语、零依赖 CLI + 只读 MCP/DSH 插件。→ <https://github.com/stevenzhao07/medxpert-reg-hub>（互链：该技能 README 回链本理论仓与 LGD-Powered 徽章）
 
+## Ecosystem / 生态闭环
+
+- [awesome-trusted-agents](https://github.com/zhaoxinghua09-cell/awesome-trusted-agents) — 四角度评分精选清单（生态榜单入口）
+- [skill-scorecard](https://github.com/zhaoxinghua09-cell/skill-scorecard) — 四角度评分引擎
+- [lgd-hub](https://github.com/zhaoxinghua09-cell/lgd-hub) — LGD 理论资产统一入口
+- [lgd-skill-marketplace](https://github.com/zhaoxinghua09-cell/lgd-skill-marketplace) — LGD 技能超市总目录
+- [governanceos](https://github.com/zhaoxinghua09-cell/governanceos) — 治理编排枢纽（SPEC→PLAN→GATE→AUDIT→EVO）
+- [skillgate](https://github.com/zhaoxinghua09-cell/skillgate) — 技能信任评分引擎
