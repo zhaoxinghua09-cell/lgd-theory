@@ -141,7 +141,7 @@ LGD is a **civil-society framework, not legal or regulatory advice**; device-reg
 - **uibc-core / lgd-core** — machine-checkable spec of the three laws (manifest schema + validator + 28 tests; code Apache-2.0, theory texts ARR): <https://github.com/zhaoxinghua09-cell/uibc-core> (path `lgd-core/`)
 - **agent-skills** — 109 zero-dependency skills implementing the three laws: <https://github.com/zhaoxinghua09-cell/agent-skills>
 - **assayance** — Assayance / 试真法 (Falsifiable Assurance): <https://github.com/zhaoxinghua09-cell/assayance>
-- **silent-failure-catalog** — 14 documented silent failure modes: <https://github.com/zhaoxinghua09-cell/silent-failure-catalog>
+- **silent-failure-catalog** — 15 documented silent failure modes: <https://github.com/zhaoxinghua09-cell/silent-failure-catalog>
 - **xlgd** — the `X` distinction mark: <https://github.com/zhaoxinghua09-cell/xlgd>
 
 ## Reference implementations / 落地示例
