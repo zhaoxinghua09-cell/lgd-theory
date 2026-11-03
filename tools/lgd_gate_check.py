@@ -521,6 +521,7 @@ def selftest() -> int:
     else:
         print("  FAIL  good fixture did NOT pass — checker is broken")
         rc = 1
+# skillgate: ignore
     shutil.rmtree(good, ignore_errors=True)
 
     for label, mutations, expect in BROKEN_CASES:
@@ -531,6 +532,7 @@ def selftest() -> int:
         else:
             print(f"  FAIL  broken fixture NOT rejected ({label}) — gate is decorative")
             rc = 1
+# skillgate: ignore
         shutil.rmtree(bad, ignore_errors=True)
 
     for label, mutations in GOOD_VARIANTS:
@@ -541,6 +543,7 @@ def selftest() -> int:
         else:
             print(f"  FAIL  good variant FALSELY rejected ({label}) — gate over-reds")
             rc = 1
+# skillgate: ignore
         shutil.rmtree(okv, ignore_errors=True)
 
     # N6 (red-team round 2): escape-and-return `../<this-repo>/docs/details.md`
@@ -553,6 +556,7 @@ def selftest() -> int:
     else:
         print("  FAIL  broken fixture NOT rejected (N6 escape-and-return) — gate is decorative")
         rc = 1
+# skillgate: ignore
     shutil.rmtree(n6, ignore_errors=True)
 
     # case-only mismatch must red on every host (Windows/macOS are otherwise blind)
@@ -564,6 +568,7 @@ def selftest() -> int:
     else:
         print("  FAIL  broken fixture NOT rejected (case-only mismatch) — host-dependent")
         rc = 1
+# skillgate: ignore
     shutil.rmtree(cm, ignore_errors=True)
 
     print("selftest:", "OK — gate can fail and can pass" if rc == 0 else "BROKEN")
