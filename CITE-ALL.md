@@ -29,7 +29,7 @@
 > SynomosAI Governance Line. (2026). *Principles will not save AI governance: The missing layer of determination—Evidence from the Chinese side* [Working paper]. Zenodo. https://doi.org/10.5281/zenodo.22669389
 
 **GB/T 7714-2015**
-> ZHAO XINGHUA. 全程治理论（LGD）：有籍·有证·有门禁: v1.7.0[EB/OL]. (2026-09-06)[引用日期]. https://doi.org/10.5281/zenodo.22456647.
+> ZHAO XINGHUA. 全程治理论（LGD）：有籍·有证·有门禁: v1.7.0[EB/OL]. (2026-10-18)[引用日期]. https://doi.org/10.5281/zenodo.22456647.
 
 > SYNOMOSAI GOVERNANCE LINE. The governance impossibility map: a cartography of five impossibility domains in AI governance[EB/OL]. (2026-09-09)[引用日期]. https://doi.org/10.5281/zenodo.22668958.
 
