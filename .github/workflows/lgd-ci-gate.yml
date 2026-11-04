@@ -16,9 +16,8 @@ on:
   push:
     branches: ["main", "master"]
 
-# C1 · 工作流顶层最小权限（least-privilege）：默认只读，job 级权限按需覆盖。
-permissions:
-  contents: read
+# C1 顶层最小权限（零缩进）：默认只读，job 级按需提升（GitHub Actions 安全硬化官方实践）
+permissions: read-all
 
 jobs:
   lgd-ci-gate:

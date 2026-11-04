@@ -1,7 +1,6 @@
-# C3 · Dependabot 配置
-# 与组织级 "selected actions + SHA pinning" 策略对齐：自动提交 PR 更新 GitHub Actions
-# 版本；人工复核变更后，再把 uses 改写为全量 commit SHA（保持 C2 锁 SHA 纪律，
-# 避免依赖可变 tag 被劫持）。
+# Dependabot 版本更新（C3）：自动保持 GitHub Actions 锁定的 SHA 升级到新版本。
+# 与 SHA pinning 配合：commit SHA 提供即时供应链保护，Dependabot 负责持续更新。
+# 方法论：GitHub Docs《Security hardening for GitHub Actions》→ Keeping your actions up to date with Dependabot。
 version: 2
 updates:
   - package-ecosystem: "github-actions"
@@ -11,7 +10,4 @@ updates:
     open-pull-requests-limit: 10
     labels:
       - "dependencies"
-      - "security"
-    # 仅扫描 .github/workflows，避免误伤仓库内其它子项目
-    allow:
-      - dependency-type: "direct"
+      - "github-actions"
