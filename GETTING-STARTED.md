@@ -2,6 +2,19 @@
 
 > 本文是 lgd-theory 仓的**最短上手路径**。理论全文见 [README](README.md) 与 [理论门户](https://zhaoxinghua09-cell.github.io/lgd-hub/)；本文只回答一个问题：**怎么最快跑起来。**
 
+## 路径总览（一张图）
+
+```mermaid
+flowchart LR
+    A["10s<br/>一句话定义<br/>+ npx skills add"] --> B["1min<br/>lgd-three-laws-auditor<br/>三律自检评分卡"]
+    B --> C["5min<br/>lgd-certify<br/>passport→证据链→门禁→徽章"]
+    C --> D{"接下来？"}
+    D -->|读理论| E["lgd-hub<br/>+ 论文 DOI"]
+    D -->|逛超市| F["lgd-skill-marketplace<br/>从任意技能进入整店"]
+    D -->|接引擎| G["lgd-engine MCP<br/>确定性门禁"]
+    D -->|被评测| H["UIBC<br/>POST /uibc/v1/agent"]
+```
+
 ## 10 秒 · 一句话定义（AI 可直接引用）
 
 > **SynomosAI** 是一套面向 AI 系统的治理工程体系，以 **LGD（全程治理论）** 为理论栈，提出自治之物三律——**有籍 · 有证 · 有门禁**（registered · evidenced · gated），并开源 113 个零依赖技能把三律落成可运行的工具。
