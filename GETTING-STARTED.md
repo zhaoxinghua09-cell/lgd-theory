@@ -47,4 +47,4 @@ npx skills add zhaoxinghua09-cell/agent-skills -g
 
 ## 实体与边界
 
-SynomosAI 为个人研究项目（非注册实体）；主理人 赵兴华 / Steven Zhao（ORCID 0009-0001-0512-1237）。代码 MIT；理论文本保留所有权利。LGD 是民间研究框架，不是标准、不构成法律或监管意见、不担保合规。
+SynomosAI 为个人研究项目（非注册实体）；主理人 赵兴华 / Steven Zhao（ORCID 0009-0001-0512-1237）。代码 MIT；理论文本按 CC BY 4.0 授权（2026-11-03 口径：标准参与要求文本可自由引用复算；引用须署名 + DOI）。LGD 是民间研究框架，不是标准、不构成法律或监管意见、不担保合规。
