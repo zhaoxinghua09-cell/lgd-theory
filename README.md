@@ -4,17 +4,15 @@
 > **层级定位**：**理论层（Theory）** — XLGD 伞下的全程治理论（LGD）正式文本仓。词汇表与全景见 [XLGD 伞总览](https://github.com/zhaoxinghua09-cell/xlgd#readme)。
 ## 许可说明 · License Notice
 
-> **本仓库使用自定义许可，不是 MIT / Apache-2.0**。平台显示为 `Other`（NOASSERTION），
-> 属识别算法的正常结果，**不代表本仓库处于无许可状态**。
+> **本仓库理论文本与方法论规范件自 2026-11-17 起按 CC BY 4.0 发布**（D1 许可裁定 C 案落地）。完整条款见 [LICENSE](LICENSE)。
 
-- **权利状态**：全部内容保留所有权利（All Rights Reserved）。未经书面许可，
-  不得复制、改编、再分发、公开传播或用于衍生作品。
+- **权利状态**：自 2026-11-17 起，本仓理论文本与方法论规范件按 **CC BY 4.0** 授权：可复制、改编、再分发与商用，条件是署名（作者、来源链接与 DOI）并注明改动。此日期之前以本仓快照形式取得的内容，状态按取得时标注，不追溯变更。
 - **可否引用**：可以。允许在**注明出处**的前提下引用与学术、公共讨论；
   引用时请同时标注仓库名、原文链接 `https://github.com/zhaoxinghua09-cell/lgd-theory`
   与权利人「赵兴华 / Steven Zhao·China」。
 - **完整条款**：见仓库根目录 [LICENSE](LICENSE)。
-- **分层许可（2026-09-28 统一口径）**：本仓**理论文本与方法论 = 保留所有权利（ARR）**；机器可校验规范层（`uibc-core` 仓 `lgd-core/`：manifest schema + validator + 测试）中的**代码 = Apache-2.0**，以该仓 LICENSE 为准；公众号公开文章另行按 CC BY 4.0 署名发布。
-- **Zenodo 存档许可沿革（2026-09-28 起）**：本仓 Zenodo 存档（concept DOI `10.5281/zenodo.22456647`）v1.5.0 及更早版本的元数据曾标注 CC BY 4.0——已发布快照不可变，按其原标注保留；**自 v1.6.0（version DOI `10.5281/zenodo.23019507`，2026-09-28）起新版存档不再授予任何许可（保留所有权利）**，显式声明见该版本描述区。
+- **分层许可（2026-11-17 更新，取代 2026-09-28 口径）**：本仓**理论文本与方法论 = CC BY 4.0**；机器可校验规范层（`uibc-core` 仓）中的**代码 = Apache-2.0**，以该仓 LICENSE 为准；公众号公开文章同按 CC BY 4.0 署名发布。域论文汇编与培训/认证衍生品不在本仓，许可另行标注（保留所有权利）。
+- **Zenodo 存档许可沿革（2026-09-28 起）**：本仓 Zenodo 存档（concept DOI `10.5281/zenodo.22456647`）v1.5.0 及更早版本的元数据曾标注 CC BY 4.0——已发布快照不可变，按其原标注保留；**自 v1.6.0（version DOI `10.5281/zenodo.23019507`，2026-09-28）起新版存档不再授予任何许可（保留所有权利）**，显式声明见该版本描述区。**2026-11-17 起**：本仓许可改按 CC BY 4.0（见上），后续 Zenodo 新版存档的许可元数据随之标注 CC BY 4.0；已发布版本快照的元数据不可变，按其原标注保留。
 - **规范执行层指针**：三律的机器可校验规范（manifest schema + validator + 28 项测试）见 [`zhaoxinghua09-cell/uibc-core`](https://github.com/zhaoxinghua09-cell/uibc-core) 仓 `lgd-core/` 目录（本仓 = 理论总仓/上游，该目录 = 规范执行层/下游）。
 - **联系**：zhaoxinghua09@gmail.com ｜ ORCID 0009-0001-0512-1237
 - **品牌状态限定**：MedXpert、SynomosAI、LGD 等为相关项目标识，
@@ -29,7 +27,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22456647.svg)](https://doi.org/10.5281/zenodo.22456647)
 [![Cite](https://img.shields.io/badge/Cite-BibTeX%20%7C%20APA-0b1e3a?logo=latex&logoColor=white)](CITE.md)
 [![TL;DR](https://img.shields.io/badge/TL%3BDR-2%20min-14b8a6)](TLDR.md)
-[![License: ARR custom](https://img.shields.io/badge/License-All_Rights_Reserved_(custom)-lightgrey.svg)](LICENSE)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE)
 
 > **Start here** · 2-minute version: [`TLDR.md`](TLDR.md) (CN/EN) · How to cite: [`CITE.md`](CITE.md) · Full library: [`book/`](book/) (LGD-Library v1.1, EPUB/HTML) · Brand & badges: [`badge/EMBEDS.md`](badge/EMBEDS.md) · AI-crawler index: [`llms.txt`](llms.txt) · **Web home**: [GitHub Pages](https://zhaoxinghua09-cell.github.io/lgd-theory/)
 
