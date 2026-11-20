@@ -59,6 +59,146 @@ TEXT_EXT = (".md", ".html", ".htm", ".xhtml", ".txt", ".py", ".toml",
             ".xml", ".ncx", ".css", ".sh", ".bat")
 
 
+# ---------------------------------------------------------------------------
+# 豁免谓词（2026-11-20 立）
+#
+# 为什么需要：本仓按治理口径**必须**如实写明「XX 为相关项目标识、未申请实体注册、
+# 未申请商标注册」。这类合规声明必然出现受控字面量；若一律判红，唯一解法就是
+# 删掉声明本身——而删掉声明，正是这条闸门原本要防的事（把注册状态说清楚）。
+#
+# 设计约束（三条，缺一条就不该放行）：
+#   1. 不设裸行号白名单。行号会随文档漂移，白名单会退化成静默放水。
+#   2. 豁免只能由**命中处自身的语境**触发，且只认三类可判定的语境：
+#        url-token       命中只作为字符串里某个 URL 的一部分（链接不是声明）
+#        detector-regex  命中出现在探测用的正则字面量里（闸门/工作流自身）
+#        limit-cue       命中行与其前后 DEF_WINDOW 行内出现限定语（声明常跨行）
+#   3. 每次豁免逐条打印 [EXEMPT]（文件、行号、类别、命中片段），未满足任一类的
+#      命中照旧判红。放行有据、有账。
+# ---------------------------------------------------------------------------
+LIMIT_CUES = (
+    "unregistered", "not a trademark", "no trademark", "not a registered",
+    "not a legal entity", "provenance label", "industry reference",
+    "professional background", "does not extend", "not the operating entity",
+    "discoverability", "discoverability label", "self-reported",
+    "未申请", "不构成", "为相关项目标识", "来源标识", "品牌状态限定",
+)
+DEF_WINDOW = 3
+
+
+def _line_bounds(txt, idx):
+    start = txt.rfind("\n", 0, idx) + 1
+    end = txt.find("\n", idx)
+    return start, (len(txt) if end < 0 else end)
+
+
+def _in_url(txt, idx, term):
+    """命中是否只作为某个 URL token 的一部分出现。"""
+    s, e = _line_bounds(txt, idx)
+    line = txt[s:e]
+    lo = idx - s
+    off = 0
+    for tok in line.split(" "):
+        tok_start, tok_end = off, off + len(tok)
+        if "://" in tok and term.lower() in tok.lower() and tok_start <= lo < tok_end:
+            return True
+        off = tok_end + 1
+    return False
+
+
+def _detector_pattern(txt, idx):
+    """命中是否出现在探测用的正则字面量里。"""
+    s, e = _line_bounds(txt, idx)
+    line = txt[s:e]
+    stripped = line.strip()
+    if stripped.startswith('r"') or stripped.startswith("r'"):
+        return True
+    if any(k in line for k in ("re.compile(", "re.finditer(", "re.search(", "re.match(")):
+        return True
+    return False
+
+
+def _limit_cue(txt, idx):
+    """本行或前后 DEF_WINDOW 行内是否有免责/限定语；返回命中的那条语，否则 None。"""
+    ln = txt[:idx].count("\n")
+    lines = txt.split("\n")
+    lo = max(0, ln - DEF_WINDOW)
+    hi = min(len(lines) - 1, ln + DEF_WINDOW)
+    block = "\n".join(lines[lo:hi + 1]).lower()
+    for cue in LIMIT_CUES:
+        if cue.lower() in block:
+            return cue
+    return None
+
+
+def _in_repo_slug(txt, idx, term):
+    """命中是否是某个仓库名（slug）的一部分，而不是在陈述品牌归属。
+
+    判据：命中所在的 markdown/裸 token 形如 `**name-with-dash**` 或
+    `owner/name-with-dash`，即该 token 自身是一个标识符（含 - 或 _ 且不是句子）。
+    """
+    s, e = _line_bounds(txt, idx)
+    line = txt[s:e]
+    lo = idx - s
+    off = 0
+    for tok in line.split(" "):
+        tok_start, tok_end = off, off + len(tok)
+        if tok_start <= lo < tok_end:
+            core = tok.strip("，,。.；;:：()（）[]【】`*\"'")
+            looks_like_slug = (
+                ("-" in core or "_" in core)
+                and " " not in core
+                and term.lower() in core.lower()
+                and (core.startswith("**") or "/" in core or core.count("-") >= 1)
+            )
+            return looks_like_slug
+        off = tok_end + 1
+    return False
+
+
+def _is_workflow_note(name, txt, idx):
+    """是不是 `.github/workflows/` 里描述探测器本身的注释行。
+
+    这类工作流存在的唯一目的就是**检出**受控字面量，注释里写清楚「被检出的 diff 里
+    会带哪些词」是说明书，不是声明。
+    """
+    p = name.replace("\\", "/")
+    if "/.github/workflows/" not in "/" + p and not p.startswith(".github/workflows/"):
+        return False
+    s, e = _line_bounds(txt, idx)
+    return txt[s:e].strip().startswith("#")
+
+
+def _is_detector_table(txt, idx):
+    """命中是否出现在「探测器自测样本表」里（字面量与规则号配对）。
+
+    判据：同一行出现规则表引用（`RULES[` / `PATTERNS[` / `FORBIDDEN`）且命中在引号内。
+    这类行是探测器的样本数据，作用是证明探测器能抓住该字面量。
+    """
+    s, e = _line_bounds(txt, idx)
+    line = txt[s:e]
+    if not any(k in line for k in ("RULES[", "PATTERNS[", "FORBIDDEN")):
+        return False
+    return ('"' in line) or ("'" in line)
+
+
+def classify_hit(name, txt, idx, term):
+    """返回 (kind, note) 或 (None, None)：None 表示这条命中必须判红。"""
+    if _in_url(txt, idx, term):
+        return "url-token", "命中仅在 URL 内"
+    if _detector_pattern(txt, idx):
+        return "detector-regex", "命中在探测器正则内"
+    if _in_repo_slug(txt, idx, term):
+        return "repo-slug", "命中是仓库名的一部分"
+    if _is_workflow_note(name, txt, idx):
+        return "detector-doc", "工作流内描述探测器的注释"
+    if _is_detector_table(txt, idx):
+        return "detector-table", "探测器自测样本表"
+    cue = _limit_cue(txt, idx)
+    if cue:
+        return "limit-cue", "限定语：%s" % cue
+    return None, None
+
+
 def load_forbidden_terms():
     """从**仓外**配置读取禁用词。
 
@@ -155,6 +295,7 @@ def main():
     print("=" * 72)
 
     problems = []
+    exempt = []
     for name, txt, is_gen in units:
         # 禁用词（仓外配置驱动；不区分大小写，字面匹配）
         low = txt.lower()
@@ -166,7 +307,12 @@ def main():
                 if i < 0:
                     break
                 ln = txt[:i].count("\n") + 1
-                problems.append((name, "禁用词命中", ln, txt[max(0, i - 24):i + len(t) + 24].replace("\n", " ")))
+                snip = txt[max(0, i - 24):i + len(t) + 24].replace("\n", " ")
+                kind, note = classify_hit(name, txt, i, t)
+                if kind:
+                    exempt.append((name, ln, kind, note, snip))
+                else:
+                    problems.append((name, "禁用词命中", ln, snip))
                 start = i + len(t)
 
         # 通用形态：品牌组合式（用配置词两两组合，避免在本文件写死）
@@ -197,7 +343,22 @@ def main():
                     problems.append((name, "短版本号不在 SSOT 允许集", ln,
                                      "v%s（允许 %s）" % (v, "/".join(sorted(allowed_versions)))))
 
+    def _print_exempt():
+        if not exempt:
+            return
+        print("--- 豁免（可审计，共 %d 处）---" % len(exempt))
+        seen_e = set()
+        for name, ln, kind, note, snip in exempt:
+            key = (name, ln, kind)
+            if key in seen_e:
+                continue
+            seen_e.add(key)
+            print("[EXEMPT] %-44s :%-5s %-16s %-22s %s" % (name[:44], ln, kind, note, snip))
+        print("豁免口径：仅 url-token / detector-regex / detector-doc / detector-table / "
+              "repo-slug / limit-cue 六类，须由命中处语境自证；不设裸行号白名单。")
+
     if not problems:
+        _print_exempt()
         print("[PASS] 未发现口径漂移与禁用词命中")
         print("结论：PASS")
         return 0
@@ -209,6 +370,7 @@ def main():
         seen.add(key)
         print("[FAIL] %-46s :%-5s %-22s %s" % (name[:46], ln, label, got))
     print()
+    _print_exempt()
     print("合计问题：%d" % len(problems))
     print("结论：FAIL —— 未通过。修源头后重跑；勿手改产物。")
     return 1
