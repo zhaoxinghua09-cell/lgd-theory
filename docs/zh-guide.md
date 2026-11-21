@@ -1,4 +1,15 @@
+<!-- REVIEW-GATE
+review-status: in-review
+reviewed-by: 待指派（独立席位，作者不得自审）
+review-date: 2026-11-21
+review-ref: 无（本文件是二手导读，一手结论以各原文档与仓内实测为准）
+verdict: conditional
+-->
+
 # 中文导读 · lgd-theory
+
+> ⚠️ 待修订：本导读尚未经独立席位复核。文中数字与结论均为转述，以 STATUS.md、各原文档和仓内脚本的现跑结果为准。
+
 
 > 五分钟读完：三律是什么、判定顺序为什么不能换、五个最常见的误解、以及本仓和另外两个仓的分工。
 
