@@ -40,8 +40,8 @@ license-url: "https://github.com/zhaoxinghua09-cell/lgd-theory/blob/main/LICENSE
 repository-code: "https://github.com/zhaoxinghua09-cell/lgd-theory"
 url: "https://zhaoxinghua09-cell.github.io/lgd-theory/"
 
-version: "1.6.0"
-date-released: "2026-09-28"
+version: "1.7.0"
+date-released: "2026-10-18"
 
 identifiers:
   - type: doi
