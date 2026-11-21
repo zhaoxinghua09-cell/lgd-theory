@@ -2,6 +2,19 @@
 [![Trust Score](https://img.shields.io/badge/Trust%20Score-98%2F100%20A+-2ea44f.svg)](https://github.com/zhaoxinghua09-cell/skillgate)
 
 > **层级定位**：**理论层（Theory）** — XLGD 伞下的全程治理论（LGD）正式文本仓。词汇表与全景见 [XLGD 伞总览](https://github.com/zhaoxinghua09-cell/xlgd#readme)。
+
+## 三行读完这个仓 · Three lines, then decide
+
+1. **这是什么** — LGD（全程治理论）的正式理论文本仓：三律、判定语义、领域 Profile 的规范件；文本按 CC BY 4.0 开放，代码与术语表另有许可。**这不是产品仓**，没有可安装的验器，也没有第二实现。
+2. **一条命令（几秒，无第三方依赖，Python 3.11+）**
+```bash
+git clone --depth 1 https://github.com/zhaoxinghua09-cell/lgd-theory && cd lgd-theory && python tools/lgd_gate_check.py check --root .
+```
+末尾应是 `lgd-gate: GREEN`（13 项：必需文件齐、CITATION 与 CHANGELOG 版本一致、README/TLDR 相对链接 27 条全解析）。它判的是**这个仓自身是否自洽**，**不判理论对不对**——理论的对外核验走另一套验器，见下条。
+
+再一条（同零依赖）：`python _tools/verify_generated.py .` → 末尾 `结论：PASS`。它查两件事：生成物（`book/`）的口径值是否等于 SSOT，以及全仓是否出现受控字面量。命中若属**合规声明**（写明"未申请实体/商标注册"）、官方主页链接、或探测器自身的正则与样本表，会逐条打印 `[EXEMPT]` 并注明类别与依据；裸行号白名单**没有**，所以"真写了注册声明"仍会判红（2026-11-20 负控实测：写入一句注册声明 → 退出码 1）。
+3. **别人的回执在哪** — [`EVIDENCE-INDEX.md`](EVIDENCE-INDEX.md)：L1 自我复现 / L2 异体审查（有限）/ L3 第二实现（不适用，记 0 而非满分）/ L3.5 外部语料 0 / **L4 外部节点 0**，并单列"已知不硬的地方"。第三方实跑那套验器并回传回执的记录在 [uibc-core 的 EVIDENCE-INDEX](https://github.com/zhaoxinghua09-cell/uibc-core/blob/main/EVIDENCE-INDEX.md)。
+
 ## 许可说明 · License Notice
 
 > **本仓库理论文本与方法论规范件自 2026-11-17 起按 CC BY 4.0 发布**（D1 许可裁定 C 案落地）。完整条款见 [LICENSE](LICENSE)。
