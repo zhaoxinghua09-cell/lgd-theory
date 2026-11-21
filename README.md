@@ -2,6 +2,8 @@
 [![Trust Score](https://img.shields.io/badge/Trust%20Score-98%2F100%20A+-2ea44f.svg)](https://github.com/zhaoxinghua09-cell/skillgate)
 
 > **层级定位**：**理论层（Theory）** — XLGD 伞下的全程治理论（LGD）正式文本仓。词汇表与全景见 [XLGD 伞总览](https://github.com/zhaoxinghua09-cell/xlgd#readme)。
+>
+> **中文导读（五分钟）** → **[docs/zh-guide.md](docs/zh-guide.md)** — 三律一句话版、判定顺序为什么不能换、五个最常见误解、三仓分工与单向证据链，以及本仓照实说的缺口。
 
 ## 三行读完这个仓 · Three lines, then decide
 
