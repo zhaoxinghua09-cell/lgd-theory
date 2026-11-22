@@ -1,6 +1,10 @@
 # Changelog
 
 ## [Unreleased]
+
+## v1.7.0 — 2026-11-18
+- **Release note added with the version bump.** `CITATION.cff` now carries version 1.7.0 (date-released 2026-10-18, as recorded in the file); this entry is written in the same commit because `lgd-ci-gate` compares the two and rightly failed the first version of this pull request without it.
+- **Citation-facing files re-pointed.** `CITE.md` and `CITE-ALL.md` are regenerated to the same version; the theory text itself is unchanged.
 - **Fixed — license metadata (machine-readable).** `CITATION.cff` had drifted from
   `LICENSE`: the human-readable license reserves all rights (ARR, since v1.6.0)
   while the machine-readable `CITATION.cff` still granted `CC-BY-4.0`. First fix

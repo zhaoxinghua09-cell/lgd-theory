@@ -1,9 +1,10 @@
+
 # 理论栈引用总页（CITE-ALL）
 
 > 版本 v1.0 · 2026-09-10 · **SynomosAI 理论栈统一引用入口**——任何想引用我们的人，10 秒内找到标准格式
 > 用途：GEO 铁律「引用越容易，站位越牢固」｜ 同步落 `lgd-theory` 仓根（`CITE-ALL.md`）
 > 理论栈结构以《19 号·理论族谱 DAG v1.1》为准（六层主链 + 两条横切维度 + 一张边界地图）
-> 版权 © 2026 赵兴华 / Xinghua Zhao（ORCID 0009-0001-0512-1237） ｜来源标识：LGD / SynomosAI Governance Line（独立研究倡议，非注册实体、非商标，不主张权利主体地位）· 本文档沿用发布时标注 CC BY 4.0
+> 版权 © SynomosAI Governance Line · CC BY 4.0
 
 ---
 
@@ -17,28 +18,38 @@
 
 | # | 名称 | DOI | 说明 |
 |---|---|---|---|
-| **C1** | **全程治理论 LGD**（Lifecycle Governance Doctrine） | `10.5281/zenodo.22456647` | 旗舰母理论 · 概念 DOI（自动指向最新版） |
+| **C1** | **全程治理论 LGD**（Lifecycle Governance Doctrine） | `10.5281/zenodo.22456647` | 旗舰母理论 · 概念 DOI（自动指向最新版，当前 v1.7.0） |
+| **C1a** | **LGD 学术定位版定义文本**（Umbrella concept & three laws） | `10.5281/zenodo.23446125` | 学术写作引用此版本化 DOI（v1.7.0 内新件） |
 | **C2** | **治理不可能域地图**（The Governance Impossibility Map） | `10.5281/zenodo.22668958` | P5 论文 · EN+ZH 双语 |
 | **C3** | **判定缺失层**（The Missing Layer of Determination） | `10.5281/zenodo.22669389` | P2 批判型论文 · EN |
 
 **APA 7**
-> Zhao, X. (2026). *Lifecycle governance doctrine (LGD): Registry, evidence, and gates across the full life of AI and devices* (v1.6.0). Zenodo. https://doi.org/10.5281/zenodo.22456647
+> Zhao, X. (2026). *Lifecycle governance doctrine (LGD): Registry, evidence, and gates across the full life of AI and devices* (v1.7.0). Zenodo. https://doi.org/10.5281/zenodo.22456647
+
+> Zhao, X. (2026). *LGD definition v1.0 (academic): Umbrella concept, three laws, and verifiable criteria* (in LGD v1.7.0). Zenodo. https://doi.org/10.5281/zenodo.23446125
 
 > SynomosAI Governance Line. (2026). *The governance impossibility map: A cartography of five impossibility domains in AI governance* [Working paper]. Zenodo. https://doi.org/10.5281/zenodo.22668958
 
 > SynomosAI Governance Line. (2026). *Principles will not save AI governance: The missing layer of determination—Evidence from the Chinese side* [Working paper]. Zenodo. https://doi.org/10.5281/zenodo.22669389
 
 **GB/T 7714-2015**
-> ZHAO XINGHUA. 全程治理论（LGD）：有籍·有证·有门禁: v1.6.0[EB/OL]. (2026-09-06)[引用日期]. https://doi.org/10.5281/zenodo.22456647.
+> ZHAO XINGHUA. 全程治理论（LGD）：有籍·有证·有门禁: v1.7.0[EB/OL]. (2026-09-06)[引用日期]. https://doi.org/10.5281/zenodo.22456647.
+
+> ZHAO XINGHUA. LGD 定义文本 v1.0（学术定位版）：伞概念界定与三律[EB/OL]. (2026-10-18)[引用日期]. https://doi.org/10.5281/zenodo.23446125.
 
 > SYNOMOSAI GOVERNANCE LINE. The governance impossibility map: a cartography of five impossibility domains in AI governance[EB/OL]. (2026-09-09)[引用日期]. https://doi.org/10.5281/zenodo.22668958.
 
 **BibTeX**
 ```bibtex
 @misc{zhao2026lgd,
-  author = {Zhao, Xinghua}, title = {Lifecycle Governance Doctrine (LGD): Registry, Evidence, and Gates Across the Full Life of AI and Devices (v1.6.0)},
+  author = {Zhao, Xinghua}, title = {Lifecycle Governance Doctrine (LGD): Registry, Evidence, and Gates Across the Full Life of AI and Devices (v1.7.0)},
   year = {2026}, publisher = {Zenodo}, doi = {10.5281/zenodo.22456647},
   url = {https://github.com/zhaoxinghua09-cell/lgd-theory}, note = {SynomosAI Governance Line. CC BY 4.0.}
+}
+@misc{zhao2026lgdacademic,
+  author = {Zhao, Xinghua}, title = {LGD Definition v1.0 (Academic): Umbrella Concept, Three Laws, and Verifiable Criteria},
+  year = {2026}, publisher = {Zenodo}, doi = {10.5281/zenodo.23446125},
+  url = {https://github.com/zhaoxinghua09-cell/lgd-theory/blob/main/docs/LGD-Lifecycle-Governance-Doctrine-Academic-v1.0.md}
 }
 @misc{synomosai2026gim,
   author = {Zhao, Xinghua}, title = {The Governance Impossibility Map: A Cartography of Five Impossibility Domains in AI Governance},
@@ -175,4 +186,4 @@
 
 ---
 
-*本页为对外可引用件。理论栈结构以《19 号·理论族谱 DAG v1.1》为准；引用格式以《引用卡 CITE_理论栈》为权威补充。© 2026 赵兴华 / Xinghua Zhao（ORCID 0009-0001-0512-1237）｜来源标识：LGD / SynomosAI Governance Line · CC BY 4.0*
+*本页为对外可引用件。理论栈结构以《19 号·理论族谱 DAG v1.1》为准；引用格式以《引用卡 CITE_理论栈》为权威补充。© SynomosAI Governance Line · CC BY 4.0*
