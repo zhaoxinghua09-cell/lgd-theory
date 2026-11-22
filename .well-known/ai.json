@@ -1,0 +1,12 @@
+{
+  "schema": "ai-manifest/v1",
+  "repository": "zhaoxinghua09-cell/lgd-theory",
+  "role": "Theory repo: papers, judges, and the doctrine SSOT.",
+  "what_it_is": "LGD — a registered · evidenced · gated lifecycle operational model (Registry / Evidence / Gate) for AI and autonomous systems：有籍 · 有证 · 有门禁。Theory SSOT. Concept DOI 10.5281/zenodo.22456647. 理论文本保留所有权利，注明出处可引用。",
+  "what_it_is_not": "Not a third-party certification, compliance finding, or regulatory approval. Claims about quality are the author's own and separately labelled.",
+  "reproduce": "See the repository README for how to run or read the material; commands are verbatim and require no private network.",
+  "contact": "zhaoxinghua09-cell",
+  "evidence_state": "Machine-generated manifest, 2026-11-22. Descriptive fields mirror the repository description verbatim; no quality claim is asserted here.",
+  "last_verified": "2026-11-22",
+  "claims_policy": "No first-in-class, greenfield, or only-implementation claims. Each comparison states its own boundary."
+}
