@@ -13,7 +13,7 @@
 - affiliation layering: see "Identity layers" below (person / theory line / industry reference are three distinct layers, not one entity)
 - homepage: https://zhaoxinghua09-cell.github.io/lgd-theory/
 - doi: 10.5281/zenodo.22456647 (concept DOI, covers all versions; latest archived version v1.7.0, 2026-10-18, version DOI 10.5281/zenodo.23446125)
-- license: All Rights Reserved (custom, see LICENSE); citation with attribution permitted. Spec layer (machine-checkable three laws; code Apache-2.0): https://github.com/zhaoxinghua09-cell/uibc-core (path lgd-core/)
+- license: CC BY 4.0 (effective 2026-11-17; see LICENSE); attribution required, reuse and adaptation permitted. Spec layer (machine-checkable three laws; code Apache-2.0): https://github.com/zhaoxinghua09-cell/uibc-core (path lgd-core/)
 - counts (do not conflate): domain badges = 16 directions × EN/CN = 32 SVGs; domain papers = 13, numbered #1–#14 with #11 unpublished
 
 ## Files
@@ -137,7 +137,7 @@ statement in table form, in Chinese and English.
 
 ## Sibling repositories (theory stack)
 
-- uibc-core/lgd-core — machine-checkable spec of the three laws (manifest schema + validator + tests; code Apache-2.0, theory texts ARR): https://github.com/zhaoxinghua09-cell/uibc-core (path lgd-core/)
+- uibc-core/lgd-core — machine-checkable spec of the three laws (manifest schema + validator + tests; code Apache-2.0, theory texts per that repo's LICENSE): https://github.com/zhaoxinghua09-cell/uibc-core (path lgd-core/)
 - agent-skills — 109 zero-dependency skills implementing the three laws: https://github.com/zhaoxinghua09-cell/agent-skills
 - assayance — Assayance / 试真法 (Falsifiable Assurance): https://github.com/zhaoxinghua09-cell/assayance
 - silent-failure-catalog — 14 documented silent failure modes: https://github.com/zhaoxinghua09-cell/silent-failure-catalog

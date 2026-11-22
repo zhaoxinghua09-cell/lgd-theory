@@ -19,7 +19,7 @@ Zhao, X. (2026). *Lifecycle Governance Doctrine (LGD): Registry, Evidence, and G
   doi          = {10.5281/zenodo.22456647},
   url          = {https://github.com/zhaoxinghua09-cell/lgd-theory},
   orcid        = {0009-0001-0512-1237},
-  note         = {SynomosAI Governance Line. All Rights Reserved (theory texts); citation with attribution permitted.}
+  note         = {SynomosAI Governance Line. CC BY 4.0 (theory texts, effective 2026-11-17); attribution required.}
 }
 ```
 
@@ -35,7 +35,7 @@ PB  - Zenodo
 DO  - 10.5281/zenodo.22456647
 UR  - https://github.com/zhaoxinghua09-cell/lgd-theory
 KW  - lifecycle governance; AI governance; registry; evidence; gates
-N1  - SynomosAI Governance Line; All Rights Reserved (citation with attribution); ORCID 0009-0001-0512-1237
+N1  - SynomosAI Governance Line; CC BY 4.0 (attribution required); ORCID 0009-0001-0512-1237
 ER  - 
 ```
 
@@ -57,7 +57,7 @@ Lifecycle Governance Doctrine (LGD): Registry, Evidence, and Gates Across the Fu
 
 ## Plain text
 
-Steven Zhao (Zhao Xinghua) (2026). Lifecycle Governance Doctrine (LGD): Registry, Evidence, and Gates Across the Full Life of AI and Devices (v1.7.0). Zenodo. DOI: 10.5281/zenodo.22456647. ORCID: 0009-0001-0512-1237. License: All Rights Reserved (citation with attribution permitted).
+Steven Zhao (Zhao Xinghua) (2026). Lifecycle Governance Doctrine (LGD): Registry, Evidence, and Gates Across the Full Life of AI and Devices (v1.7.0). Zenodo. DOI: 10.5281/zenodo.22456647. ORCID: 0009-0001-0512-1237. License: CC BY 4.0 (attribution required).
 
 ---
 
@@ -80,7 +80,7 @@ Zhao, X. (2026). *LGD definition v1.0 (academic): umbrella concept, three laws, 
   doi          = {10.5281/zenodo.23446125},
   url          = {https://github.com/zhaoxinghua09-cell/lgd-theory/blob/main/docs/LGD-Lifecycle-Governance-Doctrine-Academic-v1.0.md},
   orcid        = {0009-0001-0512-1237},
-  note         = {Part of LGD v1.7.0; All Rights Reserved (theory texts); citation with attribution permitted.}
+  note         = {Part of LGD v1.7.0; CC BY 4.0 (theory texts, effective 2026-11-17); attribution required.}
 }
 ```
 
@@ -93,4 +93,4 @@ Zhao, X. (2026). *LGD definition v1.0 (academic): umbrella concept, three laws, 
 Zhao, Xinghua (2026). *LGD Definition v1.0 (Academic): Umbrella Concept, Three Laws, and Verifiable Criteria.* In *LGD v1.7.0.* Zenodo. DOI: 10.5281/zenodo.23446125. ORCID: 0009-0001-0512-1237.
 
 ---
- brands: SynomosAI Governance Line ｜ ORCID: 0009-0001-0512-1237 ｜ License: All Rights Reserved (citation with attribution permitted)
+ brands: SynomosAI Governance Line ｜ ORCID: 0009-0001-0512-1237 ｜ License: CC BY 4.0 (attribution required)

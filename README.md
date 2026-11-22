@@ -99,7 +99,7 @@ LGD claims the missing dimension: governance is not a registration event nor a p
 lgd-theory/
 ├── README.md                 ← this file
 ├── llms.txt                  ← machine-readable index for AI crawlers
-├── LICENSE                   ← custom, All Rights Reserved (theory texts)
+├── LICENSE                   ← CC BY 4.0 (theory texts, effective 2026-11-17)
 ├── CHANGELOG.md
 └── docs/
     ├── LGD-Lifecycle-Governance-Doctrine-v1.0.md   ← flagship paper (EN/CN)
@@ -135,7 +135,7 @@ LGD is a **civil-society framework, not legal or regulatory advice**; device-reg
 
 ---
 
-© XLGD · SynomosAI Governance Line · All Rights Reserved (theory texts; citation with attribution permitted — see LICENSE)
+© XLGD · SynomosAI Governance Line · CC BY 4.0 (theory texts, effective 2026-11-17; attribution required — see LICENSE)
 
 <sub>XLGD — X distinction mark. [xlgd](https://github.com/zhaoxinghua09-cell/xlgd)</sub>
 
@@ -151,7 +151,7 @@ LGD is a **civil-society framework, not legal or regulatory advice**; device-reg
 
 ## Sibling repositories (theory stack)
 
-- **uibc-core / lgd-core** — machine-checkable spec of the three laws (manifest schema + validator + 28 tests; code Apache-2.0, theory texts ARR): <https://github.com/zhaoxinghua09-cell/uibc-core> (path `lgd-core/`)
+- **uibc-core / lgd-core** — machine-checkable spec of the three laws (manifest schema + validator + 28 tests; code Apache-2.0, theory texts per that repo's LICENSE): <https://github.com/zhaoxinghua09-cell/uibc-core> (path `lgd-core/`)
 - **agent-skills** — 109 zero-dependency skills implementing the three laws: <https://github.com/zhaoxinghua09-cell/agent-skills>
 - **assayance** — Assayance / 试真法 (Falsifiable Assurance): <https://github.com/zhaoxinghua09-cell/assayance>
 - **silent-failure-catalog** — 15 documented silent failure modes: <https://github.com/zhaoxinghua09-cell/silent-failure-catalog>

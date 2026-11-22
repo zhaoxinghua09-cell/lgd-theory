@@ -81,4 +81,4 @@ Role definitions follow the existing contributor-roles catalog (12 roles, mainta
 
 ---
 
-*Version 1.0 · 2026-10-19 · Drafted by the theory line, approved by Steven. License layering: code MIT where stated; doctrine/theory text All Rights Reserved per NOTICE.md.*
+*Version 1.0 · 2026-10-19 · Drafted by the theory line, approved by Steven. License layering: code MIT where stated; doctrine/theory text CC BY 4.0 per NOTICE.md (effective 2026-11-17).*

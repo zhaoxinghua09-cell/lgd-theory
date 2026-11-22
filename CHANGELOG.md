@@ -2,6 +2,14 @@
 
 ## [Unreleased]
 
+### 2026-11-22 — license metadata sync (docs only; no version bump, no DOI change)
+- **Fixed — machine-readable license drift.** `LICENSE` has been CC BY 4.0 since 2026-11-17,
+  but `llms.txt`, `CITATION.cff` header comments, the `README` layout/footer blocks,
+  `CITE.md`, `TLDR.md` and `GOVERNANCE.md` still described the texts as All Rights Reserved.
+  All citation-facing and crawler-facing surfaces now state CC BY 4.0 consistently.
+  No theory text, version or DOI was changed; the historical entries below are left exactly
+  as written because they record what was true at the time.
+
 ## v1.7.0 — 2026-11-18
 - **Release note added with the version bump.** `CITATION.cff` now carries version 1.7.0 (date-released 2026-10-18, as recorded in the file); this entry is written in the same commit because `lgd-ci-gate` compares the two and rightly failed the first version of this pull request without it.
 - **Citation-facing files re-pointed.** `CITE.md` and `CITE-ALL.md` are regenerated to the same version; the theory text itself is unchanged.
