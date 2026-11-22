@@ -1,5 +1,17 @@
 # LGD 定义文本 v1.0：生命周期治理论（伞概念界定与三律）· 学术定位版
 
+<!-- REVIEW-GATE
+review-status: in-review
+reviewed-by: 待指派（独立席位，作者不得自审）
+review-date: 2026-11-22
+review-ref: 无（本文件为定义文本，一手结论以各原文档与仓内实测为准）
+verdict: conditional
+-->
+
+> ⚠️ 待修订：本文尚未经独立席位复核。已知缺口：①学术首创性未确立（2026-10-18 谱系评估未检索到以 LGD 为对象的同行评议文献）；
+> ②未做外部同行评议；③与 `LGD-Lifecycle-Governance-Doctrine-v1.0.md` 的互补关系仅以版本说明表述，未做逐节对照表。
+
+
 > **版本**：v1.0 · 2026-10-18（学术定位版；与 `LGD-Lifecycle-Governance-Doctrine-v1.0.md` 发布版互补）
 > **性质**：**描述性伞概念界定文本**（非"学说"自称；对外措辞层级=framework/approach 候选）
 > **依据**：《调研报告_LGD学术文献现状综述》（学术谱系评估）、《映射表_LGD三律与标准法规条文》（条文锚点）、《批判回应库》（风险防线）
