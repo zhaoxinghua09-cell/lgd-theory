@@ -4,6 +4,12 @@
 > **署名口径（K6 定版 2026-09-10）**：本件为**学术通道**，用个人署名 `Zhao, X.` ＋ ORCID `0009-0001-0512-1237`；品牌发布物用机构名 `SynomosAI Governance Line`。全栈引文入口见 `CITE-ALL.md`。
 > **2026-10-18 更新**：版本标注升至 v1.7.0；新增「学术定位版定义文本」版本化 DOI（10.5281/zenodo.23446125）。
 
+## 引用不必先问 · No permission needed
+
+**You do not need to ask us to cite, quote, or reuse this work.** Cite it, quote it, run it, build on it, and point others at it — no permission request is needed, now or later. Attribution in the usual form is appreciated: author, title, DOI or repository commit, and date. This work is under CC BY 4.0; attribution is the licence's term, not a separate permission. There is no other condition.
+
+**引用、转载、复用，不必事先征得我们同意。** 直接引用、直接复用、直接跑、直接接着做，不用再来问。按通常格式署名即可（作者、标题、DOI 或仓库提交号、日期）。本件为 CC BY 4.0，署名是许可证本身的要求，不是另设的许可。除此之外没有任何条件。
+
 ## APA 7
 
 Zhao, X. (2026). *Lifecycle Governance Doctrine (LGD): Registry, Evidence, and Gates Across the Full Life of AI and Devices* (v1.7.0). Zenodo. https://doi.org/10.5281/zenodo.22456647
