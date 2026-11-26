@@ -1,0 +1,49 @@
+# ci — 让这个仓自己的测试真的被执行
+#
+# 2026-11-26 新增。起因是实测发现：仓内 5 个 workflow 里没有一个跑 tests/。
+#   lgd-ci-gate  做文件/版本/链接检查，不跑 pytest
+#   lgd-ci       调组织共享 CI，且显式写 run-tests: false
+#   review-gate  只校验 docs/ 审查标记
+#   两个 review 机器人是评论型，非阻塞
+# 结果：tests/test_text_contract.py 长期红（2 failed）而 CI 全绿，没人被通知。
+# 本工作流的唯一职责：把「仓自己声明的契约」交给机器跑，红了就红。
+#
+# action 版本按 .github/workflows/actions.lock 的既有钉法（tag + 版本注释），
+# 与 review-gate.yml 一致，不引入新 action。
+name: ci
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  text-contract:
+    name: text-contract (py${{ matrix.python }} / ${{ matrix.os }})
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        python: ["3.11", "3.13"]
+    steps:
+      - uses: actions/checkout@v7.0.1  # v7.0.1
+
+      - uses: actions/setup-python@v7.1.0  # v7.1.0
+        with:
+          python-version: ${{ matrix.python }}
+
+      - name: run the repo's own tests (offline, no install needed)
+        shell: bash
+        run: |
+          set -e
+          # 本仓测试只用标准库（pathlib/re/tomllib/unittest），不需要 pip install -e .
+          # 只装 runner：pytest 是把 unittest 用例跑起来的载体，不是被测对象。
+          python -m pip install --quiet pytest
+          python -m pytest tests -q
+          # 第二实现：不经 pytest，直接用 unittest 跑一遍，
+          # 防止"只有 pytest 能跑通"（例如 conftest 或插件悄悄改了行为）。
+          python -m unittest discover -s tests -v
