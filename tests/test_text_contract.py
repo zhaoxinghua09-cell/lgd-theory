@@ -24,8 +24,14 @@ def _paths_from_toml(node):
         for v in node:
             out += _paths_from_toml(v)
     elif isinstance(node, str):
-        if ("/" in node or node.endswith(".md")) and not node.startswith("http"):
-            out.append(node)
+        # 只把"像仓内相对路径"的串当路径。URL / DOI（10.xxxx/yyy）/ 邮箱都不是路径。
+        s = node
+        is_url = s.startswith(("http://", "https://"))
+        is_doi = bool(re.match(r"10\.\d{4,}/", s))
+        is_mail = ("@" in s and "://" not in s)
+        looks_like_path = ("/" in s or s.endswith(".md")) and not s.startswith("/")
+        if looks_like_path and not (is_url or is_doi or is_mail):
+            out.append(s)
     return out
 
 class TextContract(unittest.TestCase):
@@ -47,6 +53,17 @@ class TextContract(unittest.TestCase):
         bad = []
         for p in (ROOT / "docs").rglob("*.md"):
             text = p.read_text(encoding="utf-8", errors="ignore").strip()
+            # 剥掉可选的 YAML front matter（本仓 docs 按 Astro/permalinks 约定带 ---title--- 头）
+            if text.startswith("---"):
+                m = re.match(r"^---\s*\n.*?\n---\s*(\n|$)", text, re.DOTALL)
+                if m:
+                    text = text[m.end():].strip()
+            # 再剥掉开头连续的 HTML 注释块（本仓用 <!-- REVIEW-GATE ... --> 记录复核席位）
+            while text.startswith("<!--"):
+                end = text.find("-->")
+                if end < 0:
+                    break
+                text = text[end + 3:].strip()
             if not text:
                 bad.append(f"{p.relative_to(ROOT)} 为空")
             elif not re.match(r"^#{1,3}\s+\S", text):
